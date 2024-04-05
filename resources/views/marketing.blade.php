@@ -38,11 +38,11 @@
                 ></div>
 
                 <!-- Floating Menu -->
-                <nav class="top-0 left-0 right-0 bg-opacity-75 z-50">
+                <nav class="absolute top-0 left-0 right-0 bg-opacity-75 z-50">
                     <div
                         class="container mx-auto px-6 py-8 flex justify-between"
                     >
-                        <a href="#" class="text-white font-semibold"
+                        <a href="/" class="text-white font-semibold"
                             ><img
                                 src="/images/bloom-academy.svg"
                                 class=""
@@ -54,7 +54,7 @@
                             <div class="flex items-center justify-center">
                                 <a
                                     href="#"
-                                    class="text-white hover:text-blue-500"
+                                    class="text-[#FF8100]"
                                     >Learn</a
                                 >
                                 <img
@@ -63,14 +63,14 @@
                                     alt="Bloom Logo"
                                 />
                             </div>
-                            <a href="#" class="text-white hover:text-blue-500"
+                            <a href="#" class="text-white"
                                 >For Business</a
                             >
-                            <a href="#" class="text-white hover:text-blue-500"
+                            <a href="/sign-in" class="text-white"
                                 >Sign In</a
                             >
                             <a
-                                href="#"
+                                href="/register"
                                 class="text-white bg-[#C73029] py-1 px-10 rounded-full montserrat-bold"
                                 >Register</a
                             >
@@ -80,7 +80,7 @@
                 </nav>
                 <div class="py-[6%]">
                     <div
-                        class="container px-14 w-1/2 break-normal flex flex-col justify-start items-left relative z-10"
+                        class="container pt-24 px-14 w-1/2 break-normal flex flex-col justify-start items-left relative z-10"
                     >
                         <h1
                             class="text-[45px] leading-[55px] poppins-bold text-white"
@@ -163,7 +163,7 @@
                                 Pay One-Time Tuition Fee
                             </p>
                             <a
-                                href="#"
+                                href="/register"
                                 class="text-white text-xl bg-[#C73029] py-4 px-8 rounded-full montserrat-extra-bold"
                                 >Register</a
                             >
@@ -206,7 +206,7 @@
                                 <br />
                             </p>
                             <a
-                                href="#"
+                                href="/register"
                                 class="text-white text-xl bg-[#C73029] py-4 px-8 rounded-full montserrat-extra-bold"
                                 >Register</a
                             >
@@ -218,59 +218,88 @@
 
             <!-- Footer -->
             <footer
-                class="bg-[#151515] max-w-[100vw] px-14 flex-col flex lg:flex-row items-center justify-between"
+                class="bg-[#151515] max-w-[100vw] px-14 py-6 flex-col flex lg:flex-row items-center justify-between"
             >
-                <div>
-                    <div class="flex items-center">
-                        <img src="/images/Copyright.svg" alt="Copyright icon" />
-                        <p
-                            class="text-white text-xs montserrat-light leading-10 mb-10 lg:mb-0"
-                        >
-                            2024 Bloom Digital Media Ltd. All rights reserved.
-                        </p>
-                    </div>
-
-                    <div class="flex">
-                        <a
-                            href="https://www.instagram.com/bloom_digitalmedia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                            target="_blank"
-                            ><img
-                                src="/images/Instagram.svg"
-                                alt="Instagram Link"
-                        /></a>
-                        <a
-                            href="https://x.com/bloomdigitmedia?s=20"
-                            target="_blank"
-                            ><img src="/images/Twitter.svg" alt="X Link"
-                        /></a>
-                        <a
-                            href="https://www.linkedin.com/company/bloom-digital-media-nigeria/"
-                            target="_blank"
-                            ><img
-                                src="/images/LinkedIn.svg"
-                                alt="LinkedIn Link"
-                        /></a>
-                        <a
-                            href="https://www.facebook.com/bloomdigitmedia/"
-                            target="_blank"
-                            ><img
-                                src="/images/Facebook.svg"
-                                alt="Facebook Link"
-                        /></a>
-                    </div>
+                <div
+                    class="flex-col flex text-white lg:flex-row gap-20 items-center justify-between"
+                >
+                    <ul class="flex flex-col items-left list-none">
+                        <li class="montserrat-bold mb-4 text-sm">Company</li>
+                        <li class="montserrat-extra-light mb-2 text-sm">
+                            About
+                        </li>
+                        <li class="montserrat-extra-light mb-2 text-sm">
+                            Bloom Digital Media Ltd
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col items-left list-none">
+                        <li class="montserrat-bold mb-4 text-sm">Legal</li>
+                        <li class="montserrat-extra-light mb-2 text-sm">
+                            Terms of Service
+                        </li>
+                        <li class="montserrat-extra-light mb-2 text-sm">
+                            Privacy Policy
+                        </li>
+                    </ul>
                 </div>
                 <div>
-                    <div class="flex items-center">
-                        <p
-                            class="text-white mt-6 text-xs montserrat-light leading-10 mb-10 lg:mb-0"
-                        >
-                            Bloom Academy is a registered trademark of
-                        </p>
-                        <img
-                            src="/images/bloom-logo-white.svg"
-                            class="pl-4"
-                            alt="Bloom Logo"
-                        />
+                    <div>
+                        <div class="flex items-center justify-end">
+                            <img
+                                class="mr-1"
+                                src="/images/Copyright.svg"
+                                alt="Copyright icon"
+                            />
+                            <p
+                                class="text-white text-xs montserrat-extra-light leading-10 mb-10 lg:mb-0"
+                            >
+                                2024 Bloom Digital Media Ltd. All rights
+                                reserved.
+                            </p>
+                        </div>
+
+                        <div class="flex justify-end">
+                            <a
+                                href="https://www.instagram.com/bloom_digitalmedia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                target="_blank"
+                                ><img
+                                    src="/images/Instagram.svg"
+                                    alt="Instagram Link"
+                            /></a>
+                            <a
+                                href="https://x.com/bloomdigitmedia?s=20"
+                                target="_blank"
+                                ><img src="/images/Twitter.svg" alt="X Link"
+                            /></a>
+                            <a
+                                href="https://www.linkedin.com/company/bloom-digital-media-nigeria/"
+                                target="_blank"
+                                ><img
+                                    src="/images/LinkedIn.svg"
+                                    alt="LinkedIn Link"
+                            /></a>
+                            <a
+                                href="https://www.facebook.com/bloomdigitmedia/"
+                                target="_blank"
+                                ><img
+                                    src="/images/Facebook.svg"
+                                    alt="Facebook Link"
+                            /></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center">
+                            <p
+                                class="text-white mt-3 text-xs montserrat-extra-light leading-10 mb-10 lg:mb-0"
+                            >
+                                Bloom Academy is a registered trademark of
+                            </p>
+                            <img
+                                src="/images/bloom-logo-white.svg"
+                                class="pl-2"
+                                alt="Bloom Logo"
+                            />
+                        </div>
                     </div>
                 </div>
             </footer>

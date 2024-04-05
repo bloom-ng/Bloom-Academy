@@ -6,8 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/biz', function () {
-    return view('for-business');
+Route::get('/business', function () {
+    return view('business');
 });
 
 Route::get('/marketing', function () {
@@ -18,6 +18,10 @@ Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/sign-in', function () {
+    return view('sign-in');
+});
+
+Route::get('/dropdown', function () {
+    return view('dropdown');
 });
