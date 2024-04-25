@@ -241,24 +241,108 @@
                 </div>
                 <!-- for screens larger than md -->
             </div>
-            <!-- Footer Mobile -->
-            <footer class="block md:hidden">
-                <div
-                    class="bg-[#151515] flex flex-col justify-center items-center"
-                >
-                    <div class="flex items-center justify-center pt-4">
-                        <img
-                            class="mr-1 -mt-1"
-                            src="/images/Copyright.svg"
-                            alt="Copyright icon"
-                        />
+        </div>
+        <!-- Footer Mobile -->
+        <footer class="block md:hidden">
+            <div class="bg-[#151515] flex flex-col justify-center items-center">
+                <div class="flex items-center justify-center pt-4">
+                    <img
+                        class="mr-1 -mt-1"
+                        src="/images/Copyright.svg"
+                        alt="Copyright icon"
+                    />
+                    <p
+                        class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0"
+                    >
+                        2024 Bloom Digital Media Ltd. All rights reserved.
+                    </p>
+                </div>
+                <div class="mb-2 ml-2 flex justify-center items-center">
+                    <a
+                        href="https://www.instagram.com/bloom_digitalmedia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank"
+                        ><img src="/images/Instagram.svg" alt="Instagram Link"
+                    /></a>
+                    <a href="https://x.com/bloomdigitmedia?s=20" target="_blank"
+                        ><img src="/images/Twitter.svg" alt="X Link"
+                    /></a>
+                    <a
+                        href="https://www.linkedin.com/company/bloom-digital-media-nigeria/"
+                        target="_blank"
+                        ><img src="/images/LinkedIn.svg" alt="LinkedIn Link"
+                    /></a>
+                    <a
+                        href="https://www.facebook.com/bloomdigitmedia/"
+                        target="_blank"
+                        ><img src="/images/Facebook.svg" alt="Facebook Link"
+                    /></a>
+                </div>
+                <div>
+                    <p
+                        class="text-white mb-2 text-center text-[11px] montserrat-extra-light leading-[14px] lg:mb-0"
+                    >
+                        Bloom Academy is a <br />registered trademark of
+                    </p>
+                </div>
+                <div class="flex items-center pb-8 justify-center">
+                    <img
+                        src="/images/bloom-logo-white-mobile.svg"
+                        class="pl-2"
+                        alt="Bloom Logo"
+                    />
+                </div>
+            </div>
+        </footer>
+        <!-- Footer -->
+        <!-- Footer -->
+        <!-- Footer -->
+        <footer
+            class="hidden md:block bg-[#151515] max-w-[100vw] px-14 py-6 flex-col flex sm:flex-row items-center justify-between"
+        >
+            <div
+                class="flex-col flex text-white sm:flex-row md:gap-16 lg:gap-20 items-center"
+            >
+                <ul class="flex flex-col items-left list-none">
+                    <li class="montserrat-bold mb-4 text-sm md:text-xs">
+                        Company
+                    </li>
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                        About
+                    </li>
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                        Bloom Digital Media Ltd
+                    </li>
+                </ul>
+                <ul class="flex flex-col items-left list-none">
+                    <li class="montserrat-bold mb-4 text-sm md:text-xs">
+                        Legal
+                    </li>
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                        Terms of Service
+                    </li>
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                        Privacy Policy
+                    </li>
+                </ul>
+            </div>
+            <div
+                class="md:-mt-24 lg:-mt-24 justify-end items-end flex flex-col"
+            >
+                <div>
+                    <div class="flex items-center justify-end">
                         <p
-                            class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0"
+                            class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0"
                         >
+                            <img
+                                class="mr-1"
+                                src="/images/Copyright.svg"
+                                alt="Copyright icon"
+                            />
                             2024 Bloom Digital Media Ltd. All rights reserved.
                         </p>
                     </div>
-                    <div class="mb-2 ml-2 flex justify-center items-center">
+
+                    <div class="flex justify-end">
                         <a
                             href="https://www.instagram.com/bloom_digitalmedia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                             target="_blank"
@@ -286,125 +370,23 @@
                                 alt="Facebook Link"
                         /></a>
                     </div>
-                    <div>
-                        <p
-                            class="text-white mb-2 text-center text-[11px] montserrat-extra-light leading-[14px] lg:mb-0"
-                        >
-                            Bloom Academy is a <br />registered trademark of
-                        </p>
-                    </div>
-                    <div class="flex items-center pb-8 justify-center">
-                        <img
-                            src="/images/bloom-logo-white-mobile.svg"
-                            class="pl-2"
-                            alt="Bloom Logo"
-                        />
-                    </div>
-                </div>
-            </footer>
-            <!-- Footer -->
-            <!-- Footer -->
-            <footer
-                class="hidden md:block bg-[#151515] max-w-[100vw] px-14 py-6 flex lg:flex-row items-center justify-between"
-            >
-                <div
-                    class="flex text-white lg:flex-row gap-20 items-center justify-between"
-                >
-                    <ul class="flex flex-col items-left list-none">
-                        <li class="montserrat-bold mb-4 text-[9px] lg:text-sm">
-                            Company
-                        </li>
-                        <li
-                            class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
-                        >
-                            About
-                        </li>
-                        <li
-                            class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
-                        >
-                            Bloom Digital Media Ltd
-                        </li>
-                    </ul>
-                    <ul class="flex flex-col items-left list-none">
-                        <li class="montserrat-bold mb-4 text-[9px] lg:text-sm">
-                            Legal
-                        </li>
-                        <li
-                            class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
-                        >
-                            Terms of Service
-                        </li>
-                        <li
-                            class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
-                        >
-                            Privacy Policy
-                        </li>
-                    </ul>
                 </div>
                 <div>
-                    <div>
-                        <div class="flex items-center justify-end">
-                            <img
-                                class="mr-1"
-                                src="/images/Copyright.svg"
-                                alt="Copyright icon"
-                            />
-                            <p
-                                class="text-white text-[9px] lg:text-xs montserrat-extra-light leading-10 lg:mb-0"
-                            >
-                                2024 Bloom Digital Media Ltd. All rights
-                                reserved.
-                            </p>
-                        </div>
-
-                        <div class="flex justify-end">
-                            <a
-                                href="https://www.instagram.com/bloom_digitalmedia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                                target="_blank"
-                                ><img
-                                    src="/images/Instagram.svg"
-                                    alt="Instagram Link"
-                            /></a>
-                            <a
-                                href="https://x.com/bloomdigitmedia?s=20"
-                                target="_blank"
-                                ><img src="/images/Twitter.svg" alt="X Link"
-                            /></a>
-                            <a
-                                href="https://www.linkedin.com/company/bloom-digital-media-nigeria/"
-                                target="_blank"
-                                ><img
-                                    src="/images/LinkedIn.svg"
-                                    alt="LinkedIn Link"
-                            /></a>
-                            <a
-                                href="https://www.facebook.com/bloomdigitmedia/"
-                                target="_blank"
-                                ><img
-                                    src="/images/Facebook.svg"
-                                    alt="Facebook Link"
-                            /></a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex items-center">
-                            <p
-                                class="text-white mt-3 text-[9px] lg:text-xs montserrat-extra-light leading-10 lg:mb-0"
-                            >
-                                Bloom Academy is a registered trademark of
-                            </p>
+                    <div class="flex items-center justify-end">
+                        <p
+                            class="flex items-center justify-end text-white mt-3 md:mt-0 lg:mt-3 text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0"
+                        >
+                            Bloom Academy is a registered trademark of
                             <img
                                 src="/images/bloom-logo-white.svg"
                                 class="pl-2"
                                 alt="Bloom Logo"
                             />
-                        </div>
+                        </p>
                     </div>
                 </div>
-            </footer>
-            <!-- ... -->
-            <!-- Footer -->
-        </div>
+            </div>
+        </footer>
 
         <!-- ... -->
         <script>
@@ -414,14 +396,36 @@
                 );
                 dropdown.classList.toggle("hidden");
             }
-        </script>
-        <script>
+
             function toggleDropdown1() {
                 let dropdown1 = document.querySelector(
                     "#dropdownButton1 #dropdown1"
                 );
                 dropdown1.classList.toggle("hidden");
             }
+
+            // Add event listener to hide dropdown when clicking outside
+            document.addEventListener("click", function (event) {
+                // Check if the click event target is not inside the dropdown
+                if (
+                    !event.target.closest("#dropdown") &&
+                    !event.target.closest("#dropdownButton")
+                ) {
+                    let dropdown = document.querySelector(
+                        "#dropdownButton #dropdown"
+                    );
+                    dropdown.classList.add("hidden");
+                }
+                if (
+                    !event.target.closest("#dropdown1") &&
+                    !event.target.closest("#dropdownButton1")
+                ) {
+                    let dropdown1 = document.querySelector(
+                        "#dropdownButton1 #dropdown1"
+                    );
+                    dropdown1.classList.add("hidden");
+                }
+            });
         </script>
     </body>
 </html>

@@ -168,7 +168,7 @@
                     </div>
                 </div>
                 <div
-                    class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[500px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:shadow"
+                    class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[540px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:shadow"
                 >
                     <div class="flex justify-center">
                         <div
@@ -251,54 +251,49 @@
         </footer>
         <!-- Footer -->
         <!-- Footer -->
+        <!-- Footer -->
         <footer
-            class="hidden md:block bg-[#151515] max-w-[100vw] px-14 py-6 flex lg:flex-row items-center justify-between"
+            class="hidden md:block bg-[#151515] max-w-[100vw] px-14 py-6 flex-col flex sm:flex-row items-center justify-between"
         >
             <div
-                class="flex text-white lg:flex-row gap-20 items-center justify-between"
+                class="flex-col flex text-white sm:flex-row md:gap-16 lg:gap-20 items-center"
             >
                 <ul class="flex flex-col items-left list-none">
-                    <li class="montserrat-bold mb-4 text-[9px] lg:text-sm">
+                    <li class="montserrat-bold mb-4 text-sm md:text-xs">
                         Company
                     </li>
-                    <li
-                        class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
-                    >
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         About
                     </li>
-                    <li
-                        class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
-                    >
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         Bloom Digital Media Ltd
                     </li>
                 </ul>
                 <ul class="flex flex-col items-left list-none">
-                    <li class="montserrat-bold mb-4 text-[9px] lg:text-sm">
+                    <li class="montserrat-bold mb-4 text-sm md:text-xs">
                         Legal
                     </li>
-                    <li
-                        class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
-                    >
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         Terms of Service
                     </li>
-                    <li
-                        class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
-                    >
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         Privacy Policy
                     </li>
                 </ul>
             </div>
-            <div>
+            <div
+                class="md:-mt-24 lg:-mt-24 justify-end items-end flex flex-col"
+            >
                 <div>
                     <div class="flex items-center justify-end">
-                        <img
-                            class="mr-1"
-                            src="/images/Copyright.svg"
-                            alt="Copyright icon"
-                        />
                         <p
-                            class="text-white text-[9px] lg:text-xs montserrat-extra-light leading-10 lg:mb-0"
+                            class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0"
                         >
+                            <img
+                                class="mr-1"
+                                src="/images/Copyright.svg"
+                                alt="Copyright icon"
+                            />
                             2024 Bloom Digital Media Ltd. All rights reserved.
                         </p>
                     </div>
@@ -333,22 +328,20 @@
                     </div>
                 </div>
                 <div>
-                    <div class="flex items-center">
+                    <div class="flex items-center justify-end">
                         <p
-                            class="text-white mt-3 text-[9px] lg:text-xs montserrat-extra-light leading-10 lg:mb-0"
+                            class="flex items-center justify-end text-white mt-3 md:mt-0 lg:mt-3 text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0"
                         >
                             Bloom Academy is a registered trademark of
+                            <img
+                                src="/images/bloom-logo-white.svg"
+                                class="pl-2"
+                                alt="Bloom Logo"
+                            />
                         </p>
-                        <img
-                            src="/images/bloom-logo-white.svg"
-                            class="pl-2"
-                            alt="Bloom Logo"
-                        />
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- ... -->
-        <!-- Footer -->
     </body>
 </html>

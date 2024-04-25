@@ -27,9 +27,9 @@
     <body class="">
         <div class="grid grid-cols-2">
             <div
-                class="relative bg-cover bg-top h-screen"
+                class="relative bg-cover bg-bottom h-screen"
                 style="
-                    background-image: url('/images/teaching-diligent-young-students.png');
+                    background-image: url('/images/happy-young-african-american-male-analyst-with-tab.png');
                 "
             >
                 <div class="top-0 left-0 right-0 px-10 py-6">

@@ -28,7 +28,7 @@
         <div class="relative h-screen">
             <!-- Hero Section -->
             <div
-                class="relative bg-cover bg-center h-[850px] md:h-[1250px]"
+                class="relative bg-cover bg-center h-[850px] md:h-[650px] md:relative bg-cover bg-center lg:h-[800px]"
                 style="
                     background-image: url('/images/busy-handicapped-employee-answering-phone-office-1.png');
                 "
@@ -49,7 +49,7 @@
                     >
                         <a
                             href="/"
-                            class="block 2xl:hidden text-white font-semibold"
+                            class="lg:pl-8 block 2xl:hidden text-white font-semibold"
                             ><img
                                 src="/images/bloom-academy.svg"
                                 class=""
@@ -174,11 +174,11 @@
 
                 <div class="py-[6%]">
                     <div
-                        class="container pt-6 md:pt-24 px-6 md:px-14 md:w-1/2 break-normal flex flex-col justify-start items-left relative z-10"
+                        class="lg:container pt-6 md:pt-24 px-6 md:px-14 md:w-3/4 lg:w-3/4 break-normal flex flex-col justify-start items-left relative z-10"
                     >
                         <div class="text-center md:text-left pt-8 flex-1">
                             <h1
-                                class="text-[24px] leading-[27px] sm:text-[38px] sm:leading-[45px] md:text-[34px] md:leading-[40px] lg:text-[40px] lg:leading-[45px] xl:text-[48px] xl:leading-[50px] pt-10 md:pt-2 lg:pt-10 pb-4 md:pb-16 poppins-bold text-[#E8E9EB] md:text-white"
+                                class="text-[24px] leading-[27px] sm:text-[38px] sm:leading-[45px] md:text-[34px] md:leading-[40px] lg:text-[40px] lg:leading-[45px] xl:text-[48px] xl:leading-[50px] pt-10 md:pt-2 lg:pt-10 pb-4 md:pb-1 poppins-bold text-[#E8E9EB] md:text-white"
                             >
                                 Transform a Business <br />
                                 or Brand With
@@ -193,7 +193,7 @@
                             class="flex flex-col text-center items-center justify-center md:justify-start md:items-start w-6/7"
                         >
                             <h1
-                                class="hidden sm:block [14px] leading-[20px] md:text-[20px] md:leading-[30px] pt-2 text-white poppin-light"
+                                class="hidden sm:block [14px] leading-[20px] text-left md:text-[14px] md:leading-[20px] lg:text-[18px] lg:leading-[25px] pt-2 text-white poppins-light"
                             >
                                 Learn modern marketing strategies, understand
                                 how to<br />
@@ -203,7 +203,7 @@
                                 learning.
                             </h1>
                             <h1
-                                class="block sm:hidden px-10 text-[14px] leading-[20px] md:text-[20px] md:leading-[30px] pt-2 text-white poppin-light"
+                                class="block sm:hidden px-10 text-[14px] leading-[20px] md:text-[20px] md:leading-[30px] pt-2 text-white poppins-light"
                             >
                                 Learn modern marketing strategies, understand
                                 how to use digital channels to drive conversion
@@ -211,9 +211,9 @@
                                 certified for learning.
                             </h1>
                             <p
-                                class="text-white md:text-[22px] text-[12px] md:text-left bg-[#C73029] montserrat-semi-bold px-8 md:px-12 py-2 md:py-3 mt-16 rounded-full"
+                                class="text-white md:text-[18px] lg:text-[22px] text-[12px] md:text-left bg-[#C73029] montserrat-semi-bold px-8 md:px-10 lg:px-12 py-2 md:py-2 lg:py-3 mt-16 rounded-full"
                             >
-                                Register
+                                Take Course
                             </p>
                         </div>
                     </div>
@@ -221,39 +221,41 @@
             </div>
 
             <!-- Second section -->
-            <div class="relative h-[2120px] md:h-[1000px] bg-[#FFE8D1]">
+            <div
+                class="relative h-[2120px] sm:h-[1900px] md:h-[1295px] lg:h-[1685px] bg-[#FFE8D1]"
+            >
                 <div class="flex justify-center z-20 items-center">
                     <div
                         class="hidden md:block absolute flex justify-center z-20 items-center -mt-2"
                     >
                         <p
-                            class="bg-[#FF8100] text-[45px] leading-[50px] text-white poppins-bold px-16 py-6"
+                            class="bg-[#FF8100] md:text-[30px] lg:text-[45px] leading-[50px] text-white poppins-bold px-8 py-3 lg:px-16 lg:py-6"
                         >
                             Our Courses
                         </p>
                     </div>
                 </div>
                 <div
-                    class="absolute -mt-60 md:-mt-16 grid md:grid-cols-2 gap-12 md:gap-24 px-6 md:px-10 xl:px-32"
+                    class="absolute -mt-60 md:mt-20 lg:mt-32 grid md:grid-cols-2 gap-12 md:gap-20 lg:gap-24 px-6 sm:px-[10%] md:px-10 xl:px-32"
                 >
                     <div
-                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[1160px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:shadow"
+                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-3xl h-[1160px] sm:h-[1100px] md:h-[1170px] lg:h-[1465px] md:shadow"
                     >
                         <div class="flex justify-center">
                             <div
-                                class="bg-[#FF8100] rounded-3xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
+                                class="bg-[#FF8100] rounded-2xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
                             ></div>
                         </div>
                         <div
                             class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16"
                         >
                             <h1
-                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:text-[40px] md:leading-[40px] poppins-bold"
+                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[40px] lg:leading-[40px] poppins-bold"
                             >
                                 Bloom Digital <br />Marketing <br />Certificate
                             </h1>
                             <p
-                                class="text-base md:text-2xl mb-10 md:mb-48 poppins-regular mt-6"
+                                class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-2xl mb-10 lg:mb-14 poppins-regular mt-6"
                             >
                                 A high-demand course for marketing and sales
                                 professionals looking to succeed in fintechs,
@@ -261,7 +263,7 @@
                                 other B2C or direct-to-customer businesses.
                             </p>
                             <p
-                                class="text-base leading-[43px] md:text-2xl md:leading-[50px] pl-4 border-l-8 border-[#FF8100] mb-16 poppins-regular mt-6"
+                                class="text-base leading-[43px] lg:text-2xl lg:leading-[50px] pl-4 lg:pl-8 border-l-8 border-[#FF8100] mb-16 poppins-regular mt-6"
                             >
                                 Instructor-Led<br />
                                 Self-Paced<br />
@@ -276,30 +278,30 @@
                             </p>
                             <a
                                 href="/register"
-                                class="text-white text-xl bg-[#C73029] py-4 px-8 rounded-full montserrat-extra-bold"
-                                >Learn More</a
+                                class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold"
+                                >Register</a
                             >
                         </div>
                     </div>
                     <div
-                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[1100px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:shadow"
+                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-3xl h-[1100px] sm:h-[940px] md:h-[1040px] lg:h-[1305px] md:shadow"
                     >
                         <div class="flex justify-center">
                             <div
-                                class="bg-[#FF8100] rounded-3xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
+                                class="bg-[#FF8100] rounded-2xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
                             ></div>
                         </div>
                         <div
                             class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16"
                         >
                             <h1
-                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:text-[40px] md:leading-[40px] poppins-bold"
+                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[40px] lg:leading-[40px] poppins-bold"
                             >
                                 Bloom Digital <br />
                                 AD Expert
                             </h1>
                             <p
-                                class="text-base md:text-2xl mb-10 md:mb-48 poppins-regular mt-6"
+                                class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-2xl mb-10 lg:mb-14 poppins-regular mt-6"
                             >
                                 A 5-day practical training for entrepreneurs,
                                 CEOs, and digital marketing executives on how to
@@ -309,7 +311,7 @@
                                 performance marketing.
                             </p>
                             <p
-                                class="text-base leading-[43px] md:text-2xl md:leading-[50px] pl-4 border-l-8 border-[#FF8100] mb-16 poppins-regular mt-6"
+                                class="text-base leading-[43px] lg:text-2xl lg:leading-[50px] pl-4 lg:pl-8 border-l-8 border-[#FF8100] mb-16 poppins-regular mt-6"
                             >
                                 Instructor-Led<br />
                                 5 Days<br />
@@ -324,7 +326,7 @@
                             </p>
                             <a
                                 href="/register"
-                                class="text-white text-xl bg-[#C73029] py-4 px-8 rounded-full montserrat-extra-bold"
+                                class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold"
                                 >Register</a
                             >
                         </div>
