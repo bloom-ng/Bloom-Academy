@@ -218,11 +218,14 @@
                     class="absolute -mt-60 md:mt-20 lg:mt-32 grid md:grid-cols-2 gap-12 md:gap-20 lg:gap-24 px-6 sm:px-[10%] md:px-10 xl:px-32"
                 >
                     <div
-                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-3xl h-[1160px] sm:h-[1100px] md:h-[1170px] lg:h-[1465px] md:shadow"
+                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[1160px] sm:h-[1100px] md:h-[1170px] lg:h-[1465px] md:shadow"
                     >
                         <div class="flex justify-center">
                             <div
-                                class="bg-[#FF8100] rounded-2xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
+                                class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
+                                style="
+                                    background-image: url('/images/social-media-marketing-concept-marketing-with-applications.png');
+                                "
                             ></div>
                         </div>
                         <div
@@ -263,11 +266,14 @@
                         </div>
                     </div>
                     <div
-                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-3xl h-[1100px] sm:h-[940px] md:h-[1040px] lg:h-[1305px] md:shadow"
+                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[1100px] sm:h-[940px] md:h-[1040px] lg:h-[1305px] md:shadow"
                     >
                         <div class="flex justify-center">
                             <div
-                                class="bg-[#FF8100] rounded-2xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
+                                class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
+                                style="
+                                    background-image: url('/images/businessman-with-chart.png');
+                                "
                             ></div>
                         </div>
                         <div
@@ -377,54 +383,57 @@
             </footer>
             <!-- Footer -->
             <!-- Footer -->
+            <!-- Footer -->
             <footer
-                class="hidden md:block bg-[#151515] max-w-[100vw] px-14 py-6 flex lg:flex-row items-center justify-between"
+                class="hidden md:block bg-[#151515] max-w-[100vw] px-14 py-6 flex-col flex sm:flex-row items-center justify-between"
             >
                 <div
-                    class="flex text-white lg:flex-row gap-20 items-center justify-between"
+                    class="flex-col flex text-white sm:flex-row md:gap-16 lg:gap-20 items-center"
                 >
                     <ul class="flex flex-col items-left list-none">
-                        <li class="montserrat-bold mb-4 text-[9px] lg:text-sm">
+                        <li class="montserrat-bold mb-4 text-sm md:text-xs">
                             Company
                         </li>
                         <li
-                            class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
+                            class="montserrat-extra-light mb-2 text-sm md:text-xs"
                         >
                             About
                         </li>
                         <li
-                            class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
+                            class="montserrat-extra-light mb-2 text-sm md:text-xs"
                         >
                             Bloom Digital Media Ltd
                         </li>
                     </ul>
                     <ul class="flex flex-col items-left list-none">
-                        <li class="montserrat-bold mb-4 text-[9px] lg:text-sm">
+                        <li class="montserrat-bold mb-4 text-sm md:text-xs">
                             Legal
                         </li>
                         <li
-                            class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
+                            class="montserrat-extra-light mb-2 text-sm md:text-xs"
                         >
                             Terms of Service
                         </li>
                         <li
-                            class="montserrat-extra-light mb-2 text-[9px] lg:text-sm"
+                            class="montserrat-extra-light mb-2 text-sm md:text-xs"
                         >
                             Privacy Policy
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div
+                    class="md:-mt-24 lg:-mt-24 justify-end items-end flex flex-col"
+                >
                     <div>
                         <div class="flex items-center justify-end">
-                            <img
-                                class="mr-1"
-                                src="/images/Copyright.svg"
-                                alt="Copyright icon"
-                            />
                             <p
-                                class="text-white text-[9px] lg:text-xs montserrat-extra-light leading-10 lg:mb-0"
+                                class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0"
                             >
+                                <img
+                                    class="mr-1"
+                                    src="/images/Copyright.svg"
+                                    alt="Copyright icon"
+                                />
                                 2024 Bloom Digital Media Ltd. All rights
                                 reserved.
                             </p>
@@ -460,113 +469,21 @@
                         </div>
                     </div>
                     <div>
-                        <div class="flex items-center">
+                        <div class="flex items-center justify-end">
                             <p
-                                class="text-white mt-3 text-[9px] lg:text-xs montserrat-extra-light leading-10 lg:mb-0"
+                                class="flex items-center justify-end text-white mt-3 md:mt-0 lg:mt-3 text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0"
                             >
                                 Bloom Academy is a registered trademark of
+                                <img
+                                    src="/images/bloom-logo-white.svg"
+                                    class="pl-2"
+                                    alt="Bloom Logo"
+                                />
                             </p>
-                            <img
-                                src="/images/bloom-logo-white.svg"
-                                class="pl-2"
-                                alt="Bloom Logo"
-                            />
                         </div>
                     </div>
                 </div>
             </footer>
-            <!-- ... -->
-            <!-- Footer -->
-
-            <!-- Footer -->
-            <!-- <footer
-                class="bg-[#151515] max-w-[100vw] px-14 py-6 flex-col flex lg:flex-row items-center justify-between"
-            >
-                <div
-                    class="flex-col flex text-white lg:flex-row gap-20 items-center justify-between"
-                >
-                    <ul class="flex flex-col items-left list-none">
-                        <li class="montserrat-bold mb-4 text-sm">Company</li>
-                        <li class="montserrat-extra-light mb-2 text-sm">
-                            About
-                        </li>
-                        <li class="montserrat-extra-light mb-2 text-sm">
-                            Bloom Digital Media Ltd
-                        </li>
-                    </ul>
-                    <ul class="flex flex-col items-left list-none">
-                        <li class="montserrat-bold mb-4 text-sm">Legal</li>
-                        <li class="montserrat-extra-light mb-2 text-sm">
-                            Terms of Service
-                        </li>
-                        <li class="montserrat-extra-light mb-2 text-sm">
-                            Privacy Policy
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <div>
-                        <div class="flex items-center justify-end">
-                            <img
-                                class="mr-1"
-                                src="/images/Copyright.svg"
-                                alt="Copyright icon"
-                            />
-                            <p
-                                class="text-white text-xs montserrat-extra-light leading-10 mb-10 lg:mb-0"
-                            >
-                                2024 Bloom Digital Media Ltd. All rights
-                                reserved.
-                            </p>
-                        </div>
-
-                        <div class="flex justify-end">
-                            <a
-                                href="https://www.instagram.com/bloom_digitalmedia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                                target="_blank"
-                                ><img
-                                    src="/images/Instagram.svg"
-                                    alt="Instagram Link"
-                            /></a>
-                            <a
-                                href="https://x.com/bloomdigitmedia?s=20"
-                                target="_blank"
-                                ><img src="/images/Twitter.svg" alt="X Link"
-                            /></a>
-                            <a
-                                href="https://www.linkedin.com/company/bloom-digital-media-nigeria/"
-                                target="_blank"
-                                ><img
-                                    src="/images/LinkedIn.svg"
-                                    alt="LinkedIn Link"
-                            /></a>
-                            <a
-                                href="https://www.facebook.com/bloomdigitmedia/"
-                                target="_blank"
-                                ><img
-                                    src="/images/Facebook.svg"
-                                    alt="Facebook Link"
-                            /></a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex items-center">
-                            <p
-                                class="text-white mt-3 text-xs montserrat-extra-light leading-10 mb-10 lg:mb-0"
-                            >
-                                Bloom Academy is a registered trademark of
-                            </p>
-                            <img
-                                src="/images/bloom-logo-white.svg"
-                                class="pl-2"
-                                alt="Bloom Logo"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </footer> -->
         </div>
-
-        <!-- ... -->
     </body>
 </html>
