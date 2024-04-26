@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Include Tailwind CSS -->
         @vite('resources/css/app.css')
-        <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
 
         <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
+        <link rel="stylesheet" href="{{ asset('/css/styles.css') }}" />
         <!-- Include Poppins Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,7 +31,9 @@
             <nav
                 class="hidden md:block top-0 left-0 right-0 bg-opacity-75 z-50"
             >
-                <div class="mx-auto px-6 py-8 flex justify-between">
+                <div
+                    class="xl:container mx-auto md:pl-12 md:pr-6 lg:pl-12 lg:pr-6 xl:px-6 py-8 flex justify-between"
+                >
                     <a href="/" class="text-white font-semibold"
                         ><img
                             src="/images/bloom-academy.svg"
@@ -39,7 +41,7 @@
                             alt="Bloom Logo"
                     /></a>
                     <div
-                        class="flex text-[18px] leading-[36px] items-center justify-center poppins-medium space-x-16"
+                        class="flex text-[16px] lg:text-[18px] leading-[36px] items-center justify-center poppins-medium space-x-16"
                     >
                         <div class="flex items-center justify-center">
                             <a href="#" class="text-white">Learn</a>
@@ -143,11 +145,14 @@
                 class="absolute -mt-44 md:-mt-16 grid md:grid-cols-2 gap-12 md:gap-24 px-6 md:px-10 xl:px-32"
             >
                 <div
-                    class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[500px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:shadow"
+                    class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[500px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:surround md:shadow-custom"
                 >
                     <div class="flex justify-center">
                         <div
-                            class="bg-[#FF8100] rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
+                            class="bg-contain bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
+                            style="
+                                background-image: url('/images/coat-of-arms.png');
+                            "
                         ></div>
                     </div>
                     <div class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16">
@@ -169,11 +174,14 @@
                     </div>
                 </div>
                 <div
-                    class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[540px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:shadow"
+                    class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[540px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:surround md:shadow-custom"
                 >
                     <div class="flex justify-center">
                         <div
-                            class="bg-[#FF8100] rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
+                            class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
+                            style="
+                                background-image: url('/images/african-business-male-people-shaking-hands.png');
+                            "
                         ></div>
                     </div>
                     <div class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16">
