@@ -24,6 +24,7 @@
             rel="stylesheet"
         />
     </head>
+
     <body class="">
         <div class="relative h-screen">
             <!-- Hero Section -->

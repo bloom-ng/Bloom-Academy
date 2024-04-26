@@ -23,6 +23,7 @@
             rel="stylesheet"
         />
     </head>
+
     <body class="">
         <div
             class="h-[850px] sm:h-[1000px] md:h-[650px] lg:h-[710px] xl:h-[795px] bg-[#2D2D2B]"
@@ -49,9 +50,9 @@
                             />
                         </div>
                         <a href="" class="text-[#FF8100]">For Business</a>
-                        <a href="/sign-in" class="text-white">Sign In</a>
+                        <a href="#" class="text-white">Sign In</a>
                         <a
-                            href="/register"
+                            href="#"
                             class="text-white bg-[#C73029] py-1 px-10 rounded-full montserrat-bold"
                             >Register</a
                         >
