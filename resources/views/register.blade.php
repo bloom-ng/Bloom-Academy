@@ -113,7 +113,7 @@
                         >
                             Already have an account?
                             <span class="text-[#FF8100]"
-                                ><a href="/sign-in">Sign In</a></span
+                                ><a href="#">Sign In</a></span
                             >
                         </p>
                     </div>

@@ -132,12 +132,10 @@
                                     </ul>
                                 </div>
                             </div>
-                            <a href="/business" class="text-white"
-                                >For Business</a
-                            >
-                            <a href="/sign-in" class="text-white">Sign In</a>
+                            <a href="#" class="text-white">For Business</a>
+                            <a href="#" class="text-white">Sign In</a>
                             <a
-                                href="/register"
+                                href="#"
                                 class="text-white bg-[#C73029] py-1 px-8 lg:px-10 rounded-full montserrat-bold"
                                 >Register</a
                             >

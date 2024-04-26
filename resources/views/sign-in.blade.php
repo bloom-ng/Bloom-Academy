@@ -103,7 +103,7 @@
                         <p class="text-[14px] leading-[50px] poppins-medium">
                             Already have an account?
                             <span class="text-[#FF8100]"
-                                ><a href="/register">Register</a></span
+                                ><a href="#">Register</a></span
                             >
                         </p>
                     </div>
