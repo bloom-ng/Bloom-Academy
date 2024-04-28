@@ -25,3 +25,11 @@ Route::get('/sign-in', function () {
 Route::get('/dropdown', function () {
     return view('dropdown');
 });
+
+Route::get('/terms-of-service', function () {
+    return view('terms');
+});
+
+Route::get('/privacy', function () {
+    return view('privacy');
+});

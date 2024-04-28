@@ -75,7 +75,7 @@
                                     <img
                                         class=""
                                         src="/images/collapse-arrow.svg"
-                                        alt="Bloom Logo"
+                                        alt="Collapse Arrow"
                                     />
                                 </div>
                                 <div
