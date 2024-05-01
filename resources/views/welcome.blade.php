@@ -80,10 +80,10 @@
                                 </div>
                                 <div
                                     id="dropdown"
-                                    class="absolute hidden top-0 z-20 pt-10 flex flex-col justify-center items-center"
+                                    class="absolute hidden top-0 z-20 pt-10 flex flex-col justify-between"
                                 >
                                     <ul
-                                        class="bg-white px-16 poppins-regular py-5 text-base text-black rounded-[35px]"
+                                        class="bg-white px-8 w-60 mb-14 poppins-regular py-5 text-base text-black rounded-[35px]"
                                     >
                                         <div
                                             class="relative"
@@ -91,12 +91,12 @@
                                         >
                                             <div
                                                 onclick="toggleDropdown1()"
-                                                class="flex items-center justify-center"
+                                                class="flex"
                                             >
-                                                <li class="py-2 flex flex-row">
+                                                <li class="py-2 flex">
                                                     Marketing
                                                     <img
-                                                        class="pl-8"
+                                                        class="pl-20"
                                                         src="/images/Forward.svg"
                                                         alt=""
                                                     />
@@ -104,10 +104,10 @@
                                             </div>
                                             <div
                                                 id="dropdown1"
-                                                class="absolute hidden pl-44 top-0 z-20 pt-10 flex flex-col justify-center items-center"
+                                                class="absolute hidden pl-[210px] top-0 z-20 pt-10 flex flex-col"
                                             >
                                                 <ul
-                                                    class="bg-white px-16 poppins-regular py-5 text-base text-black rounded-[35px]"
+                                                    class="bg-white px-8 w-64 poppins-regular py-5 text-[16px] text-black rounded-[35px]"
                                                 >
                                                     <li
                                                         class="py-2 flex flex-row"
@@ -126,13 +126,127 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <li class="py-2">Data</li>
-                                        <li class="py-2">Engineering</li>
-                                        <li class="py-2">Product</li>
+                                        <div
+                                            class="relative"
+                                            id="dropdownButton2"
+                                        >
+                                            <div
+                                                onclick="toggleDropdown2()"
+                                                class="flex"
+                                            >
+                                                <li class="py-2 flex flex-row">
+                                                    Data
+                                                    <img
+                                                        class="pl-[120px]"
+                                                        src="/images/Forward.svg"
+                                                        alt=""
+                                                    />
+                                                </li>
+                                            </div>
+                                            <div
+                                                id="dropdown2"
+                                                class="absolute hidden pl-[210px] top-0 z-20 pt-10 flex flex-col"
+                                            >
+                                                <ul
+                                                    class="bg-white px-8 w-64 poppins-regular py-5 text-base text-black rounded-[35px]"
+                                                >
+                                                    <li
+                                                        class="py-2 flex flex-row"
+                                                    >
+                                                        Data Engineering
+                                                    </li>
+                                                    <li class="py-2">
+                                                        Data Analysis
+                                                    </li>
+                                                    <li class="py-2">
+                                                        Data Science
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="relative"
+                                            id="dropdownButton3"
+                                        >
+                                            <div
+                                                onclick="toggleDropdown3()"
+                                                class="flex"
+                                            >
+                                                <li class="py-2 flex flex-row">
+                                                    Engineering
+                                                    <img
+                                                        class="pl-16"
+                                                        src="/images/Forward.svg"
+                                                        alt=""
+                                                    />
+                                                </li>
+                                            </div>
+                                            <div
+                                                id="dropdown3"
+                                                class="absolute hidden pl-[210px] top-0 z-20 pt-10 flex flex-col"
+                                            >
+                                                <ul
+                                                    class="bg-white px-8 w-64 poppins-regular py-5 text-base text-black rounded-[35px]"
+                                                >
+                                                    <li
+                                                        class="py-2 flex flex-row"
+                                                    >
+                                                        Frontend Development
+                                                    </li>
+                                                    <li class="py-2">
+                                                        Backend Development
+                                                    </li>
+                                                    <li class="py-2">
+                                                        Artificial Intelligence
+                                                    </li>
+                                                    <li class="py-2">
+                                                        Cloud Computing
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="relative"
+                                            id="dropdownButton4"
+                                        >
+                                            <div
+                                                onclick="toggleDropdown4()"
+                                                class="flex"
+                                            >
+                                                <li class="py-2 flex flex-row">
+                                                    Product
+                                                    <img
+                                                        class="pl-24"
+                                                        src="/images/Forward.svg"
+                                                        alt=""
+                                                    />
+                                                </li>
+                                            </div>
+                                            <div
+                                                id="dropdown4"
+                                                class="absolute hidden pl-[210px] top-0 z-20 flex flex-col"
+                                            >
+                                                <ul
+                                                    class="bg-white px-8 w-64 poppins-regular py-5 text-base text-black rounded-[35px]"
+                                                >
+                                                    <li
+                                                        class="py-2 flex flex-row"
+                                                    >
+                                                        Product Design
+                                                    </li>
+                                                    <li class="py-2">
+                                                        PMP/CPM Certification
+                                                        Exam
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </ul>
                                 </div>
                             </div>
-                            <a href="#" class="text-white">For Business</a>
+                            <a href="/business" class="text-white"
+                                >For Business</a
+                            >
                             <a href="#" class="text-white">Sign In</a>
                             <a
                                 href="#"
@@ -403,6 +517,27 @@
                 dropdown1.classList.toggle("hidden");
             }
 
+            function toggleDropdown2() {
+                let dropdown2 = document.querySelector(
+                    "#dropdownButton2 #dropdown2"
+                );
+                dropdown2.classList.toggle("hidden");
+            }
+
+            function toggleDropdown3() {
+                let dropdown3 = document.querySelector(
+                    "#dropdownButton3 #dropdown3"
+                );
+                dropdown3.classList.toggle("hidden");
+            }
+
+            function toggleDropdown4() {
+                let dropdown4 = document.querySelector(
+                    "#dropdownButton4 #dropdown4"
+                );
+                dropdown4.classList.toggle("hidden");
+            }
+
             // Add event listener to hide dropdown when clicking outside
             document.addEventListener("click", function (event) {
                 // Check if the click event target is not inside the dropdown
@@ -423,6 +558,33 @@
                         "#dropdownButton1 #dropdown1"
                     );
                     dropdown1.classList.add("hidden");
+                }
+                if (
+                    !event.target.closest("#dropdown2") &&
+                    !event.target.closest("#dropdownButton2")
+                ) {
+                    let dropdown2 = document.querySelector(
+                        "#dropdownButton2 #dropdown2"
+                    );
+                    dropdown2.classList.add("hidden");
+                }
+                if (
+                    !event.target.closest("#dropdown3") &&
+                    !event.target.closest("#dropdownButton3")
+                ) {
+                    let dropdown3 = document.querySelector(
+                        "#dropdownButton3 #dropdown3"
+                    );
+                    dropdown3.classList.add("hidden");
+                }
+                if (
+                    !event.target.closest("#dropdown4") &&
+                    !event.target.closest("#dropdownButton4")
+                ) {
+                    let dropdown4 = document.querySelector(
+                        "#dropdownButton4 #dropdown4"
+                    );
+                    dropdown4.classList.add("hidden");
                 }
             });
         </script>

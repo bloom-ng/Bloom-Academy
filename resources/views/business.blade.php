@@ -121,12 +121,12 @@
                         class="absolute -mb-20 -mr-4 md:-mb-36 md:-mr-8 lg:-mb-44 lg:-mr-8 xl:-mb-52 xl:-mr-8 z-10 w-[195px] md:w-[270px] lg:w-[360px] xl:w-[477px]"
                     >
                         <p
-                            class="bg-[#FFE8D1] text-center py-4 px-4 md:py-8 md:px-5 rounded-tl-[30px] rounded-tr-[30px] rounded-bl-[30px] md:rounded-tl-[40px] rounded-tr-[40px] rounded-bl-[40px] text-[10px] leading-[13px] lg:text-[14px] lg:leading-[19px] xl:text-[18px] xl:leading-[25px] poppins-regular"
+                            class="bg-[#FFE8D1] text-center py-4 px-4 md:py-8 md:px-[37px] rounded-tl-[30px] rounded-tr-[30px] rounded-bl-[30px] md:rounded-tl-[40px] rounded-tr-[40px] rounded-bl-[40px] text-[10px] leading-[13px] lg:text-[14px] lg:leading-[19px] xl:text-[18px] xl:leading-[25px] poppins-regular"
                         >
                             Our Marketing Academy teaches your team
                             <b>practical techniques and tools</b> to achieve
                             Awareness, Consideration, and Conversion at scale ,
-                            while building new position strategies for a
+                            while building new positioning strategies for a
                             competitive industry.
                         </p>
                     </div>

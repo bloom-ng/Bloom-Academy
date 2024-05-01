@@ -26,7 +26,7 @@
 
     <body class="">
         <div
-            class="ph1:h-[15180px] ph2:h-[12999px] ph3:h-[11725px] sm:h-[9615px] md:h-[650px] lg:h-[13910px] xl:h-[11290px] 2xl:h-[9090px] bg-[#2D2D2B]"
+            class="ph1:h-[15180px] ph2:h-[12999px] ph3:h-[11725px] sm:h-[9615px] md:h-[16150px] lg:h-[13910px] xl:h-[11290px] 2xl:h-[9090px] bg-[#2D2D2B]"
         >
             <nav
                 class="hidden md:block top-0 left-0 right-0 bg-opacity-75 z-50"

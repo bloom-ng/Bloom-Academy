@@ -201,28 +201,17 @@
 
             <!-- Second section -->
             <div
-                class="relative h-[2120px] sm:h-[1900px] md:h-[1295px] lg:h-[1685px] bg-[#FFE8D1]"
+                class="relative z-50 h-[970px] sm:h-[1000px] md:h-[1150px] bg-[#FFE8D1]"
             >
-                <div class="flex justify-center z-20 items-center">
-                    <div
-                        class="hidden md:block absolute flex justify-center z-20 items-center -mt-2"
-                    >
-                        <p
-                            class="bg-[#FF8100] md:text-[30px] lg:text-[45px] leading-[50px] text-white poppins-bold px-8 py-3 lg:px-16 lg:py-6"
-                        >
-                            Our Courses
-                        </p>
-                    </div>
-                </div>
                 <div
-                    class="absolute -mt-60 md:mt-20 lg:mt-32 grid md:grid-cols-2 gap-12 md:gap-20 lg:gap-24 px-6 sm:px-[10%] md:px-10 xl:px-32"
+                    class="absolute -mt-44 md:-mt-16 grid md:grid-cols-2 gap-12 md:gap-24 px-6 md:px-10 xl:px-32"
                 >
                     <div
-                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[1160px] sm:h-[1100px] md:h-[1170px] lg:h-[1465px] md:surround md:shadow-custom"
+                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-3xl h-[500px] sm:h-[520px] md:h-[900px] lg:h-[560px] md:surround md:shadow-custom2"
                     >
                         <div class="flex justify-center">
                             <div
-                                class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
+                                class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
                                 style="
                                     background-image: url('/images/social-media-marketing-concept-marketing-with-applications.png');
                                 "
@@ -232,45 +221,23 @@
                             class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16"
                         >
                             <h1
-                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[40px] lg:leading-[40px] poppins-bold"
+                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:text-[36px] md:leading-[40px] poppins-bold"
                             >
-                                Bloom Digital <br />Marketing <br />Certificate
+                                Bloom Digital Marketing Certificate
                             </h1>
                             <p
-                                class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-2xl mb-10 lg:mb-14 poppins-regular mt-6"
+                                class="text-base md:text-2xl mb-20 md:mb-48 poppins-regular mt-6"
                             >
-                                A high-demand course for marketing and sales
-                                professionals looking to succeed in fintechs,
-                                banks, telecoms, FMCGs, e-commerce, SaaS, and
-                                other B2C or direct-to-customer businesses.
+                                $100 or ₦100,000
                             </p>
-                            <p
-                                class="text-base leading-[43px] lg:text-2xl lg:leading-[50px] pl-4 lg:pl-8 border-l-8 border-[#FF8100] mb-16 poppins-regular mt-6"
-                            >
-                                Instructor-Led<br />
-                                Self-Paced<br />
-                                8 Weeks<br />
-                                Online<br />
-                                Milestone Projects<br />
-                                Weekends or Weekdays<br />
-                                Certificate<br />
-                                No Application Fee<br />
-                                No Certificate Fee<br />
-                                Pay One-Time Tuition Fee
-                            </p>
-                            <a
-                                href="#"
-                                class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold"
-                                >Register</a
-                            >
                         </div>
                     </div>
                     <div
-                        class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[1100px] sm:h-[940px] md:h-[1040px] lg:h-[1305px] md:surround md:shadow-custom"
+                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-3xl h-[540px] sm:h-[520px] md:h-[900px] lg:h-[560px] md:surround md:shadow-custom2"
                     >
                         <div class="flex justify-center">
                             <div
-                                class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
+                                class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
                                 style="
                                     background-image: url('/images/businessman-with-chart.png');
                                 "
@@ -280,42 +247,56 @@
                             class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16"
                         >
                             <h1
-                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[40px] lg:leading-[40px] poppins-bold"
+                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:text-[36px] md:leading-[40px] poppins-bold"
                             >
-                                Bloom Digital <br />
-                                AD Expert
+                                Bloom Digital AD Expert
                             </h1>
                             <p
-                                class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-2xl mb-10 lg:mb-14 poppins-regular mt-6"
+                                class="text-base md:text-2xl mb-20 md:mb-44 lg:mb-32 poppins-regular mt-6"
                             >
-                                A 5-day practical training for entrepreneurs,
-                                CEOs, and digital marketing executives on how to
-                                use digital platforms such as Meta, Google,
-                                TikTok, Microsoft Advertising, LinkedIn,
-                                Snapchat, X and other platforms for effective
-                                performance marketing.
+                                $60 or ₦65,000
                             </p>
-                            <p
-                                class="text-base leading-[43px] lg:text-2xl lg:leading-[50px] pl-4 lg:pl-8 border-l-8 border-[#FF8100] mb-16 poppins-regular mt-6"
-                            >
-                                Instructor-Led<br />
-                                5 Days<br />
-                                Online or In Person
-                                <br />
-                                1x Post-Training Support on Learners Personal
-                                Campaign<br />
-                                No Application Fee
-                                <br />
-                                Pay One-Time Tuition Fee
-                                <br />
-                            </p>
-                            <a
-                                href="#"
-                                class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold"
-                                >Register</a
-                            >
                         </div>
                     </div>
+                </div>
+
+                <div class="absolute bottom-0 pb-24 px-32">
+                    <div class="text-[36px] poppins-bold pb-8">
+                        <p>Pay To</p>
+                    </div>
+                    <div
+                        class="flex flex-cols gap-36 pb-16 text-[35px] leading-[43px] poppins-regular"
+                    >
+                        <div>
+                            <p>
+                                <span class="text-[36px] poppins-bold"
+                                    >$ Account</span
+                                ><br />
+                                003414041542414 <br />
+                                XXXXX Bank <br />Bloom Digital Media
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <span
+                                    class="text-[35px] leading-[43px] poppins-bold"
+                                    >₦ Account</span
+                                ><br />
+                                3356436435413 <br />XXXXX Bank <br />Bloom
+                                Digital Media
+                            </p>
+                        </div>
+                    </div>
+                    <p class="text-[29px] pb-16">
+                        Send proof of payment by email to
+                        <span class="poppins-bold"
+                            >bloomacademy@bloomdigitmedia.com</span
+                        >
+                    </p>
+                    <p class="text-[29px]">
+                        Lets get started with unlocking marketing strategies and
+                        practice!
+                    </p>
                 </div>
             </div>
             <!-- Second section -->

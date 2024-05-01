@@ -27,64 +27,72 @@
     <body class="">
         <div class="grid grid-cols-2">
             <div
-                class="relative bg-cover bg-top h-screen"
+                class="relative bg-cover bg-top h-screen bg-right-top"
                 style="
                     background-image: url('/images/teaching-diligent-young-students.png');
                 "
             >
                 <div class="top-0 left-0 right-0 px-10 py-6">
-                    <a href="/"><img
-                        src="/images/Bloom Academy-black.svg"
-                        alt="Bloom Academy Logo"
+                    <a href="/"
+                        ><img
+                            src="/images/Bloom Academy-black.svg"
+                            alt="Bloom Academy Logo"
                     /></a>
                 </div>
             </div>
             <div class="flex justify-center items-center bg-[#2D2D2B]">
                 <div
-                    class="flex flex-col bg-white rounded-[43px] px-12 py-10 items-center justify-center"
+                    class="flex flex-col bg-white rounded-[43px] px-[74px] pt-16 pb-10 items-center justify-center"
                 >
                     <div class="items-center justify-center flex flex-col pb-8">
-                        <p class="text-[22px] leading-[50px] poppins-black">
-                            Sign In
-                        </p>
                         <p
-                            class="text-[15px] leading-[20px] poppins-regular bold"
+                            class="text-[26px] text-center leading-[23px] poppins-bold"
                         >
-                            Sign in to continue learning.
+                            Sign in to continue <br />
+                            learning.
                         </p>
                     </div>
                     <div class="">
                         <div class="relative">
                             <div
-                                class="absolute inset-y-0 start-0 flex items-center ps-6"
+                                class="absolute inset-y-0 start-0 flex items-center ps-5"
                             >
                                 <img src="/images/Envelope.svg" alt="" />
                             </div>
                             <input
                                 type="email"
                                 id="email"
-                                class="ps-14 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-8 block w-full py-6 px-64"
+                                class="ps-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6 px-52"
                                 placeholder="Email Address"
                                 required
                             />
                         </div>
                         <div class="relative">
                             <div
-                                class="absolute inset-y-0 start-0 flex items-center ps-6"
+                                class="absolute inset-y-0 start-0 flex items-center ps-5"
                             >
                                 <img src="/images/lock.svg" alt="" />
                             </div>
                             <input
                                 type="email"
                                 id="email"
-                                class="ps-14 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 block w-full py-6 px-64"
+                                class="ps-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 block w-full py-6 px-52"
                                 placeholder="Password"
                                 required
                             />
+                            <div
+                                class="absolute inset-y-0 end-0 flex items-center pe-5"
+                            >
+                                <img
+                                    class="w-4"
+                                    src="/images/hide.svg"
+                                    alt=""
+                                />
+                            </div>
                         </div>
                         <div class="relative">
                             <div
-                                class="flex text- justify-end poppins-medium text-[12px] mt-4 mb-8"
+                                class="flex text-[11px] justify-end poppins-medium text-[12px] mt-4 mb-8"
                             >
                                 <p>Forgot Password?</p>
                             </div>
@@ -93,15 +101,15 @@
                     <div>
                         <a
                             href="#"
-                            class="text-white text-xl leading-[45px] bg-[#C73029] py-3 px-44 rounded-full montserrat-bold"
+                            class="text-white text-xl leading-[45px] bg-[#C73029] py-3 px-40 rounded-full montserrat-bold"
                             >Log In</a
                         >
                     </div>
                     <div
-                        class="items-center justify-center flex flex-col mt-16"
+                        class="items-center justify-center flex flex-col mt-24"
                     >
-                        <p class="text-[14px] leading-[50px] poppins-medium">
-                            Already have an account?
+                        <p class="text-[13px] leading-[50px] poppins-medium">
+                            Don't have an account?
                             <span class="text-[#FF8100]"
                                 ><a href="#">Register</a></span
                             >

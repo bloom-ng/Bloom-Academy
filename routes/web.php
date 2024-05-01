@@ -33,3 +33,7 @@ Route::get('/terms-of-service', function () {
 Route::get('/privacy', function () {
     return view('privacy');
 });
+
+Route::get('/payment', function () {
+    return view('payment');
+});
