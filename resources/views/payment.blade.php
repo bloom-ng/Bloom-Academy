@@ -28,9 +28,9 @@
         <div class="relative h-screen">
             <!-- Hero Section -->
             <div
-                class="relative bg-cover bg-center h-[850px] md:h-[650px] md:relative bg-cover bg-center lg:h-[800px]"
+                class="relative bg-cover bg-center h-[700px] md:h-[650px] lg:h-[890px] 2xl:h-[1190px] md:relative bg-cover bg-center"
                 style="
-                    background-image: url('/images/busy-handicapped-employee-answering-phone-office-1.png');
+                    background-image: url('/images/young-student-working-assignment.png');
                 "
             >
                 <div
@@ -63,64 +63,13 @@
                                 class="w-[270px] h-[150px]"
                                 alt="Bloom Logo"
                         /></a>
-                        <div
-                            class="flex md:text-[13px] md:leading-[30px] lg:text-[18px] lg:leading-[36px] 2xl:text-[34px] 2xl:leading-[45px] items-center justify-center poppins-medium md:space-x-10 lg:space-x-16 2xl:space-x-32"
-                        >
-                            <div class="relative" id="dropdownButton">
-                                <div
-                                    onclick="toggleDropdown()"
-                                    class="flex items-center justify-center"
-                                >
-                                    <a href="#" class="text-white">Learn</a>
-                                    <img
-                                        class=""
-                                        src="/images/collapse-arrow.svg"
-                                        alt="Bloom Logo"
-                                    />
-                                </div>
-                                <div
-                                    id="dropdown"
-                                    class="absolute hidden top-0 z-20 pt-10 flex flex-col justify-center items-center"
-                                >
-                                    <ul
-                                        class="bg-white px-16 poppins-regular py-5 text-base text-black rounded-[35px]"
-                                    >
-                                        <div
-                                            class="relative"
-                                            id="dropdownButton1"
-                                        >
-                                            <div
-                                                onclick="toggleDropdown1()"
-                                                class="flex items-center justify-center"
-                                            >
-                                                <li class="py-2 flex flex-row">
-                                                    Performance Marketing
-                                                </li>
-                                                <li class="py-2">
-                                                    Media Buying
-                                                </li>
-                                                <li class="py-2">
-                                                    Social Media
-                                                </li>
-                                                <li class="py-2">
-                                                    Advertising Regulation
-                                                </li>
-                                            </div>
-                                        </div>
-                                        <li class="py-2">Data</li>
-                                        <li class="py-2">Engineering</li>
-                                        <li class="py-2">Product</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="#" class="text-white">For Business</a>
-                            <a href="#" class="text-white">Sign In</a>
-                            <a
-                                href="#"
-                                class="text-white bg-[#C73029] py-1 px-8 lg:px-10 rounded-full montserrat-bold"
-                                >Register</a
-                            >
-                            <!-- Add more links as needed -->
+                        <div class="pr-8">
+                            <a href="#" class="text-white font-semibold"
+                                ><img
+                                    src="/images/Male-user.svg"
+                                    class="w-12"
+                                    alt="Bloom Logo"
+                            /></a>
                         </div>
                     </div>
                 </nav>
@@ -140,12 +89,13 @@
                             </div>
                         </a>
 
-                        <div class="" id="">
-                            <!-- DROPDOWN MENU -->
-                            <div class="dropdown icon">
-                                <img src="/images/menu.svg" alt="" />
-                            </div>
-                            <!-- /DROPDOWN MENU -->
+                        <div class="lg:pr-5">
+                            <a href="#" class="text-white font-semibold"
+                                ><img
+                                    src="/images/Male-user.svg"
+                                    class="w-8 lg:w-12"
+                                    alt="User Icon"
+                            /></a>
                         </div>
                     </section>
                 </nav>
@@ -155,45 +105,53 @@
                     <div
                         class="lg:container pt-6 md:pt-24 px-6 md:px-14 md:w-3/4 lg:w-3/4 break-normal flex flex-col justify-start items-left relative z-10"
                     >
-                        <div class="text-center md:text-left pt-8 flex-1">
+                        <div
+                            class="text-center md:text-left pt-12 lg:pt-8 flex-1"
+                        >
                             <h1
-                                class="text-[24px] leading-[27px] sm:text-[38px] sm:leading-[45px] md:text-[34px] md:leading-[40px] lg:text-[40px] lg:leading-[45px] xl:text-[48px] xl:leading-[50px] pt-10 md:pt-2 lg:pt-10 pb-4 md:pb-1 poppins-bold text-[#E8E9EB] md:text-white"
+                                class="text-sm md:text-base lg:text-2xl lg:leading-[15px] 2xl:text-[40px] 2xl:leading-[55px] text-[#F0F0F0] poppins-medium"
                             >
-                                Transform a Business <br />
-                                or Brand With
-                                <span class="text-[#FF8100]">
-                                    Practical <br />
-                                    Marketing Skills!</span
-                                >
+                                Welcome to the Bloom Marketing Academy.
+                            </h1>
+                            <h1
+                                class="text-[30px] leading-[35px] sm:text-[38px] sm:leading-[45px] md:text-[34px] md:leading-[40px] lg:text-[73px] lg:leading-[69px] 2xl:text-[140px] 2xl:leading-[130px] pt-10 md:pt-2 lg:pt-10 pb-4 md:pb-1 poppins-extrabold text-[#E8E9EB] md:text-[#F0F0F0]"
+                            >
+                                Its
+                                <span class="text-[#FF8100]"> Awesome </span>to
+                                <br />
+                                have you with us.
                             </h1>
                         </div>
 
                         <div
-                            class="flex flex-col text-center items-center justify-center md:justify-start md:items-start w-6/7"
+                            class="flex flex-col text-center items-center justify-center md:justify-start md:items-start lg:w-4/6"
                         >
                             <h1
-                                class="hidden sm:block [14px] leading-[20px] text-left md:text-[14px] md:leading-[20px] lg:text-[18px] lg:leading-[25px] pt-2 text-white poppins-light"
+                                class="hidden sm:block [14px] leading-[20px] text-left md:text-[14px] md:leading-[20px] lg:text-[35px] lg:leading-[43px] 2xl:text-[40px] 2xl:leading-[55px] pt-2 lg:pt-16 text-[#F0F0F0] poppins-light"
                             >
-                                Learn modern marketing strategies, understand
-                                how to<br />
-                                use digital channels to drive conversion ,
-                                develop expert<br />
-                                media buying skills, and get certified for
-                                learning.
+                                <span class="poppins-bold"
+                                    >Make a payment to unlock the course
+                                    curriculum</span
+                                >
+                                and proceed to the academic programme
+
+                                <div class="poppins-bold pt-16">
+                                    Click on any course to begin
+                                </div>
                             </h1>
                             <h1
-                                class="block sm:hidden px-10 text-[14px] leading-[20px] md:text-[20px] md:leading-[30px] pt-2 text-white poppins-light"
+                                class="block sm:hidden px-2 text-[14px] leading-[20px] md:text-[20px] md:leading-[30px] pt-2 text-white poppins-light"
                             >
-                                Learn modern marketing strategies, understand
-                                how to use digital channels to drive conversion
-                                , develop expert media buying skills, and get
-                                certified for learning.
+                                <span class="poppins-bold"
+                                    >Make a payment to unlock the course
+                                    curriculum</span
+                                >
+                                and proceed to the academic programme
+
+                                <div class="poppins-bold pt-16">
+                                    Click on any course to begin
+                                </div>
                             </h1>
-                            <p
-                                class="text-white md:text-[18px] lg:text-[22px] text-[12px] md:text-left bg-[#C73029] montserrat-semi-bold px-8 md:px-10 lg:px-12 py-2 md:py-2 lg:py-3 mt-16 rounded-full"
-                            >
-                                Take Course
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -201,13 +159,13 @@
 
             <!-- Second section -->
             <div
-                class="relative z-50 h-[970px] sm:h-[1000px] md:h-[1150px] bg-[#FFE8D1]"
+                class="relative z-50 h-[1190px] ph3:h-[1040px] sm:h-[720px] md:h-[885px] lg:h-[1150px] 2xl:h-[1450px] bg-[#FFE8D1]"
             >
                 <div
-                    class="absolute -mt-44 md:-mt-16 grid md:grid-cols-2 gap-12 md:gap-24 px-6 md:px-10 xl:px-32"
+                    class="absolute -mt-44 md:-mt-16 grid sm:justify-items-center sm:grid-cols-2 gap-12 md:gap-24 px-6 md:px-10 lg:px-16 xl:px-32"
                 >
                     <div
-                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-3xl h-[500px] sm:h-[520px] md:h-[900px] lg:h-[560px] md:surround md:shadow-custom2"
+                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-[35px] h-[380px] sm:h-[440px] md:h-[570px] lg:h-[599px] xl:h-[560px] md:surround md:shadow-custom2"
                     >
                         <div class="flex justify-center">
                             <div
@@ -221,7 +179,7 @@
                             class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16"
                         >
                             <h1
-                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:text-[36px] md:leading-[40px] poppins-bold"
+                                class="text-[20px] leading-[20px] sm:text-[26px] sm:leading-[30px] md:text-[30px] md:leading-[40px] lg:text-[36px] lg:leading-[40px] poppins-bold"
                             >
                                 Bloom Digital Marketing Certificate
                             </h1>
@@ -233,7 +191,7 @@
                         </div>
                     </div>
                     <div
-                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-3xl h-[540px] sm:h-[520px] md:h-[900px] lg:h-[560px] md:surround md:shadow-custom2"
+                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-[35px] h-[380px] sm:h-[440px] md:h-[570px] lg:h-[599px] xl:h-[560px] md:surround md:shadow-custom2"
                     >
                         <div class="flex justify-center">
                             <div
@@ -247,12 +205,12 @@
                             class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16"
                         >
                             <h1
-                                class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:text-[36px] md:leading-[40px] poppins-bold"
+                                class="text-[20px] leading-[20px] sm:text-[26px] sm:leading-[30px] md:text-[30px] md:leading-[40px] lg:text-[36px] lg:leading-[40px] poppins-bold"
                             >
                                 Bloom Digital AD Expert
                             </h1>
                             <p
-                                class="text-base md:text-2xl mb-20 md:mb-44 lg:mb-32 poppins-regular mt-6"
+                                class="text-base md:text-2xl mb-20 md:mb-44 lg:mb-32 poppins-regular mt-6 sm:mt-14 md:mt-16 xl:mt-6"
                             >
                                 $60 or ₦65,000
                             </p>
@@ -260,16 +218,21 @@
                     </div>
                 </div>
 
-                <div class="absolute bottom-0 pb-24 px-32">
-                    <div class="text-[36px] poppins-bold pb-8">
+                <div
+                    class="absolute bottom-0 pb-10 lg:pb-24 px-6 md:px-10 xl:px-32"
+                >
+                    <div
+                        class="text-[24px] leading-[30px] sm:text-[27px] sm:leading-[34px] 2xl:text-[70px] 2xl:leading-[80px] lg:text-[36px] poppins-bold pb-8"
+                    >
                         <p>Pay To</p>
                     </div>
                     <div
-                        class="flex flex-cols gap-36 pb-16 text-[35px] leading-[43px] poppins-regular"
+                        class="flex flex-wrap lg:flex-nowrap flex-cols gap-12 sm:gap-24 lg:gap-36 2xl:gap-52 pb-6 lg:pb-16 text-[15px] leading-[23px] lg:text-[35px] lg:leading-[43px] 2xl:text-[60px] 2xl:leading-[70px] poppins-regular"
                     >
                         <div>
                             <p>
-                                <span class="text-[36px] poppins-bold"
+                                <span
+                                    class="text-[20px] leading-[30px] sm:text-[25px] sm:leading-[35px] 2xl:text-[65px] 2xl:leading-[90px] lg:text-[36px] poppins-bold"
                                     >$ Account</span
                                 ><br />
                                 003414041542414 <br />
@@ -279,7 +242,7 @@
                         <div>
                             <p>
                                 <span
-                                    class="text-[35px] leading-[43px] poppins-bold"
+                                    class="text-[20px] leading-[30px] sm:text-[25px] sm:leading-[35px] 2xl:text-[65px] 2xl:leading-[90px] lg:text-[35px] lg:leading-[43px] poppins-bold"
                                     >₦ Account</span
                                 ><br />
                                 3356436435413 <br />XXXXX Bank <br />Bloom
@@ -287,13 +250,26 @@
                             </p>
                         </div>
                     </div>
-                    <p class="text-[29px] pb-16">
+                    <p
+                        class="block sm:hidden text-[15px] leading-[23px] sm:text-[20px] sm:leading-[30px] lg:text-[29px] pb-8 lg:pb-16"
+                    >
+                        Send proof of payment by email to
+                        <span class="poppins-bold"
+                            >bloomacademy <br />
+                            @bloomdigitmedia.com</span
+                        >
+                    </p>
+                    <p
+                        class="hidden sm:block text-[15px] leading-[23px] sm:text-[20px] sm:leading-[30px] 2xl:text-[60px] 2xl:leading-[70px] lg:text-[29px] pb-8 lg:pb-16"
+                    >
                         Send proof of payment by email to
                         <span class="poppins-bold"
                             >bloomacademy@bloomdigitmedia.com</span
                         >
                     </p>
-                    <p class="text-[29px]">
+                    <p
+                        class="text-[15px] leading-[23px] sm:text-[20px] sm:leading-[29px] 2xl:text-[60px] 2xl:leading-[70px] lg:text-[29px]"
+                    >
                         Lets get started with unlocking marketing strategies and
                         practice!
                     </p>
