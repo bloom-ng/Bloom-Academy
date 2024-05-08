@@ -228,8 +228,10 @@
                                     </ul>
                                 </div>
                             </div>
-                            <a href="#" class="text-white">For Business</a>
-                            <a href="#" class="text-white">Sign In</a>
+                            <a href="/business" class="text-white"
+                                >For Business</a
+                            >
+                            <a href="/sign-in" class="text-white">Sign In</a>
                             <a
                                 href="#"
                                 class="text-white bg-[#C73029] py-1 px-8 lg:px-10 rounded-full montserrat-bold"
@@ -304,11 +306,13 @@
                                 , develop expert media buying skills, and get
                                 certified for learning.
                             </h1>
-                            <p
-                                class="text-white md:text-[18px] lg:text-[22px] text-[12px] md:text-left bg-[#C73029] montserrat-semi-bold px-8 md:px-10 lg:px-12 py-2 md:py-2 lg:py-3 mt-16 rounded-full"
+                            <a href="/payment">
+                                <p
+                                    class="text-white md:text-[18px] lg:text-[22px] text-[12px] md:text-left bg-[#C73029] montserrat-semi-bold px-8 md:px-10 lg:px-12 py-2 md:py-2 lg:py-3 mt-16 rounded-full"
+                                >
+                                    Take Course
+                                </p></a
                             >
-                                Take Course
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -374,7 +378,7 @@
                                 Pay One-Time Tuition Fee
                             </p>
                             <a
-                                href="#"
+                                href="/payment"
                                 class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold"
                                 >Register</a
                             >
@@ -425,7 +429,7 @@
                                 <br />
                             </p>
                             <a
-                                href="#"
+                                href="/payment"
                                 class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold"
                                 >Register</a
                             >
