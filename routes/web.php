@@ -37,3 +37,11 @@ Route::get('/privacy', function () {
 Route::get('/payment', function () {
     return view('payment');
 });
+
+Route::get('/sharepadi', function () {
+    return view('sharepadi');
+});
+
+Route::get('/sharepadi2', function () {
+    return view('sharepadi2');
+});

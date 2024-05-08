@@ -28,7 +28,7 @@
         <div class="relative h-screen">
             <!-- Hero Section -->
             <div
-                class="relative bg-cover bg-center h-[700px] md:h-[650px] lg:h-[890px] 2xl:h-[1190px] md:relative bg-cover bg-center"
+                class="relative bg-cover bg-center h-[700px] md:h-[650px] lg:h-[890px] 2xl:h-[1330px] md:relative bg-cover bg-center"
                 style="
                     background-image: url('/images/young-student-working-assignment.png');
                 "
@@ -159,13 +159,13 @@
 
             <!-- Second section -->
             <div
-                class="relative z-50 h-[1190px] ph3:h-[1040px] sm:h-[720px] md:h-[885px] lg:h-[1150px] 2xl:h-[1450px] bg-[#FFE8D1]"
+                class="relative z-50 h-[750px] ph3:h-[750px] sm:h-[430px] md:h-[690px] lg:h-[699px] 2xl:h-[720px] bg-[#FFE8D1]"
             >
                 <div
-                    class="absolute -mt-44 md:-mt-16 grid sm:justify-items-center sm:grid-cols-2 gap-12 md:gap-24 px-6 md:px-10 lg:px-16 xl:px-32"
+                    class="absolute -mt-44 md:-mt-16 grid sm:grid-cols-2 gap-12 md:gap-24 px-6 ph3:px-[16%] sm:px-6 md:px-10 lg:px-16 xl:px-32 2xl:px-[15%]"
                 >
                     <div
-                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-[35px] h-[380px] sm:h-[440px] md:h-[570px] lg:h-[599px] xl:h-[560px] md:surround md:shadow-custom2"
+                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-[35px] h-[410px] sm:h-[550px] md:h-[660px] lg:h-[690px] xl:h-[670px] md:surround md:shadow-custom2"
                     >
                         <div class="flex justify-center">
                             <div
@@ -184,14 +184,19 @@
                                 Bloom Digital Marketing Certificate
                             </h1>
                             <p
-                                class="text-base md:text-2xl mb-20 md:mb-48 poppins-regular mt-6"
+                                class="text-base md:text-2xl mb-8 sm:mb-20 md:mb-14 lg:mb-14 poppins-regular mt-6"
                             >
                                 $100 or ₦100,000
                             </p>
+                            <a
+                                href="https://flutterwave.com/pay/ep6qot9y4kky"
+                                class="text-white md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold text-sm"
+                                >Pay Now</a
+                            >
                         </div>
                     </div>
                     <div
-                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-[35px] h-[380px] sm:h-[440px] md:h-[570px] lg:h-[599px] xl:h-[560px] md:surround md:shadow-custom2"
+                        class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-[35px] h-[410px] sm:h-[550px] md:h-[660px] lg:h-[690px] xl:h-[670px] md:surround md:shadow-custom2"
                     >
                         <div class="flex justify-center">
                             <div
@@ -210,15 +215,21 @@
                                 Bloom Digital AD Expert
                             </h1>
                             <p
-                                class="text-base md:text-2xl mb-20 md:mb-44 lg:mb-32 poppins-regular mt-6 sm:mt-14 md:mt-16 xl:mt-6"
+                                class="text-base md:text-2xl mb-8 sm:mb-20 md:mb-44 md:mb-14 lg:mb-14 2xl:mb-24 poppins-regular mt-6 sm:mt-14 md:mt-16 xl:mt-6"
                             >
                                 $60 or ₦65,000
                             </p>
+                            <a
+                                href="https://flutterwave.com/pay/l8islsz4eivp"
+                                class="text-white md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold text-sm"
+                                >Pay Now</a
+                            >
                         </div>
                     </div>
                 </div>
 
-                <div
+                <!-- former payment details -->
+                <!-- <div
                     class="absolute bottom-0 pb-10 lg:pb-24 px-6 md:px-10 xl:px-32"
                 >
                     <div
@@ -273,7 +284,7 @@
                         Lets get started with unlocking marketing strategies and
                         practice!
                     </p>
-                </div>
+                </div> -->
             </div>
             <!-- Second section -->
 
@@ -369,12 +380,12 @@
                         <li
                             class="montserrat-extra-light mb-2 text-sm md:text-xs"
                         >
-                            Terms of Service
+                            <a href="/terms-of-service">Terms of Service</a>
                         </li>
                         <li
                             class="montserrat-extra-light mb-2 text-sm md:text-xs"
                         >
-                            Privacy Policy
+                            <a href="/privacy">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
@@ -442,5 +453,93 @@
                 </div>
             </footer>
         </div>
+
+        <!-- scripts -->
+        <script>
+            function toggleDropdown() {
+                let dropdown = document.querySelector(
+                    "#dropdownButton #dropdown"
+                );
+                dropdown.classList.toggle("hidden");
+            }
+
+            function toggleDropdown1() {
+                let dropdown1 = document.querySelector(
+                    "#dropdownButton1 #dropdown1"
+                );
+                dropdown1.classList.toggle("hidden");
+            }
+
+            function toggleDropdown2() {
+                let dropdown2 = document.querySelector(
+                    "#dropdownButton2 #dropdown2"
+                );
+                dropdown2.classList.toggle("hidden");
+            }
+
+            function toggleDropdown3() {
+                let dropdown3 = document.querySelector(
+                    "#dropdownButton3 #dropdown3"
+                );
+                dropdown3.classList.toggle("hidden");
+            }
+
+            function toggleDropdown4() {
+                let dropdown4 = document.querySelector(
+                    "#dropdownButton4 #dropdown4"
+                );
+                dropdown4.classList.toggle("hidden");
+            }
+
+            // Add event listener to hide dropdown when clicking outside
+            document.addEventListener("click", function (event) {
+                // Check if the click event target is not inside the dropdown
+                if (
+                    !event.target.closest("#dropdown") &&
+                    !event.target.closest("#dropdownButton")
+                ) {
+                    let dropdown = document.querySelector(
+                        "#dropdownButton #dropdown"
+                    );
+                    dropdown.classList.add("hidden");
+                }
+                if (
+                    !event.target.closest("#dropdown1") &&
+                    !event.target.closest("#dropdownButton1")
+                ) {
+                    let dropdown1 = document.querySelector(
+                        "#dropdownButton1 #dropdown1"
+                    );
+                    dropdown1.classList.add("hidden");
+                }
+                if (
+                    !event.target.closest("#dropdown2") &&
+                    !event.target.closest("#dropdownButton2")
+                ) {
+                    let dropdown2 = document.querySelector(
+                        "#dropdownButton2 #dropdown2"
+                    );
+                    dropdown2.classList.add("hidden");
+                }
+                if (
+                    !event.target.closest("#dropdown3") &&
+                    !event.target.closest("#dropdownButton3")
+                ) {
+                    let dropdown3 = document.querySelector(
+                        "#dropdownButton3 #dropdown3"
+                    );
+                    dropdown3.classList.add("hidden");
+                }
+                if (
+                    !event.target.closest("#dropdown4") &&
+                    !event.target.closest("#dropdownButton4")
+                ) {
+                    let dropdown4 = document.querySelector(
+                        "#dropdownButton4 #dropdown4"
+                    );
+                    dropdown4.classList.add("hidden");
+                }
+            });
+        </script>
     </body>
 </html>

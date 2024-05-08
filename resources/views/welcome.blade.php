@@ -85,24 +85,20 @@
                                     <ul
                                         class="bg-white px-8 w-60 mb-14 poppins-regular py-5 text-base text-black rounded-[35px]"
                                     >
-                                        <div
-                                            class="relative"
-                                            id="dropdownButton1"
-                                        >
-                                            <div
-                                                onclick="toggleDropdown1()"
-                                                class="flex"
-                                            >
-                                                <li class="py-2 flex">
-                                                    Marketing
-                                                    <img
-                                                        class="pl-20"
-                                                        src="/images/Forward.svg"
-                                                        alt=""
-                                                    />
-                                                </li>
+                                        <div class="relative">
+                                            <div class="flex">
+                                                <a href="/marketing"
+                                                    ><li class="py-2 flex">
+                                                        Marketing
+                                                        <img
+                                                            class="pl-20"
+                                                            src="/images/Forward.svg"
+                                                            alt=""
+                                                        /></li
+                                                ></a>
                                             </div>
-                                            <div
+                                            <!-- marketing dropdown i was asked to remove -->
+                                            <!-- <div
                                                 id="dropdown1"
                                                 class="absolute hidden pl-[210px] top-0 z-20 pt-10 flex flex-col"
                                             >
@@ -124,17 +120,13 @@
                                                         Advertising Regulation
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </div> -->
                                         </div>
-                                        <div
-                                            class="relative"
-                                            id="dropdownButton2"
-                                        >
-                                            <div
-                                                onclick="toggleDropdown2()"
-                                                class="flex"
-                                            >
-                                                <li class="py-2 flex flex-row">
+                                        <div class="relative">
+                                            <div class="flex">
+                                                <li
+                                                    class="text-[#F0F0F0] py-2 flex flex-row"
+                                                >
                                                     Data
                                                     <img
                                                         class="pl-[120px]"
@@ -143,7 +135,7 @@
                                                     />
                                                 </li>
                                             </div>
-                                            <div
+                                            <!-- <div
                                                 id="dropdown2"
                                                 class="absolute hidden pl-[210px] top-0 z-20 pt-10 flex flex-col"
                                             >
@@ -162,17 +154,13 @@
                                                         Data Science
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </div> -->
                                         </div>
-                                        <div
-                                            class="relative"
-                                            id="dropdownButton3"
-                                        >
-                                            <div
-                                                onclick="toggleDropdown3()"
-                                                class="flex"
-                                            >
-                                                <li class="py-2 flex flex-row">
+                                        <div class="relative">
+                                            <div class="flex">
+                                                <li
+                                                    class="text-[#F0F0F0] py-2 flex flex-row"
+                                                >
                                                     Engineering
                                                     <img
                                                         class="pl-16"
@@ -181,7 +169,7 @@
                                                     />
                                                 </li>
                                             </div>
-                                            <div
+                                            <!-- <div
                                                 id="dropdown3"
                                                 class="absolute hidden pl-[210px] top-0 z-20 pt-10 flex flex-col"
                                             >
@@ -203,17 +191,13 @@
                                                         Cloud Computing
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </div> -->
                                         </div>
-                                        <div
-                                            class="relative"
-                                            id="dropdownButton4"
-                                        >
-                                            <div
-                                                onclick="toggleDropdown4()"
-                                                class="flex"
-                                            >
-                                                <li class="py-2 flex flex-row">
+                                        <div class="relative">
+                                            <div class="flex">
+                                                <li
+                                                    class="text-[#F0F0F0] py-2 flex flex-row"
+                                                >
                                                     Product
                                                     <img
                                                         class="pl-24"
@@ -222,7 +206,7 @@
                                                     />
                                                 </li>
                                             </div>
-                                            <div
+                                            <!-- <div
                                                 id="dropdown4"
                                                 class="absolute hidden pl-[210px] top-0 z-20 flex flex-col"
                                             >
@@ -239,7 +223,7 @@
                                                         Exam
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </ul>
                                 </div>
@@ -273,12 +257,31 @@
                             </div>
                         </a>
 
-                        <div class="" id="">
-                            <!-- DROPDOWN MENU -->
-                            <div class="dropdown icon">
-                                <img src="/images/menu.svg" alt="" />
+                        <div class="relative" id="dropdownButton2">
+                            <div onclick="toggleDropdown2()" class="flex">
+                                <a href=""
+                                    ><img src="/images/menu.svg" alt=""
+                                /></a>
                             </div>
-                            <!-- /DROPDOWN MENU -->
+                            <div
+                                id="dropdown2"
+                                class="text-black hidden absolute z-20 left-0 top-0"
+                            >
+                                <ul class="bg-white flex flex-col gap-2">
+                                    <li>
+                                        <a class="" href="#">Learn</a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="#">For Business</a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="#">Sign In</a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="#">Register</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </section>
                 </nav>
@@ -431,10 +434,10 @@
                         Legal
                     </li>
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                        Terms of Service
+                        <a href="/terms-of-service">Terms of Service</a>
                     </li>
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                        Privacy Policy
+                        <a href="/privacy">Privacy Policy</a>
                     </li>
                 </ul>
             </div>
@@ -537,16 +540,32 @@
                 );
                 dropdown4.classList.toggle("hidden");
             }
+            function toggleDropdown7() {
+                let dropdown7 = document.querySelector(
+                    "#dropdownButton7 #dropdown7"
+                );
+                dropdown7.classList.toggle("hidden");
+            }
 
             // Add event listener to hide dropdown when clicking outside
             document.addEventListener("click", function (event) {
                 // Check if the click event target is not inside the dropdown
+
                 if (
                     !event.target.closest("#dropdown") &&
                     !event.target.closest("#dropdownButton")
                 ) {
                     let dropdown = document.querySelector(
                         "#dropdownButton #dropdown"
+                    );
+                    dropdown.classList.add("hidden");
+                }
+                if (
+                    !event.target.closest("#dropdown7") &&
+                    !event.target.closest("#dropdownButton7")
+                ) {
+                    let dropdown = document.querySelector(
+                        "#dropdownButton7 #dropdown7"
                     );
                     dropdown.classList.add("hidden");
                 }
