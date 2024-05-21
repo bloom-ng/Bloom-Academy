@@ -257,7 +257,8 @@
                         and expand their <br />capabilities.
                     </h1>
                     <a
-                        href="#"
+                        target="_blank"
+                        href="https://bloomdigitmedia.com/contact"
                         class="hidden md:block text-white text-base lg:text-xl bg-[#C73029] py-4 px-8 rounded-full montserrat-extra-bold md:w-3/6 lg:w-3/6 xl:w-2/5"
                         >Book a Demo</a
                     >
@@ -289,7 +290,8 @@
                 </div>
                 <div class="pt-24 z-20 block md:hidden">
                     <a
-                        href="#"
+                        target="_blank"
+                        href="https://bloomdigitmedia.com/contact"
                         class="text-white text-base bg-[#C73029] py-3 px-7 rounded-full montserrat-extra-bold"
                         >Book a Demo</a
                     >
@@ -323,7 +325,8 @@
                             Upskill and reskill government workers and citizens!
                         </p>
                         <a
-                            href="#"
+                            target="_blank"
+                            href="https://bloomdigitmedia.com/contact"
                             class="text-white text-sm md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-bold md:montserrat-extra-bold"
                             >Learn More</a
                         >
@@ -354,7 +357,8 @@
                             programmes.
                         </p>
                         <a
-                            href="#"
+                            target="_blank"
+                            href="https://bloomdigitmedia.com/contact"
                             class="text-white text-sm md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-bold md:montserrat-extra-bold"
                             >Learn More</a
                         >
@@ -428,7 +432,8 @@
                         Company
                     </li>
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                        About
+                        <a target="_blank"
+                        href="https://bloomdigitmedia.com/#whoWeAre">About</a>
                     </li>
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         Bloom Digital Media Ltd
@@ -436,7 +441,7 @@
                 </ul>
                 <ul class="flex flex-col items-left list-none">
                     <li class="montserrat-bold mb-4 text-sm md:text-xs">
-                        Legal
+                      Legal
                     </li>
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         <a href="/terms-of-service">Terms of Service</a>

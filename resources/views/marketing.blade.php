@@ -516,12 +516,14 @@
                         <li
                             class="montserrat-extra-light mb-2 text-sm md:text-xs"
                         >
-                            About
+                            <a target="_blank"
+                                href="https://bloomdigitmedia.com/#whoWeAre">About</a>
                         </li>
                         <li
                             class="montserrat-extra-light mb-2 text-sm md:text-xs"
                         >
-                            Bloom Digital Media Ltd
+                        <a target="_blank"
+                            href="https://bloomdigitmedia.com/#whoWeAre"> Bloom Digital Media Ltd </a>
                         </li>
                     </ul>
                     <ul class="flex flex-col items-left list-none">

@@ -317,7 +317,7 @@
                             <p
                                 class="text-white text-[15px] md:text-[22px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-4 md:px-12 py-2 md:py-3 mt-10 md:mt-20 rounded-full"
                             >
-                                Get Started Today
+                               <a href="/marketing"> Get Started Today </a>
                             </p>
                         </div>
                     </div>
@@ -339,10 +339,7 @@
                         <p
                             class="md:hidden block poppins-light text-center text-sm leading-[20px] text-white px-4 pt-10 pb-2"
                         >
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Aliquam sed vehicula mauris. Aliquam viverra
-                            arcu orci, ac egestas neque feugiat et. Nulla
-                            convallis odio et dui elementum molestie.
+                          
                         </p>
                         <div
                             class="flex flex-col justify-center md:justify-start items-center md:items-start w-4/5"
@@ -350,7 +347,7 @@
                             <p
                                 class="text-white text-[15px] md:text-[17px] lg:text-[22px] 2xl:text-[47px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-4 md:px-10 lg:px-12 2xl:px-20 py-2 lg:py-3 2xl:py-3 mt-10 md:mt-20 2xl:mt-32 rounded-full"
                             >
-                                Get Started Today
+                            <a href="/marketing"> Get Started Today </a>
                             </p>
                         </div>
                     </div>
@@ -423,10 +420,12 @@
                         Company
                     </li>
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                        About
+                        <a target="_blank"
+                        href="https://bloomdigitmedia.com/#whoWeAre">About</a>
                     </li>
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                        Bloom Digital Media Ltd
+                        <a target="_blank"
+                        href="https://bloomdigitmedia.com/#whoWeAre">Bloom Digital Media Ltd </a>
                     </li>
                 </ul>
                 <ul class="flex flex-col items-left list-none">
