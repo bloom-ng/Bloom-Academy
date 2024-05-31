@@ -306,10 +306,7 @@
                         <p
                             class="md:hidden block poppins-light text-center text-sm leading-[20px] text-white px-4 pt-10 pb-2"
                         >
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Aliquam sed vehicula mauris. Aliquam viverra
-                            arcu orci, ac egestas neque feugiat et. Nulla
-                            convallis odio et dui elementum molestie.
+                           
                         </p>
                         <div
                             class="flex flex-col justify-center md:justify-start items-center md:items-start w-3/5"
