@@ -64,14 +64,14 @@
                                 alt="Bloom Logo"
                         /></a>
                         <div
-                            class="flex md:text-[13px] md:leading-[30px] lg:text-[18px] lg:leading-[36px] 2xl:text-[34px] 2xl:leading-[45px] items-center justify-center poppins-medium md:space-x-10 lg:space-x-16 2xl:space-x-32"
+                            class="flex md:text-[13px] md:leading-[30px] lg:text-[18px] lg:leading-[36px] 2xl:text-[30px] 2xl:leading-[40px] items-center justify-center poppins-medium md:space-x-10 lg:space-x-16 2xl:space-x-24"
                         >
                             <div class="relative" id="dropdownButton">
                                 <div
                                     onclick="toggleDropdown()"
                                     class="flex items-center justify-center"
                                 >
-                                    <a href="#" class="text-white">Learn</a>
+                                    <a href="#" class="text-white mr-1">Learn</a>
                                     <img
                                         class=""
                                         src="/images/collapse-arrow.svg"
@@ -296,23 +296,19 @@
                         class="container pt-44 px-4 md:px-14 md:w-1/2 break-normal flex flex-col justify-center items-center md:justify-start md:items-left relative z-10"
                     >
                         <h1
-                            class="text-[35px] text-center leading-[35px] md:text-[73px] md:leading-[70px] poppins-bold text-white"
+                            class="text-[35px] text-center leading-[35px] md:text-[70px] lg:text-[65px] md:leading-[70px] poppins-bold text-white"
                         >
                             Get the <span class="text-[#C73029]">skill</span>
                             <span class="text-[#FF8100]">
                                 for <br />A GREAT JOB!</span
                             >
                         </h1>
-                        <p
-                            class="md:hidden block poppins-light text-center text-sm leading-[20px] text-white px-4 pt-10 pb-2"
-                        >
-                           
-                        </p>
+                     
                         <div
                             class="flex flex-col justify-center md:justify-start items-center md:items-start w-3/5"
                         >
                             <p
-                                class="text-white text-[15px] md:text-[22px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-4 md:px-12 py-2 md:py-3 mt-10 md:mt-20 rounded-full"
+                                class="text-white text-[15px] md:text-[22px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-4 md:px-12 py-2 md:py-3 mt-8 md:mt-16 rounded-full"
                             >
                                <a href="/marketing"> Get Started Today </a>
                             </p>
@@ -326,7 +322,7 @@
                         class="container pt-24 md:pt-40 lg:pt-24 2xl:pt-36 px-4 md:px-14 md:w-3/4 lg:px-14 2xl:px-28 lg:w-2/3 break-normal flex flex-col justify-center items-center md:justify-start md:items-start relative z-10"
                     >
                         <h1
-                            class="text-[35px] text-center md:text-left lg:text-left leading-[35px] md:text-[50px] md:leading-[55px] lg:text-[60px] lg:leading-[65px] xl:text-[73px] xl:leading-[70px] 2xl:text-[140px] 2xl:leading-[130px] poppins-bold text-white"
+                            class="text-[35px] text-center md:text-left lg:text-left leading-[35px] md:text-[50px] md:leading-[55px] lg:text-[60px] lg:leading-[65px] xl:text-[73px] xl:leading-[70px] 2xl:text-[100px] 2xl:leading-[90px] poppins-bold text-white"
                         >
                             Get the <span class="text-[#C73029]">skill</span>
                             <span class="text-[#FF8100]">
@@ -517,8 +513,8 @@
             }
 
             function toggleDropdown2() {
-                let dropdown2 = document.querySelector(
-                    "#dropdownButton2 #dropdown2"
+                let dropdown2 = document.getElementById(
+                    "dropdown2"
                 );
                 dropdown2.classList.toggle("hidden");
             }

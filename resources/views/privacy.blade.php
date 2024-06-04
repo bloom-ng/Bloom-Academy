@@ -882,7 +882,11 @@
                         contact us at;
                         <!-- academysupport@Bloomdigitmedia.com -->
                         <br />
-                        Tel: 0708 627 8644 <br /><br />This policy is effective
+                        Tel: 0708 627 8644 <br />
+                        Email: bloomacademy@bloomdigitmedia.com <br />
+                        Address: S03 Pathfield Mall, 4th Avenue, Gwarimpa, Abuja.
+                        <br /> <br/>
+                        This policy is effective
                         as of 1st April, 2024
                     </div>
                 </div>
