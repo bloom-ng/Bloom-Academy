@@ -9,6 +9,9 @@
 
         <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
 
+        <title>Bloom Academy Africa</title>
+        <link rel="shortcut icon" href="/images/bloom-academy.svg" type="image/x-icon">
+
         <!-- Include Poppins Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

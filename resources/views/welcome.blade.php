@@ -6,6 +6,8 @@
         <!-- Include Tailwind CSS -->
         @vite('resources/css/app.css')
         <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
+        <title>Bloom Academy Africa</title>
+        <link rel="shortcut icon" href="/images/bloom-academy.svg" type="image/x-icon">
 
         <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
 
