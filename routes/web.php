@@ -16,9 +16,9 @@ Route::get('/marketing', function () {
 
 
 
-Route::get('/dropdown', function () {
-    return view('dropdown');
-});
+// Route::get('/dropdown', function () {
+//     return view('dropdown');
+// });
 
 Route::get('/terms-of-service', function () {
     return view('terms');
