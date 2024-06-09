@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
         <title>Bloom Academy Africa</title>
         <link rel="shortcut icon" href="/images/bloom-academy.svg" type="image/x-icon">
+        <meta name="description" content="Get the skill for a great Job!">
+
+        
 
         <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
 
