@@ -148,7 +148,9 @@
             >
                 <ul class="flex flex-col items-left list-none">
                     <li class="montserrat-bold mb-4 text-sm">Company</li>
-                    <li class="montserrat-extra-light mb-2 text-sm">About</li>
+                    <a href="https://bloomdigitmedia.com/#whoWeAre">
+                        <li class="montserrat-extra-light mb-2 text-sm">About</li>
+                    </a>
                     <li class="montserrat-extra-light mb-2 text-sm">
                         Bloom Digital Media Ltd
                     </li>

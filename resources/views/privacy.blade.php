@@ -953,9 +953,13 @@
                     <li class="montserrat-bold mb-4 text-sm md:text-xs">
                         Company
                     </li>
-                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                        About
-                    </li>
+                    <a href="https://bloomdigitmedia.com/#whoWeAre"
+                        ><li
+                            class="montserrat-extra-light mb-2 text-sm md:text-xs"
+                        >
+                            About
+                        </li></a
+                    >
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         Bloom Digital Media Ltd
                     </li>
