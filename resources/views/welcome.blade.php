@@ -7,6 +7,20 @@
         @vite('resources/css/app.css')
         <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
 
+        <title>
+            Bloom Academy | Trainings and courses in tech, marketing, product,
+            software, and sales.
+        </title>
+        <meta name="description" content="Unlock your potential with Bloom
+        Academy's courses in tech, marketing, product, software, and sales.
+        Learn online and advance your career with expert-led training./>
+        <link
+            rel="shortcut icon"
+            href="/images/bloom-academy-logo-2.png"
+            type="image/x-icon"
+        />
+        <meta name="description" content="Get the skill for a great Job!" />
+
         <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
 
         <!-- Include Poppins Font -->
@@ -51,27 +65,29 @@
                             href="/"
                             class="block 2xl:hidden text-white font-semibold"
                             ><img
-                                src="/images/bloom-academy.svg"
-                                class=""
+                                src="/images/bloom-academy-logo-2.png"
+                                class="w-10"
                                 alt="Bloom Logo"
                         /></a>
                         <a
                             href="/"
                             class="hidden 2xl:block text-white font-semibold"
                             ><img
-                                src="/images/bloom-academy.svg"
-                                class="w-[270px] h-[150px]"
+                                src="/images/bloom-academy-logo-2.png"
+                                class="w-16"
                                 alt="Bloom Logo"
                         /></a>
                         <div
-                            class="flex md:text-[13px] md:leading-[30px] lg:text-[18px] lg:leading-[36px] 2xl:text-[34px] 2xl:leading-[45px] items-center justify-center poppins-medium md:space-x-10 lg:space-x-16 2xl:space-x-32"
+                            class="flex md:text-[13px] md:leading-[30px] lg:text-[18px] lg:leading-[36px] 2xl:text-[30px] 2xl:leading-[40px] items-center justify-center poppins-medium md:space-x-10 lg:space-x-16 2xl:space-x-24"
                         >
                             <div class="relative" id="dropdownButton">
                                 <div
                                     onclick="toggleDropdown()"
                                     class="flex items-center justify-center"
                                 >
-                                    <a href="#" class="text-white">Learn</a>
+                                    <a href="#" class="text-white mr-1"
+                                        >Learn</a
+                                    >
                                     <img
                                         class=""
                                         src="/images/collapse-arrow.svg"
@@ -136,7 +152,7 @@
                                                 </li>
                                             </div>
                                             <!-- <div
-                                                id="dropdown2"
+                                                id=""
                                                 class="absolute hidden pl-[210px] top-0 z-20 pt-10 flex flex-col"
                                             >
                                                 <ul
@@ -243,7 +259,7 @@
                 </nav>
                 <!-- Floating Menu for mobile -->
                 <nav
-                    class="block md:hidden absolute top-0 left-0 right-0 bg-opacity-75 z-10"
+                    class="block md:hidden absolute top-0 left-0 right-0 bg-opacity-75 z-30"
                 >
                     <section
                         class="container mx-auto px-7 py-8 flex justify-between"
@@ -251,36 +267,39 @@
                         <a href="/">
                             <div class="logo">
                                 <img
-                                    src="/images/bloom-academy-mobile.svg"
+                                    src="/images/bloom-academy-logo-2.png"
+                                    class="w-6"
                                     alt=""
                                 />
                             </div>
                         </a>
 
                         <div class="relative" id="dropdownButton2">
-                            <div onclick="toggleDropdown2()" class="flex">
-                                <a href=""
+                            <div
+                                onclick="toggleDropdown2()"
+                                class="flex justify-end"
+                            >
+                                <a href="#"
                                     ><img src="/images/menu.svg" alt=""
                                 /></a>
                             </div>
                             <div
                                 id="dropdown2"
-                                class="text-black hidden absolute z-20 left-0 top-0"
+                                class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20"
                             >
-                                <ul class="bg-white flex flex-col gap-2">
-                                    <li>
-                                        <a class="" href="#">Learn</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="#">For Business</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="#">Sign In</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="#">Register</a>
-                                    </li>
-                                </ul>
+                                <div
+                                    class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular"
+                                >
+                                    <a class="pl-6 pt-2" href="/marketing"
+                                        >Learn</a
+                                    >
+
+                                    <a class="pl-6" href="/business"
+                                        >For Business</a
+                                    >
+                                    <a class="pl-6" href="#">Sign In</a>
+                                    <a class="pl-6 pb-2" href="#">Register</a>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -296,28 +315,21 @@
                         class="container pt-44 px-4 md:px-14 md:w-1/2 break-normal flex flex-col justify-center items-center md:justify-start md:items-left relative z-10"
                     >
                         <h1
-                            class="text-[35px] text-center leading-[35px] md:text-[73px] md:leading-[70px] poppins-bold text-white"
+                            class="text-[35px] text-center leading-[35px] md:text-[70px] lg:text-[65px] md:leading-[70px] poppins-bold text-white"
                         >
                             Get the <span class="text-[#C73029]">skill</span>
                             <span class="text-[#FF8100]">
                                 for <br />A GREAT JOB!</span
                             >
                         </h1>
-                        <p
-                            class="md:hidden block poppins-light text-center text-sm leading-[20px] text-white px-4 pt-10 pb-2"
-                        >
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Aliquam sed vehicula mauris. Aliquam viverra
-                            arcu orci, ac egestas neque feugiat et. Nulla
-                            convallis odio et dui elementum molestie.
-                        </p>
+
                         <div
                             class="flex flex-col justify-center md:justify-start items-center md:items-start w-3/5"
                         >
                             <p
-                                class="text-white text-[15px] md:text-[22px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-4 md:px-12 py-2 md:py-3 mt-10 md:mt-20 rounded-full"
+                                class="text-white text-[15px] md:text-[22px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-4 md:px-12 py-2 md:py-3 mt-8 md:mt-16 rounded-full"
                             >
-                                Get Started Today
+                                <a href="/marketing"> Get Started Today </a>
                             </p>
                         </div>
                     </div>
@@ -329,7 +341,7 @@
                         class="container pt-24 md:pt-40 lg:pt-24 2xl:pt-36 px-4 md:px-14 md:w-3/4 lg:px-14 2xl:px-28 lg:w-2/3 break-normal flex flex-col justify-center items-center md:justify-start md:items-start relative z-10"
                     >
                         <h1
-                            class="text-[35px] text-center md:text-left lg:text-left leading-[35px] md:text-[50px] md:leading-[55px] lg:text-[60px] lg:leading-[65px] xl:text-[73px] xl:leading-[70px] 2xl:text-[140px] 2xl:leading-[130px] poppins-bold text-white"
+                            class="text-[35px] text-center md:text-left lg:text-left leading-[35px] md:text-[50px] md:leading-[55px] lg:text-[60px] lg:leading-[65px] xl:text-[73px] xl:leading-[70px] 2xl:text-[100px] 2xl:leading-[90px] poppins-bold text-white"
                         >
                             Get the <span class="text-[#C73029]">skill</span>
                             <span class="text-[#FF8100]">
@@ -338,19 +350,14 @@
                         </h1>
                         <p
                             class="md:hidden block poppins-light text-center text-sm leading-[20px] text-white px-4 pt-10 pb-2"
-                        >
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Aliquam sed vehicula mauris. Aliquam viverra
-                            arcu orci, ac egestas neque feugiat et. Nulla
-                            convallis odio et dui elementum molestie.
-                        </p>
+                        ></p>
                         <div
                             class="flex flex-col justify-center md:justify-start items-center md:items-start w-4/5"
                         >
                             <p
                                 class="text-white text-[15px] md:text-[17px] lg:text-[22px] 2xl:text-[47px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-4 md:px-10 lg:px-12 2xl:px-20 py-2 lg:py-3 2xl:py-3 mt-10 md:mt-20 2xl:mt-32 rounded-full"
                             >
-                                Get Started Today
+                                <a href="/marketing"> Get Started Today </a>
                             </p>
                         </div>
                     </div>
@@ -422,15 +429,19 @@
                     <li class="montserrat-bold mb-4 text-sm md:text-xs">
                         Company
                     </li>
-                    <a href="https://bloomdigitmedia.com/#whoWeAre"
-                        ><li
-                            class="montserrat-extra-light mb-2 text-sm md:text-xs"
-                        >
-                            About
-                        </li></a
-                    >
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                        Bloom Digital Media Ltd
+                        <a
+                            target="_blank"
+                            href="https://bloomdigitmedia.com/#whoWeAre"
+                            >About</a
+                        >
+                    </li>
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                        <a
+                            target="_blank"
+                            href="https://bloomdigitmedia.com/#whoWeAre"
+                            >Bloom Digital Media Ltd
+                        </a>
                     </li>
                 </ul>
                 <ul class="flex flex-col items-left list-none">
@@ -582,6 +593,7 @@
                     );
                     dropdown1.classList.add("hidden");
                 }
+
                 if (
                     !event.target.closest("#dropdown2") &&
                     !event.target.closest("#dropdownButton2")

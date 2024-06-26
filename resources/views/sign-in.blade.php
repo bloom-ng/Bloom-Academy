@@ -35,7 +35,8 @@
                 <div class="top-0 left-0 right-0 px-10 py-6">
                     <a href="/"
                         ><img
-                            src="/images/Bloom Academy-black.svg"
+                            src="/images/bloom-academy-logo-2.png"
+                            class="w-10"
                             alt="Bloom Academy Logo"
                     /></a>
                 </div>

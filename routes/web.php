@@ -14,17 +14,11 @@ Route::get('/marketing', function () {
     return view('marketing');
 });
 
-Route::get('/register', function () {
-    return view('register');
-});
 
-Route::get('/sign-in', function () {
-    return view('sign-in');
-});
 
-Route::get('/dropdown', function () {
-    return view('dropdown');
-});
+// Route::get('/dropdown', function () {
+//     return view('dropdown');
+// });
 
 Route::get('/terms-of-service', function () {
     return view('terms');
@@ -38,10 +32,3 @@ Route::get('/payment', function () {
     return view('payment');
 });
 
-Route::get('/sharepadi', function () {
-    return view('sharepadi');
-});
-
-Route::get('/sharepadi2', function () {
-    return view('sharepadi2');
-});

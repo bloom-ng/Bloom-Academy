@@ -1,2 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: /sign-in
+Disallow: /register
+Disallow: /privacy
+Disallow: /terms-of-service
+
+Sitemap: https://bloomacademyafrica.com/sitemap.txt

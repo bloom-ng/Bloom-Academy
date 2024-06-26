@@ -35,8 +35,8 @@
                 <div class="top-0 left-0 right-0 px-12 py-6">
                     <a href="/"
                         ><img
-                            class="w-32"
-                            src="/images/Bloom Academy-black.svg"
+                            class="w-10"
+                            src="/images/bloom-academy-logo-2.png"
                             alt="Bloom Academy Logo"
                     /></a>
                 </div>
@@ -149,7 +149,9 @@
                 <ul class="flex flex-col items-left list-none">
                     <li class="montserrat-bold mb-4 text-sm">Company</li>
                     <a href="https://bloomdigitmedia.com/#whoWeAre">
-                        <li class="montserrat-extra-light mb-2 text-sm">About</li>
+                        <li class="montserrat-extra-light mb-2 text-sm">
+                            About
+                        </li>
                     </a>
                     <li class="montserrat-extra-light mb-2 text-sm">
                         Bloom Digital Media Ltd

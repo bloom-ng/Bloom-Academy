@@ -6,6 +6,13 @@
         <!-- Include Tailwind CSS -->
         @vite('resources/css/app.css')
 
+        <title>Bloom Academy Africa</title>
+        <link
+            rel="shortcut icon"
+            href="/images/bloom-academy-logo-2.png"
+            type="image/x-icon"
+        />
+
         <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
         <link rel="stylesheet" href="{{ asset('/css/styles.css') }}" />
         <!-- Include Poppins Font -->
@@ -36,8 +43,8 @@
                 >
                     <a href="/" class="text-white font-semibold"
                         ><img
-                            src="/images/bloom-academy.svg"
-                            class=""
+                            src="/images/bloom-academy-logo-2.png"
+                            class="w-10"
                             alt="Bloom Logo"
                     /></a>
                     <div
@@ -220,7 +227,7 @@
             </nav>
             <!-- Floating Menu for mobile -->
             <nav
-                class="block md:hidden absolute top-0 left-0 right-0 bg-opacity-75 z-10"
+                class="block md:hidden absolute top-0 left-0 right-0 bg-opacity-75 z-30"
             >
                 <section
                     class="container mx-auto px-7 py-8 flex justify-between"
@@ -228,18 +235,38 @@
                     <a href="/">
                         <div class="logo">
                             <img
-                                src="/images/bloom-academy-mobile.svg"
+                                src="/images/bloom-academy-logo-2.png"
+                                class="w-6"
                                 alt=""
                             />
                         </div>
                     </a>
 
-                    <div class="" id="">
-                        <!-- DROPDOWN MENU -->
-                        <div class="dropdown icon">
-                            <img src="/images/menu.svg" alt="" />
+                    <div class="relative" id="dropdownButton2">
+                        <div
+                            onclick="toggleDropdown2()"
+                            class="flex justify-end"
+                        >
+                            <a href="#"
+                                ><img src="/images/menu.svg" alt=""
+                            /></a>
                         </div>
-                        <!-- /DROPDOWN MENU -->
+                        <div
+                            id="dropdown2"
+                            class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20"
+                        >
+                            <div
+                                class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular"
+                            >
+                                <a class="pl-6 pt-2" href="/marketing">Learn</a>
+
+                                <a class="pl-6" href="/business"
+                                    >For Business</a
+                                >
+                                <a class="pl-6" href="#">Sign In</a>
+                                <a class="pl-6 pb-2" href="#">Register</a>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </nav>
@@ -256,11 +283,13 @@
                         <span class="text-[#FF8100]"> upskill <br />staff</span>
                         and expand their <br />capabilities.
                     </h1>
-                    <a
-                        href="https://bloomdigitmedia.com/contact"
-                        class="hidden md:block text-white text-base lg:text-xl bg-[#C73029] py-4 px-8 rounded-full montserrat-extra-bold md:w-3/6 lg:w-3/6 xl:w-2/5"
-                        >Book a Demo</a
-                    >
+                    <div class="flex flex-row items-center justify-start">
+                        <a
+                            href="#"
+                            class="hidden md:block text-white text-base lg:text-xl bg-[#C73029] py-4 px-8 rounded-full montserrat-extra-bold"
+                            >Book a Demo</a
+                        >
+                    </div>
                 </div>
                 <div
                     class="relative pr rounded-tr-[30px] flex justify-end items-end rounded-bl-[30px] md:rounded-bl-[43px] md:rounded-tr-[43px] bg-cover bg-center py-[10%] w-[241.428px] h-[172.4px] sm:w-[345px] sm:h-[241.2px] lg:w-[420px] lg:h-[300.6px] xl:w-[575px] xl:h-[402px] xl:flex-none"
@@ -289,7 +318,7 @@
                 </div>
                 <div class="pt-24 z-20 block md:hidden">
                     <a
-                        href="https://bloomdigitmedia.com/contact"
+                        href="#"
                         class="text-white text-base bg-[#C73029] py-3 px-7 rounded-full montserrat-extra-bold"
                         >Book a Demo</a
                     >
@@ -323,7 +352,7 @@
                             Upskill and reskill government workers and citizens!
                         </p>
                         <a
-                            href="https://bloomdigitmedia.com/contact"
+                            href="#"
                             class="text-white text-sm md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-bold md:montserrat-extra-bold"
                             >Learn More</a
                         >
@@ -354,7 +383,7 @@
                             programmes.
                         </p>
                         <a
-                            href="https://bloomdigitmedia.com/contact"
+                            href="#"
                             class="text-white text-sm md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-bold md:montserrat-extra-bold"
                             >Learn More</a
                         >
@@ -427,13 +456,9 @@
                     <li class="montserrat-bold mb-4 text-sm md:text-xs">
                         Company
                     </li>
-                    <a href="https://bloomdigitmedia.com/#whoWeAre"
-                        ><li
-                            class="montserrat-extra-light mb-2 text-sm md:text-xs"
-                        >
-                            About
-                        </li></a
-                    >
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                        About
+                    </li>
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         Bloom Digital Media Ltd
                     </li>

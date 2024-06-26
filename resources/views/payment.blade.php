@@ -9,6 +9,13 @@
 
         <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
 
+        <title>Bloom Academy Africa</title>
+        <link
+            rel="shortcut icon"
+            href="/images/bloom-academy-logo-2.png"
+            type="image/x-icon"
+        />
+
         <!-- Include Poppins Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -51,16 +58,16 @@
                             href="/"
                             class="lg:pl-8 block 2xl:hidden text-white font-semibold"
                             ><img
-                                src="/images/bloom-academy.svg"
-                                class=""
+                                src="/images/bloom-academy-logo-2.png"
+                                class="w-10"
                                 alt="Bloom Logo"
                         /></a>
                         <a
                             href="/"
                             class="hidden 2xl:block text-white font-semibold"
                             ><img
-                                src="/images/bloom-academy.svg"
-                                class="w-[270px] h-[150px]"
+                                src="/images/bloom-academy-logo-2.png"
+                                class="w-16"
                                 alt="Bloom Logo"
                         /></a>
                         <div class="pr-8">
@@ -75,7 +82,7 @@
                 </nav>
                 <!-- Floating Menu for mobile -->
                 <nav
-                    class="block md:hidden absolute top-0 left-0 right-0 bg-opacity-75 z-10"
+                    class="block md:hidden absolute top-0 left-0 right-0 bg-opacity-75 z-30"
                 >
                     <section
                         class="container mx-auto px-7 py-8 flex justify-between"
@@ -83,19 +90,40 @@
                         <a href="/">
                             <div class="logo">
                                 <img
-                                    src="/images/bloom-academy-mobile.svg"
+                                    src="/images/bloom-academy-logo-2.png"
+                                    class="w-6"
                                     alt=""
                                 />
                             </div>
                         </a>
 
-                        <div class="lg:pr-5">
-                            <a href="#" class="text-white font-semibold"
-                                ><img
-                                    src="/images/Male-user.svg"
-                                    class="w-8 lg:w-12"
-                                    alt="User Icon"
-                            /></a>
+                        <div class="relative" id="dropdownButton2">
+                            <div
+                                onclick="toggleDropdown2()"
+                                class="flex justify-end"
+                            >
+                                <a href="#"
+                                    ><img src="/images/menu.svg" alt=""
+                                /></a>
+                            </div>
+                            <div
+                                id="dropdown2"
+                                class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20"
+                            >
+                                <div
+                                    class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular"
+                                >
+                                    <a class="pl-6 pt-2" href="/marketing"
+                                        >Learn</a
+                                    >
+
+                                    <a class="pl-6" href="/business"
+                                        >For Business</a
+                                    >
+                                    <a class="pl-6" href="#">Sign In</a>
+                                    <a class="pl-6 pb-2" href="#">Register</a>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </nav>

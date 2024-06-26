@@ -7,6 +7,13 @@
         @vite('resources/css/app.css')
         <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
 
+        <title>Bloom Academy Africa</title>
+        <link
+            rel="shortcut icon"
+            href="/images/bloom-academy-logo-2.png"
+            type="image/x-icon"
+        />
+
         <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
 
         <!-- Include Poppins Font -->
@@ -51,16 +58,16 @@
                             href="/"
                             class="lg:pl-8 block 2xl:hidden text-white font-semibold"
                             ><img
-                                src="/images/bloom-academy.svg"
-                                class=""
+                                src="/images/bloom-academy-logo-2.png"
+                                class="w-10"
                                 alt="Bloom Logo"
                         /></a>
                         <a
                             href="/"
                             class="hidden 2xl:block text-white font-semibold"
                             ><img
-                                src="/images/bloom-academy.svg"
-                                class="w-[270px] h-[150px]"
+                                src="/images/bloom-academy-logo-2.png"
+                                class="w-16"
                                 alt="Bloom Logo"
                         /></a>
                         <div
@@ -243,7 +250,7 @@
                 </nav>
                 <!-- Floating Menu for mobile -->
                 <nav
-                    class="block md:hidden absolute top-0 left-0 right-0 bg-opacity-75 z-10"
+                    class="block md:hidden absolute top-0 left-0 right-0 bg-opacity-75 z-30"
                 >
                     <section
                         class="container mx-auto px-7 py-8 flex justify-between"
@@ -251,18 +258,40 @@
                         <a href="/">
                             <div class="logo">
                                 <img
-                                    src="/images/bloom-academy-mobile.svg"
+                                    src="/images/bloom-academy-logo-2.png"
+                                    class="w-6"
                                     alt=""
                                 />
                             </div>
                         </a>
 
-                        <div class="" id="">
-                            <!-- DROPDOWN MENU -->
-                            <div class="dropdown icon">
-                                <img src="/images/menu.svg" alt="" />
+                        <div class="relative" id="dropdownButton2">
+                            <div
+                                onclick="toggleDropdown2()"
+                                class="flex justify-end"
+                            >
+                                <a href="#"
+                                    ><img src="/images/menu.svg" alt=""
+                                /></a>
                             </div>
-                            <!-- /DROPDOWN MENU -->
+                            <div
+                                id="dropdown2"
+                                class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20"
+                            >
+                                <div
+                                    class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular"
+                                >
+                                    <a class="pl-6 pt-2" href="/marketing"
+                                        >Learn</a
+                                    >
+
+                                    <a class="pl-6" href="/business"
+                                        >For Business</a
+                                    >
+                                    <a class="pl-6" href="#">Sign In</a>
+                                    <a class="pl-6 pb-2" href="#">Register</a>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </nav>
@@ -513,17 +542,24 @@
                         <li class="montserrat-bold mb-4 text-sm md:text-xs">
                             Company
                         </li>
-                        <a href="https://bloomdigitmedia.com/#whoWeAre"
-                            ><li
-                                class="montserrat-extra-light mb-2 text-sm md:text-xs"
-                            >
-                                About
-                            </li></a
-                        >
                         <li
                             class="montserrat-extra-light mb-2 text-sm md:text-xs"
                         >
-                            Bloom Digital Media Ltd
+                            <a
+                                target="_blank"
+                                href="https://bloomdigitmedia.com/#whoWeAre"
+                                >About</a
+                            >
+                        </li>
+                        <li
+                            class="montserrat-extra-light mb-2 text-sm md:text-xs"
+                        >
+                            <a
+                                target="_blank"
+                                href="https://bloomdigitmedia.com/#whoWeAre"
+                            >
+                                Bloom Digital Media Ltd
+                            </a>
                         </li>
                     </ul>
                     <ul class="flex flex-col items-left list-none">
