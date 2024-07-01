@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserDataController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -32,3 +33,8 @@ Route::get('/payment', function () {
     return view('payment');
 });
 
+Route::get('/submit', function () {
+    return view('submit');
+});
+
+Route::post('/process-payment', [UserDataController::class, 'store']);
