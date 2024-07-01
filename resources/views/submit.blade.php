@@ -41,7 +41,7 @@
             <div class="flex flex-col bg-white rounded-[43px] px-16 pt-16 pb-10 items-center justify-center">
                 <div class="items-center justify-center flex flex-col pb-8">
                     <p class="text-[25px] text-center leading-[23px] poppins-bold">
-                        Register to join our <br> community of learners.
+                        Join our <br> community of learners.
                     </p>
                 </div>
                 <form action="/process-payment" method="POST" class="">
@@ -86,7 +86,7 @@
                     <div>
                         <textarea type="text" name="how_did_you_hear"
                             class="bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-2xl mb-6 block w-full py-6 px-6"
-                            placeholder="How did you hear about us" rows="5" cols="10" required></textarea>
+                            placeholder="How did you hear about us" rows="5" cols="10"></textarea>
                     </div>
 
                     <input type="hidden" name="payment_id" value="{{ request()->query('id') }}">

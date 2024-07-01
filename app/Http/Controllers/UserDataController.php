@@ -11,10 +11,10 @@ class UserDataController extends Controller
     {
         $validated = $request->validate([
             'name' => 'string|required',
-            'email' => 'string|required',
+            'email' => 'string|required|email',
             'location' => 'string|required',
             'phone' => 'string|required|max:18',
-            'how_did_you_hear' => 'string|required',
+            'how_did_you_hear' => 'string|nullable',
             'payment_id' => 'string',
         ]);
 
@@ -24,7 +24,7 @@ class UserDataController extends Controller
         $userData->email = $validated['email'];
         $userData->phone = $validated['phone'];
         $userData->location = $validated['location'];
-        $userData->how_did_you_hear = $validated['how_did_you_hear'];
+        $userData->how_did_you_hear = $validated['how_did_you_hear'] ?? null;
 
         $userData->save();
         
