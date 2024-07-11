@@ -27,76 +27,86 @@
 </head>
 
 <body class="">
-    <div class="grid grid-cols-2">
-        <div class="relative bg-cover bg-bottom h-screen bg-left-top"
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="hidden lg:flex bg-cover bg-bottom h-screen bg-left-top"
             style="
                     background-image: url('/images/happy-young-african-american-male-analyst-with-tab.png');
                 ">
             <div class="top-0 left-0 right-0 px-12 py-6">
-                <a href="/"><img class="w-10" src="/images/bloom-academy-logo-2.png"
-                        alt="Bloom Academy Logo" /></a>
+                <a href="/"><img class="w-24 h-auto" src="/images/logo_main.png" alt="Bloom Academy Logo" /></a>
             </div>
         </div>
-        <div class="flex justify-center items-center bg-[#2D2D2B]">
-            <div class="flex flex-col bg-white rounded-[43px] px-16 pt-16 pb-10 items-center justify-center">
-                <div class="items-center justify-center flex flex-col pb-8">
-                    <p class="text-[25px] text-center leading-[23px] poppins-bold">
-                        Join our <br> community of learners.
-                    </p>
+        <div class="flex justify-center items-center bg-[#2D2D2B] w-full">
+            <form action="/process-payment" method="POST"
+                class="flex flex-col bg-white rounded-[43px] px-8 lg:px-16 pt-16 pb-10 items-center justify-center w-[90%] md:w-[80%]">
+
+                <p class="text-[25px] text-center leading-[23px] poppins-bold mb-5">
+                    Join our <br> community of learners.
+                </p>
+                @csrf
+
+                <div class="relative w-full">
+                    <div class="ps-1 mb-10 absolute inset-y-0 start-0 flex items-center m-5">
+                        <img src="/images/person.svg" alt="" />
+                    </div>
+                    <input type="text" name="name"
+                        class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                        placeholder="Full Name" required />
                 </div>
-                <form action="/process-payment" method="POST" class="">
-                    @csrf
 
-                    <div class="relative">
-                        <div class="absolute inset-y-0 start-0 flex items-center ps-6">
-                            <img src="/images/person.svg" alt="" />
-                        </div>
-                        <input type="text" name="name"
-                            class="ps-14 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6 px-52"
-                            placeholder="Full Name" required />
+                <div class="relative w-full">
+                    <div class="ps-1 mb-10 absolute inset-y-0 start-0 flex items-center m-5">
+                        <img src="/images/Envelope.svg" alt="" />
                     </div>
+                    <input type="email" name="email"
+                        class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                        placeholder="Email Address" required />
+                </div>
 
-                    <div class="relative">
-                        <div class="absolute inset-y-0 start-0 flex items-center ps-6">
-                            <img src="/images/Envelope.svg" alt="" />
-                        </div>
-                        <input type="email" name="email"
-                            class="ps-14 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6 px-52"
-                            placeholder="Email Address" required />
+                <div class="relative w-full">
+                    <div class="ps-1 mb-10 absolute inset-y-0 start-0 flex items-center m-5">
+                        <img src="/images/phone.svg" alt="" />
                     </div>
+                    <input type="text" name="phone"
+                        class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                        placeholder="Phone" required />
+                </div>
 
-                    <div class="relative">
-                        <div class="absolute inset-y-0 start-0 flex items-center ps-6">
-                            <img src="/images/phone.svg" alt="" />
-                        </div>
-                        <input type="text" name="phone"
-                            class="ps-14 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6 px-52"
-                            placeholder="Phone" required />
+                <div class="relative w-full">
+                    <div class="ps-1 mb-10 absolute inset-y-0 start-0 flex items-center m-5">
+                        <img src="/images/pin.svg" alt="" />
                     </div>
+                    <input type="text" name="location"
+                        class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                        placeholder="Location" required />
+                </div>
 
-                    <div class="relative">
-                        <div class="absolute inset-y-0 start-0 flex items-center ps-6">
-                            <img src="/images/pin.svg" alt="" />
-                        </div>
-                        <input type="text" name="location"
-                            class="ps-14 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6 px-52"
-                            placeholder="Location" required />
-                    </div>
+                <textarea type="text" name="how_did_you_hear"
+                    class="bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-2xl mb-6 block w-full py-6 px-6"
+                    placeholder="How did you hear about us" rows="5" cols="3">
+                    </textarea>
 
-                    <div>
-                        <textarea type="text" name="how_did_you_hear"
-                            class="bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-2xl mb-6 block w-full py-6 px-6"
-                            placeholder="How did you hear about us" rows="5" cols="10"></textarea>
-                    </div>
+                {{-- <input type="hidden" name="payment_id" value="{{ request()->query('id') }}"> --}}
 
-                    <input type="hidden" name="payment_id" value="{{ request()->query('id') }}">
+                {{-- <div class="my-5">
+                        <input type="checkbox" name="policy" value="accepted" required id="policy" />
+                        <label for="policy">I agree to the <a href="/terms-of-service">Terms of Service</a> and <a
+                                href="/privacy">Privacy Policy</a></label>
+                    </div> --}}
 
-                    <div>
-                        <button type="submit"
-                            class="text-white text-lg leading-[45px] bg-[#C73029] py-3 px-40 rounded-full montserrat-semi-bold">Submit</button>
-                    </div>
-                </form>
-            </div>
+
+                <button type="submit"
+                    class="text-white text-lg leading-[45px] bg-[#C73029] py-3 px-12 rounded-full montserrat-semi-bold mb-5 w-full">Submit</button>
+
+
+                <div>
+                    <p class="poppins-light text-sm text-center">By clicking “Submit”, I agree to
+                        receive
+                        further<br>
+                        information about Bloom Academy
+                        courses.</p>
+                </div>
+            </form>
         </div>
     </div>
 

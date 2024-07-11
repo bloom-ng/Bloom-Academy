@@ -15,7 +15,7 @@ class UserDataController extends Controller
             'location' => 'string|required',
             'phone' => 'string|required|max:18',
             'how_did_you_hear' => 'string|nullable',
-            'payment_id' => 'string',
+            // 'payment_id' => 'string',
         ]);
 
         $userData = new UserData();
@@ -28,9 +28,10 @@ class UserDataController extends Controller
 
         $userData->save();
         
-        $paymentId = $validated['payment_id'];
+        // $paymentId = $validated['payment_id'];
     
         // Redirect to the Flutterwave payment link
-        return redirect("https://flutterwave.com/pay/{$paymentId}");
+        // return redirect("https://flutterwave.com/pay/{$paymentId}");
+        return redirect("/payment");
     }
 }

@@ -15,10 +15,8 @@
     <meta name="description"
         content="Unlock your potential with Bloom
         Academy's courses in tech, marketing, product, software, and sales.
-        Learn online and advance your career with expert-led training./>
-        <link
-            rel="shortcut
-        icon" href="/images/bloom-academy-logo-2.png" type="image/x-icon" />
+        Learn online and advance your career with expert-led training." />
+    <link rel="shortcuticon" href="/images/bloom-academy-logo-2.png" type="image/x-icon" />
     <meta name="description" content="Get the skill for a great Job!" />
 
     <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
@@ -53,10 +51,10 @@
             <!-- Floating Menu -->
             <nav class="hidden md:block absolute top-0 left-0 right-0 bg-opacity-75 z-10">
                 <div class="mx-auto px-10 lg:px-6 2xl:px-24 py-8 flex justify-between">
-                    <a href="/" class="block 2xl:hidden text-white font-semibold"><img
-                            src="/images/bloom-academy-logo-2.png" class="w-10" alt="Bloom Logo" /></a>
-                    <a href="/" class="hidden 2xl:block text-white font-semibold"><img
-                            src="/images/bloom-academy-logo-2.png" class="w-16" alt="Bloom Logo" /></a>
+                    <a href="/" class="block 2xl:hidden text-white font-semibold"><img src="/images/logo_main.png"
+                            class="w-24 h-auto" alt="Bloom Logo" /></a>
+                    <a href="/" class="hidden 2xl:block text-white font-semibold"><img src="/images/logo_main.png"
+                            class="w-24 h-auto" alt="Bloom Logo" /></a>
                     <div
                         class="flex md:text-[13px] md:leading-[30px] lg:text-[18px] lg:leading-[36px] 2xl:text-[30px] 2xl:leading-[40px] items-center justify-center poppins-medium md:space-x-10 lg:space-x-16 2xl:space-x-24">
                         <div class="relative" id="dropdownButton">
@@ -202,7 +200,7 @@
                 <section class="container mx-auto px-7 py-8 flex justify-between">
                     <a href="/">
                         <div class="logo">
-                            <img src="/images/bloom-academy-logo-2.png" class="w-6" alt="" />
+                            <img src="/images/logo_main.png" class="w-6" alt="" />
                         </div>
                     </a>
 

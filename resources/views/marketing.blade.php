@@ -42,9 +42,9 @@
             <nav class="hidden md:block absolute top-0 left-0 right-0 bg-opacity-75 z-10">
                 <div class="mx-auto px-10 lg:px-6 2xl:px-24 py-8 flex justify-between">
                     <a href="/" class="lg:pl-8 block 2xl:hidden text-white font-semibold"><img
-                            src="/images/bloom-academy-logo-2.png" class="w-10" alt="Bloom Logo" /></a>
-                    <a href="/" class="hidden 2xl:block text-white font-semibold"><img
-                            src="/images/bloom-academy-logo-2.png" class="w-16" alt="Bloom Logo" /></a>
+                            src="/images/logo_main.png" class="w-24 h-auto" alt="Bloom Logo" /></a>
+                    <a href="/" class="hidden 2xl:block text-white font-semibold"><img src="/images/logo_main.png"
+                            class="w-24 h-auto" alt="Bloom Logo" /></a>
                     <div
                         class="flex md:text-[13px] md:leading-[30px] lg:text-[18px] lg:leading-[36px] 2xl:text-[34px] 2xl:leading-[45px] items-center justify-center poppins-medium md:space-x-10 lg:space-x-16 2xl:space-x-32">
                         <div class="relative" id="dropdownButton">
@@ -190,7 +190,7 @@
                 <section class="container mx-auto px-7 py-8 flex justify-between">
                     <a href="/">
                         <div class="logo">
-                            <img src="/images/bloom-academy-logo-2.png" class="w-6" alt="" />
+                            <img src="/images/logo_main.png" class="w-6" alt="" />
                         </div>
                     </a>
 
@@ -246,7 +246,7 @@
                             , develop expert media buying skills, and get
                             certified for learning.
                         </h1>
-                        <a href="/payment">
+                        <a href="#courses">
                             <p
                                 class="text-white md:text-[18px] lg:text-[22px] text-[12px] md:text-left bg-[#C73029] montserrat-semi-bold px-8 md:px-10 lg:px-12 py-2 md:py-2 lg:py-3 mt-16 rounded-full">
                                 Take Course
@@ -267,10 +267,10 @@
                     </p>
                 </div>
             </div>
-            <div
+            <div id="courses"
                 class="absolute -mt-60 md:mt-20 lg:mt-32 grid md:grid-cols-2 gap-12 md:gap-20 lg:gap-24 px-6 sm:px-[10%] md:px-10 xl:px-32">
                 <div
-                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[1160px] sm:h-[1100px] md:h-[1170px] lg:h-[1465px] md:surround md:shadow-custom">
+                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-auto min-h-[1160px] sm:min-h-[1100px] md:min-h-[1170px] lg:min-h-[1465px] md:surround md:shadow-custom">
                     <div class="flex justify-center">
                         <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
                             style="
@@ -303,12 +303,12 @@
                             No Certificate Fee<br />
                             Pay One-Time Tuition Fee
                         </p>
-                        <a href="/payment"
+                        <a href="/submit"
                             class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold">Register</a>
                     </div>
                 </div>
                 <div
-                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[1100px] sm:h-[940px] md:h-[1040px] lg:h-[1305px] md:surround md:shadow-custom">
+                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-auto min-h-[1100px] sm:min-h-[940px] md:min-h-[1040px] lg:min-h-[1305px] md:surround md:shadow-custom">
                     <div class="flex justify-center">
                         <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
                             style="
@@ -344,7 +344,7 @@
                             Pay One-Time Tuition Fee
                             <br />
                         </p>
-                        <a href="/payment"
+                        <a href="/submit"
                             class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold">Register</a>
                     </div>
                 </div>

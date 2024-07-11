@@ -42,9 +42,9 @@
             <nav class="hidden md:block absolute top-0 left-0 right-0 bg-opacity-75 z-10">
                 <div class="mx-auto px-10 lg:px-6 2xl:px-24 py-8 flex justify-between">
                     <a href="/" class="lg:pl-8 block 2xl:hidden text-white font-semibold"><img
-                            src="/images/bloom-academy-logo-2.png" class="w-10" alt="Bloom Logo" /></a>
-                    <a href="/" class="hidden 2xl:block text-white font-semibold"><img
-                            src="/images/bloom-academy-logo-2.png" class="w-16" alt="Bloom Logo" /></a>
+                            src="/images/logo_main.png" class="w-24 h-auto" alt="Bloom Logo" /></a>
+                    <a href="/" class="hidden 2xl:block text-white font-semibold"><img src="/images/logo_main.png"
+                            class="w-24 h-auto" alt="Bloom Logo" /></a>
                     <div class="pr-8">
                         <a href="#" class="text-white font-semibold"><img src="/images/Male-user.svg"
                                 class="w-12" alt="Bloom Logo" /></a>
@@ -56,7 +56,7 @@
                 <section class="container mx-auto px-7 py-8 flex justify-between">
                     <a href="/">
                         <div class="logo">
-                            <img src="/images/bloom-academy-logo-2.png" class="w-6" alt="" />
+                            <img src="/images/logo_main.png" class="w-6" alt="" />
                         </div>
                     </a>
 
@@ -145,7 +145,7 @@
                         <p class="text-base md:text-2xl mb-8 sm:mb-20 md:mb-14 lg:mb-14 poppins-regular mt-6">
                             $100 or ₦100,000
                         </p>
-                        <a href="/submit?id=ep6qot9y4kky" {{-- href="https://flutterwave.com/pay/ep6qot9y4kky" --}}
+                        <a href="https://flutterwave.com/pay/ep6qot9y4kky" {{-- href="/submit?id=ep6qot9y4kky" --}}
                             class="text-white md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold text-sm">Pay
                             Now</a>
                     </div>
@@ -168,7 +168,7 @@
                             class="text-base md:text-2xl mb-8 sm:mb-20 md:mb-44 md:mb-14 lg:mb-14 2xl:mb-24 poppins-regular mt-6 sm:mt-14 md:mt-16 xl:mt-6">
                             $60 or ₦65,000
                         </p>
-                        <a {{-- href="https://flutterwave.com/pay/l8islsz4eivp" --}} href="/submit?id=l8islsz4eivp"
+                        <a href="https://flutterwave.com/pay/l8islsz4eivp" {{-- href="/submit?id=l8islsz4eivp" --}}
                             class="text-white md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold text-sm">Pay
                             Now</a>
                     </div>
