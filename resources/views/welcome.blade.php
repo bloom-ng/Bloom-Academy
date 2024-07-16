@@ -33,7 +33,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
 
-    <title>Bloom Academy Africa</title>
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1837476706745796');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1837476706745796&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <link rel="shortcut icon" href="/images/bloom-academy-logo-2.png" type="image/x-icon" />
 </head>
 
@@ -52,9 +78,9 @@
             <nav class="hidden md:block absolute top-0 left-0 right-0 bg-opacity-75 z-10">
                 <div class="mx-auto px-10 lg:px-6 2xl:px-24 py-8 flex justify-between">
                     <a href="/" class="block 2xl:hidden text-white font-semibold"><img src="/images/logo_main.png"
-                            class="w-24 h-auto" alt="Bloom Logo" /></a>
+                            class="w-32 h-auto" alt="Bloom Academy Africa Logo" /></a>
                     <a href="/" class="hidden 2xl:block text-white font-semibold"><img src="/images/logo_main.png"
-                            class="w-24 h-auto" alt="Bloom Logo" /></a>
+                            class="w-32 h-auto" alt="Bloom Academy Africa Logo" /></a>
                     <div
                         class="flex md:text-[13px] md:leading-[30px] lg:text-[18px] lg:leading-[36px] 2xl:text-[30px] 2xl:leading-[40px] items-center justify-center poppins-medium md:space-x-10 lg:space-x-16 2xl:space-x-24">
                         <div class="relative" id="dropdownButton">
@@ -200,7 +226,7 @@
                 <section class="container mx-auto px-7 py-8 flex justify-between">
                     <a href="/">
                         <div class="logo">
-                            <img src="/images/logo_main.png" class="w-6" alt="" />
+                            <img src="/images/logo_main.png" class="w-24" alt="Bloom Academy Africa Logo" />
                         </div>
                     </a>
 

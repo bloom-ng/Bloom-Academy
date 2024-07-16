@@ -33,7 +33,8 @@
                     background-image: url('/images/happy-young-african-american-male-analyst-with-tab.png');
                 ">
             <div class="top-0 left-0 right-0 px-12 py-6">
-                <a href="/"><img class="w-24 h-auto" src="/images/logo_main.png" alt="Bloom Academy Logo" /></a>
+                <a href="/"><img class="w-32 h-auto" src="/images/logo_main.png"
+                        alt="Bloom Academy Africa Logo" /></a>
             </div>
         </div>
         <div class="flex justify-center items-center bg-[#2D2D2B] w-full">

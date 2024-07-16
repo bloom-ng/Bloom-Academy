@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
 
     <title>Bloom Academy Africa</title>
     <link rel="shortcut icon" href="/images/bloom-academy-logo-2.png" type="image/x-icon" />
@@ -42,12 +43,12 @@
             <nav class="hidden md:block absolute top-0 left-0 right-0 bg-opacity-75 z-10">
                 <div class="mx-auto px-10 lg:px-6 2xl:px-24 py-8 flex justify-between">
                     <a href="/" class="lg:pl-8 block 2xl:hidden text-white font-semibold"><img
-                            src="/images/logo_main.png" class="w-24 h-auto" alt="Bloom Logo" /></a>
+                            src="/images/logo_main.png" class="w-32 h-auto" alt="Bloom Academy Africa Logo" /></a>
                     <a href="/" class="hidden 2xl:block text-white font-semibold"><img src="/images/logo_main.png"
-                            class="w-24 h-auto" alt="Bloom Logo" /></a>
+                            class="w-32 h-auto" alt="Bloom Academy Africa Logo" /></a>
                     <div class="pr-8">
                         <a href="#" class="text-white font-semibold"><img src="/images/Male-user.svg"
-                                class="w-12" alt="Bloom Logo" /></a>
+                                class="w-12" alt="Bloom Academy Africa Logo" /></a>
                     </div>
                 </div>
             </nav>
@@ -56,7 +57,7 @@
                 <section class="container mx-auto px-7 py-8 flex justify-between">
                     <a href="/">
                         <div class="logo">
-                            <img src="/images/logo_main.png" class="w-6" alt="" />
+                            <img src="/images/logo_main.png" class="w-24" alt="Bloom Academy Africa Logo" />
                         </div>
                     </a>
 
@@ -145,9 +146,12 @@
                         <p class="text-base md:text-2xl mb-8 sm:mb-20 md:mb-14 lg:mb-14 poppins-regular mt-6">
                             $100 or ₦100,000
                         </p>
-                        <a href="https://flutterwave.com/pay/ep6qot9y4kky" {{-- href="/submit?id=ep6qot9y4kky" --}}
+                        {{-- <a href="https://flutterwave.com/pay/ep6qot9y4kky" href="/submit?id=ep6qot9y4kky"
                             class="text-white md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold text-sm">Pay
-                            Now</a>
+                            Now</a> --}}
+                        <button onclick="makePayment(100000, 'Bloom Digital Marketing Certificate')"
+                            class="text-white md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold text-sm">Pay
+                            Now</button>
                     </div>
                 </div>
                 <div
@@ -168,9 +172,14 @@
                             class="text-base md:text-2xl mb-8 sm:mb-20 md:mb-44 md:mb-14 lg:mb-14 2xl:mb-24 poppins-regular mt-6 sm:mt-14 md:mt-16 xl:mt-6">
                             $60 or ₦65,000
                         </p>
-                        <a href="https://flutterwave.com/pay/l8islsz4eivp" {{-- href="/submit?id=l8islsz4eivp" --}}
+                        {{-- <a href="https://flutterwave.com/pay/l8islsz4eivp" href="/submit?id=l8islsz4eivp"
                             class="text-white md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold text-sm">Pay
-                            Now</a>
+                            Now</a> --}}
+                        <button onclick="makePayment(65000, 'Bloom Digital AD Expert')"
+                            class="text-white
+                            md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold
+                            text-sm">Pay
+                            Now</button>
                     </div>
                 </div>
             </div>
@@ -235,6 +244,83 @@
         </div>
         <!-- Second section -->
 
+        {{-- <div id="paymentModal"
+            class="fixed z-50 w-full h-full inset-0 flex items-center justify-center bg-[#222]/40 hidden">
+            <div class="bg-white rounded-3xl shadow-sm lg:w-[50%] h-auto p-12">
+                <div
+                    class="flex w-full h-fit flex-col items-center justify-start max-h-[90%] overflow-y-scroll pt-4 px-4 text-center">
+                    <div class="w-full">
+                        <input
+                            class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                            type="text" placeholder="Full Name" value="{{ $userData->name ?? '' }}"
+                            id="payment-name" required>
+                    </div>
+                    <div class="w-full">
+                        <input
+                            class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                            type="email" placeholder="Email Address" value="{{ $userData->email ?? '' }}"
+                            id="payment-email" required>
+                    </div>
+                    <div class="w-full">
+                        <input
+                            class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                            type="text" placeholder="Phone Number" id="payment-phone"
+                            value="{{ $userData->phone ?? '' }}" required>
+                    </div>
+                    <div class="hidden">
+                        <input
+                            class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                            type="number" placeholder="Amount" value="100000" id="payment-amount" required>
+
+                    </div>
+                    <div class="mt-6">
+                        <button onclick="makePayment()"
+                            class="text-white
+                            md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold
+                            text-sm">
+                            Pay Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="paymentModal2"
+            class="fixed z-50 w-full h-full inset-0 flex items-center justify-center bg-[#222]/40 hidden">
+            <div class="bg-white rounded-3xl shadow-sm lg:w-[50%] h-auto p-12">
+                <div
+                    class="flex w-full h-fit flex-col items-center justify-start max-h-[90%] overflow-y-scroll pt-4 px-4 text-center">
+                    <div class="w-full">
+                        <input
+                            class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                            type="text" placeholder="Full Name" id="payment-name" required>
+                    </div>
+                    <div class="w-full">
+                        <input
+                            class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                            type="email" placeholder="Email Address" id="payment-email" required>
+                    </div>
+                    <div class="w-full">
+                        <input
+                            class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                            type="text" placeholder="Phone Number" id="payment-phone" required>
+                    </div>
+                    <div class="hidden">
+                        <input
+                            class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
+                            type="number" placeholder="Amount" value="65000" id="payment-amount" required>
+                    </div>
+                    <div class="mt-6">
+                        <button onclick="makePayment()"
+                            class="text-white
+                            md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold
+                            text-sm">
+                            Pay Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+
         <!-- Footer Mobile -->
         <footer class="block md:hidden">
             <div class="bg-[#151515] flex flex-col justify-center items-center">
@@ -264,9 +350,9 @@
                 </div>
             </div>
         </footer>
-        <!-- Footer -->
-        <!-- Footer -->
-        <!-- Footer -->
+        <!-- Footer Mobile -->
+
+        <!-- Footer PC -->
         <footer
             class="hidden md:block bg-[#151515] max-w-[100vw] px-14 py-6 flex-col flex sm:flex-row items-center justify-between">
             <div class="flex-col flex text-white sm:flex-row md:gap-16 lg:gap-20 items-center">
@@ -328,6 +414,7 @@
                 </div>
             </div>
         </footer>
+        <!-- Footer PC -->
     </div>
 
     <!-- scripts -->
@@ -417,6 +504,60 @@
             }
         });
     </script>
+
+
+    {{-- FLUTTERWAVE SCRIPT START --}}
+    <script>
+        function openPaymentModal() {
+            document.getElementById('paymentModal').classList.remove('hidden');
+        }
+
+        function closePaymentModal() {
+            document.getElementById('paymentModal').classList.add('hidden');
+        }
+
+        function openPaymentModal() {
+            document.getElementById('paymentModal2').classList.remove('hidden');
+        }
+
+        function closePaymentModal() {
+            document.getElementById('paymentModal2').classList.add('hidden');
+        }
+
+        function makePayment(amount, course) {
+            FlutterwaveCheckout({
+                public_key: "{{ env('FLUTTERWAVE_PUBLIC_KEY') }}",
+                tx_ref: 'bloom_academy_ref' + Math.floor(Math.random() * 1000000000 + 1),
+                amount: amount,
+                currency: "NGN",
+                redirect_url: "{{ env('APP_URL') }}/confirm-payment?name={{ $userData->name }}&email={{ $userData->email }}&phone={{ $userData->phone }}&course=" +
+                    course + "&amount=" + amount,
+                meta: {
+                    consumer_id: '',
+                    consumer_mac: "",
+                },
+                customer: {
+                    email: "{{ $userData->email }}",
+                    phone_number: "{{ $userData->phone }}",
+                    name: "{{ $userData->name }}",
+                    location: "{{ $userData->location }}",
+                    course: course,
+                },
+                customizations: {
+                    title: "Bloom Academy Africa",
+                    description: "Bloom Academy Africa Course Payment",
+                    logo: "{{ asset('/images/logo_main.png') }}",
+                },
+                callback: function(data) {
+                    console.log("payment callback:", data);
+                },
+                onclose: function() {
+                    console.log("Payment cancelled!");
+                }
+            });
+        }
+    </script>
+    {{-- FLUTTERWAVE SCRIPT END --}}
 </body>
 
 </html>

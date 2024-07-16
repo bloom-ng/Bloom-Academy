@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserDataController;
+use App\Http\Controllers\PaymentController;
 use Illuminate\Http\Request;
 
 Route::get('/', function () {
@@ -31,7 +32,13 @@ Route::get('/privacy', function () {
 });
 
 Route::get('/payment', function () {
-    return view('payment');
+    $userData = session('userData');
+    
+    if (!$userData) {
+        return redirect('/submit');
+    }
+    
+    return view('payment', compact('userData'));
 });
 
 Route::get('/submit', function () {
@@ -39,6 +46,7 @@ Route::get('/submit', function () {
 });
 
 Route::post('/process-payment', [UserDataController::class, 'store']);
+Route::get('/confirm-payment', [PaymentController::class, 'confirm']);
 
 //Webhook - Flutterwave
 Route::post('/flw-webhook', function (Request $request) {

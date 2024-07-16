@@ -32,6 +32,6 @@ class UserDataController extends Controller
     
         // Redirect to the Flutterwave payment link
         // return redirect("https://flutterwave.com/pay/{$paymentId}");
-        return redirect("/payment");
+        return redirect('/payment')->with('userData', $userData);
     }
 }

@@ -29,8 +29,8 @@
     <div class="bg-[#2D2D2B]">
         <nav class="hidden md:block top-0 left-0 right-0 bg-opacity-75 z-50">
             <div class="xl:container mx-auto md:pl-12 md:pr-6 lg:pl-12 lg:pr-6 xl:px-6 py-8 flex justify-between">
-                <a href="/" class="text-white font-semibold"><img src="/images/logo_main.png" class="w-24 h-auto"
-                        alt="Bloom Logo" /></a>
+                <a href="/" class="text-white font-semibold"><img src="/images/logo_main.png" class="w-32 h-auto"
+                        alt="Bloom Academy Africa Logo" /></a>
                 <div
                     class="flex text-[16px] lg:text-[18px] leading-[36px] items-center justify-center poppins-medium space-x-16">
                     <div class="relative" id="dropdownButton">
@@ -176,7 +176,7 @@
             <section class="container mx-auto px-7 py-8 flex justify-between">
                 <a href="/">
                     <div class="logo">
-                        <img src="/images/logo_main.png" class="w-6" alt="" />
+                        <img src="/images/logo_main.png" class="w-24" alt="" />
                     </div>
                 </a>
 
