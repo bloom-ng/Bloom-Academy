@@ -546,7 +546,7 @@
                 customizations: {
                     title: "Bloom Academy Africa",
                     description: "Bloom Academy Africa Course Payment",
-                    logo: "{{ asset('/images/logo_main.png') }}",
+                    logo: "{{ asset('/images/bloom-academy-logo-2.png') }}",
                 },
                 callback: function(data) {
                     console.log("payment callback:", data);
