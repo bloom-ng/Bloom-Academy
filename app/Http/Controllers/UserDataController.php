@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Notifications\UserDataNotification;
+use Illuminate\Support\Facades\Notification;
 use Illuminate\Http\Request;
 use App\Models\UserData;
 
@@ -28,7 +30,8 @@ class UserDataController extends Controller
 
         $userData->save();
         
-        // $paymentId = $validated['payment_id'];
+        Notification::route('mail', $userData->email)
+            ->notify(new UserDataNotification($userData));
     
         // Redirect to the Flutterwave payment link
         // return redirect("https://flutterwave.com/pay/{$paymentId}");
