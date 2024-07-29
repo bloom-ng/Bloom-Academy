@@ -165,7 +165,7 @@
                     </div>
                     <a href="/business" class="text-[#FF8100]">For Business</a>
                     <a href="#" class="text-white">Sign In</a>
-                    <a href="#"
+                    <a href="/submit"
                         class="text-white bg-[#C73029] py-1 px-10 rounded-full montserrat-bold">Register</a>
                     <!-- Add more links as needed -->
                 </div>
@@ -236,7 +236,7 @@
                 </div>
             </div>
             <div class="pt-24 z-20 block md:hidden">
-                <a href="#"
+                <a href="https://bloomdigitmedia.com/contact"
                     class="text-white text-base bg-[#C73029] py-3 px-7 rounded-full montserrat-extra-bold">Book a
                     Demo</a>
             </div>
@@ -261,7 +261,7 @@
                     <p class="text-base md:text-2xl mb-20 md:mb-48 poppins-regular mt-6">
                         Upskill and reskill government workers and citizens!
                     </p>
-                    <a href="#"
+                    <a href="https://bloomdigitmedia.com/contact"
                         class="text-white text-sm md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-bold md:montserrat-extra-bold">Learn
                         More</a>
                 </div>
@@ -285,7 +285,7 @@
                         organizational effectiveness through our training
                         programmes.
                     </p>
-                    <a href="#"
+                    <a href="https://bloomdigitmedia.com/contact"
                         class="text-white text-sm md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-bold md:montserrat-extra-bold">Learn
                         More</a>
                 </div>
@@ -333,10 +333,12 @@
                     Company
                 </li>
                 <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                    About
+                    <a target="_blank" href="https://bloomdigitmedia.com/#whoWeAre">About</a>
                 </li>
                 <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                    Bloom Digital Media Ltd
+                    <a target="_blank" href="https://bloomdigitmedia.com/#whoWeAre">
+                        Bloom Digital Media Ltd
+                    </a>
                 </li>
             </ul>
             <ul class="flex flex-col items-left list-none">

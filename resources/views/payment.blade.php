@@ -72,7 +72,7 @@
 
                                 <a class="pl-6" href="/business">For Business</a>
                                 <a class="pl-6" href="#">Sign In</a>
-                                <a class="pl-6 pb-2" href="#">Register</a>
+                                <a class="pl-6 pb-2" href="/submit">Register</a>
                             </div>
                         </div>
                     </div>
