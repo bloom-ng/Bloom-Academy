@@ -209,7 +209,7 @@
                     and expand their <br />capabilities.
                 </h1>
                 <div class="flex flex-row items-center justify-start">
-                    <a href="#"
+                    <a href="https://bloomdigitmedia.com/contact"
                         class="hidden md:block text-white text-base lg:text-xl bg-[#C73029] py-4 px-8 rounded-full montserrat-extra-bold">Book
                         a Demo</a>
                 </div>
