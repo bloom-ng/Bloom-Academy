@@ -84,8 +84,7 @@
 
                 <textarea type="text" name="how_did_you_hear"
                     class="bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-2xl mb-6 block w-full py-6 px-6"
-                    placeholder="How did you hear about us" rows="5" cols="3">
-                    </textarea>
+                    placeholder="How did you hear about us" rows="5" cols="3"></textarea>
 
                 {{-- <input type="hidden" name="payment_id" value="{{ request()->query('id') }}"> --}}
 
