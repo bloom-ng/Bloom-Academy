@@ -526,7 +526,7 @@
 
         function makePayment(amount, course) {
             FlutterwaveCheckout({
-                public_key: "{{ env('TEST_FLUTTERWAVE_PUBLIC_KEY') }}",
+                public_key: "{{ env('FLUTTERWAVE_PUBLIC_KEY') }}",
                 tx_ref: 'bloom_academy_ref' + Math.floor(Math.random() * 1000000000 + 1),
                 amount: amount,
                 currency: "NGN",
