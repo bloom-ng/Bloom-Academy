@@ -15,9 +15,10 @@ class UserDataNotification extends Notification
     /**
      * Create a new notification instance.
      */
-    public function __construct($user)
+    public function __construct($user, $isManager)
     {
         $this->user = $user;
+        $this->isManager = $isManager;
     }
 
     /**
@@ -35,7 +36,7 @@ class UserDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
-        return (new MailMessage)
+        $message = (new MailMessage)
                     ->subject('Registration confirmed for Bloom Academy Africa')
                     ->greeting('Dear ' . $this->user->name . ',')
                     ->line('Thank you for registering with Bloom Academy Africa!')
@@ -44,6 +45,21 @@ class UserDataNotification extends Notification
                     ->line('Adaeze from Bloom Academy Africa')
                     ->line('Socials: [Instagram](https://www.instagram.com/bloomacademyafrica) - [Twitter](https://twitter.com/bloomacademy_)- [TikTok](https://www.tiktok.com/@bloomacademyafrica) - [LinkedIn](https://www.linkedin.com/company/bloomacademyafrica)')
                     ->action('Bloom Academy Africa', url('/'));
+
+        $communityManagerMessage = (new MailMessage)
+                    ->subject('Registration confirmed for Bloom Academy Africa')
+                    ->greeting('Dear Manager,')
+                    ->line('New Registration for registering with Bloom Academy Africa!')
+                    ->line('Name: '. $this->user->name)
+                    ->line('Email: '. $this->user->email)
+                    ->line('Phone: '. $this->user->phone)
+                    ->line('Location: '. $this->user->phone)
+                    ->line('Regards,')
+                    ->line('Adaeze from Bloom Academy Africa')
+                    ->line('Socials: [Instagram](https://www.instagram.com/bloomacademyafrica) - [Twitter](https://twitter.com/bloomacademy_)- [TikTok](https://www.tiktok.com/@bloomacademyafrica) - [LinkedIn](https://www.linkedin.com/company/bloomacademyafrica)')
+                    ->action('Bloom Academy Africa', url('/'));
+        
+        return $this->isManager ? $communityManagerMessage : $message;
     }
 
 

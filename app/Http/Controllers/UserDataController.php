@@ -31,7 +31,10 @@ class UserDataController extends Controller
         $userData->save();
         
         Notification::route('mail', $userData->email)
-            ->notify(new UserDataNotification($userData));
+            ->notify(new UserDataNotification($userData, false));
+
+        Notification::route('mail', "communitymanager@bloomdigitmedia.com")
+            ->notify(new UserDataNotification($userData, true));
     
         // Redirect to the Flutterwave payment link
         // return redirect("https://flutterwave.com/pay/{$paymentId}");
