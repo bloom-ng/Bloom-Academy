@@ -201,16 +201,16 @@
         </nav>
         <!-- Floating Menu for mobile --> 
 
-        <div class="flex flex-col items-center justify-center px-8">
-            <div class="flex flex-col w-full relative mb-16">
+        <div class="flex flex-col items-center justify-center mx-5 lg:mx-8">
+            <div class="flex flex-col w-full relative mb-12 lg:mb-16">
                 <img src="/images/blackboy.jpg" alt="" class="rounded-3xl">
                 <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl"></div>
-                <div class="absolute bottom-60 lg:bottom-28 flex flex-col justify-start items-start mx-16">
-                    <h3 class="text-[#F0F0F0] font-bold poppins-bold text-[20px] mb-5">Featured</h3>
-                    <h1 class="text-[#F0F0F0] font-bold poppins-bold text-[30px] lg:text-[60px] leading-tight mb-5">This Should Be The Blog Title <br>It Could Be Two Lines</h1>
+                <div class="absolute bottom-5 lg:bottom-28 flex flex-col justify-start items-start mx-7 lg:mx-16">
+                    <h3 class="text-[#F0F0F0] font-semibold lg:poppins-semibold text-base lg:poppins-bold lg:text-[20px] lg:mb-5">Featured</h3>
+                    <h1 class="text-[#F0F0F0] font-bold lg:poppins-bold text-[20px] lg:text-[60px] leading-tight lg:mb-5">This Should Be The Blog Title <br>It Could Be Two Lines</h1>
                     <div class="flex flex-row w-full justify-between">
-                        <h3 class="text-[#F0F0F0] font-bold poppins-normal text:[10px] lg:text-[20px]">This should be the sub text, basically a description or whatever <br>they want it to be. Maybe the first few lines of the blog itself.</h3>
-                        <a href="/blogg"><svg width="70" height="70" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="justify-end  items-end">
+                        <h3 class="text-[#F0F0F0] poppins-normal text-[10px] lg:text-[20px] w-full ">This should be the sub text, basically a description or whatever <br>they want it to be. Maybe the first few lines of the blog itself.</h3>
+                        <a href="/blogg"><svg width="70" height="70" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="justify-end items-end lg:w-[70%] lg:h-[70%] w-[60%] h-[60%]">
                             <rect width="90" height="90" fill="url(#pattern0_2353_184)"/>
                             <defs>
                             <pattern id="pattern0_2353_184" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -225,7 +225,7 @@
             </div>
 
             <div class="flex flex-col">
-                <h1 class="text-[#F0F0F0] poppins-bold text-[20px] mb-8">Recent Blog Posts</h1>
+                <h1 class="text-[#F0F0F0] poppins-bold text-[16px] md:text-[18px] lg:text-[20px] mb-8">Recent Blog Posts</h1>
                 <div class="grid lg:grid-cols-3 md:grid-cols-2 mb-10 gap-10">
                     <div class="flex flex-col items-start">
                         <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">

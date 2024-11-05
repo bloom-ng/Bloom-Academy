@@ -201,37 +201,39 @@
         </nav>
         <!-- Floating Menu for mobile --> 
 
-        <div class="flex flex-col items-center justify-center px-8">
-            <h1 class="text-[#F0F0F0] text-center poppins-bold text-[60px] mb-5">This Should Be The Blog Title <br>It Could Be Two Lines</h1>
-            <h1 class="text-[#F0F0F0] text-center poppins-normal text-[15px] mb-16">Day, Month, Year</h1>
-            <div class="flex flex-col w-full mb-16">
+        <div class="flex flex-col items-center justify-center mx-5 lg:px-8">
+            <h1 class="text-[#F0F0F0] text-center poppins-bold text-[30px] lg:text-[50px] mb-5 lg:mt-0 mt-28">This Should Be The Blog Title <br>It Could Be Two Lines</h1>
+            <h1 class="text-[#F0F0F0] text-center poppins-normal text-[20px] lg:text-[15px] mb-8 lg:mb-16">Day, Month, Year</h1>
+            <div class="flex flex-col w-full mb-10 lg:mb-16">
                 <img src="/images/blackboy.jpg" alt="" class="rounded-3xl">
             </div>
 
-            <div class="flex flex-row w-full justify-between items-start space-x-16 mb-16">
-                <div class="flex flex-col w-1/5 text-[#F0F0F0]">
-                    <h3 class=" poppins-bold text-[16px] mb-10">Recent Blog Posts</h3>
-                    <h1 class="poppins-bold text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
-                    <h1 class="poppins-normal text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
-                    <h1 class="poppins-normal text-[10px] mb-7">25th August 2024</h1>
+            <div class="flex lg:flex-row flex-col w-full justify-between items-start  lg:space-x-16 mb-16">
+                <div class="flex flex-col lg:w-1/5 text-[#F0F0F0]">
+                    <h3 class=" poppins-bold text-base lg:text-[16px] mb-7 lg:mb-10">Recent Blog Posts</h3>
+                    <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
+                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
+                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">25th August 2024</h1>
                     
-                    <h1 class="poppins-bold text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
-                    <h1 class="poppins-normal text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
-                    <h1 class="poppins-normal text-[10px] mb-7">25th August 2024</h1>
-
-                    <h1 class="poppins-bold text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
-                    <h1 class="poppins-normal text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
-                    <h1 class="poppins-normal text-[10px] mb-7">25th August 2024</h1>
-
-                    <h1 class="poppins-bold text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
-                    <h1 class="poppins-normal text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
-                    <h1 class="poppins-normal text-[10px] mb-7">25th August 2024</h1>
+                    <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
+                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
+                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">25th August 2024</h1>
+                    
+                    <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
+                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
+                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">25th August 2024</h1>
+                    
+                    <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
+                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
+                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">25th August 2024</h1>
+                    
+                    
                 </div>
 
-                <div class="flex flex-col w-4/5 text-[#F0F0F0]">
-                    <h1 class="poppins-bold text-[30px] mb-7">Privacy Policy for Bloom Marketing Academy</h1>
+                <div class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10">
+                    <h1 class="poppins-bold text-[24px] lg:text-start text-center lg:text-[30px] mb-7">Privacy Policy for Bloom Marketing Academy</h1>
 
-                    <h1 class="poppins-bold text-[28px] mb-7">Introduction</h1>
+                    <h1 class="poppins-bold text-[20px] lg:text-[28px] mb-7">Introduction</h1>
 
                     <p class="poppins-normal text-[16px] mb-3">bloommarketingacademy.com is provided by Bloom Marketing Academy (“Bloom Academy”). 
                         At Bloom Academy, we value your privacy, and we are committed to safeguarding your personal information. 
@@ -250,7 +252,7 @@
                     
                     <p class="poppins-normal text-[16px] mb-10">Our website and services are not directed at you if we are prohibited by any law of any jurisdiction from making the information on our website available to you and is not intended for any use that would be contrary to local law or regulation.</p>
                     
-                    <h2 class="poppins-extrabold text-[24px] mb-7">Definitions</h2>
+                    <h2 class="poppins-extrabold lg:text-start text-center text-[24px] mb-7">Definitions</h2>
 
                     <h3 class="poppins-bold text-[20px] mb-1">“consent”</h3>
                     <p class="poppins-normal text-[16px] mb-5">means the consent of the data subject which must be a freely given, specific, informed, and unambiguous indication of the data subject’s wishes by which they (by a statement or by a clear affirmative action) signify their agreement to the processing of personal data relating to them;</p>
