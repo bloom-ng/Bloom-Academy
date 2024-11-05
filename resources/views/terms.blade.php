@@ -164,7 +164,7 @@
                         </div>
                     </div>
                     <a href="" class="text-white">For Business</a>
-                    <a href="#" class="text-white">Sign In</a>
+                    <a href="#" class="text-white"></a>
                     <a href="/submit"
                         class="text-white bg-[#C73029] py-1 px-10 rounded-full montserrat-bold">Register</a>
                     <!-- Add more links as needed -->
