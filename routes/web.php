@@ -27,6 +27,13 @@ Route::get('/terms-of-service', function () {
     return view('terms');
 });
 
+Route::get('/blog', function () {
+    return view('blog');
+});
+Route::get('/blogg', function () {
+    return view('blogg');
+});
+
 Route::get('/privacy', function () {
     return view('privacy');
 });
