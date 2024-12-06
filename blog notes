@@ -1,0 +1,5 @@
+copy migration over - database/migrations/.....blog
+models; post, topic, tag, view, visit.
+controllers; post, stats, topic, tag, view.
+routes: 
+
