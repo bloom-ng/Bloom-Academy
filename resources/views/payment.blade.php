@@ -71,6 +71,7 @@
                                 <a class="pl-6 pt-2" href="/marketing">Learn</a>
 
                                 <a class="pl-6" href="/business">For Business</a>
+                                <a href="/blog" class="text-white">Blog</a>
                                 <a class="pl-6" href="#"></a>
                                 <a class="pl-6 pb-2" href="/submit">Register</a>
                             </div>

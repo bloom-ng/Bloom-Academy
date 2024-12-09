@@ -260,6 +260,7 @@
                             </div>
                         </div>
                         <a href="/business" class="text-white">For Business</a>
+                        <a href="/blog" class="text-white">Blog</a>
                         <a href="#" class="text-white">Sign In</a>
                         <a href="/submit"
                             class="text-white bg-[#C73029] py-1 px-8 lg:px-10 rounded-full montserrat-bold">Register</a>
@@ -287,6 +288,7 @@
                                 <a class="pl-6 pt-2" href="/marketing">Learn</a>
 
                                 <a class="pl-6" href="/business">For Business</a>
+                                <a class="pl-6" href="/blog">Blog</a>
                                 <a class="pl-6" href="#">Sign In</a>
                                 <a class="pl-6 pb-2" href="#">Register</a>
                             </div>

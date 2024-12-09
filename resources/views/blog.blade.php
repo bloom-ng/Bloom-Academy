@@ -163,7 +163,7 @@
                             </ul>
                         </div>
                     </div>
-                    <a href="" class="text-white">For Business</a>
+                    <a href="/business" class="text-white">For Business</a>
                     <a href="/blog" class="text-[#FF8100]">Blog</a>
                     <a href="#" class="text-white">Sign In</a>
                     <a href="/submit"
