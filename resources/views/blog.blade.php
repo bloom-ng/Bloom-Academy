@@ -203,108 +203,51 @@
 
         <div class="flex flex-col items-center justify-center mx-5 lg:mx-8">
             <div class="flex flex-col w-full relative mb-12 lg:mb-16">
-                <img src="/images/blackboy.jpg" alt="" class="rounded-3xl">
-                <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl"></div>
-                <div class="absolute bottom-5 lg:bottom-28 flex flex-col justify-start items-start mx-7 lg:mx-16">
-                    <h3 class="text-[#F0F0F0] font-semibold lg:poppins-semibold text-base lg:poppins-bold lg:text-[20px] lg:mb-5">Featured</h3>
-                    <h1 class="text-[#F0F0F0] font-bold lg:poppins-bold text-[20px] lg:text-[60px] leading-tight lg:mb-5">This Should Be The Blog Title <br>It Could Be Two Lines</h1>
-                    <div class="flex flex-row w-full justify-between">
-                        <h3 class="text-[#F0F0F0] poppins-normal text-[10px] lg:text-[20px] w-full ">This should be the sub text, basically a description or whatever <br>they want it to be. Maybe the first few lines of the blog itself.</h3>
-                        <a href="/blogg"><svg width="70" height="70" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="justify-end items-end lg:w-[70%] lg:h-[70%] w-[60%] h-[60%]">
-                            <rect width="90" height="90" fill="url(#pattern0_2353_184)"/>
-                            <defs>
-                            <pattern id="pattern0_2353_184" patternContentUnits="objectBoundingBox" width="1" height="1">
-                            <use xlink:href="#image0_2353_184" transform="scale(0.0111111)"/>
-                            </pattern>
-                            <image id="image0_2353_184" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAACH0lEQVR4nO3cPY9NQRzH8UuxHppFsQqReCzpxAsQiYRXIEqlsK3tqLwFrZqEQqtgl5AgUVJReiqwWYXdrwxu9sbuvXse5pw598z38wbmP7/cTCZn/v87GEiSJEmSJEmSJElSzwDHgaOp6+gtYD+wyLol4EjqunoHuMdGX4HzqWvrFeAHm1sFbgDbU9fYC2ztETCXus4cgg4+AKdT1zrVKO4ncC11vTkEPXQH2J267qlDNa+Aw6lrzyHo4DNwLnX9U4N61oBbXgGbD3roIbC3yHrZIp73wKnU+8kh6GAFuJx6T51EM8IVcFfqveUQdPASONR08TuBeeAFsEy+PgJnmgr5IPAm9Q475BdwHdgW+5dsyJu7D8zGCjocFxrvLXAiRtDhTNZk4aHhYt2gv2+xiNbdBmaqBq1yliq93pRcRH8tGnR7jvmLbke5xp2Wiuobj44WPAudUlXOaK93LV3vnpdYKFfLwKVKAY8EfTX1LjruHXCyVsj/gt4BvE69m456AOypHfJI2AcMe8Nn0oWon0lHwp4BrgBPgW/k6xNwNnrA04hmn7LsZhpqKGQfZ/8XOWDbDcaJGLINNJNEbAnbN3Gh3FGPTY5F1Qj5i227JdRoRHcWsYwKITtaUUWJgB0WqqNgyI6/1VUgZAc6Gx5RDle3m86nRALcHTN0fyHWGhr8CXoOeDIS8mP/t6NBoYnFz5qSJEmSJEmSJEmSBh3yGzSYxDWhqSWVAAAAAElFTkSuQmCC"/>
-                            </defs>
-                        </svg></a>
+                @if($featured_post)
+                    <img src="{{ Storage::url($featured_post->featured_image) }}" alt="{{ $featured_post->title }}" class="rounded-3xl">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl"></div>
+                    <div class="absolute bottom-5 lg:bottom-28 flex flex-col justify-start items-start mx-7 lg:mx-16">
+                        <h3 class="text-[#F0F0F0] font-semibold lg:poppins-semibold text-base lg:poppins-bold lg:text-[20px] lg:mb-5">Featured</h3>
+                        <h1 class="text-[#F0F0F0] font-bold lg:poppins-bold text-[20px] lg:text-[60px] leading-tight lg:mb-5">{{ $featured_post->title }}</h1>
+                        <div class="flex flex-row w-full justify-between">
+                            <h3 class="text-[#F0F0F0] poppins-normal text-[10px] lg:text-[20px] w-full">{{ Str::limit($featured_post->summary, 200) }}</h3>
+                            <a href="{{ route('blog.preview', $featured_post->id) }}">
+                                <svg width="70" height="70" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="justify-end items-end lg:w-[70%] lg:h-[70%] w-[60%] h-[60%]">
+                                    <rect width="90" height="90" fill="url(#pattern0_2353_184)"/>
+                                    <defs>
+                                    <pattern id="pattern0_2353_184" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_2353_184" transform="scale(0.0111111)"/>
+                                    </pattern>
+                                    <image id="image0_2353_184" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAACH0lEQVR4nO3cPY9NQRzH8UuxHppFsQqReCzpxAsQiYRXIEqlsK3tqLwFrZqEQqtgl5AgUVJReiqwWYXdrwxu9sbuvXse5pw598z38wbmP7/cTCZn/v87GEiSJEmSJEmSJElSzwDHgaOp6+gtYD+wyLol4EjqunoHuMdGX4HzqWvrFeAHm1sFbgDbU9fYC2ztETCXus4cgg4+AKdT1zrVKO4ncC11vTkEPXQH2J267qlDNa+Aw6lrzyHo4DNwLnX9U4N61oBbXgGbD3roIbC3yHrZIp73wKnU+8kh6GAFuJx6T51EM8IVcFfqveUQdPASONR08TuBeeAFsEy+PgJnmgr5IPAm9Q475BdwHdgW+5dsyJu7D8zGCjocFxrvLXAiRtDhTNZk4aHhYt2gv2+xiNbdBmaqBq1yliq93pRcRH8tGnR7jvmLbke5xp2Wiuobj44WPAudUlXOaK93LV3vnpdYKFfLwKVKAY8EfTX1LjruHXCyVsj/gt4BvE69m456AOypHfJI2AcMe8Nn0oWon0lHwp4BrgBPgW/k6xNwNnrA04hmn7LsZhpqKGQfZ/8XOWDbDcaJGLINNJNEbAnbN3Gh3FGPTY5F1Qj5i227JdRoRHcWsYwKITtaUUWJgB0WqqNgyI6/1VUgZAc6Gx5RDle3m86nRALcHTN0fyHWGhr8CXoOeDIS8mP/t6NBoYnFz5qSJEmSJEmSJEmSBh3yGzSYxDWhqSWVAAAAAElFTkSuQmCC"/>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-
-                </div>
+                @endif
             </div>
 
             <div class="flex flex-col">
                 <h1 class="text-[#F0F0F0] poppins-bold text-[16px] md:text-[18px] lg:text-[20px] mb-8">Recent Blog Posts</h1>
                 <div class="grid lg:grid-cols-3 md:grid-cols-2 mb-10 gap-10">
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
-                    <div class="flex flex-col items-start">
-                        <img src="/images/Group 221.png" alt="" class="w-full h-full mb-3">
-                        <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">This Should Be The Blog Title It Could Be Two Lines</h1>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</p>
-                        <p class="text-[#F0F0F0] poppins-normal text-[11px]">25 August 2024</p>
-                    </div>
+                    @foreach($posts as $post)
+                        <div class="flex flex-col items-start">
+                            @if($post->featured_image)
+                                <img src="{{ Storage::url($post->featured_image) }}" alt="{{ $post->title }}" class="w-full h-full mb-3 rounded-lg">
+                            @endif
+                            <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">{{ $post->title }}</h1>
+                            <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">{{ Str::limit($post->summary, 120) }}</p>
+                            <p class="text-[#F0F0F0] poppins-normal text-[11px]">
+                                {{ $post->published_at ? \Carbon\Carbon::parse($post->published_at)->format('d F Y') : '' }}
+                            </p>
+                            <a href="{{ route('blog.preview', $post->id) }}" class="mt-4 text-[#FF8100] text-sm">Read More →</a>
+                        </div>
+                    @endforeach
+                </div>
+
+                <!-- Add pagination links -->
+                <div class="mt-8 flex justify-center">
+                    {{ $posts->links() }}
                 </div>
             </div>
         </div>

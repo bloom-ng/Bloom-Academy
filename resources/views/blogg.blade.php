@@ -202,78 +202,44 @@
         <!-- Floating Menu for mobile --> 
 
         <div class="flex flex-col items-center justify-center mx-5 lg:px-8">
-            <h1 class="text-[#F0F0F0] text-center poppins-bold text-[30px] lg:text-[50px] mb-5 lg:mt-0 mt-28">This Should Be The Blog Title <br>It Could Be Two Lines</h1>
-            <h1 class="text-[#F0F0F0] text-center poppins-normal text-[20px] lg:text-[15px] mb-8 lg:mb-16">Day, Month, Year</h1>
+            <h1 class="text-[#F0F0F0] text-center poppins-bold text-[30px] lg:text-[50px] mb-5 lg:mt-0 mt-28">{{ $post->title }}</h1>
+            <h1 class="text-[#F0F0F0] text-center poppins-normal text-[20px] lg:text-[15px] mb-8 lg:mb-16">{{ $formattedDate }}</h1>
             <div class="flex flex-col w-full mb-10 lg:mb-16">
-                <img src="/images/blackboy.jpg" alt="" class="rounded-3xl">
+                @if($post->featured_image)
+                    <img src="{{ Storage::url($post->featured_image) }}" alt="{{ $post->title }}" class="rounded-3xl h-auto w-full">
+                @endif
             </div>
 
-            <div class="flex lg:flex-row flex-col w-full justify-between items-start  lg:space-x-16 mb-16">
+            <div class="flex lg:flex-row flex-col w-full justify-between items-start lg:space-x-16 mb-16">
                 <div class="flex flex-col lg:w-1/5 text-[#F0F0F0]">
-                    <h3 class=" poppins-bold text-base lg:text-[16px] mb-7 lg:mb-10">Recent Blog Posts</h3>
-                    <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
-                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
-                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">25th August 2024</h1>
+                    <h3 class="poppins-bold text-base lg:text-[16px] mb-7 lg:mb-10">Recent Blog Posts</h3>
                     
-                    <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
-                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
-                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">25th August 2024</h1>
-                    
-                    <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
-                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
-                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">25th August 2024</h1>
-                    
-                    <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">This Should Be The Blog Title It Could Be Two Lines</h1>
-                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">This should be the sub text, basically a description or whatever they want it to be. Maybe the first few lines of the blog itself.</h1>
-                    <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">25th August 2024</h1>
-                    
-                    
+                    @foreach($recentPosts as $recentPost)
+                        <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">{{ $recentPost->title }}</h1>
+                        <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">{{ Str::limit($recentPost->summary, 120) }}</h1>
+                        <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">
+                            {{ $recentPost->published_at ? $recentPost->published_at->format('jS F Y') : '' }}
+                        </h1>
+                    @endforeach
                 </div>
 
                 <div class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10">
-                    <h1 class="poppins-bold text-[24px] lg:text-start text-center lg:text-[30px] mb-7">Privacy Policy for Bloom Marketing Academy</h1>
-
-                    <h1 class="poppins-bold text-[20px] lg:text-[28px] mb-7">Introduction</h1>
-
-                    <p class="poppins-normal text-[16px] mb-3">bloommarketingacademy.com is provided by Bloom Marketing Academy (“Bloom Academy”). 
-                        At Bloom Academy, we value your privacy, and we are committed to safeguarding your personal information. 
-                        All personal data that you provide us will be protected and kept confidential among our affiliates, representatives, and privies.
-                    </p>
-
-                    <p class="poppins-normal text-[16px] mb-3">Throughout the website, the terms “we”, “us” and “our” refer to Bloom Academy.</p>
-
-                    <p class="poppins-normal text-[16px] mb-3">This Privacy Policy explains how we collect, use, share and protect your personal data in connection with your relationship with us as 
-                        a learner or potential learner. It applies to all our learners, potential learners, applicants, partners and every other person we hold information about.
-                    </p>
-
-                    <p class="poppins-normal text-[16px] mb-3">This policy also sets out your rights and who you may contact for further information. You agree to this Privacy Policy by visiting our website and when you use our services.</p>
+                <div class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10">
+                {!! $post->body !!}</div>
+                    <!-- <div class="prose prose-invert max-w-none">
+                        {!! $post->body !!}
+                    </div> -->
                     
-                    <p class="poppins-normal text-[16px] mb-3">Your use of our services, and any dispute over privacy is subject to this Policy and our Terms of Service including its applicable limitation on damages and resolution of disputes. Our Terms of Service are incorporated by reference into this Policy.</p>
-                    
-                    <p class="poppins-normal text-[16px] mb-10">Our website and services are not directed at you if we are prohibited by any law of any jurisdiction from making the information on our website available to you and is not intended for any use that would be contrary to local law or regulation.</p>
-                    
-                    <h2 class="poppins-extrabold lg:text-start text-center text-[24px] mb-7">Definitions</h2>
-
-                    <h3 class="poppins-bold text-[20px] mb-1">“consent”</h3>
-                    <p class="poppins-normal text-[16px] mb-5">means the consent of the data subject which must be a freely given, specific, informed, and unambiguous indication of the data subject’s wishes by which they (by a statement or by a clear affirmative action) signify their agreement to the processing of personal data relating to them;</p>
-                    
-                    <h3 class="poppins-bold text-[20px] mb-1">“data controller”</h3>
-                    <p class="poppins-normal text-[16px] mb-5">means the natural or legal person or organisation which, alone or jointly with others, determines the purposes and means of the processing of personal data. For the purposes of this policy, Bloom Academy is the data controller of all personal data relating to data subjects;</p>
-                    
-                    <h3 class="poppins-bold text-[20px] mb-1">“data processor”</h3>
-                    <p class="poppins-normal text-[16px] mb-5">means the office of Bloom Academy responsible for ensuring that all processing of personal data is in compliance with the Data Protection Legislation;</p>
-                    
-                    <h3 class="poppins-bold text-[20px] mb-1">“Data Protection Legislation”</h3>
-                    <p class="poppins-normal text-[16px] mb-5">means all applicable data protection and privacy laws including, but not limited to the Nigerian Data Protection Act 2023, the Nigeria Data Protection Regulation 2019 (NDPR), the General Data Protection Regulation 2018 and the United Kingdom’s General Data Protection Regulation ((EU) 2016/679) (GDPR), the Data Protection Act 2018 and any successor legislation;</p>
-                    
-                    <h3 class="poppins-bold text-[20px] mb-1">"Data Protection Office”</h3>
-                    <p class="poppins-normal text-[16px] mb-5">means the office of Bloom Academy responsible for ensuring that all processing of personal data is in compliance with the Data Protection Legislation;</p>
-                    
-                    <h3 class="poppins-bold text-[20px] mb-1">"data subject”</h3>
-                    <p class="poppins-normal text-[16px] mb-5">means a living, identified, or identifiable individual about whom Bloom Academy holds personal data;</p>
-                    
-                    <h3 class="poppins-bold text-[20px] mb-1">“personal data”</h3>
-                    <p class="poppins-normal text-[16px] mb-5">means any information relating to a data subject who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, identification number, location data, an online identifier, or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that data subject;</p>
+                    @if($post->tags->isNotEmpty())
+                        <div class="mt-8">
+                            <h4 class="text-lg font-bold mb-2">Tags:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                @foreach($post->tags as $tag)
+                                    <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">{{ $tag->name }}</span>
+                                @endforeach
+                            </div>
+                        </div>
+                    @endif
                 </div>
             </div>
         </div>

@@ -13,6 +13,7 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 use Ramsey\Uuid\Uuid;
 use Illuminate\Support\Str;
+use Carbon\Carbon;
 
 use Illuminate\Http\Request;
 
@@ -218,5 +219,47 @@ class PostController extends Controller
     {
         $path = $request->file('file')->store('products', 'public');
         return response()->json(['location' => asset('storage/' . $path)]);
+    }
+
+    /**
+     * Preview the blog post
+     * 
+     * @param string $id
+     * @return \Illuminate\View\View
+     */
+    public function preview($id)
+    {
+        // Add published scope for public viewing
+        $post = Post::published()
+            ->with(['user', 'tags', 'topic'])
+            ->select(['id', 'title', 'body', 'featured_image', 'published_at', 'summary', 'slug'])
+            ->find($id);
+        
+        if (empty($post)) {
+            $post = Post::published()
+                ->with(['user', 'tags', 'topic'])
+                ->select(['id', 'title', 'body', 'featured_image', 'published_at', 'summary', 'slug'])
+                ->where('slug', $id)
+                ->firstOrFail();
+        }
+
+        // Get recent posts
+        $recentPosts = Post::published()
+            ->select(['id', 'title', 'summary', 'published_at'])
+            ->latest('published_at')
+            ->where('id', '!=', $post->id)
+            ->take(4)
+            ->get();
+
+        // Format the date
+        $formattedDate = $post->published_at 
+            ? Carbon::parse($post->published_at)->format('jS F Y')
+            : now()->format('jS F Y');
+
+        return view('blogg', [
+            'post' => $post,
+            'recentPosts' => $recentPosts,
+            'formattedDate' => $formattedDate
+        ]);
     }
 }

@@ -16,51 +16,22 @@ use App\Models\Post;
 
 //Routes for the blog
 Route::get('/blogs', function () {
-    $posts = App\Models\Post::published()->latest('published_at')->paginate(); // Order by published_at descending
-    $featured_posts = App\Models\Post::where('is_featured', 1)
+    $posts = Post::published()
         ->latest('published_at')
-        ->get();
+        ->paginate(12); // Show 12 posts per page
+    
+    $featured_post = Post::published()
+        ->where('is_featured', 1)
+        ->latest('published_at')
+        ->first();
 
-    return view(
-        'blogs',
-        [
-            'posts' => $posts,
-            'featured_posts' => $featured_posts->take(4)
-        ]
-    );
-});
-
-Route::get('/blog/{id}', function ($id) {
-    $post = App\Models\Post::with(['user'])->find($id);
-    if (empty($post)) {
-        $post = App\Models\Post::with(['user'])->where('slug', $id)->first();
-    }
-    $similarPosts = [];
-    if (!empty($post)) {
-        $words = explode(' ', $post->title);
-        $similarPosts = App\Models\Post::where(function ($query) use ($words) {
-            foreach ($words as $word) {
-                $query->orWhere('title', 'LIKE', "%{$word}%");
-            }
-        })->take(3)->get()
-            ->filter(function ($post, $key) use ($id) {
-                return $post->id != $id;
-            });
-    }
-
-    if (empty($post)) {
-        throw new NotFoundHttpException();
-    }
-
-    // increase view
-    View::create(['post_id' => $post->id]);
-
-    return view('blog-view', [
-        'post' => $post,
-        'similar_posts' => $similarPosts
+    return view('blog', [
+        'posts' => $posts,
+        'featured_post' => $featured_post
     ]);
-});
+})->name('blogs.index');
 
+Route::get('/blog/{id}', [PostController::class, 'preview'])->name('blog.preview');
 
 Auth::routes();
 
