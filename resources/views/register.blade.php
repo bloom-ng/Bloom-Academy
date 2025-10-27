@@ -84,7 +84,7 @@
                     </p>
                     <p class="text-[14px] leading-[50px] poppins-medium mt-6">
                         Already have an account?
-                        <span class="text-[#FF8100]"><a href="#">Sign In</a></span>
+                        <span class="text-[#FF8100]"><a href="https://app.bloomacademyafrica.com/student/login">Sign In</a></span>
                     </p>
                 </div>
             </div>

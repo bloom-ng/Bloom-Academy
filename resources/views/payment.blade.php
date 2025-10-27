@@ -73,7 +73,7 @@
                                 <a class="pl-6" href="/business">For Business</a>
                                 <a href="/blogs" class="text-white">Blog</a>
                                 <a class="pl-6" href="#"></a>
-                                <a class="pl-6 pb-2" href="/submit">Register</a>
+                                <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
                         </div>
                     </div>

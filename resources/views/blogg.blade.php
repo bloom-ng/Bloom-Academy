@@ -165,8 +165,8 @@
                     </div>
                     <a href="" class="text-white">For Business</a>
                     <a href="/blog" class="text-[#FF8100]">Blog</a>
-                    <a href="#" class="text-white">Sign In</a>
-                    <a href="/submit"
+                    <a href="https://app.bloomacademyafrica.com/student/login" class="text-white">Sign In</a>
+                    <a href="https://app.bloomacademyafrica.com/student/register"
                         class="text-white bg-[#C73029] py-1 px-10 rounded-full montserrat-bold">Register</a>
                     <!-- Add more links as needed -->
                 </div>
@@ -192,8 +192,8 @@
 
                             <a class="pl-6" href="/business">For Business</a>
                             <a class="pl-6" href="/blog">Blog</a>
-                            <a class="pl-6" href="#">Sign In</a>
-                            <a class="pl-6 pb-2" href="#">Register</a>
+                            <a class="pl-6" href="https://app.bloomacademyafrica.com/student/login">Sign In</a>
+                            <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                         </div>
                     </div>
                 </div>

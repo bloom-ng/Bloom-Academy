@@ -180,7 +180,7 @@
                         <a href="/business" class="text-white">For Business</a>
                         <a href="/blogs" class="text-white">Blog</a>
                         <a href="#" class="text-white"></a>
-                        <a href="/submit"
+                        <a href="https://app.bloomacademyafrica.com/student/register"
                             class="text-white bg-[#C73029] py-1 px-8 lg:px-10 rounded-full montserrat-bold">Register</a>
                         <!-- Add more links as needed -->
                     </div>
@@ -207,7 +207,7 @@
                                 <a class="pl-6" href="/business">For Business</a>
                                 <a href="/blogs" class="text-white">Blog</a>
                                 <a class="pl-6" href="#"></a>
-                                <a class="pl-6 pb-2" href="/submit">Register</a>
+                                <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
                         </div>
                     </div>
@@ -304,7 +304,7 @@
                             No Certificate Fee<br />
                             Pay One-Time Tuition Fee
                         </p>
-                        <a href="/submit"
+                        <a href="https://app.bloomacademyafrica.com/student/register"
                             class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold">Register</a>
                     </div>
                 </div>
@@ -345,7 +345,7 @@
                             Pay One-Time Tuition Fee
                             <br />
                         </p>
-                        <a href="/submit"
+                        <a href="https://app.bloomacademyafrica.com/student/register"
                             class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold">Register</a>
                     </div>
                 </div>
