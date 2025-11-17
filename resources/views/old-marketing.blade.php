@@ -29,14 +29,14 @@
 <body class="">
     <div class="relative h-screen">
         <!-- Hero Section -->
-        <div class="bg-center h-[850px] md:h-[650px] bg-center lg:h-[800px]"
+        <div class="relative bg-cover bg-center h-[850px] md:h-[650px] md:relative bg-cover bg-center lg:h-[800px]"
             style="
-                    background-image: url('/images/black-freelancer.png');
+                    background-image: url('/images/busy-handicapped-employee-answering-phone-office-1.png');
                 ">
-            <!-- <div
+            <div
                 class="hidden md:block absolute z-10 bg-gradient-to-r from-[#000000E5] from-10.81% via-[#000000BF] via-32.98% via-[#0000008C] via-60.71% to-[#00000026] to-85.73% inset-0 bg-opacity-0">
-            </div> -->
-            <!-- <div class="block md:hidden absolute z-10 inset-0 bg-black bg-opacity-80"></div> -->
+            </div>
+            <div class="block md:hidden absolute z-10 inset-0 bg-black bg-opacity-80"></div>
 
             <!-- Floating Menu -->
             <nav class="hidden md:block absolute top-0 left-0 right-0 bg-opacity-75 z-10">
@@ -178,7 +178,7 @@
                             </div>
                         </div>
                         <a href="/business" class="text-white">For Business</a>
-                        <!-- <a href="/blogs" class="text-white">Blog</a> -->
+                        <a href="/blogs" class="text-white">Blog</a>
                         <a href="#" class="text-white"></a>
                         <a href="https://app.bloomacademyafrica.com/student/register"
                             class="text-white bg-[#C73029] py-1 px-8 lg:px-10 rounded-full montserrat-bold">Register</a>
@@ -205,7 +205,7 @@
                                 class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
                                 <a class="pl-6 pt-2" href="/marketing">Learn</a>
                                 <a class="pl-6" href="/business">For Business</a>
-                                <!-- <a href="/blogs" class="text-white">Blog</a> -->
+                                <a href="/blogs" class="text-white">Blog</a>
                                 <a class="pl-6" href="#"></a>
                                 <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
@@ -221,20 +221,24 @@
                     <div class="text-center md:text-left pt-8 flex-1">
                         <h1
                             class="text-[24px] leading-[27px] sm:text-[38px] sm:leading-[45px] md:text-[34px] md:leading-[40px] lg:text-[40px] lg:leading-[45px] xl:text-[48px] xl:leading-[50px] pt-10 md:pt-2 lg:pt-10 pb-4 md:pb-1 poppins-bold text-[#E8E9EB] md:text-white">
-                            Running a business <br>requires financial and <br>managerial skills.
-                            <!-- <span class="text-[#FF8100]">
+                            Transform a Business <br />
+                            or Brand With
+                            <span class="text-[#FF8100]">
                                 Practical <br />
-                                Marketing Skills!</span> -->
+                                Marketing Skills!</span>
                         </h1>
                     </div>
 
                     <div
                         class="flex flex-col text-center items-center justify-center md:justify-start md:items-start w-6/7">
                         <h1
-                            class="hidden sm:block [14px] leading-[20px] text-left md:text-[14px] md:leading-[20px] lg:text-[16px] lg:leading-[25px] pt-2 lg:pt-6 text-white poppins-extralight">
-                            Learn how to model a business, raise funding, and scale <br />
-                            successful operations from expert business mentors and<br />
-                            global leaders on Bloom Academy.
+                            class="hidden sm:block [14px] leading-[20px] text-left md:text-[14px] md:leading-[20px] lg:text-[18px] lg:leading-[25px] pt-2 text-white poppins-light">
+                            Learn modern marketing strategies, understand
+                            how to<br />
+                            use digital channels to drive conversion ,
+                            develop expert<br />
+                            media buying skills, and get certified for
+                            learning.
                         </h1>
                         <h1
                             class="block sm:hidden px-10 text-[14px] leading-[20px] md:text-[20px] md:leading-[30px] pt-2 text-white poppins-light">
@@ -255,7 +259,7 @@
         </div>
 
         <!-- Second section -->
-        <div class="relative min-h-[1440px] sm:min-h-[1400px] md:h-[1295px] lg:h-[2185px] bg-[#FFE8D1]">
+        <div class="relative h-[2120px] sm:h-[1900px] md:h-[1295px] lg:h-[1685px] bg-[#FFE8D1]">
             <div class="flex justify-center z-20 items-center">
                 <div class="hidden md:block absolute flex justify-center z-20 items-center -mt-2">
                     <p
@@ -265,47 +269,46 @@
                 </div>
             </div>
             <div id="courses"
-                class="absolute -mt-60 md:mt-20 lg:mt-32 flex flex-row items-center w-full justify-center gap-12 md:gap-20 lg:gap-24 px-6 sm:px-[10%] md:px-10 xl:px-32">
+                class="absolute -mt-60 md:mt-20 lg:mt-32 grid md:grid-cols-2 gap-12 md:gap-20 lg:gap-24 px-6 sm:px-[10%] md:px-10 xl:px-32">
                 <div
-                    class="w-[500px] flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-auto min-h-[1160px] sm:min-h-[1100px] md:min-h-[1170px] lg:min-h-[1465px] md:surround md:shadow-custom">
+                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-auto min-h-[1160px] sm:min-h-[1100px] md:min-h-[1170px] lg:min-h-[1465px] md:surround md:shadow-custom">
                     <div class="flex justify-center">
                         <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
                             style="
-                                    background-image: url('/images/financial-advisor.png');
+                                    background-image: url('/images/social-media-marketing-concept-marketing-with-applications.png');
                                 ">
                         </div>
                     </div>
                     <div class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16">
                         <h1
                             class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[40px] lg:leading-[40px] poppins-bold">
-                            Funding Prep & Pitch Deck Development
+                            Bloom Digital <br />Marketing <br />Certificate
                         </h1>
                         <p
                             class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-2xl mb-10 lg:mb-14 poppins-regular mt-6">
-                            A high-demand fundraising preparation crash course for startup 
-                            entrepreneurs who are preparing to raise funding to launch their 
-                            business.  Tutors for the course are business mentors with existing 
-                            Accelerators such as TEF, Antler, and CASCADOR, and they are well-exposed 
-                            to the winning pitch deck requirements from Techstars, Y Combinator,cMEST, 
-                            and the venture capital echo system.
+                            A high-demand course for marketing and sales
+                            professionals looking to succeed in fintechs,
+                            banks, telecoms, FMCGs, e-commerce, SaaS, and
+                            other B2C or direct-to-customer businesses.
                         </p>
                         <p
                             class="text-base leading-[43px] lg:text-2xl lg:leading-[50px] pl-4 lg:pl-8 border-l-8 border-[#FF8100] mb-16 poppins-regular mt-6">
                             Instructor-Led<br />
-                            How to write VC-required, grant funding, and accelerator-required pitch decks<br />
-                            Writing a business plan with financials easily<br />
-                            Past questions and answer styles for top VCs and accelerators 2 Days<br />
+                            Self-Paced<br />
+                            8 Weeks<br />
                             Online<br />
-                            1x Post-training in-person support for your application for funding<br />
+                            Milestone Projects<br />
+                            Weekends or Weekdays<br />
                             Certificate<br />
-                            No application fee<br />
-                            Pay one-time tuition fee<br />
+                            No Application Fee<br />
+                            No Certificate Fee<br />
+                            Pay One-Time Tuition Fee
                         </p>
                         <a href="https://app.bloomacademyafrica.com/student/register"
                             class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold">Register</a>
                     </div>
                 </div>
-                <!-- <div
+                <div
                     class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-auto min-h-[1100px] sm:min-h-[940px] md:min-h-[1040px] lg:min-h-[1305px] md:surround md:shadow-custom">
                     <div class="flex justify-center">
                         <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
@@ -345,7 +348,7 @@
                         <a href="https://app.bloomacademyafrica.com/student/register"
                             class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold">Register</a>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
         <!-- Second section -->

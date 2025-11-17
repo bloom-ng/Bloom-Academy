@@ -260,7 +260,7 @@
                             </div>
                         </div>
                         <a href="/business" class="text-white">For Business</a>
-                        <a href="/blogs" class="text-white">Blog</a>
+                        <!-- <a href="/blogs" class="text-white">Blog</a> -->
                         <a href="https://app.bloomacademyafrica.com/student/login" class="text-white">Sign In</a>
                         <a href="https://app.bloomacademyafrica.com/student/register"
                             class="text-white bg-[#C73029] py-1 px-8 lg:px-10 rounded-full montserrat-bold">Register</a>
@@ -288,7 +288,7 @@
                                 <a class="pl-6 pt-2" href="/marketing">Learn</a>
 
                                 <a class="pl-6" href="/business">For Business</a>
-                                <a class="pl-6" href="/blogs">Blog</a>
+                                <!-- <a class="pl-6" href="/blogs">Blog</a> -->
                                 <a class="pl-6" href="https://app.bloomacademyafrica.com/">Sign In</a>
                                 <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
@@ -382,6 +382,11 @@
                 <li class="montserrat-bold mb-4 text-sm md:text-xs">
                     Company
                 </li>
+                <a href="/blogs">
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                        Blog
+                    </li>
+                </a>
                 <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                     <a target="_blank" href="https://bloomdigitmedia.com/#whoWeAre">About</a>
                 </li>

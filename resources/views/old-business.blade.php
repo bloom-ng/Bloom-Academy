@@ -7,7 +7,7 @@
     <!-- Include Tailwind CSS -->
     @vite('resources/css/app.css')
 
-    <title>Bloom Academy Africa | Blog</title>
+    <title>Bloom Academy Africa</title>
     <link rel="shortcut icon" href="/images/bloom-academy-logo-2.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
@@ -26,7 +26,7 @@
 </head>
 
 <body class="">
-    <div class="bg-[#2D2D2B]">
+    <div class="h-[850px] sm:h-[1000px] md:h-[650px] lg:h-[710px] xl:h-[795px] bg-[#2D2D2B]">
         <nav class="hidden md:block top-0 left-0 right-0 bg-opacity-75 z-50">
             <div class="xl:container mx-auto md:pl-12 md:pr-6 lg:pl-12 lg:pr-6 xl:px-6 py-8 flex justify-between">
                 <a href="/" class="text-white font-semibold"><img src="/images/logo_main.png" class="w-32 h-auto"
@@ -163,9 +163,9 @@
                             </ul>
                         </div>
                     </div>
-                    <a href="" class="text-white">For Business</a>
-                    <!-- <a href="/blog" class="text-[#FF8100]">Blog</a> -->
-                    <a href="https://app.bloomacademyafrica.com/student/login" class="text-white">Sign In</a>
+                    <a href="/business" class="text-[#FF8100]">For Business</a>
+                    <a href="/blogs" class="text-white">Blog</a>
+                    <a href="#" class="text-white"></a>
                     <a href="https://app.bloomacademyafrica.com/student/register"
                         class="text-white bg-[#C73029] py-1 px-10 rounded-full montserrat-bold">Register</a>
                     <!-- Add more links as needed -->
@@ -191,62 +191,110 @@
                             <a class="pl-6 pt-2" href="/marketing">Learn</a>
 
                             <a class="pl-6" href="/business">For Business</a>
-                            <!-- <a class="pl-6" href="/blog">Blog</a> -->
-                            <a class="pl-6" href="https://app.bloomacademyafrica.com/student/login">Sign In</a>
+                            <a class="pl-6" href="/blogs">Blog</a>
+                            <a class="pl-6" href="#"></a>
                             <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                         </div>
                     </div>
                 </div>
             </section>
         </nav>
-        <!-- Floating Menu for mobile --> 
-
-        <div class="flex flex-col items-center justify-center mx-5 lg:px-8">
-            <h1 class="text-[#F0F0F0] text-center poppins-bold text-[30px] lg:text-[50px] mb-5 lg:mt-0 mt-28">{{ $post->title }}</h1>
-            <h1 class="text-[#F0F0F0] text-center poppins-normal text-[20px] lg:text-[15px] mb-8 lg:mb-16">{{ $formattedDate }}</h1>
-            <div class="flex flex-col w-full mb-10 lg:mb-16">
-                @if($post->featured_image)
-                    <img src="{{ Storage::url($post->featured_image) }}" alt="{{ $post->title }}" class="rounded-3xl h-auto w-full">
-                @endif
-            </div>
-
-            <div class="flex lg:flex-row flex-col w-full justify-between items-start lg:space-x-16 mb-16">
-                <div class="flex flex-col lg:w-1/5 text-[#F0F0F0]">
-                    <h3 class="poppins-bold text-base lg:text-[16px] mb-7 lg:mb-10">Recent Blog Posts</h3>
-                    
-                    @foreach($recentPosts as $recentPost)
-                        <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">{{ $recentPost->title }}</h1>
-                        <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">{{ Str::limit($recentPost->summary, 120) }}</h1>
-                        <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">
-                            {{ $recentPost->published_at ? $recentPost->published_at->format('jS F Y') : '' }}
-                        </h1>
-                    @endforeach
+        <!-- Floating Menu for mobile -->
+        <div
+            class="flex flex-col px-7 md:px-14 pt-10 items-center md:items-start gap-6 md:gap-14 lg:gap-20 md:flex-row">
+            <div class="text-center md:text-left pt-8 flex-1">
+                <h1
+                    class="text-[22px] leading-[27px] sm:text-[38px] sm:leading-[45px] md:text-[34px] md:leading-[40px] lg:text-[40px] lg:leading-[45px] xl:text-[48px] xl:leading-[50px] pt-10 md:pt-2 lg:pt-10 pb-4 md:pb-16 poppins-bold text-[#E8E9EB] md:text-white">
+                    Bloom Academy helps <br />
+                    organizations
+                    <span class="text-[#FF8100]"> upskill <br />staff</span>
+                    and expand their <br />capabilities.
+                </h1>
+                <div class="flex flex-row items-center justify-start">
+                    <a href="https://bloomdigitmedia.com/contact"
+                        class="hidden md:block text-white text-base lg:text-xl bg-[#C73029] py-4 px-8 rounded-full montserrat-extra-bold">Book
+                        a Demo</a>
                 </div>
-
-                <div class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10">
-                <div class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10">
-                {!! $post->body !!}</div>
-                    <!-- <div class="prose prose-invert max-w-none">
-                        {!! $post->body !!}
+            </div>
+            <div class="relative pr rounded-tr-[30px] flex justify-end items-end rounded-bl-[30px] md:rounded-bl-[43px] md:rounded-tr-[43px] bg-cover bg-center py-[10%] w-[241.428px] h-[172.4px] sm:w-[345px] sm:h-[241.2px] lg:w-[420px] lg:h-[300.6px] xl:w-[575px] xl:h-[402px] xl:flex-none"
+                style="background-image: url('/images/mask-group-2.png')">
+                <!-- <div class="z-0 md:flex-none">
+                        <img
+                            class="w-[330px] h-[258px]"
+                            src="/images/mask-group.png"
+                            alt="Mask Group"
+                        />
                     </div> -->
-                    
-                    @if($post->tags->isNotEmpty())
-                        <div class="mt-8">
-                            <h4 class="text-lg font-bold mb-2">Tags:</h4>
-                            <div class="flex flex-wrap gap-2">
-                                @foreach($post->tags as $tag)
-                                    <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">{{ $tag->name }}</span>
-                                @endforeach
-                            </div>
-                        </div>
-                    @endif
+                <div
+                    class="absolute -mb-20 -mr-4 md:-mb-36 md:-mr-8 lg:-mb-44 lg:-mr-8 xl:-mb-52 xl:-mr-8 z-10 w-[195px] md:w-[270px] lg:w-[360px] xl:w-[477px]">
+                    <p
+                        class="bg-[#FFE8D1] text-center py-4 px-4 md:py-8 md:px-[37px] rounded-tl-[30px] rounded-tr-[30px] rounded-bl-[30px] md:rounded-tl-[40px] rounded-tr-[40px] rounded-bl-[40px] text-[10px] leading-[13px] lg:text-[14px] lg:leading-[19px] xl:text-[18px] xl:leading-[25px] poppins-regular">
+                        Our Marketing Academy teaches your team
+                        <b>practical techniques and tools</b> to achieve
+                        Awareness, Consideration, and Conversion at scale ,
+                        while building new positioning strategies for a
+                        competitive industry.
+                    </p>
+                </div>
+            </div>
+            <div class="pt-24 z-20 block md:hidden">
+                <a href="https://bloomdigitmedia.com/contact"
+                    class="text-white text-base bg-[#C73029] py-3 px-7 rounded-full montserrat-extra-bold">Book a
+                    Demo</a>
+            </div>
+        </div>
+    </div>
+    <div class="relative h-[970px] sm:h-[1000px] md:h-[890px] bg-[#FFE8D1]">
+        <div class="absolute -mt-44 md:-mt-16 grid md:grid-cols-2 gap-12 md:gap-24 px-6 md:px-10 xl:px-32">
+            <div
+                class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[500px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:surround md:shadow-custom">
+                <div class="flex justify-center">
+                    <div class="bg-contain bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
+                        style="
+                                background-image: url('/images/coat-of-arms.png');
+                            ">
+                    </div>
+                </div>
+                <div class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16">
+                    <h1
+                        class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:text-[40px] md:leading-[40px] poppins-bold">
+                        Bloom Academy <br />For Government
+                    </h1>
+                    <p class="text-base md:text-2xl mb-20 md:mb-48 poppins-regular mt-6">
+                        Upskill and reskill government workers and citizens!
+                    </p>
+                    <a href="https://bloomdigitmedia.com/contact"
+                        class="text-white text-sm md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-bold md:montserrat-extra-bold">Learn
+                        More</a>
+                </div>
+            </div>
+            <div
+                class="flex flex-col py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-[540px] sm:h-[520px] md:h-[900px] lg:h-[860px] md:surround md:shadow-custom">
+                <div class="flex justify-center">
+                    <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[250px] lg:w-[400px] lg:h-[250px]"
+                        style="
+                                background-image: url('/images/african-business-male-people-shaking-hands.png');
+                            ">
+                    </div>
+                </div>
+                <div class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16">
+                    <h1
+                        class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:text-[40px] md:leading-[40px] poppins-bold">
+                        Bloom Academy <br />For Business
+                    </h1>
+                    <p class="text-base md:text-2xl mb-20 md:mb-44 lg:mb-32 poppins-regular mt-6">
+                        Get your team to have super individuals and
+                        organizational effectiveness through our training
+                        programmes.
+                    </p>
+                    <a href="https://bloomdigitmedia.com/contact"
+                        class="text-white text-sm md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-bold md:montserrat-extra-bold">Learn
+                        More</a>
                 </div>
             </div>
         </div>
     </div>
 
-    
-    
     <!-- Footer Mobile -->
     <footer class="block md:hidden">
         <div class="bg-[#151515] flex flex-col justify-center items-center">
@@ -291,13 +339,13 @@
                         Blog
                     </li>
                 </a>
-                <a href="https://bloomdigitmedia.com/#whoWeAre">
-                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                        About
-                    </li>
-                </a>
                 <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                    Bloom Digital Media Ltd
+                    <a target="_blank" href="https://bloomdigitmedia.com/#whoWeAre">About</a>
+                </li>
+                <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                    <a target="_blank" href="https://bloomdigitmedia.com/#whoWeAre">
+                        Bloom Digital Media Ltd
+                    </a>
                 </li>
             </ul>
             <ul class="flex flex-col items-left list-none">
@@ -344,5 +392,94 @@
             </div>
         </div>
     </footer>
+
+    <!-- scripts -->
+    <script>
+        function toggleDropdown() {
+            let dropdown = document.querySelector(
+                "#dropdownButton #dropdown"
+            );
+            dropdown.classList.toggle("hidden");
+        }
+
+        function toggleDropdown1() {
+            let dropdown1 = document.querySelector(
+                "#dropdownButton1 #dropdown1"
+            );
+            dropdown1.classList.toggle("hidden");
+        }
+
+        function toggleDropdown2() {
+            let dropdown2 = document.querySelector(
+                "#dropdownButton2 #dropdown2"
+            );
+            dropdown2.classList.toggle("hidden");
+        }
+
+        function toggleDropdown3() {
+            let dropdown3 = document.querySelector(
+                "#dropdownButton3 #dropdown3"
+            );
+            dropdown3.classList.toggle("hidden");
+        }
+
+        function toggleDropdown4() {
+            let dropdown4 = document.querySelector(
+                "#dropdownButton4 #dropdown4"
+            );
+            dropdown4.classList.toggle("hidden");
+        }
+
+        // Add event listener to hide dropdown when clicking outside
+        document.addEventListener("click", function(event) {
+            // Check if the click event target is not inside the dropdown
+            if (
+                !event.target.closest("#dropdown") &&
+                !event.target.closest("#dropdownButton")
+            ) {
+                let dropdown = document.querySelector(
+                    "#dropdownButton #dropdown"
+                );
+                dropdown.classList.add("hidden");
+            }
+            if (
+                !event.target.closest("#dropdown1") &&
+                !event.target.closest("#dropdownButton1")
+            ) {
+                let dropdown1 = document.querySelector(
+                    "#dropdownButton1 #dropdown1"
+                );
+                dropdown1.classList.add("hidden");
+            }
+            if (
+                !event.target.closest("#dropdown2") &&
+                !event.target.closest("#dropdownButton2")
+            ) {
+                let dropdown2 = document.querySelector(
+                    "#dropdownButton2 #dropdown2"
+                );
+                dropdown2.classList.add("hidden");
+            }
+            if (
+                !event.target.closest("#dropdown3") &&
+                !event.target.closest("#dropdownButton3")
+            ) {
+                let dropdown3 = document.querySelector(
+                    "#dropdownButton3 #dropdown3"
+                );
+                dropdown3.classList.add("hidden");
+            }
+            if (
+                !event.target.closest("#dropdown4") &&
+                !event.target.closest("#dropdownButton4")
+            ) {
+                let dropdown4 = document.querySelector(
+                    "#dropdownButton4 #dropdown4"
+                );
+                dropdown4.classList.add("hidden");
+            }
+        });
+    </script>
 </body>
+
 </html>

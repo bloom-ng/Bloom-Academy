@@ -96,6 +96,11 @@
         <div class="flex-col flex text-white lg:flex-row gap-20 items-center justify-between">
             <ul class="flex flex-col items-left list-none">
                 <li class="montserrat-bold mb-4 text-sm">Company</li>
+                <a href="/blogs">
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                        Blog
+                    </li>
+                </a>
                 <a href="https://bloomdigitmedia.com/#whoWeAre">
                     <li class="montserrat-extra-light mb-2 text-sm">
                         About

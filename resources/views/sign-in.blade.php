@@ -122,6 +122,11 @@
                 <li class="montserrat-bold mb-4 text-sm md:text-xs">
                     Company
                 </li>
+                <a href="/blogs">
+                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                        Blog
+                    </li>
+                </a>
                 <a href="https://bloomdigitmedia.com/#whoWeAre">
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         About

@@ -31,9 +31,9 @@
         <!-- Left preview -->
         <section class="bg-[#FFEEE7] flex items-center justify-center p-6 lg:p-10">
             <div class="max-w-md w-full overflow-hidden border border-[#2D2D2B]">
-                <img src="/images/lhs-marketing.png" class="w-full max-h-[40vh] sm:max-h-[65vh] object-cover object-top" alt="Finance KPIs preview">
+                <img src="/images/lhs.png" class="w-full max-h-[40vh] sm:max-h-[65vh] object-cover object-top" alt="Finance KPIs preview">
                 <div class="bg-[#1F1F1F] text-white px-8 py-6 space-y-4">
-                    <h3 class="text-2xl  leading-7">THE TOP 45 MARKETING METRICS</h3>
+                    <h3 class="text-2xl uppercase leading-7">The Top 45 Finance KPIs</h3>
                     <p class="text-sm font-extralight text-gray-200 leading-1">
                         Save yourself hours of work with this Top 45 Finance KPIs Cheat Sheet.
                     </p>
@@ -49,16 +49,13 @@
                     Top 45
                 </h1>
                 <h1 class="text-3xl md:text-6xl uppercase font-bold text-[#2B2B2B] leading-[20px] md:leading-[45px]">
-                    MARKETING
-                </h1>
-                <h1 class="text-3xl md:text-6xl uppercase font-bold text-[#2B2B2B] leading-[20px] md:leading-[45px]">
-                    METRICS
+                    Finance KPIs
                 </h1>
                 <p class="text-base font-extralight pt-2 leading-[12px]">
                     Download the high-resolution PDF! 
                 </p>
                 <p class="text-base font-extralight leading-[12px]">
-                    It includes explanations & formulas for each METRIC
+                    It includes explanations & formulas for each KPI
                 </p>
             </div>
 
