@@ -62,14 +62,15 @@
                 </p>
             </div>
 
-            <form class="space-y-4">
+            <form method="POST" action="{{ route('marketing.download') }}" class="space-y-4">
+                @csrf
                 <p class="text-lg font-light">Please enter your details</p>
-                <input type="text" placeholder="first name"
+                <input type="text" name="first_name" placeholder="first name" required
                     class="w-full rounded-lg border border-[#2D2D2B]/30 px-5 py-4 text-gray-700" />
-                <input type="email" placeholder="email address"
+                <input type="email" name="email" placeholder="email address" required
                     class="w-full rounded-lg border border-[#2D2D2B]/30 px-5 py-4 text-gray-700" />
                 <div class="pt-4">
-                    <button type="button"
+                    <button type="submit"
                         class="w-full rounded-full bg-[#C73029] text-[#FFFFFF] text-lg font-semibold py-4">
                         Download the Pdf
                     </button>

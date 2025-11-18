@@ -106,6 +106,11 @@
                 <i class="fas fa-file mr-3"></i>
                 Posts
             </a>
+            <a href="/admin/leads"
+                class="flex items-center {{ $page == 'leads' ? 'active-nav-link' : '' }} text-white py-4 pl-6 nav-item">
+                <i class="fas fa-address-book mr-3"></i>
+                Leads
+            </a>
             {{-- <a href="/admin/downloads"
                 class="flex items-center {{ $page == 'downloads' ? 'active-nav-link' : '' }} text-white py-4 pl-6 nav-item">
                 <i class="fas fa-download mr-3"></i>
@@ -247,6 +252,11 @@
                     class="flex items-center {{ $page == 'blogs' ? 'active-nav-link' : '' }} text-white py-2 pl-4 nav-item">
                     <i class="fas fa-file mr-3"></i>
                     Posts
+                </a>
+                <a href="/admin/leads"
+                    class="flex items-center {{ $page == 'leads' ? 'active-nav-link' : '' }} text-white py-2 pl-4 nav-item">
+                    <i class="fas fa-address-book mr-3"></i>
+                    Leads
                 </a>
                 <a href="/admin/downloads"
                     class="flex items-center {{ $page == 'downloads' ? 'active-nav-link' : '' }} text-white py-2 pl-4 nav-item">

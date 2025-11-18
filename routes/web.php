@@ -10,6 +10,8 @@ use App\Http\Controllers\StatsController;
 use App\Http\Controllers\TopicController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\ViewController;
+use App\Http\Controllers\LeadController;
+use App\Http\Controllers\Admin\LeadController as AdminLeadController;
 use App\Models\Post;
 
 
@@ -42,6 +44,8 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
 
 
     Route::get('dashboard', [DashboardController::class, 'show']);
+    Route::get('/leads', [AdminLeadController::class, 'index'])->name('admin.leads.index');
+    Route::get('/leads/export', [AdminLeadController::class, 'downloadCsv'])->name('admin.leads.export');
 
     // Blog routes
     Route::get('/blogs', [PostController::class, 'index']);
@@ -77,6 +81,10 @@ Route::get('/business', function () {
 Route::get('/marketing', function () {
     return view('marketing');
 });
+
+// Lead form submission routes
+Route::post('/finance/download', [LeadController::class, 'downloadFinance'])->name('finance.download');
+Route::post('/marketing/download', [LeadController::class, 'downloadMarketing'])->name('marketing.download');
 
 
 
