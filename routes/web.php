@@ -63,7 +63,7 @@ Route::get('/admin/login', function () {
     return view('auth.login');
 });
 
-Route::post('/upload-images', [PostCOntroller::class, 'upload'])->name('upload-img')->middleware('auth');
+Route::post('/upload-images', [PostController::class, 'upload'])->name('upload-img')->middleware('auth');
 
 
 Route::get('/', function () {

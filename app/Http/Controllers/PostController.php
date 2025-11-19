@@ -217,7 +217,7 @@ class PostController extends Controller
 
     public function upload(Request $request)
     {
-        $path = $request->file('file')->store('products', 'public');
+        $path = $request->file('file')->store('posts', 'public');
         return response()->json(['location' => asset('storage/' . $path)]);
     }
 
