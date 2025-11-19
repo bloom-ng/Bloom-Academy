@@ -57,9 +57,9 @@
                                     class="bg-white px-8 w-60 mb-14 poppins-regular py-5 text-base text-black rounded-[35px]">
                                     <div class="relative">
                                         <div class="flex">
-                                            <a href="/marketing">
+                                            <a href="/business">
                                                 <li class="py-2 flex">
-                                                    Marketing
+                                                    Business
                                                     <img class="pl-20" src="/images/Forward.svg" alt="" />
                                                 </li>
                                             </a>
@@ -177,7 +177,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <a href="/business" class="text-white">For Business</a>
+                        <!-- <a href="/business" class="text-white">For Business</a> -->
                         <!-- <a href="/blogs" class="text-white">Blog</a> -->
                         <a href="#" class="text-white"></a>
                         <a href="https://app.bloomacademyafrica.com/student/register"
@@ -201,12 +201,16 @@
                         </div>
                         <div id="dropdown2"
                             class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20">
-                            <div
-                                class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
-                                <a class="pl-6 pt-2" href="/marketing">Learn</a>
-                                <a class="pl-6" href="/business">For Business</a>
-                                <!-- <a href="/blogs" class="text-white">Blog</a> -->
-                                <a class="pl-6" href="#"></a>
+                            <div class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
+                                <button type="button" onclick="toggleMobileLearnMenu()" class="flex items-center justify-between pl-6 pr-6 pt-2">
+                                    <span>Learn</span>
+                                    <img id="mobile-learn-arrow" src="/images/collapse-arrow.svg" alt="Collapse Arrow" class="w-3 h-3 transition-transform duration-200" />
+                                </button>
+                                <div id="mobile-learn-menu" class="hidden flex-col gap-2 pl-10 pb-2">
+                                    <a class="" href="/business">Business</a>
+                                </div>
+                               <!-- <a href="/blogs" class="text-white">Blog</a> -->
+                                <a class="pl-6" href="https://app.bloomacademyafrica.com/student/login">Sign In</a>
                                 <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
                         </div>
@@ -452,6 +456,24 @@
 
     <!-- scripts -->
     <script>
+        function toggleMobileLearnMenu() {
+            const menu = document.getElementById('mobile-learn-menu');
+            const arrow = document.getElementById('mobile-learn-arrow');
+
+            if (!menu || !arrow) return;
+
+            const isHidden = menu.classList.contains('hidden');
+
+            if (isHidden) {
+                menu.classList.remove('hidden');
+                arrow.classList.add('rotate-180');
+            } else {
+                menu.classList.add('hidden');
+                arrow.classList.remove('rotate-180');
+            }
+        }
+
+
         function toggleDropdown() {
             let dropdown = document.querySelector(
                 "#dropdownButton #dropdown"
