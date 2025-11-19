@@ -80,7 +80,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
+                        <div class="sm:shrink-0 flex flex-col sm:flex sm:flex-col sm:items-end">
                             <p class="text-sm leading-6 text-gray-900">{{ $post->user->name }}</p>
                             <p class="mt-1 text-xs leading-5 text-gray-500">
                                 {{ \Carbon\Carbon::parse($post->published_at)->format('M d, Y') }} - <time
