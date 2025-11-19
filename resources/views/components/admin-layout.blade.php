@@ -243,11 +243,11 @@
                     <i class="fas fa-tachometer-alt mr-3"></i>
                     Dashboard
                 </a>
-                <a href="/admin/newsletters"
+                <!-- <a href="/admin/newsletters"
                     class="flex items-center {{ $page == 'newsletter' ? 'active-nav-link' : '' }} text-white py-2 pl-4 nav-item">
                     <i class="fas fa-newspaper mr-3"></i>
                     Newsletter Subscribers
-                </a>
+                </a> -->
                 <a href="/admin/blogs"
                     class="flex items-center {{ $page == 'blogs' ? 'active-nav-link' : '' }} text-white py-2 pl-4 nav-item">
                     <i class="fas fa-file mr-3"></i>
@@ -258,7 +258,7 @@
                     <i class="fas fa-address-book mr-3"></i>
                     Leads
                 </a>
-                <a href="/admin/downloads"
+                <!-- <a href="/admin/downloads"
                     class="flex items-center {{ $page == 'downloads' ? 'active-nav-link' : '' }} text-white py-2 pl-4 nav-item">
                     <i class="fas fa-download mr-3"></i>
                     Documents
@@ -302,7 +302,7 @@
                     class="flex items-center {{ $page == 'cms-ai' ? 'active-nav-link' : '' }} text-white py-2 pl-4 nav-item">
                     <i class="fas fa-info mr-3"></i>
                     Chatbot Additional Knowledge
-                </a>
+                </a> -->
 
                 <a href="/admin/users"
                     class="flex items-center {{ $page == 'users' ? 'active-nav-link' : '' }} text-white py-2 pl-4 nav-item">
