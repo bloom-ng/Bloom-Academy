@@ -112,8 +112,8 @@ class PostController extends Controller
         // Add images
         if ($request->hasFile('featured_image')) {
             $url = $request->file('featured_image');
-            $path = $request->file('featured_image')->storeAs('posts', $url->getClientOriginalName(), 'public');
-            $post->featured_image = $path;
+            $path = $url->storeAs('posts', $url->getClientOriginalName(), 'public');
+            $post->featured_image = $path; // this becomes "posts/filename.jpg"
         }
 
 
