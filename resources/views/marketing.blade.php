@@ -31,11 +31,11 @@
         <!-- Left preview -->
         <section class="bg-[#FFEEE7] flex items-center justify-center p-6 lg:p-10">
             <div class="max-w-md w-full overflow-hidden border border-[#2D2D2B]">
-                <img src="/images/lhs-marketing.png" class="w-full max-h-[40vh] sm:max-h-[65vh] object-cover object-top" alt="Finance KPIs preview">
+                <img src="/images/lhs-marketing.png" class="w-full max-h-[40vh] sm:max-h-[65vh] object-cover object-top" alt="Marketing KPIs preview">
                 <div class="bg-[#1F1F1F] text-white px-8 py-6 space-y-4">
                     <h3 class="text-2xl  leading-7">THE TOP 45 MARKETING METRICS</h3>
                     <p class="text-sm font-extralight text-gray-200 leading-1">
-                        Save yourself hours of work with this Top 45 Finance KPIs Cheat Sheet.
+                        Save yourself hours of work with this Top 45 Marketing KPIs Cheat Sheet.
                     </p>
                 </div>
             </div>
