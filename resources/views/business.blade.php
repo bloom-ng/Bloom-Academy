@@ -50,7 +50,7 @@
                         <div class="relative" id="dropdownButton">
                             <div onclick="toggleDropdown()" class="flex items-center justify-center">
                                 <a href="#" class="text-[#FF8100]">Learn</a>
-                                <img class="" src="/images/collapse-arrow-orange.svg" alt="Collapse Arrow" />
+                                <img class="pl-1" src="/images/collapse-arrow-orange.svg" alt="Collapse Arrow" />
                             </div>
                             <div id="dropdown" class="absolute hidden top-0 z-20 pt-10 flex flex-col justify-between">
                                 <ul
@@ -60,6 +60,14 @@
                                             <a href="/business">
                                                 <li class="py-2 flex">
                                                     Business
+                                                    <img class="pl-20" src="/images/Forward.svg" alt="" />
+                                                </li>
+                                            </a>
+                                        </div>
+                                        <div class="flex">
+                                            <a href="/marketing">
+                                                <li class="py-2 flex">
+                                                    Marketing
                                                     <img class="pl-20" src="/images/Forward.svg" alt="" />
                                                 </li>
                                             </a>

@@ -70,12 +70,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/finance', function () {
+Route::get('/finance-metrics', function () {
     return view('finance');
 });
 
 Route::get('/business', function () {
     return view('business');
+});
+
+Route::get('/marketing-metrics', function () {
+    return view('marketing-leads');
 });
 
 Route::get('/marketing', function () {

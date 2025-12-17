@@ -146,6 +146,14 @@
                                                 </li>
                                             </a>
                                         </div>
+                                        <div class="flex">
+                                            <a href="/marketing">
+                                                <li class="py-2 flex">
+                                                    Marketing
+                                                    <img class="pl-20" src="/images/Forward.svg" alt="" />
+                                                </li>
+                                            </a>
+                                        </div>
                                         <!-- marketing dropdown i was asked to remove -->
                                         <!-- <div
                                                 id="dropdown1"
