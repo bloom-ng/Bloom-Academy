@@ -78,6 +78,10 @@ Route::get('/business', function () {
     return view('business');
 });
 
+Route::get('/for-business', function () {
+    return view('old-business');
+});
+
 Route::get('/marketing-metrics', function () {
     return view('marketing-leads');
 });

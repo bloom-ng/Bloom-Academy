@@ -163,7 +163,7 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- <a href="/business" class="text-white">For Business</a> -->
+                    <a href="/for-business" class="text-white">For Business</a>
                     <!-- <a href="/blog" class="text-[#FF8100]">Blog</a> -->
                     <a href="https://app.bloomacademyafrica.com/student/login" class="text-white">Sign In</a>
                     <a href="https://app.bloomacademyafrica.com/student/register"
