@@ -223,8 +223,7 @@
                     @endforeach
                 </div>
 
-                <div class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10">
-                <div class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10">
+                <div class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10 [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_li]:my-1">
                 {!! $post->body !!}</div>
                     <!-- <div class="prose prose-invert max-w-none">
                         {!! $post->body !!}
