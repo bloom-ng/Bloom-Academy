@@ -218,7 +218,8 @@
                                     <a class="" href="/business">Business</a>
                                 </div>
                                <!-- <a href="/blogs" class="text-white">Blog</a> -->
-                                <a class="pl-6" href="https://app.bloomacademyafrica.com/student/login">Sign In</a>
+                                <a href="/for-business" class="text-white">For Business</a>
+                                <a class="pl-6" href="https://app.bloomacademyafrica.com/">Sign In</a>
                                 <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
                         </div>
@@ -244,16 +245,13 @@
                         class="flex flex-col text-center items-center justify-center md:justify-start md:items-start w-6/7">
                         <h1
                             class="hidden sm:block [14px] leading-[20px] text-left md:text-[14px] md:leading-[20px] lg:text-[16px] lg:leading-[25px] pt-2 lg:pt-6 text-white poppins-extralight">
-                            Learn how to model a business, raise funding, and scale <br />
-                            successful operations from expert business mentors and<br />
-                            global leaders on Bloom Academy.
+                            Learn how to model a business, raise funding, and scale<br />
+                             successful operations from expert business mentors and<br />
+                              global leaders on Bloom Academy.
                         </h1>
                         <h1
                             class="block sm:hidden px-10 text-[14px] leading-[20px] md:text-[20px] md:leading-[30px] pt-2 text-white poppins-light">
-                            Learn modern marketing strategies, understand
-                            how to use digital channels to drive conversion
-                            , develop expert media buying skills, and get
-                            certified for learning.
+                            
                         </h1>
                         <a href="#courses">
                             <p

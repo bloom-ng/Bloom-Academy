@@ -196,6 +196,7 @@
                                 <a class="" href="/business">Business</a>
                             </div>
                             <!-- <a href="/blogs" class="text-white">Blog</a> -->
+                            <a href="/for-business" class="text-white">For Business</a>
                             <a class="pl-6" href="https://app.bloomacademyafrica.com/student/login">Sign In</a>
                             <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                         </div>
