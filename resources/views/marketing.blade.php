@@ -204,7 +204,7 @@
                             <div
                                 class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
                                 <a class="pl-6 pt-2" href="/marketing">Learn</a>
-                                <a href="/for-business" class="text-white">For Business</a>
+                                <a class="pl-6" href="/for-business">For Business</a>
                                 <a class="pl-6" href="https://app.bloomacademyafrica.com/">Sign In</a>
                                 <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
