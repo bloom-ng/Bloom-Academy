@@ -144,7 +144,7 @@
                 <div class="flex items-center justify-end">
                     <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
                     <p class="text-white text-xs montserrat-extra-light leading-10 mb-10 lg:mb-0">
-                        2024 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Digital Media Ltd. All rights reserved.
                     </p>
                 </div>
 

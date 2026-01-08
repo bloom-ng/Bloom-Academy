@@ -190,9 +190,9 @@
                         <div class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
                             <a class="pl-6 pt-2" href="/marketing">Learn</a>
 
-                            <a href="/for-business" class="text-white">For Business</a>
+                            
                             <!-- <a class="pl-6" href="/blog">Blog</a> -->
-                           <a class="pl-6" href="/for-business">For Business</a>
+                            <a class="pl-6" href="/for-business">For Business</a>
                             <a class="pl-6" href="https://app.bloomacademyafrica.com/">Sign In</a>
                             <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
                         </div>
@@ -253,7 +253,7 @@
             <div class="flex items-center justify-center pt-4">
                 <img class="mr-1 -mt-1" src="/images/Copyright.svg" alt="Copyright icon" />
                 <p class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0">
-                    2024 Bloom Digital Media Ltd. All rights reserved.
+                    2026 Bloom Digital Media Ltd. All rights reserved.
                 </p>
             </div>
             <div class="mb-2 ml-2 flex justify-center items-center">
@@ -318,7 +318,7 @@
                     <p
                         class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                         <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
-                        2024 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Digital Media Ltd. All rights reserved.
                     </p>
                 </div>
 

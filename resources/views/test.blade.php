@@ -34,7 +34,7 @@ phpinfo();
             <div class="flex items-center">
                 <img src="/images/Copyright.svg" alt="Copyright icon" />
                 <p class="h-10 text-white text-xs montserrat-light leading-10 mb-10 lg:mb-0">
-                    2024 Bloom Digital Media Ltd. All rights reserved.
+                    2026 Bloom Digital Media Ltd. All rights reserved.
                 </p>
             </div>
 

@@ -366,7 +366,7 @@
                 <div class="flex items-center justify-center pt-4">
                     <img class="mr-1 -mt-1" src="/images/Copyright.svg" alt="Copyright icon" />
                     <p class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0">
-                        2024 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Digital Media Ltd. All rights reserved.
                     </p>
                 </div>
                 <div class="mb-2 ml-2 flex justify-center items-center">
@@ -431,7 +431,7 @@
                         <p
                             class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                             <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
-                            2024 Bloom Digital Media Ltd. All rights
+                            2026 Bloom Digital Media Ltd. All rights
                             reserved.
                         </p>
                     </div>
