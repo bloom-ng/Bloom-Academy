@@ -231,7 +231,7 @@
             <div class="py-[6%]">
                 <div
                     class="lg:container pt-6 md:pt-24 px-6 md:px-14 md:w-3/4 lg:w-3/4 break-normal flex flex-col justify-start items-left relative z-10">
-                    <div class="text-center md:text-left pt-8 flex-1">
+                    <div class="md:text-left pt-8 flex-1">
                         <h1
                             class="text-[24px] leading-[27px] sm:text-[38px] sm:leading-[45px] md:text-[34px] md:leading-[40px] lg:text-[40px] lg:leading-[45px] xl:text-[48px] xl:leading-[50px] pt-10 md:pt-2 lg:pt-10 pb-4 md:pb-1 poppins-bold text-[#E8E9EB] md:text-white">
                             Running a business <br>requires financial and <br>managerial skills.
@@ -244,9 +244,9 @@
                     <div
                         class="flex flex-col text-center items-center justify-center md:justify-start md:items-start w-6/7">
                         <h1
-                            class="hidden sm:block [14px] leading-[20px] text-left md:text-[14px] md:leading-[20px] lg:text-[16px] lg:leading-[25px] pt-2 lg:pt-6 text-white poppins-extralight">
-                            Learn how to model a business, raise funding, and scale<br />
-                             successful operations from expert business mentors and<br />
+                            class="text-sm sm:text-[14px] sm:leading-[20px] md:w-1/2 text-left md:text-[14px] md:leading-[20px] lg:text-[16px] lg:leading-[25px] pt-2 lg:pt-6 text-white poppins-extralight">
+                            Learn how to model a business, raise funding, and scale
+                             successful operations from expert business mentors and
                               global leaders on Bloom Academy.
                         </h1>
                         <h1
