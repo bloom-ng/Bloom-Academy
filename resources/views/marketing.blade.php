@@ -27,10 +27,9 @@
 </head>
 
 <body class="">
-    <div class="relative h-screen">
+    <div class="relative">
         <!-- Hero Section -->
-        <div class="relative bg-cover bg-center h-[850px] md:h-[650px] md:relative bg-cover bg-center lg:h-[800px]"
-            style="
+        <div class="relative bg-cover bg-center h-full md:relative bg-cover bg-center" style="
                     background-image: url('/images/busy-handicapped-employee-answering-phone-office-1.png');
                 ">
             <div
@@ -209,12 +208,12 @@
                         </div>
                         <div id="dropdown2"
                             class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20">
-                            <div
-                                class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
+                            <div class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
                                 <a class="pl-6 pt-2" href="/marketing">Learn</a>
                                 <a class="pl-6" href="/for-business">For Business</a>
                                 <a class="pl-6" href="https://app.bloomacademyafrica.com/">Sign In</a>
-                                <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
+                                <a class="pl-6 pb-2"
+                                    href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
                         </div>
                     </div>
@@ -266,7 +265,7 @@
         </div>
 
         <!-- Second section -->
-        <div class="relative h-[2120px] sm:h-[1900px] md:h-[1295px] lg:h-[1685px] bg-[#FFE8D1]">
+        <div class="relative bg-[#FFE8D1] pb-20 lg:pb-32">
             <div class="flex justify-center z-20 items-center">
                 <div class="hidden md:block absolute flex justify-center z-20 items-center -mt-2">
                     <p
@@ -276,84 +275,133 @@
                 </div>
             </div>
             <div id="courses"
-                class="absolute -mt-60 md:mt-20 lg:mt-32 grid md:grid-cols-2 gap-12 md:gap-20 lg:gap-24 px-6 sm:px-[10%] md:px-10 xl:px-32">
+                class="relative z-30 -mt-60 md:mt-20 lg:mt-32 grid md:grid-cols-3 gap-12 md:gap-20 lg:gap-24 px-6 sm:px-[10%] md:px-10 xl:px-32">
+                <!-- Card 1 -->
                 <div
-                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-auto min-h-[1160px] sm:min-h-[1100px] md:min-h-[1170px] lg:min-h-[1465px] md:surround md:shadow-custom">
+                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
                     <div class="flex justify-center">
-                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
-                            style="
-                                    background-image: url('/images/social-media-marketing-concept-marketing-with-applications.png');
-                                ">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                            style="background-image: url('/images/businessman-with-chart.png');">
                         </div>
                     </div>
-                    <div class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16">
+                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-10 lg:mt-10 flex flex-col flex-grow">
                         <h1
-                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[40px] lg:leading-[40px] poppins-bold">
-                            Bloom Digital <br />Marketing <br />Certificate
+                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                            Meta Ads <br />Manager
                         </h1>
                         <p
-                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-2xl mb-10 lg:mb-14 poppins-regular mt-6">
-                            A high-demand course for marketing and sales
-                            professionals looking to succeed in fintechs,
-                            banks, telecoms, FMCGs, e-commerce, SaaS, and
-                            other B2C or direct-to-customer businesses.
+                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
+                            A 6-week practical training for anyone trying to excel and become a Meta Ads expert. You'll
+                            learn how to set up, run, and optimise real Facebook & Instagram ad campaigns. Tools Used:
+                            Meta Ads Manager, Meta Business Suite, Pixel, and Audience Insights.
                         </p>
-                        <p
-                            class="text-base leading-[43px] lg:text-2xl lg:leading-[50px] pl-4 lg:pl-8 border-l-8 border-[#FF8100] mb-16 poppins-regular mt-6">
-                            Instructor-Led<br />
-                            Self-Paced<br />
-                            8 Weeks<br />
-                            Online<br />
-                            Milestone Projects<br />
-                            Weekends or Weekdays<br />
-                            Certificate<br />
-                            No Application Fee<br />
-                            No Certificate Fee<br />
-                            Pay One-Time Tuition Fee
-                        </p>
-                        <a href="https://app.bloomacademyafrica.com/student/register"
-                            class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold">Register</a>
+                        <div class="mt-auto pt-4">
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Card 2 -->
                 <div
-                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-16 bg-white rounded-2xl h-auto min-h-[1100px] sm:min-h-[940px] md:min-h-[1040px] lg:min-h-[1305px] md:surround md:shadow-custom">
+                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
                     <div class="flex justify-center">
-                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[400px] lg:h-[250px]"
-                            style="
-                                    background-image: url('/images/businessman-with-chart.png');
-                                ">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                            style="background-image: url('/images/social-media-marketing-concept-marketing-with-applications.png');">
                         </div>
                     </div>
-                    <div class="mx-6 mt-8 sm:mx-10 md:mx-7 lg:mx-12 md:mt-16">
+                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-10 lg:mt-10 flex flex-col flex-grow">
                         <h1
-                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[40px] lg:leading-[40px] poppins-bold">
-                            Bloom Digital <br />
-                            AD Expert
+                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                            Digital Marketing <br />Programme
                         </h1>
                         <p
-                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-2xl mb-10 lg:mb-14 poppins-regular mt-6">
-                            A 5-day practical training for entrepreneurs,
-                            CEOs, and digital marketing executives on how to
-                            use digital platforms such as Meta, Google,
-                            TikTok, Microsoft Advertising, LinkedIn,
-                            Snapchat, X and other platforms for effective
-                            performance marketing.
+                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
+                            This 6-week programme delivers a complete digital marketing education for a mixed audience,
+                            from complete beginners to business owners and marketing professionals looking to upskill.
                         </p>
+                        <div class="mt-auto pt-4">
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                            style="background-image: url('/images/content_creation.jpg');">
+                        </div>
+                    </div>
+                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-10 lg:mt-10 flex flex-col flex-grow">
+                        <h1
+                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                            Content <br />Creation
+                        </h1>
                         <p
-                            class="text-base leading-[43px] lg:text-2xl lg:leading-[50px] pl-4 lg:pl-8 border-l-8 border-[#FF8100] mb-16 poppins-regular mt-6">
-                            Instructor-Led<br />
-                            5 Days<br />
-                            Online or In Person
-                            <br />
-                            1x Post-Training Support on Learners Personal
-                            Campaign<br />
-                            No Application Fee
-                            <br />
-                            Pay One-Time Tuition Fee
-                            <br />
+                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
+                            Content Creation for individuals or brands looking to scale their online visibility and
+                            content output. This course teaches you how to develop a compelling voice, create
+                            scroll-stopping copy and visuals, and build content strategies that grow audiences.
                         </p>
-                        <a href="https://app.bloomacademyafrica.com/student/register"
-                            class="text-white text-xl bg-[#C73029] py-4 px-8 lg:px-10 rounded-full montserrat-extra-bold">Register</a>
+                        <div class="mt-auto pt-4">
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                            style="background-image: url('/images/photography.jpg');">
+                        </div>
+                    </div>
+                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-10 lg:mt-10 flex flex-col flex-grow">
+                        <h1
+                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                            Photography
+                        </h1>
+                        <p
+                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
+                            A structured 6-week class for anyone looking to explore the field of photography. You'll
+                            learn the fundamentals of composition, lighting, and camera settings, then progress to
+                            editing and storytelling through photos.
+                        </p>
+                        <div class="mt-auto pt-4">
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div
+                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                            style="background-image: url('/images/cinematography.jpg');">
+                        </div>
+                    </div>
+                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-7 lg:mt-10 flex flex-col flex-grow">
+                        <h1
+                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                            Cinematography
+                        </h1>
+                        <p
+                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
+                            A structured 6-week class for anyone looking to explore the field of cinematography. This
+                            course covers everything from shot composition and camera movement to lighting for video and
+                            post-production basics.
+                        </p>
+                        <div class="mt-auto pt-4">
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -376,8 +424,8 @@
                             alt="X Link" /></a>
                     <a href="https://www.linkedin.com/company/bloom-digital-media-nigeria/" target="_blank"><img
                             src="/images/LinkedIn.svg" alt="LinkedIn Link" /></a>
-                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img
-                            src="/images/Facebook.svg" alt="Facebook Link" /></a>
+                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img src="/images/Facebook.svg"
+                            alt="Facebook Link" /></a>
                 </div>
                 <div>
                     <p class="text-white mb-2 text-center text-[11px] montserrat-extra-light leading-[14px] lg:mb-0">
@@ -498,7 +546,7 @@
         }
 
         // Add event listener to hide dropdown when clicking outside
-        document.addEventListener("click", function(event) {
+        document.addEventListener("click", function (event) {
             // Check if the click event target is not inside the dropdown
             if (
                 !event.target.closest("#dropdown") &&
