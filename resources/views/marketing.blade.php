@@ -275,132 +275,103 @@
                 </div>
             </div>
             <div id="courses"
-                class="relative z-30 -mt-60 md:mt-20 lg:mt-32 grid md:grid-cols-3 gap-12 md:gap-20 lg:gap-24 px-6 sm:px-[10%] md:px-10 xl:px-32">
+                class="relative z-30 pt-10 sm:pt-16 md:pt-20 lg:pt-32 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-14 px-6 sm:px-10 md:px-10 xl:px-32">
                 <!-- Card 1 -->
-                <div
-                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
-                    <div class="flex justify-center">
-                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                <div class="flex flex-col z-50 py-6 lg:py-8 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center px-4 lg:px-6">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-full h-[180px] lg:h-[220px]"
                             style="background-image: url('/images/businessman-with-chart.png');">
                         </div>
                     </div>
-                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-10 lg:mt-10 flex flex-col flex-grow">
-                        <h1
-                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                    <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
+                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Meta Ads <br />Manager
                         </h1>
-                        <p
-                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
-                            A 6-week practical training for anyone trying to excel and become a Meta Ads expert. You'll
-                            learn how to set up, run, and optimise real Facebook & Instagram ad campaigns. Tools Used:
-                            Meta Ads Manager, Meta Business Suite, Pixel, and Audience Insights.
+                        <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
+                            A 6-week practical training for anyone trying to excel and become a Meta Ads expert. You'll learn how to set up, run, and optimise real Facebook & Instagram ad campaigns. Tools Used: Meta Ads Manager, Meta Business Suite, Pixel, and Audience Insights.
                         </p>
-                        <div class="mt-auto pt-4">
-                            <a href="https://app.bloomacademyafrica.com/student/register"
-                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        <div class="mt-auto pt-2 pb-2">
+                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Card 2 -->
-                <div
-                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
-                    <div class="flex justify-center">
-                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                <div class="flex flex-col z-50 py-6 lg:py-8 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center px-4 lg:px-6">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-full h-[180px] lg:h-[220px]"
                             style="background-image: url('/images/social-media-marketing-concept-marketing-with-applications.png');">
                         </div>
                     </div>
-                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-10 lg:mt-10 flex flex-col flex-grow">
-                        <h1
-                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                    <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
+                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Digital Marketing <br />Programme
                         </h1>
-                        <p
-                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
-                            This 6-week programme delivers a complete digital marketing education for a mixed audience,
-                            from complete beginners to business owners and marketing professionals looking to upskill.
+                        <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
+                            This 6-week programme delivers a complete digital marketing education for a mixed audience, from complete beginners to business owners and marketing professionals looking to upskill.
                         </p>
-                        <div class="mt-auto pt-4">
-                            <a href="https://app.bloomacademyafrica.com/student/register"
-                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        <div class="mt-auto pt-2 pb-2">
+                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
-                <div
-                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
-                    <div class="flex justify-center">
-                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                <div class="flex flex-col z-50 py-6 lg:py-8 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center px-4 lg:px-6">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-full h-[180px] lg:h-[220px]"
                             style="background-image: url('/images/content_creation.jpg');">
                         </div>
                     </div>
-                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-10 lg:mt-10 flex flex-col flex-grow">
-                        <h1
-                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                    <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
+                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Content <br />Creation
                         </h1>
-                        <p
-                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
-                            Content Creation for individuals or brands looking to scale their online visibility and
-                            content output. This course teaches you how to develop a compelling voice, create
-                            scroll-stopping copy and visuals, and build content strategies that grow audiences.
+                        <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
+                            Content Creation for individuals or brands looking to scale their online visibility and content output. This course teaches you how to develop a compelling voice, create scroll-stopping copy and visuals, and build content strategies that grow audiences.
                         </p>
-                        <div class="mt-auto pt-4">
-                            <a href="https://app.bloomacademyafrica.com/student/register"
-                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        <div class="mt-auto pt-2 pb-2">
+                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Card 4 -->
-                <div
-                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
-                    <div class="flex justify-center">
-                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                <div class="flex flex-col z-50 py-6 lg:py-8 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center px-4 lg:px-6">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-full h-[180px] lg:h-[220px]"
                             style="background-image: url('/images/photography.jpg');">
                         </div>
                     </div>
-                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-10 lg:mt-10 flex flex-col flex-grow">
-                        <h1
-                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                    <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
+                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Photography
                         </h1>
-                        <p
-                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
-                            A structured 6-week class for anyone looking to explore the field of photography. You'll
-                            learn the fundamentals of composition, lighting, and camera settings, then progress to
-                            editing and storytelling through photos.
+                        <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
+                            A structured 6-week class for anyone looking to explore the field of photography. You'll learn the fundamentals of composition, lighting, and camera settings, then progress to editing and storytelling through photos.
                         </p>
-                        <div class="mt-auto pt-4">
-                            <a href="https://app.bloomacademyafrica.com/student/register"
-                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        <div class="mt-auto pt-2 pb-2">
+                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Card 5 -->
-                <div
-                    class="flex flex-col z-50 py-7 sm:pt-10 md:py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
-                    <div class="flex justify-center">
-                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-[85%] h-[172px] md:w-[87%] md:h-[190px] lg:w-[280px] lg:h-[220px]"
+                <div class="flex flex-col z-50 py-6 lg:py-8 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center px-4 lg:px-6">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-full h-[180px] lg:h-[220px]"
                             style="background-image: url('/images/cinematography.jpg');">
                         </div>
                     </div>
-                    <div class="mx-6 mt-6 sm:mx-10 md:mx-7 lg:mx-7 lg:mt-10 flex flex-col flex-grow">
-                        <h1
-                            class="text-[20px] leading-[20px] sm:text-[30px] sm:leading-[35px] md:leading-[30px] lg:text-[32px] lg:leading-[35px] poppins-bold">
+                    <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
+                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Cinematography
                         </h1>
-                        <p
-                            class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-[17px] mb-6 lg:mb-8 poppins-regular mt-4">
-                            A structured 6-week class for anyone looking to explore the field of cinematography. This
-                            course covers everything from shot composition and camera movement to lighting for video and
-                            post-production basics.
+                        <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
+                            A structured 6-week class for anyone looking to explore the field of cinematography. This course covers everything from shot composition and camera movement to lighting for video and post-production basics.
                         </p>
-                        <div class="mt-auto pt-4">
-                            <a href="https://app.bloomacademyafrica.com/student/register"
-                                class="inline-block text-white text-lg bg-[#C73029] py-3 px-6 lg:px-8 rounded-full montserrat-extra-bold">Register</a>
+                        <div class="mt-auto pt-2 pb-2">
+                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
