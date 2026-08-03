@@ -28,13 +28,11 @@
 
 <body class="">
     <div class="grid grid-cols-1 lg:grid-cols-2">
-        <div class="hidden lg:flex bg-cover bg-bottom h-screen bg-left-top"
-            style="
+        <div class="hidden lg:flex bg-cover bg-bottom h-screen bg-left-top" style="
                     background-image: url('/images/happy-young-african-american-male-analyst-with-tab.png');
                 ">
             <div class="top-0 left-0 right-0 px-12 py-6">
-                <a href="/"><img class="w-32 h-auto" src="/images/logo_main.png"
-                        alt="Bloom Academy Africa Logo" /></a>
+                <a href="/"><img class="w-32 h-auto" src="/images/logo_main.png" alt="Bloom Academy Africa Logo" /></a>
             </div>
         </div>
         <div class="flex justify-center items-center bg-[#2D2D2B] w-full">
@@ -89,10 +87,10 @@
                 {{-- <input type="hidden" name="payment_id" value="{{ request()->query('id') }}"> --}}
 
                 {{-- <div class="my-5">
-                        <input type="checkbox" name="policy" value="accepted" required id="policy" />
-                        <label for="policy">I agree to the <a href="/terms-of-service">Terms of Service</a> and <a
-                                href="/privacy">Privacy Policy</a></label>
-                    </div> --}}
+                    <input type="checkbox" name="policy" value="accepted" required id="policy" />
+                    <label for="policy">I agree to the <a href="/terms-of-service">Terms of Service</a> and <a
+                            href="/privacy">Privacy Policy</a></label>
+                </div> --}}
 
 
                 <button type="submit"
@@ -125,9 +123,9 @@
                         About
                     </li>
                 </a>
-                <li class="montserrat-extra-light mb-2 text-sm">
+                <!-- <li class="montserrat-extra-light mb-2 text-sm">
                     Bloom Digital Media Ltd
-                </li>
+                </li> -->
             </ul>
             <ul class="flex flex-col items-left list-none">
                 <li class="montserrat-bold mb-4 text-sm">Legal</li>
@@ -144,7 +142,7 @@
                 <div class="flex items-center justify-end">
                     <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
                     <p class="text-white text-xs montserrat-extra-light leading-10 mb-10 lg:mb-0">
-                        2026 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Media Group. All rights reserved.
                     </p>
                 </div>
 
@@ -155,8 +153,8 @@
                             alt="X Link" /></a>
                     <a href="https://www.linkedin.com/company/bloom-digital-media-nigeria/" target="_blank"><img
                             src="/images/LinkedIn.svg" alt="LinkedIn Link" /></a>
-                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img
-                            src="/images/Facebook.svg" alt="Facebook Link" /></a>
+                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img src="/images/Facebook.svg"
+                            alt="Facebook Link" /></a>
                 </div>
             </div>
             <div>

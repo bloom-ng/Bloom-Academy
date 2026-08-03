@@ -284,14 +284,18 @@
                         </div>
                     </div>
                     <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
-                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
+                        <h1
+                            class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Meta Ads <br />Manager
                         </h1>
                         <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
-                            A 6-week practical training for anyone trying to excel and become a Meta Ads expert. You'll learn how to set up, run, and optimise real Facebook & Instagram ad campaigns. Tools Used: Meta Ads Manager, Meta Business Suite, Pixel, and Audience Insights.
+                            A 6-week practical training for anyone trying to excel and become a Meta Ads expert. You'll
+                            learn how to set up, run, and optimise real Facebook & Instagram ad campaigns. Tools Used:
+                            Meta Ads Manager, Meta Business Suite, Pixel, and Audience Insights.
                         </p>
                         <div class="mt-auto pt-2 pb-2">
-                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
@@ -304,14 +308,17 @@
                         </div>
                     </div>
                     <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
-                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
+                        <h1
+                            class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Digital Marketing <br />Programme
                         </h1>
                         <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
-                            This 6-week programme delivers a complete digital marketing education for a mixed audience, from complete beginners to business owners and marketing professionals looking to upskill.
+                            This 6-week programme delivers a complete digital marketing education for a mixed audience,
+                            from complete beginners to business owners and marketing professionals looking to upskill.
                         </p>
                         <div class="mt-auto pt-2 pb-2">
-                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
@@ -324,14 +331,18 @@
                         </div>
                     </div>
                     <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
-                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
+                        <h1
+                            class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Content <br />Creation
                         </h1>
                         <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
-                            Content Creation for individuals or brands looking to scale their online visibility and content output. This course teaches you how to develop a compelling voice, create scroll-stopping copy and visuals, and build content strategies that grow audiences.
+                            Content Creation for individuals or brands looking to scale their online visibility and
+                            content output. This course teaches you how to develop a compelling voice, create
+                            scroll-stopping copy and visuals, and build content strategies that grow audiences.
                         </p>
                         <div class="mt-auto pt-2 pb-2">
-                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
@@ -344,14 +355,18 @@
                         </div>
                     </div>
                     <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
-                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
+                        <h1
+                            class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Photography
                         </h1>
                         <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
-                            A structured 6-week class for anyone looking to explore the field of photography. You'll learn the fundamentals of composition, lighting, and camera settings, then progress to editing and storytelling through photos.
+                            A structured 6-week class for anyone looking to explore the field of photography. You'll
+                            learn the fundamentals of composition, lighting, and camera settings, then progress to
+                            editing and storytelling through photos.
                         </p>
                         <div class="mt-auto pt-2 pb-2">
-                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
@@ -364,14 +379,18 @@
                         </div>
                     </div>
                     <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
-                        <h1 class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
+                        <h1
+                            class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
                             Cinematography
                         </h1>
                         <p class="text-[15px] lg:text-[16px] leading-relaxed mb-6 poppins-regular mt-4">
-                            A structured 6-week class for anyone looking to explore the field of cinematography. This course covers everything from shot composition and camera movement to lighting for video and post-production basics.
+                            A structured 6-week class for anyone looking to explore the field of cinematography. This
+                            course covers everything from shot composition and camera movement to lighting for video and
+                            post-production basics.
                         </p>
                         <div class="mt-auto pt-2 pb-2">
-                            <a href="https://app.bloomacademyafrica.com/student/register" class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
+                            <a href="https://app.bloomacademyafrica.com/student/register"
+                                class="inline-block text-white text-[16px] bg-[#C73029] py-3 px-8 rounded-full montserrat-bold">Register</a>
                         </div>
                     </div>
                 </div>
@@ -385,7 +404,7 @@
                 <div class="flex items-center justify-center pt-4">
                     <img class="mr-1 -mt-1" src="/images/Copyright.svg" alt="Copyright icon" />
                     <p class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0">
-                        2026 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Media Group. All rights reserved.
                     </p>
                 </div>
                 <div class="mb-2 ml-2 flex justify-center items-center">
@@ -426,11 +445,11 @@
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         <a target="_blank" href="https://bloomdigitmedia.com/#whoWeAre">About</a>
                     </li>
-                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                    <!-- <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         <a target="_blank" href="https://bloomdigitmedia.com/#whoWeAre">
                             Bloom Digital Media Ltd
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
                 <ul class="flex flex-col items-left list-none">
                     <li class="montserrat-bold mb-4 text-sm md:text-xs">
@@ -450,7 +469,7 @@
                         <p
                             class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                             <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
-                            2026 Bloom Digital Media Ltd. All rights
+                            2026 Bloom Media Group. All rights
                             reserved.
                         </p>
                     </div>

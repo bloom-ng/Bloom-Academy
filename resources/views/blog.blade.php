@@ -188,9 +188,11 @@
                     <div id="dropdown2"
                         class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20">
                         <div class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
-                            <button type="button" onclick="toggleMobileLearnMenu()" class="flex items-center justify-between pl-6 pr-6 pt-2">
+                            <button type="button" onclick="toggleMobileLearnMenu()"
+                                class="flex items-center justify-between pl-6 pr-6 pt-2">
                                 <span>Learn</span>
-                                <img id="mobile-learn-arrow" src="/images/collapse-arrow.svg" alt="Collapse Arrow" class="w-3 h-3 transition-transform duration-200" />
+                                <img id="mobile-learn-arrow" src="/images/collapse-arrow.svg" alt="Collapse Arrow"
+                                    class="w-3 h-3 transition-transform duration-200" />
                             </button>
                             <div id="mobile-learn-menu" class="hidden flex-col gap-2 pl-10 pb-2">
                                 <a class="" href="/business">Business</a>
@@ -205,26 +207,36 @@
                 </div>
             </section>
         </nav>
-        <!-- Floating Menu for mobile --> 
+        <!-- Floating Menu for mobile -->
 
         <div class="flex flex-col items-center justify-center mx-5 lg:mx-8">
             <div class="flex flex-col w-full relative mb-12 lg:mb-16">
                 @if($featured_post)
-                    <img src="{{ Storage::url($featured_post->featured_image) }}" alt="{{ $featured_post->title }}" class="rounded-3xl">
+                    <img src="{{ Storage::url($featured_post->featured_image) }}" alt="{{ $featured_post->title }}"
+                        class="rounded-3xl">
                     <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl"></div>
                     <div class="absolute bottom-5 lg:bottom-28 flex flex-col justify-start items-start mx-7 lg:mx-16">
-                        <h3 class="text-[#F0F0F0] font-semibold lg:poppins-semibold text-base lg:poppins-bold lg:text-[20px] lg:mb-5">Featured</h3>
-                        <h1 class="text-[#F0F0F0] font-bold lg:poppins-bold text-[20px] lg:text-[60px] leading-tight lg:mb-5">{{ $featured_post->title }}</h1>
+                        <h3
+                            class="text-[#F0F0F0] font-semibold lg:poppins-semibold text-base lg:poppins-bold lg:text-[20px] lg:mb-5">
+                            Featured</h3>
+                        <h1
+                            class="text-[#F0F0F0] font-bold lg:poppins-bold text-[20px] lg:text-[60px] leading-tight lg:mb-5">
+                            {{ $featured_post->title }}</h1>
                         <div class="flex flex-row w-full justify-between">
-                            <h3 class="text-[#F0F0F0] poppins-normal text-[10px] lg:text-[20px] w-full">{{ Str::limit($featured_post->summary, 200) }}</h3>
+                            <h3 class="text-[#F0F0F0] poppins-normal text-[10px] lg:text-[20px] w-full">
+                                {{ Str::limit($featured_post->summary, 200) }}</h3>
                             <a href="{{ route('blog.preview', $featured_post->id) }}">
-                                <svg width="70" height="70" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="justify-end items-end lg:w-[70%] lg:h-[70%] w-[60%] h-[60%]">
-                                    <rect width="90" height="90" fill="url(#pattern0_2353_184)"/>
+                                <svg width="70" height="70" viewBox="0 0 90 90" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    class="justify-end items-end lg:w-[70%] lg:h-[70%] w-[60%] h-[60%]">
+                                    <rect width="90" height="90" fill="url(#pattern0_2353_184)" />
                                     <defs>
-                                    <pattern id="pattern0_2353_184" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                    <use xlink:href="#image0_2353_184" transform="scale(0.0111111)"/>
-                                    </pattern>
-                                    <image id="image0_2353_184" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAACH0lEQVR4nO3cPY9NQRzH8UuxHppFsQqReCzpxAsQiYRXIEqlsK3tqLwFrZqEQqtgl5AgUVJReiqwWYXdrwxu9sbuvXse5pw598z38wbmP7/cTCZn/v87GEiSJEmSJEmSJElSzwDHgaOp6+gtYD+wyLol4EjqunoHuMdGX4HzqWvrFeAHm1sFbgDbU9fYC2ztETCXus4cgg4+AKdT1zrVKO4ncC11vTkEPXQH2J267qlDNa+Aw6lrzyHo4DNwLnX9U4N61oBbXgGbD3roIbC3yHrZIp73wKnU+8kh6GAFuJx6T51EM8IVcFfqveUQdPASONR08TuBeeAFsEy+PgJnmgr5IPAm9Q475BdwHdgW+5dsyJu7D8zGCjocFxrvLXAiRtDhTNZk4aHhYt2gv2+xiNbdBmaqBq1yliq93pRcRH8tGnR7jvmLbke5xp2Wiuobj44WPAudUlXOaK93LV3vnpdYKFfLwKVKAY8EfTX1LjruHXCyVsj/gt4BvE69m456AOypHfJI2AcMe8Nn0oWon0lHwp4BrgBPgW/k6xNwNnrA04hmn7LsZhpqKGQfZ/8XOWDbDcaJGLINNJNEbAnbN3Gh3FGPTY5F1Qj5i227JdRoRHcWsYwKITtaUUWJgB0WqqNgyI6/1VUgZAc6Gx5RDle3m86nRALcHTN0fyHWGhr8CXoOeDIS8mP/t6NBoYnFz5qSJEmSJEmSJEmSBh3yGzSYxDWhqSWVAAAAAElFTkSuQmCC"/>
+                                        <pattern id="pattern0_2353_184" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_2353_184" transform="scale(0.0111111)" />
+                                        </pattern>
+                                        <image id="image0_2353_184" width="90" height="90"
+                                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAACH0lEQVR4nO3cPY9NQRzH8UuxHppFsQqReCzpxAsQiYRXIEqlsK3tqLwFrZqEQqtgl5AgUVJReiqwWYXdrwxu9sbuvXse5pw598z38wbmP7/cTCZn/v87GEiSJEmSJEmSJElSzwDHgaOp6+gtYD+wyLol4EjqunoHuMdGX4HzqWvrFeAHm1sFbgDbU9fYC2ztETCXus4cgg4+AKdT1zrVKO4ncC11vTkEPXQH2J267qlDNa+Aw6lrzyHo4DNwLnX9U4N61oBbXgGbD3roIbC3yHrZIp73wKnU+8kh6GAFuJx6T51EM8IVcFfqveUQdPASONR08TuBeeAFsEy+PgJnmgr5IPAm9Q475BdwHdgW+5dsyJu7D8zGCjocFxrvLXAiRtDhTNZk4aHhYt2gv2+xiNbdBmaqBq1yliq93pRcRH8tGnR7jvmLbke5xp2Wiuobj44WPAudUlXOaK93LV3vnpdYKFfLwKVKAY8EfTX1LjruHXCyVsj/gt4BvE69m456AOypHfJI2AcMe8Nn0oWon0lHwp4BrgBPgW/k6xNwNnrA04hmn7LsZhpqKGQfZ/8XOWDbDcaJGLINNJNEbAnbN3Gh3FGPTY5F1Qj5i227JdRoRHcWsYwKITtaUUWJgB0WqqNgyI6/1VUgZAc6Gx5RDle3m86nRALcHTN0fyHWGhr8CXoOeDIS8mP/t6NBoYnFz5qSJEmSJEmSJEmSBh3yGzSYxDWhqSWVAAAAAElFTkSuQmCC" />
                                     </defs>
                                 </svg>
                             </a>
@@ -234,19 +246,23 @@
             </div>
 
             <div class="flex flex-col">
-                <h1 class="text-[#F0F0F0] poppins-bold text-[16px] md:text-[18px] lg:text-[20px] mb-8">Recent Blog Posts</h1>
+                <h1 class="text-[#F0F0F0] poppins-bold text-[16px] md:text-[18px] lg:text-[20px] mb-8">Recent Blog Posts
+                </h1>
                 <div class="grid lg:grid-cols-3 md:grid-cols-2 mb-10 gap-10">
                     @foreach($posts as $post)
                         <div class="flex flex-col items-start">
                             @if($post->featured_image)
-                                <img src="{{ Storage::url($post->featured_image) }}" alt="{{ $post->title }}" class="w-full h-full mb-3 rounded-lg">
+                                <img src="{{ Storage::url($post->featured_image) }}" alt="{{ $post->title }}"
+                                    class="w-full h-full mb-3 rounded-lg">
                             @endif
                             <h1 class="text-[#F0F0F0] poppins-bold text-[24px]">{{ $post->title }}</h1>
-                            <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">{{ Str::limit($post->summary, 120) }}</p>
+                            <p class="text-[#F0F0F0] poppins-normal text-[11px] mb-6">{{ Str::limit($post->summary, 120) }}
+                            </p>
                             <p class="text-[#F0F0F0] poppins-normal text-[11px]">
                                 {{ $post->published_at ? \Carbon\Carbon::parse($post->published_at)->format('d F Y') : '' }}
                             </p>
-                            <a href="{{ route('blog.preview', $post->id) }}" class="mt-4 text-[#FF8100] text-sm">Read More →</a>
+                            <a href="{{ route('blog.preview', $post->id) }}" class="mt-4 text-[#FF8100] text-sm">Read More
+                                →</a>
                         </div>
                     @endforeach
                 </div>
@@ -259,15 +275,15 @@
         </div>
     </div>
 
-    
-    
+
+
     <!-- Footer Mobile -->
     <footer class="block md:hidden">
         <div class="bg-[#151515] flex flex-col justify-center items-center">
             <div class="flex items-center justify-center pt-4">
                 <img class="mr-1 -mt-1" src="/images/Copyright.svg" alt="Copyright icon" />
                 <p class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0">
-                    2026 Bloom Digital Media Ltd. All rights reserved.
+                    2026 Bloom Media Group. All rights reserved.
                 </p>
             </div>
             <div class="mb-2 ml-2 flex justify-center items-center">
@@ -310,9 +326,6 @@
                         About
                     </li>
                 </a>
-                <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                    Bloom Digital Media Ltd
-                </li>
             </ul>
             <ul class="flex flex-col items-left list-none">
                 <li class="montserrat-bold mb-4 text-sm md:text-xs">
@@ -332,7 +345,7 @@
                     <p
                         class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                         <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
-                        2026 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Media Group. All rights reserved.
                     </p>
                 </div>
 
@@ -343,8 +356,8 @@
                             alt="X Link" /></a>
                     <a href="https://www.linkedin.com/company/bloom-digital-media-nigeria/" target="_blank"><img
                             src="/images/LinkedIn.svg" alt="LinkedIn Link" /></a>
-                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img
-                            src="/images/Facebook.svg" alt="Facebook Link" /></a>
+                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img src="/images/Facebook.svg"
+                            alt="Facebook Link" /></a>
                 </div>
             </div>
             <div>
@@ -377,4 +390,5 @@
         }
     </script>
 </body>
+
 </html>

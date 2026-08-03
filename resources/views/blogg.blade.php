@@ -190,7 +190,7 @@
                         <div class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
                             <a class="pl-6 pt-2" href="/marketing">Learn</a>
 
-                            
+
                             <!-- <a class="pl-6" href="/blog">Blog</a> -->
                             <a class="pl-6" href="/for-business">For Business</a>
                             <a class="pl-6" href="https://app.bloomacademyafrica.com/">Sign In</a>
@@ -200,60 +200,66 @@
                 </div>
             </section>
         </nav>
-        <!-- Floating Menu for mobile --> 
+        <!-- Floating Menu for mobile -->
 
         <div class="flex flex-col items-center justify-center mx-5 lg:px-8">
-            <h1 class="text-[#F0F0F0] text-center poppins-bold text-[30px] lg:text-[50px] mb-5 lg:mt-0 mt-28">{{ $post->title }}</h1>
-            <h1 class="text-[#F0F0F0] text-center poppins-normal text-[20px] lg:text-[15px] mb-8 lg:mb-16">{{ $formattedDate }}</h1>
+            <h1 class="text-[#F0F0F0] text-center poppins-bold text-[30px] lg:text-[50px] mb-5 lg:mt-0 mt-28">
+                {{ $post->title }}</h1>
+            <h1 class="text-[#F0F0F0] text-center poppins-normal text-[20px] lg:text-[15px] mb-8 lg:mb-16">
+                {{ $formattedDate }}</h1>
             <div class="flex flex-col w-full mb-10 lg:mb-16">
                 @if($post->featured_image)
-                    <img src="{{ Storage::url($post->featured_image) }}" alt="{{ $post->title }}" class="rounded-3xl h-auto w-full">
+                    <img src="{{ Storage::url($post->featured_image) }}" alt="{{ $post->title }}"
+                        class="rounded-3xl h-auto w-full">
                 @endif
             </div>
 
             <div class="flex lg:flex-row flex-col w-full justify-between items-start lg:space-x-16 mb-16">
                 <div class="flex flex-col lg:w-1/5 text-[#F0F0F0]">
                     <h3 class="poppins-bold text-base lg:text-[16px] mb-7 lg:mb-10">Recent Blog Posts</h3>
-                    
+
                     @foreach($recentPosts as $recentPost)
                         <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">{{ $recentPost->title }}</h1>
-                        <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">{{ Str::limit($recentPost->summary, 120) }}</h1>
+                        <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">
+                            {{ Str::limit($recentPost->summary, 120) }}</h1>
                         <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">
                             {{ $recentPost->published_at ? $recentPost->published_at->format('jS F Y') : '' }}
                         </h1>
                     @endforeach
                 </div>
 
-                <div class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10 [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_li]:my-1">
-                {!! $post->body !!}</div>
-                    <!-- <div class="prose prose-invert max-w-none">
+                <div
+                    class="flex flex-col lg:w-4/5 text-[#F0F0F0] lg:mt-0 mt-10 [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_li]:my-1">
+                    {!! $post->body !!}
+                </div>
+                <!-- <div class="prose prose-invert max-w-none">
                         {!! $post->body !!}
                     </div> -->
-                    
-                    @if($post->tags->isNotEmpty())
-                        <div class="mt-8">
-                            <h4 class="text-lg font-bold mb-2">Tags:</h4>
-                            <div class="flex flex-wrap gap-2">
-                                @foreach($post->tags as $tag)
-                                    <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">{{ $tag->name }}</span>
-                                @endforeach
-                            </div>
+
+                @if($post->tags->isNotEmpty())
+                    <div class="mt-8">
+                        <h4 class="text-lg font-bold mb-2">Tags:</h4>
+                        <div class="flex flex-wrap gap-2">
+                            @foreach($post->tags as $tag)
+                                <span class="bg-gray-700 px-3 py-1 rounded-full text-sm">{{ $tag->name }}</span>
+                            @endforeach
                         </div>
-                    @endif
-                </div>
+                    </div>
+                @endif
             </div>
         </div>
     </div>
+    </div>
 
-    
-    
+
+
     <!-- Footer Mobile -->
     <footer class="block md:hidden">
         <div class="bg-[#151515] flex flex-col justify-center items-center">
             <div class="flex items-center justify-center pt-4">
                 <img class="mr-1 -mt-1" src="/images/Copyright.svg" alt="Copyright icon" />
                 <p class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0">
-                    2026 Bloom Digital Media Ltd. All rights reserved.
+                    2026 Bloom Media Group. All rights reserved.
                 </p>
             </div>
             <div class="mb-2 ml-2 flex justify-center items-center">
@@ -296,9 +302,9 @@
                         About
                     </li>
                 </a>
-                <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                <!-- <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                     Bloom Digital Media Ltd
-                </li>
+                </li> -->
             </ul>
             <ul class="flex flex-col items-left list-none">
                 <li class="montserrat-bold mb-4 text-sm md:text-xs">
@@ -318,7 +324,7 @@
                     <p
                         class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                         <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
-                        2026 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Media Group. All rights reserved.
                     </p>
                 </div>
 
@@ -329,8 +335,8 @@
                             alt="X Link" /></a>
                     <a href="https://www.linkedin.com/company/bloom-digital-media-nigeria/" target="_blank"><img
                             src="/images/LinkedIn.svg" alt="LinkedIn Link" /></a>
-                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img
-                            src="/images/Facebook.svg" alt="Facebook Link" /></a>
+                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img src="/images/Facebook.svg"
+                            alt="Facebook Link" /></a>
                 </div>
             </div>
             <div>
@@ -345,4 +351,5 @@
         </div>
     </footer>
 </body>
+
 </html>

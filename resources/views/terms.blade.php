@@ -188,9 +188,11 @@
                     <div id="dropdown2"
                         class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20">
                         <div class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
-                            <button type="button" onclick="toggleMobileLearnMenu()" class="flex items-center justify-between pl-6 pr-6 pt-2">
+                            <button type="button" onclick="toggleMobileLearnMenu()"
+                                class="flex items-center justify-between pl-6 pr-6 pt-2">
                                 <span>Learn</span>
-                                <img id="mobile-learn-arrow" src="/images/collapse-arrow.svg" alt="Collapse Arrow" class="w-3 h-3 transition-transform duration-200" />
+                                <img id="mobile-learn-arrow" src="/images/collapse-arrow.svg" alt="Collapse Arrow"
+                                    class="w-3 h-3 transition-transform duration-200" />
                             </button>
                             <div id="mobile-learn-menu" class="hidden flex-col gap-2 pl-10 pb-2">
                                 <a class="" href="/business">Business</a>
@@ -768,7 +770,7 @@
             <div class="flex items-center justify-center pt-4">
                 <img class="mr-1 -mt-1" src="/images/Copyright.svg" alt="Copyright icon" />
                 <p class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0">
-                    2026 Bloom Digital Media Ltd. All rights reserved.
+                    2026 Bloom Media Group. All rights reserved.
                 </p>
             </div>
             <div class="mb-2 ml-2 flex justify-center items-center">
@@ -811,9 +813,9 @@
                         About
                     </li>
                 </a>
-                <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                <!-- <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                     Bloom Digital Media Ltd
-                </li>
+                </li> -->
             </ul>
             <ul class="flex flex-col items-left list-none">
                 <li class="montserrat-bold mb-4 text-sm md:text-xs">
@@ -833,7 +835,7 @@
                     <p
                         class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                         <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
-                        2026 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Media Group. All rights reserved.
                     </p>
                 </div>
 
@@ -844,8 +846,8 @@
                             alt="X Link" /></a>
                     <a href="https://www.linkedin.com/company/bloom-digital-media-nigeria/" target="_blank"><img
                             src="/images/LinkedIn.svg" alt="LinkedIn Link" /></a>
-                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img
-                            src="/images/Facebook.svg" alt="Facebook Link" /></a>
+                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img src="/images/Facebook.svg"
+                            alt="Facebook Link" /></a>
                 </div>
             </div>
             <div>
@@ -914,7 +916,7 @@
         }
 
         // Add event listener to hide dropdown when clicking outside
-        document.addEventListener("click", function(event) {
+        document.addEventListener("click", function (event) {
             // Check if the click event target is not inside the dropdown
             if (
                 !event.target.closest("#dropdown") &&

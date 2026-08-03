@@ -47,8 +47,8 @@
                     <a href="/" class="hidden 2xl:block text-white font-semibold"><img src="/images/logo_main.png"
                             class="w-32 h-auto" alt="Bloom Academy Africa Logo" /></a>
                     <div class="pr-8">
-                        <a href="#" class="text-white font-semibold"><img src="/images/Male-user.svg"
-                                class="w-12" alt="Bloom Academy Africa Logo" /></a>
+                        <a href="#" class="text-white font-semibold"><img src="/images/Male-user.svg" class="w-12"
+                                alt="Bloom Academy Africa Logo" /></a>
                     </div>
                 </div>
             </nav>
@@ -68,9 +68,11 @@
                         <div id="dropdown2"
                             class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20">
                             <div class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
-                                <button type="button" onclick="toggleMobileLearnMenu()" class="flex items-center justify-between pl-6 pr-6 pt-2">
+                                <button type="button" onclick="toggleMobileLearnMenu()"
+                                    class="flex items-center justify-between pl-6 pr-6 pt-2">
                                     <span>Learn</span>
-                                    <img id="mobile-learn-arrow" src="/images/collapse-arrow.svg" alt="Collapse Arrow" class="w-3 h-3 transition-transform duration-200" />
+                                    <img id="mobile-learn-arrow" src="/images/collapse-arrow.svg" alt="Collapse Arrow"
+                                        class="w-3 h-3 transition-transform duration-200" />
                                 </button>
                                 <div id="mobile-learn-menu" class="hidden flex-col gap-2 pl-10 pb-2">
                                     <a class="" href="/business">Business</a>
@@ -78,7 +80,8 @@
                                 <!-- <a href="/blogs" class="text-white">Blog</a> -->
                                 <a class="pl-6" href="/for-business">For Business</a>
                                 <a class="pl-6" href="https://app.bloomacademyafrica.com/">Sign In</a>
-                                <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
+                                <a class="pl-6 pb-2"
+                                    href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
                         </div>
                     </div>
@@ -181,8 +184,7 @@
                         {{-- <a href="https://flutterwave.com/pay/l8islsz4eivp" href="/submit?id=l8islsz4eivp"
                             class="text-white md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold text-sm">Pay
                             Now</a> --}}
-                        <button onclick="makePayment(65000, 'Bloom Digital AD Expert')"
-                            class="text-white
+                        <button onclick="makePayment(65000, 'Bloom Digital AD Expert')" class="text-white
                             md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold
                             text-sm">Pay
                             Now</button>
@@ -258,8 +260,8 @@
                     <div class="w-full">
                         <input
                             class="px-12 bg-white border montserrat-regular placeholder:italic border-[#FF8100] text-gray-900 text-[10px] rounded-full h-6 mb-6 block w-full py-6"
-                            type="text" placeholder="Full Name" value="{{ $userData->name ?? '' }}"
-                            id="payment-name" required>
+                            type="text" placeholder="Full Name" value="{{ $userData->name ?? '' }}" id="payment-name"
+                            required>
                     </div>
                     <div class="w-full">
                         <input
@@ -280,8 +282,7 @@
 
                     </div>
                     <div class="mt-6">
-                        <button onclick="makePayment()"
-                            class="text-white
+                        <button onclick="makePayment()" class="text-white
                             md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold
                             text-sm">
                             Pay Now
@@ -316,8 +317,7 @@
                             type="number" placeholder="Amount" value="65000" id="payment-amount" required>
                     </div>
                     <div class="mt-6">
-                        <button onclick="makePayment()"
-                            class="text-white
+                        <button onclick="makePayment()" class="text-white
                             md:text-xl bg-[#C73029] py-2 px-8 sm:py-4 sm:px-10 rounded-full montserrat-extra-bold
                             text-sm">
                             Pay Now
@@ -333,7 +333,7 @@
                 <div class="flex items-center justify-center pt-4">
                     <img class="mr-1 -mt-1" src="/images/Copyright.svg" alt="Copyright icon" />
                     <p class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0">
-                        2026 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Media Group. All rights reserved.
                     </p>
                 </div>
                 <div class="mb-2 ml-2 flex justify-center items-center">
@@ -343,8 +343,8 @@
                             alt="X Link" /></a>
                     <a href="https://www.linkedin.com/company/bloom-digital-media-nigeria/" target="_blank"><img
                             src="/images/LinkedIn.svg" alt="LinkedIn Link" /></a>
-                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img
-                            src="/images/Facebook.svg" alt="Facebook Link" /></a>
+                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img src="/images/Facebook.svg"
+                            alt="Facebook Link" /></a>
                 </div>
                 <div>
                     <p class="text-white mb-2 text-center text-[11px] montserrat-extra-light leading-[14px] lg:mb-0">
@@ -376,9 +376,9 @@
                             About
                         </li>
                     </a>
-                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                    <!-- <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         Bloom Digital Media Ltd
-                    </li>
+                    </li> -->
                 </ul>
                 <ul class="flex flex-col items-left list-none">
                     <li class="montserrat-bold mb-4 text-sm md:text-xs">
@@ -398,7 +398,7 @@
                         <p
                             class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                             <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
-                            2026 Bloom Digital Media Ltd. All rights
+                            2026 Bloom Media Group. All rights
                             reserved.
                         </p>
                     </div>
@@ -483,7 +483,7 @@
         }
 
         // Add event listener to hide dropdown when clicking outside
-        document.addEventListener("click", function(event) {
+        document.addEventListener("click", function (event) {
             // Check if the click event target is not inside the dropdown
             if (
                 !event.target.closest("#dropdown") &&
@@ -576,10 +576,10 @@
                     description: "Bloom Academy Africa Course Payment",
                     logo: "{{ asset('/images/bloom-academy-logo-2.png') }}",
                 },
-                callback: function(data) {
+                callback: function (data) {
                     console.log("payment callback:", data);
                 },
-                onclose: function() {
+                onclose: function () {
                     console.log("Payment cancelled!");
                 }
             });

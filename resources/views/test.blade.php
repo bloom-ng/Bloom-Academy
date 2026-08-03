@@ -18,8 +18,7 @@ phpinfo();
 </head>
 
 <body>
-    <div
-        style="
+    <div style="
                 height: 90vh;
                 width: 100vw;
                 background-image: url('/images/medium-shot-students.png');
@@ -34,7 +33,7 @@ phpinfo();
             <div class="flex items-center">
                 <img src="/images/Copyright.svg" alt="Copyright icon" />
                 <p class="h-10 text-white text-xs montserrat-light leading-10 mb-10 lg:mb-0">
-                    2026 Bloom Digital Media Ltd. All rights reserved.
+                    2026 Bloom Media Group. All rights reserved.
                 </p>
             </div>
 

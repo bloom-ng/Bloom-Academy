@@ -29,8 +29,7 @@
 <body class="">
     <div class="relative h-screen">
         <!-- Hero Section -->
-        <div class="bg-center h-[850px] md:h-[650px] bg-center lg:h-[800px]"
-            style="
+        <div class="bg-center h-[850px] md:h-[650px] bg-center lg:h-[800px]" style="
                     background-image: url('/images/black-freelancer.png');
                 ">
             <!-- <div
@@ -210,17 +209,20 @@
                         <div id="dropdown2"
                             class="text-black hidden static -ml-[200px] ph1:-ml-[240px] ph2:-ml-[300px] ph3:-ml-[345px] sm:-ml-[562px] pt-4 z-20">
                             <div class="flex flex-col bg-black -mx-7 bg-opacity-75 text-white gap-2 montserrat-regular">
-                                <button type="button" onclick="toggleMobileLearnMenu()" class="flex items-center justify-between pl-6 pr-6 pt-2">
+                                <button type="button" onclick="toggleMobileLearnMenu()"
+                                    class="flex items-center justify-between pl-6 pr-6 pt-2">
                                     <span>Learn</span>
-                                    <img id="mobile-learn-arrow" src="/images/collapse-arrow.svg" alt="Collapse Arrow" class="w-3 h-3 transition-transform duration-200" />
+                                    <img id="mobile-learn-arrow" src="/images/collapse-arrow.svg" alt="Collapse Arrow"
+                                        class="w-3 h-3 transition-transform duration-200" />
                                 </button>
                                 <div id="mobile-learn-menu" class="hidden flex-col gap-2 pl-10 pb-2">
                                     <a class="" href="/business">Business</a>
                                 </div>
-                               <!-- <a href="/blogs" class="text-white">Blog</a> -->
+                                <!-- <a href="/blogs" class="text-white">Blog</a> -->
                                 <a class="pl-6" href="/for-business">For Business</a>
                                 <a class="pl-6" href="https://app.bloomacademyafrica.com/">Sign In</a>
-                                <a class="pl-6 pb-2" href="https://app.bloomacademyafrica.com/student/register">Register</a>
+                                <a class="pl-6 pb-2"
+                                    href="https://app.bloomacademyafrica.com/student/register">Register</a>
                             </div>
                         </div>
                     </div>
@@ -246,12 +248,12 @@
                         <h1
                             class="text-sm sm:text-[14px] sm:leading-[20px] md:w-1/2 text-left md:text-[14px] md:leading-[20px] lg:text-[16px] lg:leading-[25px] pt-2 lg:pt-6 text-white poppins-extralight">
                             Learn how to model a business, raise funding, and scale
-                             successful operations from expert business mentors and
-                              global leaders on Bloom Academy.
+                            successful operations from expert business mentors and
+                            global leaders on Bloom Academy.
                         </h1>
                         <h1
                             class="block sm:hidden px-10 text-[14px] leading-[20px] md:text-[20px] md:leading-[30px] pt-2 text-white poppins-light">
-                            
+
                         </h1>
                         <a href="#courses">
                             <p
@@ -292,11 +294,11 @@
                         </h1>
                         <p
                             class="text-base md:text-[18px] md:leading-[23px] md:mr-4 lg:mr-1 lg:text-2xl mb-10 lg:mb-14 poppins-regular mt-6">
-                            A high-demand fundraising preparation crash course for startup 
-                            entrepreneurs who are preparing to raise funding to launch their 
-                            business.  Tutors for the course are business mentors with existing 
-                            Accelerators such as TEF, Antler, and CASCADOR, and they are well-exposed 
-                            to the winning pitch deck requirements from Techstars, Y Combinator,cMEST, 
+                            A high-demand fundraising preparation crash course for startup
+                            entrepreneurs who are preparing to raise funding to launch their
+                            business. Tutors for the course are business mentors with existing
+                            Accelerators such as TEF, Antler, and CASCADOR, and they are well-exposed
+                            to the winning pitch deck requirements from Techstars, Y Combinator,cMEST,
                             and the venture capital echo system.
                         </p>
                         <p
@@ -366,7 +368,7 @@
                 <div class="flex items-center justify-center pt-4">
                     <img class="mr-1 -mt-1" src="/images/Copyright.svg" alt="Copyright icon" />
                     <p class="text-white text-[10px] montserrat-extra-light leading-10 mb-1 lg:mb-0">
-                        2026 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Media Group. All rights reserved.
                     </p>
                 </div>
                 <div class="mb-2 ml-2 flex justify-center items-center">
@@ -376,8 +378,8 @@
                             alt="X Link" /></a>
                     <a href="https://www.linkedin.com/company/bloom-digital-media-nigeria/" target="_blank"><img
                             src="/images/LinkedIn.svg" alt="LinkedIn Link" /></a>
-                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img
-                            src="/images/Facebook.svg" alt="Facebook Link" /></a>
+                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img src="/images/Facebook.svg"
+                            alt="Facebook Link" /></a>
                 </div>
                 <div>
                     <p class="text-white mb-2 text-center text-[11px] montserrat-extra-light leading-[14px] lg:mb-0">
@@ -407,11 +409,11 @@
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         <a target="_blank" href="https://bloomdigitmedia.com/#whoWeAre">About</a>
                     </li>
-                    <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
+                    <!-- <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         <a target="_blank" href="https://bloomdigitmedia.com/#whoWeAre">
                             Bloom Digital Media Ltd
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
                 <ul class="flex flex-col items-left list-none">
                     <li class="montserrat-bold mb-4 text-sm md:text-xs">
@@ -431,7 +433,7 @@
                         <p
                             class="flex items-center justify-end text-white text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                             <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
-                            2026 Bloom Digital Media Ltd. All rights
+                            2026 Bloom Media Group. All rights
                             reserved.
                         </p>
                     </div>
@@ -516,7 +518,7 @@
         }
 
         // Add event listener to hide dropdown when clicking outside
-        document.addEventListener("click", function(event) {
+        document.addEventListener("click", function (event) {
             // Check if the click event target is not inside the dropdown
             if (
                 !event.target.closest("#dropdown") &&

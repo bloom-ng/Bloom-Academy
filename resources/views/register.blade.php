@@ -25,13 +25,11 @@
 
 <body class="">
     <div class="grid grid-cols-2">
-        <div class="relative bg-cover bg-bottom h-screen bg-left-top"
-            style="
+        <div class="relative bg-cover bg-bottom h-screen bg-left-top" style="
                     background-image: url('/images/happy-young-african-american-male-analyst-with-tab.png');
                 ">
             <div class="top-0 left-0 right-0 px-12 py-6">
-                <a href="/"><img class="w-32 h-auto" src="/images/logo_main.png"
-                        alt="Bloom Academy Africa Logo" /></a>
+                <a href="/"><img class="w-32 h-auto" src="/images/logo_main.png" alt="Bloom Academy Africa Logo" /></a>
             </div>
         </div>
         <div class="flex justify-center items-center bg-[#2D2D2B]">
@@ -84,7 +82,8 @@
                     </p>
                     <p class="text-[14px] leading-[50px] poppins-medium mt-6">
                         Already have an account?
-                        <span class="text-[#FF8100]"><a href="https://app.bloomacademyafrica.com/student/login">Sign In</a></span>
+                        <span class="text-[#FF8100]"><a href="https://app.bloomacademyafrica.com/student/login">Sign
+                                In</a></span>
                     </p>
                 </div>
             </div>
@@ -106,9 +105,9 @@
                         About
                     </li>
                 </a>
-                <li class="montserrat-extra-light mb-2 text-sm">
+                <!-- <li class="montserrat-extra-light mb-2 text-sm">
                     Bloom Digital Media Ltd
-                </li>
+                </li> -->
             </ul>
             <ul class="flex flex-col items-left list-none">
                 <li class="montserrat-bold mb-4 text-sm">Legal</li>
@@ -125,7 +124,7 @@
                 <div class="flex items-center justify-end">
                     <img class="mr-1" src="/images/Copyright.svg" alt="Copyright icon" />
                     <p class="text-white text-xs montserrat-extra-light leading-10 mb-10 lg:mb-0">
-                        2026 Bloom Digital Media Ltd. All rights reserved.
+                        2026 Bloom Media Group. All rights reserved.
                     </p>
                 </div>
 
@@ -136,8 +135,8 @@
                             alt="X Link" /></a>
                     <a href="https://www.linkedin.com/company/bloom-digital-media-nigeria/" target="_blank"><img
                             src="/images/LinkedIn.svg" alt="LinkedIn Link" /></a>
-                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img
-                            src="/images/Facebook.svg" alt="Facebook Link" /></a>
+                    <a href="https://www.facebook.com/bloomdigitmedia/" target="_blank"><img src="/images/Facebook.svg"
+                            alt="Facebook Link" /></a>
                 </div>
             </div>
             <div>
