@@ -204,9 +204,11 @@
 
         <div class="flex flex-col items-center justify-center mx-5 lg:px-8">
             <h1 class="text-[#F0F0F0] text-center poppins-bold text-[30px] lg:text-[50px] mb-5 lg:mt-0 mt-28">
-                {{ $post->title }}</h1>
+                {{ $post->title }}
+            </h1>
             <h1 class="text-[#F0F0F0] text-center poppins-normal text-[20px] lg:text-[15px] mb-8 lg:mb-16">
-                {{ $formattedDate }}</h1>
+                {{ $formattedDate }}
+            </h1>
             <div class="flex flex-col w-full mb-10 lg:mb-16">
                 @if($post->featured_image)
                     <img src="{{ Storage::url($post->featured_image) }}" alt="{{ $post->title }}"
@@ -221,7 +223,8 @@
                     @foreach($recentPosts as $recentPost)
                         <h1 class="poppins-bold text-[18px] lg:text-[20px] mb-2">{{ $recentPost->title }}</h1>
                         <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-5">
-                            {{ Str::limit($recentPost->summary, 120) }}</h1>
+                            {{ Str::limit($recentPost->summary, 120) }}
+                        </h1>
                         <h1 class="poppins-normal text-[12px] lg:text-[10px] mb-7">
                             {{ $recentPost->published_at ? $recentPost->published_at->format('jS F Y') : '' }}
                         </h1>
@@ -278,7 +281,7 @@
                 </p>
             </div>
             <div class="flex items-center pb-8 justify-center">
-                <img src="/images/bloom-logo-white-mobile.svg" class="pl-2" alt="Bloom Logo" />
+                <img src="/images/bloom-logo-white.png" class="h-16 w-auto" alt="Bloom Logo" />
             </div>
         </div>
     </footer>
@@ -344,7 +347,7 @@
                     <p
                         class="flex items-center justify-end text-white mt-3 md:mt-0 lg:mt-3 text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                         Bloom Academy is a registered trademark of
-                        <img src="/images/bloom-logo-white.svg" class="pl-2" alt="Bloom Logo" />
+                        <img src="/images/bloom-logo-white.png" class="pl-2 h-12 w-auto" alt="Bloom Logo" />
                     </p>
                 </div>
             </div>

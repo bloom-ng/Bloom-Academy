@@ -387,7 +387,7 @@
                     </p>
                 </div>
                 <div class="flex items-center pb-8 justify-center">
-                    <img src="/images/bloom-logo-white-mobile.svg" class="pl-2" alt="Bloom Logo" />
+                    <img src="/images/bloom-logo-white.png" class="h-16 w-auto" alt="Bloom Logo" />
                 </div>
             </div>
         </footer>
@@ -454,7 +454,7 @@
                         <p
                             class="flex items-center justify-end text-white mt-3 md:mt-0 lg:mt-3 text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                             Bloom Academy is a registered trademark of
-                            <img src="/images/bloom-logo-white.svg" class="pl-2" alt="Bloom Logo" />
+                            <img src="/images/bloom-logo-white.png" class="pl-2 h-12 w-auto" alt="Bloom Logo" />
                         </p>
                     </div>
                 </div>

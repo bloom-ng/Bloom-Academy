@@ -221,10 +221,12 @@
                             Featured</h3>
                         <h1
                             class="text-[#F0F0F0] font-bold lg:poppins-bold text-[20px] lg:text-[60px] leading-tight lg:mb-5">
-                            {{ $featured_post->title }}</h1>
+                            {{ $featured_post->title }}
+                        </h1>
                         <div class="flex flex-row w-full justify-between">
                             <h3 class="text-[#F0F0F0] poppins-normal text-[10px] lg:text-[20px] w-full">
-                                {{ Str::limit($featured_post->summary, 200) }}</h3>
+                                {{ Str::limit($featured_post->summary, 200) }}
+                            </h3>
                             <a href="{{ route('blog.preview', $featured_post->id) }}">
                                 <svg width="70" height="70" viewBox="0 0 90 90" fill="none"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -302,7 +304,7 @@
                 </p>
             </div>
             <div class="flex items-center pb-8 justify-center">
-                <img src="/images/bloom-logo-white-mobile.svg" class="pl-2" alt="Bloom Logo" />
+                <img src="/images/bloom-logo-white.png" class="h-16 w-auto" alt="Bloom Logo" />
             </div>
         </div>
     </footer>
@@ -365,7 +367,7 @@
                     <p
                         class="flex items-center justify-end text-white mt-3 md:mt-0 lg:mt-3 text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                         Bloom Academy is a registered trademark of
-                        <img src="/images/bloom-logo-white.svg" class="pl-2" alt="Bloom Logo" />
+                        <img src="/images/bloom-logo-white.png" class="pl-2 h-12 w-auto" alt="Bloom Logo" />
                     </p>
                 </div>
             </div>

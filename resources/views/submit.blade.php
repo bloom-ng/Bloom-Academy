@@ -162,7 +162,7 @@
                     <p class="text-white mt-3 text-xs montserrat-extra-light leading-10 mb-10 lg:mb-0">
                         Bloom Academy is a registered trademark of
                     </p>
-                    <img src="/images/bloom-logo-white.svg" class="pl-2" alt="Bloom Logo" />
+                    <img src="/images/bloom-logo-white.png" class="pl-2 h-12 w-auto" alt="Bloom Logo" />
                 </div>
             </div>
         </div>
