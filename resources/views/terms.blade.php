@@ -218,546 +218,908 @@
                     </div>
                     <div>
                         <div class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-8">
-                            TERMS AND CONDITIONS FOR BLOOM ACADEMY AFRICA
+                            TERMS OF SERVICE FOR BLOOM ACADEMY AFRICA
                             LIMITED
                         </div>
-                        Please read these Terms of Use (“Terms”), which set
-                        forth the legally binding terms and conditions
-                        between You (“You”) and Bloom Marketing Academy
-                        (“Bloom Academy” or “We”, “Our” or “Us”). It governs
-                        your access to the Course contents and the use of
-                        Bloom Academy’s website, slack channel and any other
-                        platform introduced by Bloom Academy (together the
-                        “Platform”) <br /><br />
-                        Bloom Academy reserves the right, at its sole
-                        discretion, to modify or replace these Terms of Use
-                        from time to time. If You object to such changes,
-                        your sole recourse will be to cease using the
-                        Platform. Your continued use of the Platform
-                        following the changes to the Terms will indicate
-                        your acknowledgement of such changes and agreement
-                        to be bound by the amended Terms.<br /><br />
-                        Please read these Terms carefully before accepting
-                        to be bound by the Terms. <br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Definitions and Interpretation
+                            1. Introduction
+                        </div>
+                        Welcome to Bloom Academy Africa. Throughout the
+                        website, the terms “we,” “us,” and “our” refer to
+                        Bloom Academy Africa. These Terms of Service
+                        constitute a legally binding agreement between you
+                        (“you,” “your,” or “Learner”) and Bloom Academy
+                        Africa concerning your access to and use of our
+                        website, learning platform, courses, programs,
+                        educational content, events, communities, and
+                        related services. Bloom Academy Africa reserves the
+                        right, at its sole discretion, to modify or replace
+                        these Terms of Use from time to time. If you object
+                        to any such changes, your sole recourse is to cease
+                        using the platform. Your continued use of the
+                        Platform following any changes to these Terms will
+                        constitute your acknowledgement of, and agreement to
+                        be bound by, the amended Terms.<br /><br />
+                        Our website is available at:
+                        <a href="https://bloomacademyafrica.com" target="_blank"
+                            class="text-[#FF8100] break-words">https://bloomacademyafrica.com</a><br /><br />
+                        Our learning platform is available at:
+                        <a href="https://app.bloomacademyafrica.com" target="_blank"
+                            class="text-[#FF8100] break-words">https://app.bloomacademyafrica.com</a><br /><br />
+                        By creating an account, enrolling in a course,
+                        purchasing a program, accessing our platform, or
+                        otherwise using our services, you acknowledge that
+                        you have read, understood, and agree to be bound by
+                        these terms. If you do not agree to these terms, you
+                        should not use our platform or services. These terms
+                        should be read together with our
+                        <a href="/privacy" class="text-[#FF8100]">Privacy Policy</a>, which explains
+                        how Bloom Academy Africa collects, uses, stores, and
+                        protects personal data.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            2. Definitions and Interpretation
                         </div>
                         <div class="poppins-bold text-base md:text-xl">
-                            1.1. Definitions
+                            2.1 Definitions
                         </div>
-                        For the purposes of these Terms, unless the context
-                        otherwise requires:<br /><br />
+                        For purposes of these Terms:<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “Account or Student Account”
+                            “Account” or “Learner Account”
                         </div>
-                        means an account created by the Learner on the Bloom
-                        Academy’s Website<br /><br />
+                        means the account created by a Learner to access the
+                        Bloom Academy Africa Platform and Services.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “Course Contents”
+                            “Bloom Academy Africa”
                         </div>
-                        means all information and data (including text,
-                        images, photos, videos, audio and documents)
-                        contained in the courses available on the Bloom
-                        Academy’s Platform or made available by Bloom
-                        Academy. <br /><br />
+                        means Bloom Academy Africa Limited and, where
+                        applicable, its authorised affiliates,
+                        representatives, instructors, contractors and service
+                        providers.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “Course Fees”
+                            “Course”
                         </div>
-                        means the tuition payable by the Learner.<br /><br />
+                        means any educational course, programme, training,
+                        workshop, bootcamp or learning programme offered by
+                        Bloom Academy Africa.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “Event of Default”
+                            “Course Content”
                         </div>
-                        shall have the meaning ascribed to it in clause
-                        10.<br /><br />
+                        means educational information and materials made
+                        available through a course, including text, images,
+                        photographs, videos, audio, documents, presentations,
+                        assignments, assessments, templates and other
+                        learning materials.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “Party”
+                            “Course Fee”
                         </div>
-                        means the Learner and Bloom Academy individually.<br /><br />
+                        means the applicable fee payable for a course or
+                        service.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “Parties”
+                            “Learner”
                         </div>
-                        means the Learner and Bloom Academy collectively.<br /><br />
+                        means any individual who creates an Account,
+                        registers for, purchases, enrols in or accesses a
+                        Course or Service.<br /><br />
+                        <div class="poppins-bold text-base md:text-xl">
+                            “Platform”
+                        </div>
+                        means Bloom Academy Africa's website, learning
+                        management system, mobile or web applications, online
+                        communities, communication channels and any other
+                        digital platform we may make available from time to
+                        time.<br /><br />
+                        <div class="poppins-bold text-base md:text-xl">
+                            “Services”
+                        </div>
+                        means the Courses, educational programmes, events,
+                        resources, learning-platform services, community
+                        services and other services provided by Bloom Academy
+                        Africa.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
                             “Personal Data”
                         </div>
-                        means any information about the Learner provided to
-                        Us by You or in the Use of Our Platform and services
-                        such as your name, email address, physical address,
-                        password, billing and payment information. This
-                        includes non-personal information like the domain
-                        name of your internet service provider, your
-                        geographical location, operating system and other
-                        relevant statistics.<br /><br />
+                        means personal data as defined under applicable
+                        data-protection law, including information relating
+                        to an identified or identifiable individual.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
                             “Privacy Policy”
                         </div>
-                        means our privacy policy available on the Site,
-                        which sets out the manner in which personal data We
-                        collect from You, or You provide to Us, will be used
-                        and processed by Us. “Site” means Bloom Academy
-                        Website accessible at<br /><br />
-
+                        means Bloom Academy Africa's Privacy Policy,
+                        available on our website, as amended from time to
+                        time.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            1.2. Interpretations
+                            “Third-Party Service”
                         </div>
-                        All headings in these Terms are for convenience only
-                        and shall not be used in the interpretation. Unless
-                        these Terms indicates a contrary intention.<br /><br />
-                        1.2.1. the singular shall include the plural and
-                        vice versa.<br /><br />
-                        1.2.2. a reference to any one gender shall be
-                        capable of being construed as a reference of any of
-                        the others.<br /><br />
-                        1.2.3. words or phrases defined in these Terms shall
-                        have the meanings assigned to them.<br /><br />
+                        means any product, platform, technology, payment
+                        processor, software, website or service operated by a
+                        third party and used in connection with our
+                        Services.<br /><br />
+                        <div class="poppins-bold text-base md:text-xl">
+                            “User Content”
+                        </div>
+                        means content submitted, uploaded, posted or
+                        otherwise provided by a Learner through the Platform
+                        or in connection with our Services.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Acceptance of Terms and Conditions
+                            3. Acceptance of These Terms
                         </div>
-                        2.1. The Platform and the Courses contents are
-                        offered subject to acceptance of all the terms and
-                        conditions contained in these Terms and all other
-                        course rules, conditions, policies and procedures
-                        that may be introduced from time to time by Bloom
-                        Academy, which are incorporated by reference.<br /><br />
-                        2.2. Some of the Courses contents available through
-                        the Platform may be subject to additional terms and
-                        conditions adopted by Bloom Academy. Your use of
-                        those Courses contents is subject to those
-                        additional terms and conditions, which are
-                        incorporated into these Terms by this reference.<br /><br />
-                        2.3. Bloom Academy reserves the right to change,
-                        suspend, or discontinue the Courses contents or any
-                        part of it (including but not limited to, the
-                        availability of any feature, database, or content)
-                        at any time for any reason. Bloom Academy may also
-                        impose limits on certain features or restrict your
-                        access to parts of or the entire Platform without
-                        notice or liability.<br /><br />
+                        3.1. By accessing or using the Platform or Services,
+                        you agree to comply with these Terms and any
+                        additional rules, policies or requirements
+                        communicated to you in connection with a particular
+                        Course or Service.<br /><br />
+                        3.2. Certain Courses, promotions, events or Services
+                        may have additional terms. Where additional terms
+                        apply, they will be communicated to you before or at
+                        the time they become applicable.<br /><br />
+                        3.3. If there is a conflict between these Terms and a
+                        specific written agreement applicable to a particular
+                        Course or Service, the specific agreement will apply
+                        to the extent of the conflict.<br /><br />
+                        3.4. We may update these Terms from time to time.
+                        Where we make material changes, we will provide
+                        reasonable notice through the Platform, email or
+                        another appropriate communication method. Your
+                        continued use of the Platform after the effective
+                        date of an updated version constitutes acceptance of
+                        the revised Terms, unless applicable law requires a
+                        different form of acceptance.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Learner Account
+                            4. Eligibility and Learner Accounts
                         </div>
-                        3.1. In order to access Our Platform, you must set
-                        up an Account on the Site You will be required to
-                        provide Us with certain information about yourself
-                        when setting up this Account. By providing Us with
-                        this information, you represent and warrant that You
-                        have the authority to legally use Our Platform and
-                        grant Us all permissions and licenses to perform Our
-                        obligations as provided in these Terms.<br /><br />
-                        3.2. Our services, can only be utilised by persons
-                        over the age of 18 (eighteen). Bloom Academy
-                        reserves the right to verify the authenticity of any
-                        accounts created on the Site.<br /><br />
-                        3.3. You must provide Us with accurate, current and
-                        complete information at all times during the
-                        application process. Failure to do so constitutes a
-                        breach of these Terms, which may result in immediate
-                        termination of your Account on our Platform and
-                        access to the Course contents.<br /><br />
-                        3.4. You are responsible for safeguarding the
-                        password that you use to access the Platform and for
-                        any activities or actions under your password.<br /><br />
-                        3.5. You agree not to disclose your password to any
-                        third party. You must notify us immediately upon
-                        becoming aware of any breach of security or
-                        unauthorized use of your Learner Account.<br /><br />
+                        4.1. You must provide accurate, current and complete
+                        information when creating an Account or registering
+                        for a Course.<br /><br />
+                        4.2. You are responsible for keeping your Account
+                        information accurate and up to date.<br /><br />
+                        4.3. Unless otherwise stated for a particular
+                        programme, our Services are intended primarily for
+                        persons aged 18 and above. Where a Service is made
+                        available to a person under 18, the applicable
+                        parental or guardian requirements will apply.<br /><br />
+                        4.4. You are responsible for maintaining the
+                        confidentiality of your login credentials.<br /><br />
+                        4.5. You must not:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>share your account with another person;</li>
+                            <li>sell, transfer or assign your account;</li>
+                            <li>allow another person to access paid course content through your account;</li>
+                            <li>attempt to gain unauthorised access to another person's account; or</li>
+                            <li>use another person's credentials without permission.</li>
+                        </ul>
+                        4.6. You must notify Bloom Academy Africa promptly if
+                        you suspect that your Account has been compromised or
+                        accessed without authorisation.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Notices and Communications
+                            5. Platform Access and Availability
                         </div>
-                        4.1. By creating an Account, you agree to the
-                        following:<br /><br />
-                        4.1.1. We can provide materials and other
-                        information about Your legal rights and duties to
-                        You electronically; <br /><br />4.1.2. We can send
-                        all important communications, reminders
-                        (collectively referred to as “Notifications”) to You
-                        electronically via Our Platform or to an email
-                        address You have provided Us with;
-                        <br /><br />4.1.3. We are authorised to share,
-                        receive and Use Your data/information;
-                        <br /><br />4.1.4. We can alert You when
-                        Notifications are available, by sending You an
-                        electronic communication; and <br /><br />4.1.5. By
-                        consenting, the electronic Notifications shall have
-                        the same meaning and effect as if We provided paper
-                        Notifications to You. When We send You an email
-                        alerting You that Notifications are available to
-                        You, such electronic Notifications shall have the
-                        same effect as paper Notifications whether or not
-                        You chose to view the Notifications, unless You had
-                        previously withdrawn Your consent to receive
-                        electronic Notifications.<br /><br />
+                        5.1. We will use reasonable efforts to keep the
+                        platform available and functioning properly. However,
+                        we do not guarantee that the platform will always be:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>uninterrupted;</li>
+                            <li>error-free;</li>
+                            <li>available at all times;</li>
+                            <li>free from bugs or technical issues; or</li>
+                            <li>compatible with every device or internet connection.</li>
+                        </ul>
+                        5.2. The platform may occasionally be unavailable
+                        because of:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>scheduled maintenance;</li>
+                            <li>system upgrades;</li>
+                            <li>technical problems;</li>
+                            <li>cybersecurity incidents;</li>
+                            <li>third-party service interruptions;</li>
+                            <li>internet or telecommunications failures; or</li>
+                            <li>circumstances beyond our reasonable control.</li>
+                        </ul>
+                        5.3. We may modify, suspend or discontinue a feature
+                        or part of the platform where reasonably necessary
+                        for operational, technical, legal, security or
+                        business reasons. Where a change materially affects a
+                        paid Course, we will take reasonable steps to notify
+                        affected Learners and, where appropriate, provide a
+                        reasonable alternative.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            The Learner's Obligations
+                            6. Electronic Communications
                         </div>
-                        5.1. The Learner shall: <br /><br />5.1.1. adhere to
-                        general code of conduct as prescribed by Bloom
-                        Academy; <br /><br />5.1.2. pay the requisite Course
-                        Fee upon acceptance of an admission offer into any
-                        Course on the Bloom Academy’s Platform;<br /><br />
-                        5.1.3. not make copies or reselling, donating or
-                        transferring of the Course content to third
-                        parties;<br /><br />
-                        5.1.4. participate in all trainings, assignments and
-                        projects assigned by Bloom Academy or any its
-                        instructors; <br /><br />5.1.5. notify Bloom Academy
-                        of any intention to withdraw from the any Course;
-                        <br /><br />5.1.6. notify and seek Bloom Academy’s
-                        permission for the deferment of the Learner’s
-                        admission into Course; <br /><br />5.1.7. be
-                        responsible for the provision of all devices needed
-                        to effectively participate in the Course such as
-                        laptops, internet access etc; <br /><br />5.1.8.
-                        timely inform Bloom Academy of any circumstances
-                        that may prevent it from fulfilling its obligations
-                        under these Terms; <br /><br />5.1.9. be available
-                        for discussions with Bloom Academy to resolve issues
-                        that may arise, when necessary; <br /><br />5.1.10.
-                        fully cooperate with Bloom Academy to carry out its
-                        obligations under these Terms; and
-                        <br /><br />5.1.11. perform such other
-                        responsibilities as may be reasonably necessary to
-                        fulfil its obligations under these Terms.<br /><br />
+                        6.1. By creating an account, you agree that Bloom
+                        Academy Africa may communicate with you
+                        electronically. Communications may include:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>emails;</li>
+                            <li>Platform notifications;</li>
+                            <li>course announcements;</li>
+                            <li>assessment reminders;</li>
+                            <li>payment confirmations;</li>
+                            <li>account notifications;</li>
+                            <li>security alerts;</li>
+                            <li>support communications; and</li>
+                            <li>other administrative notices.</li>
+                        </ul>
+                        6.2. Electronic communications may satisfy legal or
+                        contractual notice requirements where permitted by
+                        applicable law.<br /><br />
+                        6.3. You are responsible for maintaining access to
+                        the email address associated with your account and
+                        ensuring that messages from Bloom Academy Africa can
+                        be received.<br /><br />
+                        6.4. Marketing communications are subject to
+                        applicable consent and opt-out requirements described
+                        in our <a href="/privacy" class="text-[#FF8100]">Privacy Policy</a>.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Course Fees and Payment
+                            7. Learner Responsibilities
                         </div>
-                        6.1. Upon the acceptance of the admission offer, the
-                        Learner shall pay the prescribed fee on the course
-                        as Course Fees to access the Course Contents.<br /><br />
-                        6.2. Bloom Academy uses a third- party payment
-                        processor to process your payments for the Course
-                        Fees. By initiating the payment of the course fees,
-                        you autho<br /><br />rize Bloom Academy to disclose
-                        your information and payment instructions to the
-                        payment processor and agree to be bound by the
-                        current version of processor’s privacy policy and
-                        terms of service.<br /><br />
+                        As a learner, you agree to:
+                        <ol class="list-decimal pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Comply with these Terms and applicable course rules;</li>
+                            <li>Provide accurate information;</li>
+                            <li>Pay applicable course fees;</li>
+                            <li>Participate appropriately in classes, assignments, and learning activities;</li>
+                            <li>Meet applicable assessment deadlines;</li>
+                            <li>Respect instructors, staff, and other learners;</li>
+                            <li>Use the platform only for lawful purposes;</li>
+                            <li>Protect your login credentials;</li>
+                            <li>Respect Bloom Academy Africa's intellectual property;</li>
+                            <li>Refrain from sharing paid course content without permission;</li>
+                            <li>Avoid behavior that disrupts the learning environment;</li>
+                            <li>Comply with reasonable instructions from instructors and platform administrators; and</li>
+                            <li>Notify us promptly of issues that materially affect your ability to participate in a
+                                course.</li>
+                        </ol>
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Intellectual Property
+                            8. Community and Code of Conduct
                         </div>
-                        7.1. The Site and the Course contents contained
-                        therein, original content, features and
-                        functionality are and shall remain the exclusive
-                        property of Bloom Academy. Our trademarks and trade
-                        name may not be Used in connection with any product
-                        or service without Our prior written consent.<br /><br />
-                        7.2. You shall not Use, adapt, modify, prepare
-                        derivative works of, distribute, license, sell,
-                        transfer, publicly display, publicly perform,
-                        transmit, broadcast or otherwise exploit the Site or
-                        collective content except as expressly permitted by
-                        Bloom Academy.<br /><br />
-                        7.3. You acknowledge and agree that all Course
-                        contents and all related materials provided by Bloom
-                        Academy shall remain the property of Bloom Academy
-                        and that Bloom Academy shall be the sole and
-                        exclusive owner of all copyrights and other
-                        intellectual property rights in the courses.<br /><br />
-                        7.4. Subject to your compliance with these Terms,
-                        Bloom Academy grants You a limited, non-exclusive,
-                        revocable, non-transferable licence to access and
-                        view any content made available on or through the
-                        Site and accessible to You.<br /><br />
+                        Where Bloom Academy Africa provides discussion forums,
+                        WhatsApp communities, social communities, live
+                        classes, or other interactive spaces, you must behave
+                        respectfully and professionally.<br /><br />
+                        You must not:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Harass, threaten or intimidate other users;</li>
+                            <li>Post discriminatory or abusive content;</li>
+                            <li>Impersonate another person;</li>
+                            <li>Share another person's private information without authorisation;</li>
+                            <li>Upload malicious software;</li>
+                            <li>Distribute spam or unsolicited advertising;</li>
+                            <li>Attempt to disrupt the Platform;</li>
+                            <li>Use the community for unlawful purposes;</li>
+                            <li>Share sexually explicit or otherwise prohibited material;</li>
+                            <li>Engage in fraud or deceptive activity; or</li>
+                            <li>Repeatedly disrupt classes or learning activities.</li>
+                        </ul>
+                        We may remove content or restrict access where
+                        reasonably necessary to protect Learners,
+                        instructors, staff, our systems or the integrity of
+                        the learning environment.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Changes to Course Contents
+                            9. Course Fees and Payments
                         </div>
-                        8.1. Bloom Academy reserves the right to cancel,
-                        interrupt, reschedule, or modify any Course
-                        contents, or change the point value or weight of any
-                        assignment, quiz, or other assessment, and shall
-                        only communicate such changes to Learners currently
-                        enrolled in the affected course at the time of such
-                        change.<br /><br />
+                        9.1. Course Fees will be displayed or otherwise
+                        communicated before you complete a paid
+                        registration.<br /><br />
+                        9.2. You are responsible for paying the applicable
+                        course fee in accordance with the payment terms
+                        communicated for the course.<br /><br />
+                        9.3. Payments may be processed through third-party
+                        payment providers. By making a payment, you authorise
+                        the applicable payment provider to process the
+                        transaction and acknowledge that the provider may
+                        have its own terms and privacy policy.<br /><br />
+                        9.4. Bloom Academy Africa does not ordinarily store
+                        complete payment card information where payment
+                        processing is handled by a third-party payment
+                        provider.<br /><br />
+                        9.5. You agree not to use fraudulent payment
+                        information or attempt to circumvent applicable
+                        payment requirements.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Scholarships, Gifts and Promotional Codes
+                            10. Refunds, Cancellations and Withdrawals
                         </div>
-                        9.1. Bloom Academy or our partners may offer
-                        scholarships, gifts and promotional codes
-                        (“Promotions”) to Learners. These Promotions may be
-                        used to access Course contents on the Platform
-                        subject to the terms and conditions of each
-                        Promotion.<br /><br />
-                        9.2. These Promotions, and the value linked to them,
-                        may expire if not used within the period specified
-                        by Bloom Academy. Gift and promotional codes offered
-                        by Bloom Academy may not be refunded for cash,
-                        unless otherwise specified in the terms included
-                        with the Promotion or as required by applicable
-                        law.<br /><br />
+                        10.1. Refund eligibility will depend on the refund
+                        terms communicated for the specific Course or service
+                        at the time of purchase.<br /><br />
+                        10.2. Where a course has a specific refund or
+                        cancellation policy, that policy forms part of these
+                        terms.<br /><br />
+                        10.3. Where no specific refund policy applies,
+                        refunds will be considered on a case-by-case basis,
+                        subject to applicable law and the circumstances of
+                        the request.<br /><br />
+                        10.4. Nothing in these Terms is intended to exclude
+                        any consumer right or other statutory right that
+                        cannot lawfully be excluded or restricted.<br /><br />
+                        10.5. Promotional codes, scholarships and discounts
+                        may have additional terms, including expiration dates
+                        and eligibility requirements.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Usage of the Contents Submitted by You
+                            11. Scholarships, Promotions, and Discounts
                         </div>
-                        10.1. The content you post as a Learner (including
-                        courses) remains yours. By posting any content, you
-                        allow Bloom Academy to reuse and share it but you do
-                        not lose any ownership rights you may have over your
+                        Bloom Academy Africa or its partners may offer:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Scholarships;</li>
+                            <li>Promotional codes;</li>
+                            <li>Discounts;</li>
+                            <li>Free courses;</li>
+                            <li>Gifts;</li>
+                            <li>Grants; or</li>
+                            <li>Other promotional opportunities.</li>
+                        </ul>
+                        Each promotion may have specific eligibility
+                        requirements, deadlines, and conditions.<br /><br />
+                        Unless expressly stated otherwise, promotions:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Cannot be exchanged for cash;</li>
+                            <li>Cannot be transferred;</li>
+                            <li>Cannot be combined with other promotions; and</li>
+                            <li>May expire after the stated validity period.</li>
+                        </ul>
+                        Where applicable law requires otherwise, the law will
+                        prevail.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            12. Course Content and Educational Materials
+                        </div>
+                        12.1. Bloom Academy Africa owns or has appropriate
+                        rights to use the course content made available
+                        through our platform.<br /><br />
+                        12.2. Course Content may include:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Videos;</li>
+                            <li>Written materials;</li>
+                            <li>Presentations;</li>
+                            <li>Templates;</li>
+                            <li>Assignments;</li>
+                            <li>Assessments;</li>
+                            <li>Graphics;</li>
+                            <li>Audio;</li>
+                            <li>Recordings;</li>
+                            <li>Guides; and</li>
+                            <li>Other educational materials.</li>
+                        </ul>
+                        12.3. Subject to your compliance with these Terms and
+                        payment of applicable fees, Bloom Academy Africa
+                        grants you a limited, personal, non-exclusive,
+                        non-transferable and revocable licence to access and
+                        use the Course Content for your own educational
+                        purposes.<br /><br />
+                        12.4. You may not, without our prior written
+                        permission:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Copy substantial portions of course content;</li>
+                            <li>Reproduce or redistribute course content;</li>
+                            <li>Sell course content;</li>
+                            <li>Sublicense Course Content;</li>
+                            <li>Share paid course content with persons who have not enrolled;</li>
+                            <li>Upload course content to another platform;</li>
+                            <li>Create a competing course substantially based on our course content;</li>
+                            <li>Commercially exploit our course content; or</li>
+                            <li>Remove copyright, trademark or other proprietary notices.</li>
+                        </ul>
+                        12.5. Reasonable personal use, including taking notes
+                        for your own learning, is permitted provided that it
+                        does not infringe our intellectual property
+                        rights.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            13. Intellectual Property
+                        </div>
+                        13.1. All intellectual property rights in Bloom
+                        Academy Africa's website, platform, branding,
+                        trademarks, course content, original materials,
+                        software, graphics, designs and other proprietary
+                        materials remain with Bloom Academy Africa or the
+                        relevant rights holder.<br /><br />
+                        13.2. Nothing in these Terms transfers ownership of
+                        Bloom Academy Africa's intellectual property to a
+                        learner.<br /><br />
+                        13.3. The Bloom Academy Africa name, logo, trademarks
+                        and brand assets may not be used without prior
+                        written permission.<br /><br />
+                        13.4. You retain ownership of original user content
+                        that you create, subject to the licence granted to us
+                        under Section 14.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            14. User Content and Learner Submissions
+                        </div>
+                        14.1. You may submit content through the platform,
+                        including:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Assignments;</li>
+                            <li>Project work;</li>
+                            <li>Comments;</li>
+                            <li>Questions;</li>
+                            <li>Reviews;</li>
+                            <li>Feedback;</li>
+                            <li>Discussion posts;</li>
+                            <li>Testimonials;</li>
+                            <li>Suggestions; and</li>
+                            <li>Other materials.</li>
+                        </ul>
+                        14.2. You retain ownership of intellectual property
+                        rights that you legally own in your user
                         content.<br /><br />
-                        10.2. When you post content, comments, questions,
-                        reviews, and when you submit to us ideas and
-                        suggestions for new features or improvements, you
-                        authorize Bloom Academy to use and share this
-                        content with anyone, distribute it and promote it on
-                        any platform and in any media, and to make
-                        modifications or edits to it as we see fit.<br /><br />
-                        10.3. By submitting or posting content on or through
-                        the platforms, you grant us a worldwide,
-                        non-exclusive, royalty-free license (with the right
-                        to sublicense) to use, copy, reproduce, process,
-                        adapt, modify, publish, transmit, display, and
-                        distribute your content (including your name and
-                        image) in any and all media or distribution methods
-                        (existing now or later developed). This includes
-                        making your content available to other companies,
-                        organizations, or individuals who partner with Bloom
-                        Academy, as well as using your content for marketing
-                        purposes. You also waive any rights of privacy,
-                        publicity, or other rights of a similar nature
-                        applicable to all these uses, to the extent
-                        permissible under applicable law. You represent and
-                        warrant that you have all the rights, power, and
-                        authority necessary to authorize us to use any
-                        content that you submit. You also agree to all such
-                        uses of your content with no compensation paid to
-                        you.<br /><br />
+                        14.3. By submitting User Content, you grant Bloom
+                        Academy Africa a non-exclusive, worldwide,
+                        royalty-free licence to host, store, reproduce,
+                        display and process that content to the extent
+                        reasonably necessary to:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Operate the Platform;</li>
+                            <li>Provide educational services;</li>
+                            <li>Administer Courses;</li>
+                            <li>Facilitate assessment;</li>
+                            <li>Provide learner support;</li>
+                            <li>Maintain records;</li>
+                            <li>Improve our services; and</li>
+                            <li>Comply with legal obligations.</li>
+                        </ul>
+                        14.4. We will not automatically assume that because
+                        you submit content to a course or community, we have
+                        unrestricted rights to use your name, photograph,
+                        image, testimonial or submitted work for public
+                        advertising. Where your image, testimonial, personal
+                        story or identifiable work is intended for
+                        promotional use, we will obtain the appropriate
+                        permission or rely on another lawful basis where
+                        permitted by law.<br /><br />
+                        14.5. You represent that you have the necessary
+                        rights to submit any content you provide to us and
+                        that your submission does not unlawfully infringe
+                        another person's rights.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Live and Interactive Sessions
+                            15. Live Classes and Recordings
                         </div>
-                        11.1. You may not do any of the following while
-                        during any Live and Interactive Sessions (the
-                        “Sessions”): a. use the Sessions for any purpose
-                        other than to perform the activities as instructed
-                        by Bloom Academy or its instructors; b. exceed the
-                        usage limitations as prescribed by Bloom Academy; c.
-                        take any action in the Sessions that results in a
-                        disruption or interference of the Platform or the
-                        stability of Our infrastructure; or d. use any data
-                        or information other than simulated, anonymous,
-                        non-personal, non-live data or information during
-                        the Sessions.<br /><br />
-                        11.2. These restrictions are in addition to any
-                        other restrictions stated in the Bloom Academy Code
-                        of Conduct.<br /><br />
+                        15.1. Bloom Academy Africa may conduct live classes,
+                        webinars, workshops, mentoring sessions and other
+                        interactive learning activities.<br /><br />
+                        15.2. Where a session is recorded, we will provide
+                        appropriate notice where required.<br /><br />
+                        15.3. Recordings may be used to provide enrolled
+                        learners with access to educational material, support
+                        course delivery and maintain appropriate course
+                        records.<br /><br />
+                        15.4. Learners must not record, reproduce,
+                        redistribute or commercially exploit live sessions or
+                        recordings without Bloom Academy Africa's prior
+                        written permission.<br /><br />
+                        15.5. Learners should avoid unnecessarily sharing
+                        sensitive personal information during recorded
+                        sessions.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Representations and Warranties
+                            16. Assessments, Certificates and Course
+                            Completion
                         </div>
-                        You make the following representations and
-                        warranties to us at the time of agreeing to these
-                        Terms:<br /><br />
-                        12.1. You are over the age of 18 (eighteen)
-                        years;<br /><br />
-                        12.2. You are of sound mind and have the capacity to
-                        use the Course contents as a learner; and<br /><br />
-                        12.3. All information that You provide to Us is true
-                        and accurate to the best of Your knowledge.<br /><br />
+                        16.1. Where applicable, learners may be required to
+                        complete assignments, assessments, attendance
+                        requirements, projects or other learning activities
+                        to qualify for course completion.<br /><br />
+                        16.2. Certificate eligibility may depend on the
+                        requirements communicated for the relevant
+                        Course.<br /><br />
+                        16.3. Bloom Academy Africa reserves the right to
+                        verify course completion and certificate
+                        eligibility.<br /><br />
+                        16.4. Certificates may be revoked where they were
+                        obtained through:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Fraud;</li>
+                            <li>Impersonation;</li>
+                            <li>Academic dishonesty;</li>
+                            <li>Unauthorised sharing of accounts;</li>
+                            <li>Falsification of information; or</li>
+                            <li>Other material breaches of these Terms.</li>
+                        </ul>
+                        16.5. Bloom Academy Africa may introduce paid
+                        certificates or certificate-related fees for
+                        applicable courses, provided that such fees are
+                        communicated before they become payable.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Event of Default
+                            17. Academic and Professional Integrity
                         </div>
-                        13.1. An Event of Default refers to the following
-                        instances where:<br /><br />
-                        1.1.1. You fail to pay the complete Course Fee as at
-                        when due;<br /><br />
-                        1.2.1. You continuously fail to participate in tasks
-                        or projects assigned to You;<br /><br />
-                        1.3.1. You refuse to submit assignment and task as
-                        at when due; and<br /><br />
-                        1.4.1. You engage in acts which is against the codes
-                        and conduct of Bloom Academy. <br /><br />1.2. Upon
-                        the occurrence of an Event of default as mentioned
-                        above, We may without prejudice to any other right
-                        or remedy granted to Us under any law:
-                        <br /><br />2.1.1. Terminate these Terms in
-                        accordance with clause 14; <br /><br />2.1.2. revoke
-                        Your admission into the course; and
-                        <br /><br />2.1.3. withdraw all access to Our
-                        Platform and all Course contents. 1.3. Bloom Academy
-                        reserves the right to institute legal proceedings
-                        against You to recover the Course fee, with or
-                        without prior notice. <br /><br />1.4. You shall be
-                        liable for all legal costs and expenses incurred by
-                        Bloom Academy for any action taken against you by it
-                        for the recovery of fees. <br /><br />
+                        Learners must submit their own work unless
+                        collaboration is expressly permitted.<br /><br />
+                        You must not:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Impersonate another learner;</li>
+                            <li>Submit another person's work as your own;</li>
+                            <li>Falsify assessment results;</li>
+                            <li>Manipulate platform records;</li>
+                            <li>Use unauthorised assistance during assessments;</li>
+                            <li>Share answers to restricted assessments; or</li>
+                            <li>Otherwise, engage in academic dishonesty.</li>
+                        </ul>
+                        Bloom Academy Africa may investigate suspected
+                        violations and take proportionate action.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            18. Changes to Courses
+                        </div>
+                        Bloom Academy Africa may reasonably modify,
+                        reschedule, update, or discontinue course content or
+                        components of a course where necessary.<br /><br />
+                        Changes may include:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Instructors;</li>
+                            <li>Schedules;</li>
+                            <li>Learning materials;</li>
+                            <li>Assessment methods;</li>
+                            <li>Course structure;</li>
+                            <li>Technology;</li>
+                            <li>Delivery format; or</li>
+                            <li>Other operational details.</li>
+                        </ul>
+                        Where a material change substantially affects a paid
+                        course, Bloom Academy Africa will take reasonable
+                        steps to notify affected learners and, where
+                        appropriate, offer a reasonable alternative.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            19. Third-Party Services
+                        </div>
+                        Bloom Academy Africa may integrate or rely on
+                        third-party services, including:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Payment processors;</li>
+                            <li>Video-conferencing platforms;</li>
+                            <li>Email platforms;</li>
+                            <li>Messaging platforms;</li>
+                            <li>Cloud services;</li>
+                            <li>Analytics tools;</li>
+                            <li>Learning technologies; and</li>
+                            <li>Other software or technology providers.</li>
+                        </ul>
+                        Third-party services are governed by their own terms
+                        and policies. Bloom Academy Africa is not responsible
+                        for the availability, security, functionality or
+                        practices of a third-party service beyond the extent
+                        required by applicable law.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            20. Prohibited Use
+                        </div>
+                        You must not use the platform or services to:
+                        <ol class="list-decimal pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Violate applicable law;</li>
+                            <li>Infringe intellectual property rights;</li>
+                            <li>Commit fraud;</li>
+                            <li>Distribute malware;</li>
+                            <li>Attempt unauthorised access;</li>
+                            <li>Interfere with platform operations;</li>
+                            <li>Scrape or systematically extract course content without permission;</li>
+                            <li>Reverse engineer the platform except where permitted by law;</li>
+                            <li>Resell access to the platform;</li>
+                            <li>Share paid accounts;</li>
+                            <li>Impersonate another person or organisation;</li>
+                            <li>Distribute harmful or abusive material;</li>
+                            <li>Collect another user's personal data without lawful authority; or</li>
+                            <li>Engage in activity that could reasonably harm Bloom Academy Africa, its learners, or
+                                its systems.</li>
+                        </ol>
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            21. Suspension and Termination
+                        </div>
+                        21.1. We may suspend or terminate your account where
+                        reasonably necessary because of:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Material breach of these Terms;</li>
+                            <li>Non-payment;</li>
+                            <li>Fraud;</li>
+                            <li>Unlawful activity;</li>
+                            <li>Serious misconduct;</li>
+                            <li>Unauthorised account sharing;</li>
+                            <li>Intellectual-property infringement;</li>
+                            <li>Security risks; or</li>
+                            <li>Other conduct that materially threatens the platform or other users.</li>
+                        </ul>
+                        21.2. Where appropriate, we may provide notice and an
+                        opportunity to remedy a breach before termination.
+                        Immediate suspension may occur where necessary to
+                        protect the security of the platform, other users, or
+                        Bloom Academy Africa.<br /><br />
+                        21.3. Upon termination, your right to access the
+                        platform and course content may cease.<br /><br />
+                        21.4. Termination does not affect rights or
+                        obligations that by their nature should survive
+                        termination, including intellectual property rights,
+                        payment obligations, confidentiality, limitations of
+                        liability and dispute-resolution provisions.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            22. Refund or Access Consequences Following
                             Termination
                         </div>
-                        2.1. We may terminate or suspend your Account
-                        immediately with or without prior notice or
-                        liability, for any reason whatsoever, including:
-                        <br /><br />2.1.1. upon the occurrence of an Event
-                        of Default as stated in clause 13 above;
-                        <br /><br />2.2. Upon termination, Your right to Use
-                        Our Platform will immediately cease.<br /><br />
+                        Where an account is terminated because of a learner's
+                        material breach, any refund will be determined in
+                        accordance with the applicable refund policy and
+                        applicable law.<br /><br />
+                        Where Bloom Academy Africa terminates or materially
+                        discontinues a paid service for reasons unrelated to
+                        a learner's breach, we will consider an appropriate
+                        remedy where required by the applicable circumstances
+                        and law.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Indemnity
+                            23. Disclaimers
                         </div>
-                        3.1. You agree to indemnify and hold harmless Bloom
-                        Academy, its affiliates and subsidiaries, its
-                        officers, directors, and employees, against all
-                        liabilities, costs, expenses, damages and losses
-                        (including any direct, indirect or consequential
-                        losses, loss of profits, loss of reputation and all
-                        interest penalties and legal and other reasonable
-                        professional costs and expenses) suffered or
-                        incurred by it, its affiliates and subsidiaries, its
-                        officers, directors, and employees, as a result of:
-                        <br /><br />a. Your fraudulent or illegal Use of Our
-                        Platform or Course contents; <br /><br />b. any
-                        inaccurate, incomplete or misleading information
-                        that You have provided to us; <br /><br />c. any
-                        unauthorised access to Your Account as a result of
-                        Your failure to keep Your Username and password
-                        confidential; <br /><br />d. any service that you
-                        have offered, whether with or without our permission
-                        to a third-party Using Bloom Academy’s Course
-                        contents or Platform; and <br /><br />e. any claim
-                        made against Bloom Academy and/or its stakeholders
-                        for actual or alleged infringement of a third
-                        party’s intellectual property rights arising out of
-                        or in connection with the Use of Our Course contents
-                        or Use of the Platform.<br /><br />
+                        23.1. Bloom Academy Africa provides educational and
+                        training services. Our courses are intended to
+                        provide education, skills, and learning
+                        opportunities. Unless expressly stated otherwise, we
+                        do not guarantee:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Employment;</li>
+                            <li>Promotion;</li>
+                            <li>Income;</li>
+                            <li>Business revenue;</li>
+                            <li>Client acquisition;</li>
+                            <li>Academic admission;</li>
+                            <li>Investment returns;</li>
+                            <li>Professional certification by an external organisation; or</li>
+                            <li>Any particular career outcome.</li>
+                        </ul>
+                        23.2. Information provided through our courses is
+                        educational in nature and should not be treated as
+                        legal, financial, medical, tax, or other professional
+                        advice unless expressly stated and appropriately
+                        qualified.<br /><br />
+                        23.3. Learners are responsible for evaluating how
+                        they apply information obtained through our
+                        services.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            No Class Action
+                            24. Limitation of Liability
                         </div>
-                        4.1. Except as expressly provided for under
-                        applicable laws, both Parties agree that we can each
-                        only bring claims against the other on an individual
-                        basis. This means: <br /><br />a. neither Party can
-                        bring a claim as a plaintiff or class member in a
-                        class action, consolidated action, or representative
-                        action; <br /><br />b. an arbitrator can’t combine
-                        multiple people’s claims into a single case (or
-                        preside over any consolidated, class, or
-                        representative action); and <br /><br />c. an
-                        arbitrator’s decision or award in one claimant’s
-                        case can only decide the disputes of that user, not
-                        other users. <br /><br />4.2. Nothing in this clause
-                        limits the Parties’ rights to resolve a Dispute by
-                        mutual agreement through a class-wide settlement of
-                        claims.<br /><br />
+                        To the maximum extent permitted by applicable law,
+                        Bloom Academy Africa will not be liable for indirect,
+                        incidental, special, consequential, or punitive
+                        losses arising from your use of the Platform or
+                        Services.<br /><br />
+                        This may include loss of:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Profits;</li>
+                            <li>Business opportunities;</li>
+                            <li>Goodwill;</li>
+                            <li>Anticipated savings;</li>
+                            <li>Data; or</li>
+                            <li>Other intangible losses.</li>
+                        </ul>
+                        Nothing in these Terms excludes or limits liability
+                        that cannot lawfully be excluded or limited under
+                        applicable Nigerian law, including liability arising
+                        from fraud or other liability that applicable law
+                        requires us to retain.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Force Majere
+                            25. Indemnification
                         </div>
-                        Neither Party shall be liable for failure to
-                        perform, or for delay in performing its obligations
-                        hereunder if such failure or delay shall be due to
-                        acts of God, war, riot, civil commotion, Weather,
-                        labour disputes, failure of sub-contractors or any
-                        other cause beyond its reasonable control.
-                        <br /><br />
+                        To the extent permitted by applicable law, you agree
+                        to indemnify and hold harmless Bloom Academy Africa,
+                        its directors, officers, employees, and authorised
+                        representatives against reasonable losses,
+                        liabilities, claims, and expenses arising directly
+                        from:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Your material breach of these terms;</li>
+                            <li>Your unlawful use of the platform;</li>
+                            <li>Fraud or intentional misconduct;</li>
+                            <li>Infringement of another person's intellectual property rights through content you
+                                submit; or</li>
+                            <li>Unauthorised use of your account caused by your failure to protect your credentials.
+                            </li>
+                        </ul>
+                        This clause does not require you to indemnify Bloom
+                        Academy Africa for losses caused by Bloom Academy
+                        Africa's own unlawful conduct or negligence where
+                        such liability cannot legally be excluded.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Limitation of Liability
+                            26. Force Majeure
                         </div>
-                        In no event shall Bloom Academy, its directors,
-                        employees, partners or affiliates, be liable for any
-                        indirect, incidental, special, consequential or
-                        punitive damages, including without limitation, loss
-                        of profits, data, Use, goodwill, or other intangible
-                        losses, resulting from Our services or Your
-                        inability to Use the Site or Our services.
-                        <br /><br />
+                        Neither party will be responsible for failure or
+                        delay in performing obligations caused by
+                        circumstances beyond its reasonable control,
+                        including:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Natural disasters;</li>
+                            <li>Severe weather;</li>
+                            <li>War;</li>
+                            <li>Terrorism;</li>
+                            <li>Civil unrest;</li>
+                            <li>Labour disputes;</li>
+                            <li>Government action;</li>
+                            <li>Widespread internet or telecommunications failures;</li>
+                            <li>Cyber incidents affecting critical infrastructure;</li>
+                            <li>Failure of essential third-party service providers; or</li>
+                            <li>Other events beyond the reasonable control of the affected party.</li>
+                        </ul>
+                        The affected party will take reasonable steps to
+                        minimise the impact and resume performance as soon as
+                        reasonably practicable.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Severability
+                            27. Data Protection and Privacy
                         </div>
-                        If any part of these Terms is held to be invalid or
-                        unenforceable in any jurisdiction, the invalidity
-                        and unenforceability of all remaining provisions
-                        contained in these Terms shall not in any way be
-                        affected or impaired. <br /><br />
+                        Bloom Academy Africa processes personal data in
+                        accordance with applicable data-protection laws and
+                        our <a href="/privacy" class="text-[#FF8100]">Privacy Policy</a>.<br /><br />
+                        Our Privacy Policy explains:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>The categories of personal data we collect;</li>
+                            <li>Why we process personal data;</li>
+                            <li>Lawful bases for processing;</li>
+                            <li>Data-sharing arrangements;</li>
+                            <li>International transfers;</li>
+                            <li>Retention;</li>
+                            <li>Security;</li>
+                            <li>Your privacy rights; and</li>
+                            <li>How to make a data-protection request or complaint.</li>
+                        </ul>
+                        By using our services, you acknowledge that your
+                        personal data may be processed in accordance with our
+                        Privacy Policy and applicable law.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Entire Agreement
+                            28. Dispute Resolution
                         </div>
-                        These Terms contains the entire agreement between
-                        the Parties with respect to the subject matter and
-                        supersedes all prior arrangements and understandings
-                        (whether oral or written). <br /><br />
+                        <div class="poppins-bold text-base md:text-xl">
+                            28.1 Informal Resolution
+                        </div>
+                        If a dispute arises between you and Bloom Academy
+                        Africa, the parties should first attempt to resolve
+                        the matter amicably through good-faith
+                        discussions.<br /><br />
+                        <div class="poppins-bold text-base md:text-xl">
+                            28.2 Mediation
+                        </div>
+                        Where appropriate, the parties may agree to mediation
+                        before commencing arbitration or court
+                        proceedings.<br /><br />
+                        <div class="poppins-bold text-base md:text-xl">
+                            28.3 Arbitration
+                        </div>
+                        Subject to applicable law, any dispute arising out of
+                        or in connection with these Terms that cannot be
+                        resolved amicably within thirty (30) days may be
+                        referred to arbitration in accordance with the
+                        applicable arbitration law of Nigeria and the
+                        applicable rules of the agreed arbitral
+                        institution.<br /><br />
+                        Where the parties agree to institutional arbitration
+                        through the Lagos Court of Arbitration (LCA), the
+                        arbitration will be administered under the applicable
+                        LCA rules. The arbitration shall be conducted by a
+                        single arbitrator unless the parties agree otherwise.
+                        The seat of arbitration shall be Lagos, Nigeria,
+                        unless the parties agree otherwise in writing. The
+                        language of the arbitration shall be English. The
+                        arbitrator's decision shall be final and binding,
+                        subject to any rights of review or challenge
+                        available under applicable law.<br /><br />
+                        <div class="poppins-bold text-base md:text-xl">
+                            28.4 Court Proceedings
+                        </div>
+                        Nothing in these Terms prevents either party from
+                        seeking urgent interim or protective relief from a
+                        court of competent jurisdiction where such relief is
+                        necessary.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Waiver
+                            29. Governing Law
                         </div>
-                        In the event that Bloom Academy does not strictly
-                        enforce its rights under these Terms (including its
-                        right to insist on the payment of the Course Fee as
-                        and when due), Bloom Academy shall not be deemed to
-                        have waived or lost those rights and will not be
-                        prevented from enforcing such rights at a later
-                        date.<br /><br />
+                        These Terms shall be governed by and interpreted in
+                        accordance with the laws of the Federal Republic of
+                        Nigeria. Where mandatory consumer protection or other
+                        statutory rights apply, those rights will not be
+                        excluded by these Terms.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Assignment
+                            30. No Class Action
                         </div>
-                        Bloom Academy reserves the right to transfer or
-                        assign its rights and obligations under these Terms.
-                        Bloom Academy will only notify You if such an
-                        assignment will change the arrangements for the
-                        course you have registered for.<br /><br />
+                        To the extent permitted by applicable law, disputes
+                        between a learner and Bloom Academy Africa shall be
+                        brought on an individual basis. Nothing in this
+                        clause is intended to remove or restrict any
+                        statutory right that cannot legally be waived.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Amendment
+                            31. Severability
                         </div>
-                        Bloom Academy may at any time vary and revise these
-                        Terms by updating this document. You agree to be
-                        bound by subsequent revisions and agree to review
-                        these Terms periodically for changes. The most
-                        updated version of this document will be available
-                        for Your review under the “Terms” that appears on
-                        the Site.<br /><br />
+                        If any provision of these Terms is found to be
+                        invalid, unlawful, or unenforceable, that provision
+                        shall be interpreted or modified to the minimum
+                        extent necessary to make it enforceable where legally
+                        possible. The remaining provisions shall continue in
+                        full force and effect.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Governing Law and Dispute Resolution
+                            32. Entire Agreement
                         </div>
-                        12.1. These Terms shall be governed by and construed
-                        in accordance with the Laws of the Federal Republic
-                        of Nigeria. <br /><br />12.2. Any disputes arising
-                        under or in connection with the validity,
-                        interpretation and performance of these Terms that
-                        cannot be resolved amicably by the parties through
-                        negotiation within 30 (thirty) days shall be
-                        resolved by Arbitration at the Lagos Court of
-                        Arbitration (LCA) before a single arbitrator in
-                        accordance with the Arbitration and Mediation Act,
-                        2023. <br /><br />12.3. The Parties shall endeavour
-                        in good faith to mutually agree on the selection of
-                        an arbitrator. If the Parties cannot mutually agree
-                        on the selection of an arbitrator within ten (10)
-                        days of the request, they shall apply to the LCA to
-                        appoint an arbitrator. Arbitration proceedings shall
-                        be conducted in Abuja. The arbitrator will be
-                        requested to render an award within ninety (90) days
-                        and to provide, in writing the reasoning for the
-                        award. The decision of any such arbitrator shall be
-                        final and binding on the Parties. <br /><br />12.4.
-                        Each Party shall bear its cost in connection with
-                        the Arbitration and the arbitrator’s fees shall be
-                        split equally between both Parties. <br /><br />
+                        These Terms, together with the Privacy Policy and any
+                        applicable course-specific terms, constitute the
+                        agreement between you and Bloom Academy Africa
+                        concerning your use of the relevant services. They
+                        supersede previous terms or understandings concerning
+                        the same subject matter, except where a separate
+                        written agreement expressly states otherwise.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Contact Us
+                            33. No Waiver
                         </div>
-                        If You have any questions about this Terms, please
-                        contact us at  <br />
+                        A failure by Bloom Academy Africa to enforce a
+                        provision of these Terms does not constitute a waiver
+                        of our right to enforce that provision later.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            34. Assignment
+                        </div>
+                        You may not transfer or assign your rights or
+                        obligations under these Terms without our prior
+                        written consent. Bloom Academy Africa may assign or
+                        transfer its rights and obligations in connection
+                        with a merger, acquisition, restructuring, sale of
+                        assets, corporate reorganisation or other legitimate
+                        business transaction, subject to applicable law.
+                        Where such transfer materially affects your
+                        contractual rights, we will provide notice where
+                        required.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            35. Changes to These Terms
+                        </div>
+                        Bloom Academy Africa may amend these terms from time
+                        to time. The latest version will be published on our
+                        website. Where changes are material, we will provide
+                        reasonable notice through the platform, email, or
+                        another appropriate method. The updated terms will
+                        state their effective date.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            36. Contact Us
+                        </div>
+                        If you have questions, concerns, or complaints
+                        regarding these terms, please contact us:<br /><br />
+                        Bloom Academy Africa Limited <br />
                         Tel: 0708 627 8644 <br />
-                        Email: bloomacademy@bloomdigitmedia.com <br />
-                        Address: S03 Pathfield Mall, 4th Avenue, Gwarimpa,
-                        Abuja.
+                        Address: Plot 91A, 43 Cres, Gwarinpa Estate, Gwarinpa
+                        901108, Federal Capital Territory <br />
+                        Website:
+                        <a href="https://bloomacademyafrica.com" target="_blank"
+                            class="text-[#FF8100] break-words">https://bloomacademyafrica.com</a><br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            37. Related Policies
+                        </div>
+                        The following policies form part of Bloom Academy
+                        Africa's legal and operational framework and should
+                        be read together with these terms where applicable:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li><a href="/privacy" class="text-[#FF8100]">Privacy Policy</a></li>
+                            <li>Refund/Cancellation Policy</li>
+                            <li>Code of Conduct</li>
+                            <li>Course-specific rules</li>
+                            <li>Community Guidelines</li>
+                            <li>Any applicable promotional terms</li>
+                        </ul>
+                        © 2026 Bloom Academy Africa Limited. All rights
+                        reserved.
                     </div>
                 </div>
             </div>
@@ -789,7 +1151,7 @@
                 </p>
             </div>
             <div class="flex items-center pb-8 justify-center">
-                <img src="/images/bloom-logo-white.png" class="h-16 w-auto" alt="Bloom Logo" />
+                <img src="/images/bloom-logo-footer.png" class="h-9 w-auto" alt="Bloom Logo" />
             </div>
         </div>
     </footer>
@@ -808,7 +1170,7 @@
                         Blog
                     </li>
                 </a>
-                <a href="https://bloomdigitmedia.com/#whoWeAre">
+                <a href="#">
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         About
                     </li>
@@ -855,7 +1217,7 @@
                     <p
                         class="flex items-center justify-end text-white mt-3 md:mt-0 lg:mt-3 text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                         Bloom Academy is a registered trademark of
-                        <img src="/images/bloom-logo-white.png" class="pl-2 h-12 w-auto" alt="Bloom Logo" />
+                        <img src="/images/bloom-logo-footer.png" class="pl-2 h-7 w-auto" alt="Bloom Logo" />
                     </p>
                 </div>
             </div>

@@ -218,651 +218,706 @@
                     </div>
                     <div>
                         <div class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-8">
-                            Privacy Policy for Bloom Marketing Academy
+                            PRIVACY POLICY FOR BLOOM ACADEMY AFRICA
                         </div>
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Introduction
+                            1. Introduction
                         </div>
-                        Privacy Policy for Bloom Marketing Academy
-                        Introduction bloommarketingacademy.com is provided
-                        by Bloom Marketing Academy (“Bloom Academy”). At
-                        Bloom Academy, we value your privacy, and we are
-                        committed to safeguarding your personal information.
-                        All personal data that you provide us will be
-                        protected and kept confidential among our
-                        affiliates, representatives, and privies.<br /><br />
-                        Throughout the website, the terms “we”, “us” and
-                        “our” refer to Bloom Academy.<br /><br />
-                        This Privacy Policy explains how we collect, use,
-                        share and protect your personal data in connection
-                        with your relationship with us as a learner or
-                        potential learner. It applies to all our learners,
-                        potential learners, applicants, partners and every
-                        other person we hold information about.<br /><br />
-                        This policy also sets out your rights and who you
-                        may contact for further information. You agree to
-                        this Privacy Policy by visiting our website and when
-                        you use our services.<br /><br />
-                        Your use of our services, and any dispute over
-                        privacy is subject to this Policy and our Terms of
-                        Service including its applicable limitation on
-                        damages and resolution of disputes. Our Terms of
-                        Service are incorporated by reference into this
-                        Policy.<br /><br />
-                        Our website and services are not directed at you if
-                        we are prohibited by any law of any jurisdiction
-                        from making the information on our website available
-                        to you and is not intended for any use that would be
-                        contrary to local law or regulation.<br /><br />
+                        Welcome to Bloom Academy Africa. Throughout the
+                        website, the terms “we,” “us,” and “our” refer to
+                        Bloom Academy Africa. Bloom Academy Africa is
+                        committed to protecting the privacy, confidentiality,
+                        and security of the personal information entrusted to
+                        us by our learners, prospective learners, website
+                        visitors, instructors, partners, applicants, clients,
+                        and other individuals who interact with us.<br /><br />
+                        This Privacy Policy explains how Bloom Academy Africa
+                        collects, uses, stores, discloses, transfers, and
+                        protects personal data when you:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Visit or use our website;</li>
+                            <li>Create or use an account on our learning platform;</li>
+                            <li>Register for a course, programme, event or community;</li>
+                            <li>Purchase or access our educational services;</li>
+                            <li>Communicate with us;</li>
+                            <li>Participate in assessments, discussions, or other learning activities;</li>
+                            <li>Subscribe to our communications or marketing;</li>
+                            <li>Interact with our social media pages; or</li>
+                            <li>Otherwise, provide personal information to us.</li>
+                        </ul>
+                        This Privacy Policy should be read together with our
+                        <a href="/terms-of-service" class="text-[#FF8100]">Terms of Service</a> and any
+                        other privacy notices that we may provide at the
+                        point where personal data is collected. Our
+                        processing of personal data is primarily governed by
+                        the Nigeria Data Protection Act, 2023 (NDP Act) and
+                        applicable regulations, directives and guidance
+                        issued by the Nigeria Data Protection Commission
+                        (NDPC), including the NDP Act General Application and
+                        Implementation Directive (GAID) 2025.<br /><br />
+                        Where another applicable data-protection law applies
+                        to a particular individual or processing activity, we
+                        will comply with that law to the extent required. The
+                        NDP Act and GAID 2025 emphasize lawful, fair, and
+                        transparent processing, data minimisation, purpose
+                        limitation, security, accountability and respect for
+                        data-subject rights.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Definitions
+                            2. Who We Are
                         </div>
+                        For purposes of applicable data-protection law, Bloom
+                        Academy Africa may act as a data controller where we
+                        determine why and how personal data is processed.
+                        Where we process personal data on behalf of another
+                        organisation, we may act as a data processor.<br /><br />
+                        Our website is:
+                        <a href="https://bloomacademyafrica.com" target="_blank"
+                            class="text-[#FF8100] break-words">https://bloomacademyafrica.com</a><br /><br />
+                        Our learning platform is:
+                        <a href="https://app.bloomacademyafrica.com" target="_blank"
+                            class="text-[#FF8100] break-words">https://app.bloomacademyafrica.com</a><br /><br />
+                        If you have questions about this Privacy Policy or
+                        how we process your personal data, please contact us
+                        using the details provided in Section 26.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            3. What Is Personal Data?
+                        </div>
+                        “Personal data” means information relating to an
+                        identified or identifiable individual.<br /><br />
+                        Depending on your relationship with Bloom Academy
+                        Africa, this may include:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>full name;</li>
+                            <li>username;</li>
+                            <li>email address;</li>
+                            <li>telephone number;</li>
+                            <li>residential or contact address;</li>
+                            <li>account and login information;</li>
+                            <li>educational and professional information;</li>
+                            <li>course registration information;</li>
+                            <li>assessment and learning-progress information;</li>
+                            <li>certificates and course-completion information;</li>
+                            <li>CV or employment information where voluntarily provided;</li>
+                            <li>payment and transaction information;</li>
+                            <li>information contained in enquiries or communications with us;</li>
+                            <li>photographs, videos or other media where provided or lawfully collected;</li>
+                            <li>information posted in discussion forums or other community features;</li>
+                            <li>device and browser information;</li>
+                            <li>IP address;</li>
+                            <li>approximate location information;</li>
+                            <li>website usage information;</li>
+                            <li>cookie and analytics information;</li>
+                            <li>marketing preferences; and</li>
+                            <li>other information you voluntarily provide to us.</li>
+                        </ul>
+                        We will only collect personal data that is reasonably
+                        necessary for a specific and legitimate
+                        purpose.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            4. How We Collect Personal Data
+                        </div>
+                        We may collect personal data directly from you or
+                        through technology and third parties.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “consent”
+                            4.1 Information You Provide Directly
                         </div>
-                        means the consent of the data subject which must be
-                        a freely given, specific, informed, and unambiguous
-                        indication of the data subject’s wishes by which
-                        they (by a statement or by a clear affirmative
-                        action) signify their agreement to the processing of
-                        personal data relating to them; <br /><br />
+                        We may collect information when you:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>register for an account;</li>
+                            <li>enroll in a course;</li>
+                            <li>purchase a programme;</li>
+                            <li>complete a registration or application form;</li>
+                            <li>submit an assessment;</li>
+                            <li>participate in a discussion forum or learning community;</li>
+                            <li>contact our support team;</li>
+                            <li>subscribe to newsletters or marketing communications;</li>
+                            <li>request information;</li>
+                            <li>attend an event or webinar;</li>
+                            <li>provide feedback or complete a survey; or</li>
+                            <li>otherwise communicate with us.</li>
+                        </ul>
                         <div class="poppins-bold text-base md:text-xl">
-                            “data controller”
+                            4.2 Information Collected Automatically
                         </div>
-                        means the natural or legal person or organisation
-                        which, alone or jointly with others, determines the
-                        purposes and means of the processing of personal
-                        data. For the purposes of this policy, Bloom Academy
-                        is the data controller of all personal data relating
-                        to data subjects; <br /><br />
+                        When you access our website or learning platform,
+                        certain information may be collected automatically,
+                        including:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>IP address;</li>
+                            <li>browser type;</li>
+                            <li>operating system;</li>
+                            <li>device information;</li>
+                            <li>pages visited;</li>
+                            <li>links clicked;</li>
+                            <li>dates and times of visits;</li>
+                            <li>referring website;</li>
+                            <li>approximate geographic information;</li>
+                            <li>website and platform activity; and</li>
+                            <li>technical information relating to your interaction with our services.</li>
+                        </ul>
+                        This information helps us operate, secure, analyse
+                        and improve our website and learning
+                        platform.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “data processor”
+                            4.3 Information Received From Third Parties
                         </div>
-                        means the office of Bloom Academy responsible for
-                        ensuring that all processing of personal data is in
-                        compliance with the Data Protection Legislation;
-                        <br /><br />
+                        Where permitted by applicable law, we may receive
+                        information from service providers and other third
+                        parties, such as:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>payment processors;</li>
+                            <li>learning-platform providers;</li>
+                            <li>email and communication providers;</li>
+                            <li>analytics providers;</li>
+                            <li>authentication providers;</li>
+                            <li>advertising and marketing platforms;</li>
+                            <li>business partners; and</li>
+                            <li>organisations that engage Bloom Academy Africa to provide training.</li>
+                        </ul>
+                        We will only use such information for lawful and
+                        relevant purposes.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            5. Personal Data of Learners
+                        </div>
+                        If you register for or participate in a Bloom Academy
+                        Africa programme, we may process information
+                        necessary to administer your learning
+                        experience.<br /><br />
+                        This may include:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>registration details;</li>
+                            <li>course enrolment;</li>
+                            <li>attendance;</li>
+                            <li>learning progress;</li>
+                            <li>assessments and grades;</li>
+                            <li>certificates;</li>
+                            <li>instructor feedback;</li>
+                            <li>submitted assignments;</li>
+                            <li>participation in learning communities;</li>
+                            <li>communications relating to your course; and</li>
+                            <li>information necessary to provide learner support.</li>
+                        </ul>
+                        We may use this information to administer courses,
+                        evaluate learning progress, issue certificates,
+                        provide support, improve our programmes and maintain
+                        appropriate educational records.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            6. Lawful Bases for Processing Personal Data
+                        </div>
+                        We will process personal data only where there is a
+                        lawful basis for doing so. Depending on the
+                        circumstances, our lawful bases may include:<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “Data Protection Legislation”
+                            6.1 Consent
                         </div>
-                        means all applicable data protection and privacy
-                        laws including, but not limited to the Nigerian Data
-                        Protection Act 2023, the Nigeria Data Protection
-                        Regulation 2019 (NDPR), the General Data Protection
-                        Regulation 2018 and the United Kingdom’s General
-                        Data Protection Regulation ((EU) 2016/679) (GDPR),
-                        the Data Protection Act 2018 and any successor
-                        legislation;
-                        <br /><br />
+                        We may process personal data where you have freely
+                        and knowingly provided consent. You may withdraw
+                        consent where processing is based on consent.
+                        Withdrawal will not affect processing that occurred
+                        lawfully before withdrawal.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “Data Protection Office”
+                            6.2 Performance of a Contract
                         </div>
-                        means the office of Bloom Academy responsible for
-                        ensuring that all processing of personal data is in
-                        compliance with the Data Protection Legislation;
-                        “data subject” means a living, identified, or
-                        identifiable individual about whom Bloom Academy
-                        holds personal data;
-                        <br /><br />
+                        We may process information where necessary to:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>register you for a course;</li>
+                            <li>provide educational services;</li>
+                            <li>process payments;</li>
+                            <li>provide access to your account;</li>
+                            <li>issue certificates; or</li>
+                            <li>fulfil obligations under an agreement with you.</li>
+                        </ul>
                         <div class="poppins-bold text-base md:text-xl">
-                            “personal data”
+                            6.3 Legal or Regulatory Obligation
                         </div>
-                        means any information relating to a data subject who
-                        can be identified, directly or indirectly, in
-                        particular by reference to an identifier such as a
-                        name, identification number, location data, an
-                        online identifier, or to one or more factors
-                        specific to the physical, physiological, genetic,
-                        mental, economic, cultural, or social identity of
-                        that data subject;<br /><br />
+                        We may process personal data where necessary to
+                        comply with applicable legal, regulatory, tax,
+                        accounting or other obligations.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            “personal data breach”
+                            6.4 Legitimate Interests
                         </div>
-                        means a breach of security leading to the accidental
-                        or unlawful destruction, loss, alteration,
-                        unauthorised disclosure of, or access to, personal
-                        data transmitted, stored, or otherwise processed;
-                        <br /><br />
+                        Where permitted by law, we may process information
+                        for legitimate business purposes, provided that those
+                        interests do not override your fundamental privacy
+                        rights and interests.<br /><br />
+                        Examples may include:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>improving our services;</li>
+                            <li>maintaining platform security;</li>
+                            <li>preventing fraud or abuse;</li>
+                            <li>conducting internal administration;</li>
+                            <li>analysing service performance; and</li>
+                            <li>communicating with existing customers about relevant services.</li>
+                        </ul>
                         <div class="poppins-bold text-base md:text-xl">
-                            “processing”
+                            6.5 Protection of Vital Interests
                         </div>
-                        means any operation or set of operations performed
-                        on personal data or sets of personal data, whether
-                        or not by automated means, such as collection,
-                        recording, organisation, structuring, storage,
-                        adaptation or alteration, retrieval, consultation,
-                        use, disclosure by transmission, dissemination or
-                        otherwise making available, alignment or
-                        combination, restriction, erasure or destruction.<br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Data Protection Officer & Scope of Policy
-                        </div>
-                        3.1. Bloom Academy's Data Protection Office contact
-                        information is
-                        <!-- datacompliance@bloomdigitmedia.com -->
-                        The Data Protection Office is responsible for
-                        working together with the HR and other relevant
-                        Departments in administering this policy and for
-                        developing and implementing any applicable related
-                        policies, procedures, and guidelines. <br /><br />
-                        3.2. All managers, department heads and supervisors
-                        are responsible for ensuring that all employees,
-                        agents, contractors, or other parties working on
-                        behalf of Bloom Academy comply with this policy and,
-                        where applicable, must implement such practices,
-                        processes, controls, and training as are reasonably
-                        necessary to ensure such compliance.
-                        <br /><br />3.3. Any questions relating to this
-                        policy, Bloom Academy's collection, processing, or
-                        holding of personal data, or to the Data Protection
-                        Legislation should be referred to the Data
-                        Protection Office. <br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Consent
-                        </div>
-                        4.1. Where processing of your personal data is based
-                        on consent, we shall obtain the requisite consent at
-                        the time of collection of the personal information.
-                        In this regard, you consent to the processing of
-                        your personal information when you access our
-                        website, or use our services, content, features,
-                        technologies or functions offered on our website or
-                        other digital platforms. You can withdraw your
-                        consent at any time but such withdrawal will not
-                        affect the lawfulness of the processing of your data
-                        based on consent given before its withdrawal. Where
-                        your personal data is to be processed for a
-                        different purpose that is incompatible with the
-                        purpose or purposes for which that personal data was
-                        originally collected that was not disclosed to you
-                        when you first provided your consent, we will obtain
-                        your consent to the new purpose or purposes.<br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Age Restriction
-                        </div>
-                        5.1. You affirm that you are over 18 years old and
-                        have the right to contract in your own name, and
-                        that you have read the above authorisation and fully
-                        understand its contents. <br /><br />5.2.
-                        Individuals under 18 years old are only allowed to
-                        sign up for our services or provide us with their
-                        information when an adult above the age of 18 is
-                        signing contracts in their stead. Data Protection
-                        Principles The Data Protection Legislation sets out
-                        the following principles with which anyone handling
-                        personal data must comply. We, our employees,
-                        agents, contractors and third-party service
-                        providers comply with the following principles when
-                        collecting or processing your personal data.
-                        <br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            All personal data must be:
-                        </div>
-                        6.1. processed lawfully, fairly, and in a
-                        transparent manner in relation to the data subject;
-                        collected for specified, explicit, and legitimate
-                        purposes and not further processed in a manner that
-                        is incompatible with those purposes. Further
-                        processing for archiving purposes in the public
-                        interest, scientific or historical research purposes
-                        or statistical purposes shall not be considered to
-                        be incompatible with the initial purposes;
-                        <br /><br />6.2. adequate, relevant, and limited to
-                        what is necessary in relation to the purposes for
-                        which it is processed; accurate and, where
-                        necessary, kept up to date. Every reasonable step
-                        must be taken to ensure that personal data that is
-                        inaccurate, having regard to the purposes for which
-                        it is processed, is erased, or rectified without
-                        delay; <br /><br />6.3. kept in a form which permits
-                        identification of data subjects for no longer than
-                        is necessary for the purposes for which the personal
-                        data is processed. Personal data may be stored for
-                        longer periods insofar as the personal data will be
-                        processed solely for archiving purposes in the
-                        public interest, scientific or historical research
-                        purposes, or statistical purposes, subject to
-                        implementation of the appropriate technical and
-                        organisational measures required by the Data
-                        Protection Legislation in order to safeguard the
-                        rights and freedoms of the data subject;
-                        <br /><br />6.4. processed in a manner that ensures
-                        appropriate security of the personal data, including
-                        protection against unauthorised or unlawful
-                        processing and against accidental loss, destruction,
-                        or damage, using appropriate technical or
-                        organisational measures.<br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Information We Collect.
-                        </div>
-                        In providing our educational services to you, we
-                        collect certain non-personal and personal data about
-                        you. Our policy is to keep this information
-                        confidential and strictly safeguarded, and to use or
-                        disclose it only as needed to provide services to
-                        you, or as permitted or required by the Data
-                        Protection Legislation.
-                        <br /><br />There are two categories of information
-                        we collect. We collect a variety of information from
-                        our users and visitors to our website. As described
-                        below, some information is automatically collected
-                        when you visit our website, and some you provide to
-                        us when filling out a form or communicating with us.
-                        <span class="poppins-bold text-base md:text-xl">
-                            7.1. Information Collected Automatically:
-                        </span>
-                        Whenever you visit our website, our web servers
-                        automatically collect non-personal information such
-                        as the domain name of the internet access provider,
-                        the internet protocol address used to connect the
-                        computer to the internet, the average time spent on
-                        our website, pages viewed, information searched for,
-                        access times, and other relevant statistics.
-                        <br /><br />
-                        <span class="poppins-bold text-base md:text-xl">
-                            7.2. Information You Provide Us: </span>If you provide us with personal information, by
-                        contacting us, or subscribing to our services we
-                        collect the following personal information:
-                        <br /><br />
-                        7.1.1. Username and password; <br /><br />7.1.2.
-                        Contact information; <br /><br />7.1.3. Educational
-                        information (e.g., academic history, CV, employment
-                        status etc.); <br /><br />7.1.4. Financial
-                        information where you make any payment for our
-                        services; and <br /><br />7.1.5. Any other
-                        information you provide to us.<br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Using Your Personal Data
-                        </div>
-                        8.1. We primarily collect your personal data to
-                        ensure that we provide the most efficient
-                        educational service to you, monitor the use and
-                        improve our website and other legitimate interests.
-                        Your information will solely be used and disclosed
-                        for the following purposes:
-                        <br /><br />8.1.1. To help us verify your identity;
-                        <br /><br />8.1.2. To carry out our obligations
-                        ensuing from any contracts entered into between you
-                        and us; <br /><br />8.1.3. To provide you with the
-                        products, services and information you request from
-                        us; <br /><br />8.1.4. To assist you with enquiries
-                        and improve our customer service; <br /><br />8.1.5.
-                        To assist us in carrying out marketing analysis and
-                        customer profiling (including transactional
-                        information), conduct research, including creating
-                        statistical and testing information;
-                        <br /><br />8.1.6. To allow us to communicate with
-                        you in any way (including e-mail, telephone, visit,
-                        and text or multimedia messages); <br /><br />8.1.7.
-                        For our billing and account purposes; 8.1.8. To help
-                        prevent and detect fraud or loss; <br /><br />8.1.9.
-                        To update our records; <br /><br />8.1.10. To make
-                        recommendations and suggestions to you about
-                        services offered by us unless you have previously
-                        asked us not to do so; <br /><br />8.1.11. To send
-                        you service or support messages, such as updates,
-                        security alerts, email notifications and /or
-                        newsletters; <br /><br />8.1.12. To conduct
-                        investigations and risk assessments; and
-                        <br /><br />8.1.13. For compliance with legal and
-                        regulatory obligations. <br /><br />8.2. Employees,
-                        agents, contractors, or other parties working on
-                        behalf of Bloom Academy shall collect your personal
-                        data only to the extent required for the performance
-                        of their job duties and only in accordance with this
-                        policy. Excessive personal data must not be
-                        collected. <br /><br />8.3. Employees, agents,
-                        contractors, or other parties working on behalf of
-                        Bloom Academy shall process your personal data only
-                        when the performance of their job duties requires
-                        it. Your personal data held by Bloom Academy cannot
-                        be processed for any unrelated reasons.<br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Data Accuracy
-                        </div>
-                        Your personal data must be accurate and kept up to
-                        date. In this regard, Bloom Academy shall ensure
-                        that any data it collects and/or processes is
-                        accurate and not misleading in a way that could be
-                        harmful to you; make efforts to keep your personal
-                        data updated where reasonable and applicable; and
-                        make timely efforts to correct or erase your
-                        personal data when inaccuracies are discovered.
-                        <br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Data Retention
-                        </div>
-                        Bloom Academy shall not keep personal data for any
-                        longer than is necessary in light of the purpose or
-                        purposes for which that personal data was originally
-                        collected, held, and processed. In the case of your
-                        educational data, the purpose for which the data was
-                        collected is to provide you with our educational
-                        services which will equip you with technical skills
-                        needed for the careers of the future. Unless Bloom
-                        Academy receives a valid request to erase your
-                        educational data, the data is retained permanently.
-                        This allows your record of participation and
-                        progress in our educational program to be
-                        maintained. If the data were deleted, we would have
-                        no record of your performance and completion of our
-                        educational program. <br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Other Information
-                        </div>
-                        We Collect Other information which may be
-                        automatically collected from you when you visit our
-                        website include; domain name of your internet
-                        service provider, the internet protocol address used
-                        to connect the computer to the internet, the average
-                        time spent on our website, pages viewed, information
-                        searched for, access times, your geographical
-                        location, operating system, referral source, and
-                        other relevant statistics. <br /><br />We may also
-                        collect information from you using cookies and other
-                        analytical tools especially when you use our
-                        products and services. More details are provided
-                        below in our section on Cookies. <br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Data Confidentiality
-                        </div>
-                        Your information is regarded as confidential and
-                        will not be divulged to any third party, except
-                        under legal and/or regulatory conditions. You have
-                        the right to request copies of any and all
-                        information we keep on you, if such requests are
-                        made in compliance with applicable laws and other
-                        relevant enactments. While we are responsible for
-                        safeguarding the information entrusted to us, your
-                        role in fulfilling confidentiality duties includes,
-                        but is not limited to, adopting and enforcing
-                        appropriate security measures such as non-sharing of
-                        passwords and other platform login details,
-                        adherence with physical security protocols on our
-                        premises, dealing with only authorized officers of
-                        Bloom Academy.<br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Disclosures
-                        </div>
-                        13.1. We will not sell, publish, or disclose to
-                        third parties your personal data collected on our
-                        website, through our servers or otherwise obtained
-                        by us, other than to provide our services and as set
-                        forth in this policy. We may share generic
-                        aggregated demographic information not linked to any
-                        personally identifiable information regarding
-                        visitors and users with our business partners,
-                        trusted affiliates, professional advisers and
-                        advertisers for the purposes outlined above. We may
-                        share your information with these third parties for
-                        those limited purposes if you have given us your
-                        permission and in compliance with the Data
-                        Protection Legislation. <br /><br />13.2. We may
-                        request and provide information about you from and
-                        to third parties to provide our services.
-                        <br /><br />13.3. We will notify you as soon as we
-                        become aware of a harmful data breach which may
-                        result in a risk of your rights and freedom.
-                        <br /><br />13.4. You have the right to request an
-                        erasure of your data at any time. <br /><br />13.5.
-                        We will notify you if we are transferring your data.
-                        <br /><br />13.6. You may request at any time that
-                        we halt further dissemination of your data or cease
-                        to use your data. <br /><br />13.7. If you submit
-                        content in a public forum or a social media post, or
-                        use a similar feature on our website, that content
-                        is publicly visible. <br /><br />13.8. We may
-                        disclose Personally Identifiable Information if
-                        required to do so by law or in the good faith belief
-                        that such action is necessary to (a) conform with
-                        the requirements of the law or comply with legal
-                        process served on us, or (b) act in urgent
-                        circumstances to protect the personal safety of
-                        users of our service or members of the public.
-                        <br /><br />13.9. To the extent practicable and
-                        legally permitted, we will attempt to advise you
-                        prior to any such disclosure, so that you may seek a
-                        protective order or other relief limiting such
-                        disclosure. <br /><br />
-                        <div
-                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Transfer of Personal Data
-                        </div>
+                        In limited circumstances, personal data may be
+                        processed where necessary to protect the vital
+                        interests of an individual.<br /><br />
                         <div class="poppins-bold text-base md:text-xl">
-                            14.1. Third Party Processor
+                            6.6 Public Interest or Other Lawful Bases
                         </div>
-                        <br /><br />We may engage the services of third
-                        parties in order to process your personal data. The
-                        processing by such third parties shall be governed
-                        by a written contract with Bloom Academy to ensure
-                        adequate protection and security measures are put in
-                        place by the third party for the protection of your
-                        personal data in accordance with the terms of this
-                        policy and the Data Protection Regulation.<br /><br />
-                        14.2. Transfer of your personal data to a country
-                        outside the UK or the EU would be in accordance with
-                        the provisions of the GDPR. Bloom Academy will
-                        therefore only transfer your personal data out of
-                        the UK or the EU on one of the following conditions:
-                        <br /><br />
-                        a. Your explicit consent has been obtained;
-                        <br /><br />b. The transfer is necessary for the
-                        performance of a contract between you and Bloom
-                        Academy; <br /><br />c. The transfer is necessary to
-                        conclude a contract between Bloom Academy and a
-                        third party in your interest; <br /><br />d. The
-                        transfer is necessary for reason of public interest;
-                        <br /><br />e. The transfer is for the
-                        establishment, exercise or defense of legal claims;
-                        f. The transfer is necessary in order to protect
-                        your vital interests or the interests of other
-                        persons, where you are physically or legally
-                        incapable of giving consent. <br /><br />14.3.3.
-                        Provided, in all circumstances, that you have been
-                        manifestly made to understand through clear warnings
-                        of the specific principle(s) of data protection that
-                        are likely to be violated in the event of transfer
-                        to a third country, this provision shall not apply
-                        to any instance where you are answerable in duly
-                        established legal action for any civil or criminal
-                        claim in another country. <br /><br />14.3.4. We
-                        will take all necessary steps to ensure that your
-                        personal data is transmitted in a safe and secure
-                        manner. Details of the protection given to your
-                        Information when it is transferred outside the UK or
-                        the EU shall be provided to you upon request.
-                        <br /><br />14.3.5. Where the recipient country does
-                        not ensure adequate an adequate level of protection
-                        and none of the conditions stipulated in clause
-                        <br /><br />14.3.2 of this policy is met, Bloom
-                        Academy will engage with the Information
-                        Commissioner’s Office for approval with respect to
-                        such transfer. <br /><br />14.4. Transfer of
-                        Personal Data of Nigerian Citizens to a Foreign
-                        Country <br /><br />14.4.1. Where your personal data
-                        is to be transferred to a country outside Nigeria,
-                        Bloom Academy shall put adequate measures in place
-                        to ensure the security of such data. In particular,
-                        Bloom Academy shall ensure that such transfer is in
-                        accordance with Data Protection Laws and that the
-                        foreign country receiving such data has adequate
-                        data protection laws. We will also always document
-                        the basis of such international transfers and the
-                        adequacy of data protection relied upon.
-                        <br /><br />14.4.2. Provided, in all circumstances,
-                        that you have been manifestly made to understand
-                        through clear warnings of the specific principle(s)
-                        of data protection that are likely to be violated in
-                        the event of transfer to a third country, this
-                        provision shall not apply to any instance where you
-                        are answerable in duly established legal action for
-                        any civil or criminal claim in another country.
-                        <br /><br />14.4.3. We will take all necessary steps
-                        to ensure that your personal data is transmitted in
-                        a safe and secure manner. Details of the protection
-                        given to your information when it is transferred
-                        outside Nigeria shall be provided to you upon
-                        request.<br /><br />
+                        Where applicable, we may rely on another lawful basis
+                        recognised under the NDP Act or other applicable
+                        data-protection law.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Your Rights
+                            7. How We Use Personal Data
                         </div>
-                        Subject to certain limitations and exceptions, you
-                        are entitled to the following principal rights under
-                        the Data Protection Legislation: <br /><br />15.1.
-                        You have the right to be notified if we are
-                        transferring your personal information.
-                        <br /><br />15.2. You have the right to request an
-                        erasure of your personal data at any time.
-                        <br /><br />15.3. You have the right to request that
-                        we rectify inaccurate personal information.
-                        <br /><br />15.4. You may request at any time that
-                        we halt further dissemination of your data or cease
-                        to use your personal information. <br /><br />15.5.
-                        You have the right to request for copies of your
-                        personal information. <br /><br />
+                        We may use personal data to:
+                        <ol class="list-decimal pl-6 md:pl-8 py-3 space-y-2">
+                            <li>create and manage user accounts;</li>
+                            <li>register learners for courses and programmes;</li>
+                            <li>provide educational content and services;</li>
+                            <li>process payments and transactions;</li>
+                            <li>administer assessments and learning activities;</li>
+                            <li>track learning progress and course completion;</li>
+                            <li>issue and verify certificates;</li>
+                            <li>provide customer and learner support;</li>
+                            <li>communicate important service information;</li>
+                            <li>send administrative notifications;</li>
+                            <li>send newsletters, promotional communications and marketing where legally permitted;</li>
+                            <li>manage events, webinars and programmes;</li>
+                            <li>improve our courses, website and learning platform;</li>
+                            <li>understand how users interact with our services;</li>
+                            <li>conduct research, analysis and reporting using appropriate safeguards;</li>
+                            <li>detect, prevent and investigate fraud, abuse and security incidents;</li>
+                            <li>maintain the security and integrity of our systems;</li>
+                            <li>comply with legal and regulatory obligations;</li>
+                            <li>establish, exercise or defend legal claims; and</li>
+                            <li>perform other purposes that are disclosed to you at the time your information is
+                                collected or are otherwise permitted by law.</li>
+                        </ol>
+                        We will not use personal data for an unrelated
+                        purpose that is incompatible with the purpose for
+                        which it was collected unless permitted by law or,
+                        where required, we obtain your consent.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Website Security
+                            8. Marketing Communications
                         </div>
-                        We are committed to ensuring that your information
-                        is secure. In order to prevent unauthorised access
-                        or disclosure, we have put in place suitable
-                        physical, electronic and managerial procedures such
-                        as secure sockets layer (SSL) to safeguard and
-                        secure the information we collect online. We use
-                        encryption tools when accepting and transmitting
-                        delicate visitor information through our website.
-                        Some of the other safeguards we use are firewalls
-                        and physical access controls to our data centres,
-                        and information access authorization controls.
-                        <br /><br />
+                        We may send you information about Bloom Academy
+                        Africa's programmes, courses, events, resources and
+                        services. Where consent is required by applicable
+                        law, we will obtain it before sending marketing
+                        communications. You can unsubscribe from promotional
+                        email communications by using the unsubscribe option
+                        provided in the communication or by contacting us.
+                        Please note that even if you opt out of marketing
+                        communications, we may still send essential service
+                        communications, such as account notifications,
+                        security alerts, course information, payment
+                        confirmations and important changes to our
+                        services.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Training
+                            9. Cookies and Similar Technologies
                         </div>
-                        We shall ensure that employees who collect, access
-                        and process your personal data receive adequate data
-                        privacy and protection training in order to develop
-                        the necessary knowledge, skills and competence
-                        required to effectively manage the compliance
-                        framework under this policy and the Data Protection
-                        Legislation with regard to the protection of
-                        personal data. On an annual basis, we shall develop
-                        a capacity building plan for our employees on data
-                        privacy and protection in accordance with the Data
-                        Protection Legislation. <br /><br />
+                        Bloom Academy Africa may use cookies, pixels, web
+                        beacons and similar technologies on our website and
+                        learning platform.<br /><br />
+                        These technologies may help us:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>keep you signed in;</li>
+                            <li>remember your preferences;</li>
+                            <li>maintain account security;</li>
+                            <li>understand website usage;</li>
+                            <li>analyse traffic and performance;</li>
+                            <li>improve the user experience;</li>
+                            <li>detect fraudulent or suspicious activity; and</li>
+                            <li>where permitted, support relevant marketing and advertising activities.</li>
+                        </ul>
+                        Where required, non-essential cookies will only be
+                        activated after obtaining the appropriate consent.
+                        You may control cookies through your browser or any
+                        cookie-management tools we make available. Disabling
+                        certain cookies may affect the functionality of parts
+                        of our website or learning platform.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Use of Cookies
+                            10. Sharing Personal Data With Third Parties
                         </div>
-                        We use cookies to identify you as a user and make
-                        your user experience easier, customise our services,
-                        content and advertising; help you ensure that your
-                        account security is not compromised, mitigate risk
-                        and prevent fraud; and to promote trust and safety
-                        on our website. Cookies allow our servers to
-                        remember your account log-in information when you
-                        visit our website, IP addresses, date and time of
-                        visits, monitor web traffic and prevent fraudulent
-                        activities. If your browser or browser add-on
-                        permits, you have the choice to disable cookies on
-                        our website; however, this may limit your ability to
-                        use our website. <br /><br />
+                        Bloom Academy Africa does not sell your personal
+                        data. We may disclose personal data to trusted third
+                        parties where necessary and lawful to operate our
+                        business and provide our services.<br /><br />
+                        These may include:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>learning management system providers;</li>
+                            <li>cloud hosting and storage providers;</li>
+                            <li>payment processors;</li>
+                            <li>email and messaging service providers;</li>
+                            <li>customer-support platforms;</li>
+                            <li>analytics providers;</li>
+                            <li>cybersecurity providers;</li>
+                            <li>website and software service providers;</li>
+                            <li>professional advisers;</li>
+                            <li>auditors;</li>
+                            <li>instructors and authorised course personnel;</li>
+                            <li>business partners where necessary to provide a service;</li>
+                            <li>government, regulatory or law-enforcement authorities where legally required; and</li>
+                            <li>other processors or service providers engaged by us for legitimate business purposes.
+                            </li>
+                        </ul>
+                        Third-party service providers that process personal
+                        data on our behalf will be required, where
+                        applicable, to maintain appropriate confidentiality,
+                        security and data-protection obligations. We do not
+                        authorise third parties to use your personal data for
+                        purposes unrelated to the services they provide to
+                        Bloom Academy Africa unless such use is independently
+                        lawful and properly disclosed.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            The Data We Retain
+                            11. International Transfers of Personal Data
                         </div>
-                        We will retain your information for as long as
-                        needed to provide you with our services, comply with
-                        our legal and statutory obligations or verify your
-                        information with a financial institution. We are
-                        statutory obligated to retain the data you provide
-                        us with in order to process transactions, ensure
-                        settlements, make refunds, identify fraud and in
-                        compliance with laws and regulatory guidelines
-                        applicable to us. <br /><br />
+                        Some of our service providers, technology providers
+                        or business partners may process personal data
+                        outside Nigeria. Where personal data is transferred
+                        outside Nigeria, Bloom Academy Africa will comply
+                        with the applicable requirements of the NDP Act and
+                        GAID concerning cross-border data transfers.<br /><br />
+                        Depending on the circumstances, an international
+                        transfer may be supported by an adequacy decision, an
+                        approved transfer mechanism, contractual or other
+                        lawful safeguards, consent, contractual necessity,
+                        legal claims, public interest, vital interests or
+                        another lawful basis recognised under applicable
+                        law.<br /><br />
+                        We will take reasonable steps to ensure that personal
+                        data transferred internationally receives an
+                        appropriate level of protection. The NDPC confirms
+                        that Sections 41–43 of the NDP Act govern transfers
+                        of personal data to foreign countries and require
+                        appropriate protection for such transfers.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Data Breach Management Procedure
+                            12. Data Security
                         </div>
-                        20.1. In the event where there is any accidental or
-                        unlawful destruction, processing, loss, alteration,
-                        unauthorized disclosure of, or access to your
-                        personal data, we shall: <br /><br />20.1.1. notify
-                        you within 24 hours of the occurrence of the data
-                        breach; <br /><br />20.1.2. properly investigate the
-                        breach and take the necessary steps to mitigate such
-                        breach; <br /><br />20.1.3. identify remediation
-                        requirements and track the resolution of such
-                        breach; and <br /><br />20.1.4. notify the
-                        Information Commissioner’s Office or any other
-                        regulatory authority, where necessary. <br /><br />
+                        We take reasonable technical, organisational and
+                        administrative measures to protect personal data
+                        against:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>unauthorised access;</li>
+                            <li>unlawful processing;</li>
+                            <li>accidental loss;</li>
+                            <li>destruction;</li>
+                            <li>alteration;</li>
+                            <li>unauthorised disclosure; and</li>
+                            <li>other forms of compromise.</li>
+                        </ul>
+                        Depending on the nature and sensitivity of the
+                        information, safeguards may include:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>access controls;</li>
+                            <li>authentication mechanisms;</li>
+                            <li>encryption or secure transmission technologies;</li>
+                            <li>secure hosting;</li>
+                            <li>monitoring and logging;</li>
+                            <li>backups;</li>
+                            <li>restricted employee access;</li>
+                            <li>confidentiality obligations;</li>
+                            <li>security procedures; and</li>
+                            <li>privacy and data-protection training.</li>
+                        </ul>
+                        However, no online system can be guaranteed to be
+                        completely secure. You should keep your passwords and
+                        account credentials confidential and notify us
+                        promptly if you believe your account has been
+                        compromised.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Links to Third Party Websites
+                            13. Data Breach Management
                         </div>
-                        21.1. Our website may contain links to third-party
-                        websites or services that are not owned or
-                        controlled by us. <br /><br />21.2. We have no
-                        control over, and assume no responsibility for, the
-                        content, privacy policies, or practices of any
-                        third-party websites or services. You further
-                        acknowledge and agree that we shall not be
-                        responsible or liable, directly or indirectly, for
-                        any damage or loss caused or alleged to be caused by
-                        or in connection with use of or reliance on any such
-                        content, goods or services available on or through
-                        any such websites or services. <br /><br />21.3. We
-                        strongly advise you to read the terms and conditions
-                        and privacy policies of any third-party websites or
-                        services that you visit. <br /><br />
+                        If Bloom Academy Africa becomes aware of a
+                        personal-data breach, we will assess the incident and
+                        take appropriate measures to contain, investigate,
+                        remediate and document it. Where notification is
+                        required under applicable law, we will notify the
+                        appropriate regulatory authority and affected data
+                        subjects within the applicable statutory or
+                        regulatory timelines.<br /><br />
+                        We will not make an inaccurate or misleading
+                        statement regarding a data breach and will provide
+                        information reasonably necessary for affected
+                        individuals to understand the nature of the incident
+                        and steps they can take to protect
+                        themselves.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Limitation of Liability
+                            14. Data Retention
                         </div>
-                        We exercise reasonable efforts to safeguard the
-                        security and confidentiality of your personal data;
-                        however, we will not be liable for unauthorised
-                        disclosure of personal data that occurs through no
-                        fault of ours.
+                        We will retain personal data only for as long as
+                        reasonably necessary to fulfil the purpose for which
+                        it was collected, unless a longer retention period is
+                        required or permitted by law.<br /><br />
+                        Retention periods may depend on:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>the type of information;</li>
+                            <li>the purpose for processing;</li>
+                            <li>whether you maintain an active account;</li>
+                            <li>whether you are an active or former learner;</li>
+                            <li>legal, tax or accounting requirements;</li>
+                            <li>dispute-resolution requirements;</li>
+                            <li>security and fraud-prevention requirements; and</li>
+                            <li>our legitimate business needs.</li>
+                        </ul>
+                        Educational records, course-completion records and
+                        certificate-verification information may be retained
+                        for longer periods where reasonably necessary to
+                        verify participation, completion or certification and
+                        where permitted by law.<br /><br />
+                        When personal data is no longer required, we will
+                        take reasonable steps to delete, anonymise or
+                        securely dispose of it.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Changes to this Privacy Policy
+                            15. Your Data Protection Rights
                         </div>
-                        Changes may be made to this Privacy Policy from
-                        time. Whenever such changes are made, we will notify
-                        you. These changes will take effect immediately
-                        after you have been notified. <br /><br />
+                        Subject to applicable law and any lawful limitations,
+                        you may have the right to:
+                        <ol class="list-decimal pl-6 md:pl-8 py-3 space-y-2">
+                            <li>Be informed about how your personal data is processed;</li>
+                            <li>Access personal data we hold about you;</li>
+                            <li>Request correction of inaccurate or incomplete information;</li>
+                            <li>Request erasure of your personal data in appropriate circumstances;</li>
+                            <li>Object to certain processing;</li>
+                            <li>Request restriction of processing in applicable circumstances;</li>
+                            <li>Request data portability where applicable;</li>
+                            <li>Withdraw consent where processing is based on consent;</li>
+                            <li>Object to or request human intervention regarding certain automated
+                                decision-making, where applicable; and</li>
+                            <li>Lodge a complaint with the Nigeria Data Protection Commission where you believe your
+                                privacy rights have been infringed.</li>
+                        </ol>
+                        The NDPC identifies these rights under the NDP Act,
+                        including the rights to be informed, access,
+                        rectification, objection, restriction, portability,
+                        erasure and protection against certain automated
+                        decision-making.<br /><br />
                         <div
                             class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
-                            Contact Us
+                            16. How to Exercise Your Rights
                         </div>
-                        If you would like more information or you have any
-                        comments or questions on our Privacy Policy, please
-                        contact us at;
-                        <!-- academysupport@Bloomdigitmedia.com -->
-                        <br />
+                        To exercise a privacy right or make a data-protection
+                        request, contact us using the details in Section
+                        26.<br /><br />
+                        Your request should, where reasonably possible,
+                        include:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>your full name;</li>
+                            <li>the email address associated with your account;</li>
+                            <li>the nature of your request;</li>
+                            <li>the information or processing to which the request relates; and</li>
+                            <li>any other information reasonably necessary for us to verify your identity and process
+                                your request.</li>
+                        </ul>
+                        We may request additional information to verify your
+                        identity and protect against unauthorised access to
+                        personal data. We will respond to valid requests
+                        within the timeframe required by applicable law. The
+                        NDPC currently provides that data-subject access
+                        requests under Sections 34–38 of the NDP Act may
+                        include requests concerning access, processing
+                        information, retention periods, rectification,
+                        erasure and restriction.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            17. Automated Decision-Making and Artificial
+                            Intelligence
+                        </div>
+                        Where Bloom Academy Africa uses automated systems,
+                        algorithms or artificial intelligence technologies
+                        that process personal data, we will seek to do so
+                        responsibly and in accordance with applicable
+                        data-protection requirements.<br /><br />
+                        Where applicable law provides you with rights
+                        concerning automated decision-making, including the
+                        right to human intervention or to contest a decision,
+                        we will respect those rights. We will take
+                        appropriate steps to ensure that the use of automated
+                        technologies does not unlawfully infringe the rights
+                        and freedoms of data subjects.<br /><br />
+                        Where a processing activity presents a significant
+                        risk to individuals' privacy, Bloom Academy Africa
+                        will consider whether a Data Privacy Impact
+                        Assessment (DPIA) or other risk assessment is
+                        required. The GAID 2025 expressly incorporates
+                        privacy-by-design and privacy-by-default
+                        considerations and provides for DPIAs in appropriate
+                        circumstances.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            18. Children's Privacy
+                        </div>
+                        Bloom Academy Africa primarily provides services to
+                        adults and does not intentionally collect personal
+                        data from children in circumstances where such
+                        collection is prohibited by applicable law. Where our
+                        services are made available to individuals under 18,
+                        we will apply appropriate safeguards and obtain
+                        parental or guardian authorisation where required by
+                        applicable law.<br /><br />
+                        If you believe that a child has provided personal
+                        data to us in circumstances where this was not
+                        permitted, please contact us so that we can
+                        investigate and take appropriate action.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            19. Public Forums, Communities and User-Generated
+                            Content
+                        </div>
+                        Bloom Academy Africa may provide discussion forums,
+                        communities, comments, social features or other areas
+                        where users can share information. Information that
+                        you voluntarily post in a public or accessible
+                        community area may be visible to other users and may
+                        be copied or shared by them. You should therefore
+                        avoid publishing sensitive personal information,
+                        passwords, financial information or other information
+                        that you do not want others to see. Bloom Academy
+                        Africa cannot guarantee the privacy of information
+                        that you voluntarily make publicly
+                        available.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            20. Third-Party Websites and Services
+                        </div>
+                        Our website, learning platform, emails, or other
+                        communications may contain links to websites,
+                        applications or services operated by third parties.
+                        These third-party services operate under their own
+                        privacy policies and terms. Bloom Academy Africa does
+                        not control the privacy practices of third-party
+                        websites and is not responsible for their policies or
+                        practices. We encourage you to review the privacy
+                        policy of any third-party service before providing
+                        personal information.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            21. Data Accuracy
+                        </div>
+                        We take reasonable steps to ensure that personal data
+                        we hold is accurate, complete and up to date where
+                        necessary. You should notify us if your personal
+                        information changes or if you become aware that
+                        information we hold about you is inaccurate. Where
+                        appropriate, we will correct or update inaccurate
+                        information.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            22. Confidentiality and Employee Access
+                        </div>
+                        Access to personal data within Bloom Academy Africa
+                        will be limited to individuals who require the
+                        information for legitimate business, educational,
+                        operational, administrative or legal purposes.
+                        Employees, contractors, instructors and authorised
+                        service providers may be subject to confidentiality
+                        and data-protection obligations. Personal data should
+                        not be accessed, copied, disclosed or processed for
+                        purposes unrelated to the individual's authorised
+                        responsibilities.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            23. Data Protection Governance
+                        </div>
+                        Bloom Academy Africa will maintain appropriate
+                        policies, procedures and organisational measures
+                        designed to support compliance with applicable
+                        data-protection requirements. Where required by
+                        applicable law, we will designate an appropriate Data
+                        Protection Officer or responsible privacy function
+                        and maintain appropriate records, assessments,
+                        contracts, policies and controls.<br /><br />
+                        Where applicable, we will also comply with NDPC
+                        requirements concerning registration, compliance
+                        audits, data-protection governance and other
+                        regulatory obligations. The GAID 2025 introduced
+                        specific compliance requirements concerning data
+                        controllers and processors, including governance, DPO
+                        responsibilities and compliance audit
+                        obligations.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            24. Data Protection Complaints and Grievance
+                            Redress
+                        </div>
+                        We encourage you to contact Bloom Academy Africa
+                        first if you have a concern about the way we process
+                        your personal data. We will investigate reasonable
+                        privacy complaints and take appropriate steps to
+                        resolve them. Where you are not satisfied with our
+                        response, or where applicable law permits or requires
+                        it, you may lodge a complaint with the Nigeria Data
+                        Protection Commission (NDPC). The GAID 2025 includes
+                        mechanisms intended to strengthen grievance redress
+                        and provide data subjects with avenues for seeking
+                        remedies for privacy violations.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            25. Changes to This Privacy Policy
+                        </div>
+                        We may update this Privacy Policy from time to time
+                        to reflect:
+                        <ul class="list-disc pl-6 md:pl-8 py-3 space-y-2">
+                            <li>changes in our services;</li>
+                            <li>changes in our technology;</li>
+                            <li>changes in how we process personal data;</li>
+                            <li>changes in applicable laws or regulatory requirements; or</li>
+                            <li>improvements to our privacy practices.</li>
+                        </ul>
+                        When we make material changes, we will take
+                        reasonable steps to notify users through our website,
+                        learning platform, email or other appropriate
+                        communication channels.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            26. Contact Us
+                        </div>
+                        If you have questions, concerns or requests relating
+                        to this Privacy Policy or your personal data, please
+                        contact Bloom Academy Africa:<br /><br />
+                        Bloom Academy Africa <br />
                         Tel: 0708 627 8644 <br />
-                        Email: bloomacademy@bloomdigitmedia.com <br />
-                        Address: S03 Pathfield Mall, 4th Avenue, Gwarimpa,
-                        Abuja.
-                        <br />
-                        <br />
-                        This policy is effective as of 1st April, 2024
+                        Address: Plot 91A, 43 Cres, Gwarinpa Estate, Gwarinpa
+                        901108, Federal Capital Territory<br /><br />
+                        For privacy-related requests, please clearly state
+                        “Data Protection Request” in the subject line of your
+                        email.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            27. Regulatory Authority
+                        </div>
+                        For matters relating to data protection in Nigeria,
+                        the relevant supervisory authority is the Nigeria
+                        Data Protection Commission (NDPC). Bloom Academy
+                        Africa recognises the role of the NDPC as Nigeria's
+                        data-protection supervisory authority.<br /><br />
+                        <div
+                            class="poppins-bold text-[18px] leading-[28px] md:text-[24px] md:leading-[35px] pb-2 md:pb-6">
+                            28. Applicable Law
+                        </div>
+                        This Privacy Policy is intended to operate in
+                        accordance with applicable laws and regulations
+                        governing personal data protection and privacy. For
+                        processing subject to Nigerian law, this includes the
+                        Nigeria Data Protection Act, 2023, the NDP Act
+                        General Application and Implementation Directive
+                        (GAID) 2025, and other applicable regulatory
+                        requirements issued by the Nigeria Data Protection
+                        Commission. Where another mandatory data-protection
+                        law applies to particular processing activities,
+                        Bloom Academy Africa will comply with the applicable
+                        requirements to the extent required by law.<br /><br />
+                        © 2026 Bloom Academy Africa. All rights reserved.
                     </div>
                 </div>
             </div>
@@ -894,7 +949,7 @@
                 </p>
             </div>
             <div class="flex items-center pb-8 justify-center">
-                <img src="/images/bloom-logo-white.png" class="h-16 w-auto" alt="Bloom Logo" />
+                <img src="/images/bloom-logo-footer.png" class="h-9 w-auto" alt="Bloom Logo" />
             </div>
         </div>
     </footer>
@@ -913,7 +968,7 @@
                         Blog
                     </li>
                 </a>
-                <a href="https://bloomdigitmedia.com/#whoWeAre">
+                <a href="#">
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         About
                     </li>
@@ -960,7 +1015,7 @@
                     <p
                         class="flex items-center justify-end text-white mt-3 md:mt-0 lg:mt-3 text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                         Bloom Academy is a registered trademark of
-                        <img src="/images/bloom-logo-white.png" class="pl-2 h-12 w-auto" alt="Bloom Logo" />
+                        <img src="/images/bloom-logo-footer.png" class="pl-2 h-7 w-auto" alt="Bloom Logo" />
                     </p>
                 </div>
             </div>

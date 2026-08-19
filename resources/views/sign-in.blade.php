@@ -106,7 +106,7 @@
                 </p>
             </div>
             <div class="flex items-center pb-8 justify-center">
-                <img src="/images/bloom-logo-white.png" class="h-16 w-auto" alt="Bloom Logo" />
+                <img src="/images/bloom-logo-footer.png" class="h-9 w-auto" alt="Bloom Logo" />
             </div>
         </div>
     </footer>
@@ -125,7 +125,7 @@
                         Blog
                     </li>
                 </a>
-                <a href="https://bloomdigitmedia.com/#whoWeAre">
+                <a href="#">
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         About
                     </li>
@@ -172,7 +172,7 @@
                     <p
                         class="flex items-center justify-end text-white mt-3 md:mt-0 lg:mt-3 text-xs montserrat-extra-light leading-10 mb-10 md:mb-0 lg:mb-0">
                         Bloom Academy is a registered trademark of
-                        <img src="/images/bloom-logo-white.png" class="pl-2 h-12 w-auto" alt="Bloom Logo" />
+                        <img src="/images/bloom-logo-footer.png" class="pl-2 h-7 w-auto" alt="Bloom Logo" />
                     </p>
                 </div>
             </div>

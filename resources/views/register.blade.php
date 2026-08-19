@@ -100,7 +100,7 @@
                         Blog
                     </li>
                 </a>
-                <a href="https://bloomdigitmedia.com/#whoWeAre">
+                <a href="#">
                     <li class="montserrat-extra-light mb-2 text-sm">
                         About
                     </li>
@@ -144,7 +144,7 @@
                     <p class="text-white mt-3 text-xs montserrat-extra-light leading-10 mb-10 lg:mb-0">
                         Bloom Academy is a registered trademark of
                     </p>
-                    <img src="/images/bloom-logo-white.png" class="pl-2 h-12 w-auto" alt="Bloom Logo" />
+                    <img src="/images/bloom-logo-footer.png" class="pl-2 h-7 w-auto" alt="Bloom Logo" />
                 </div>
             </div>
         </div>
