@@ -407,7 +407,7 @@
                         </li>
                     </a>
                     <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
-                        <a href="#">About</a>
+                        <a href="/about-us">About</a>
                     </li>
                     <!-- <li class="montserrat-extra-light mb-2 text-sm md:text-xs">
                         <a href="#">

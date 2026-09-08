@@ -100,7 +100,7 @@
                         Blog
                     </li>
                 </a>
-                <a href="#">
+                <a href="/about-us">
                     <li class="montserrat-extra-light mb-2 text-sm">
                         About
                     </li>

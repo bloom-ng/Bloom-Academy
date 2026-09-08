@@ -100,6 +100,10 @@ Route::post('/marketing/download', [LeadController::class, 'downloadMarketing'])
 //     return view('dropdown');
 // });
 
+Route::get('/about-us', function () {
+    return view('about');
+})->name('about');
+
 Route::get('/terms-of-service', function () {
     return view('terms');
 });

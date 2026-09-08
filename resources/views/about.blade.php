@@ -8,15 +8,11 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
 
-    <title>
-        Bloom Academy | Trainings and courses in tech, marketing, product,
-        software, and sales.
-    </title>
-    <meta name="description" content="Unlock your potential with Bloom
-        Academy's courses in tech, marketing, product, software, and sales.
-        Learn online and advance your career with expert-led training." />
-    <link rel="shortcuticon" href="/images/bloom-academy-logo-2.png" type="image/x-icon" />
-    <meta name="description" content="Get the skill for a great Job!" />
+    <title>About Us | Bloom Academy</title>
+    <meta name="description" content="Bloom Academy is a practical learning platform that equips individuals,
+        entrepreneurs, and professionals with the skills they need to thrive in a digital economy. Learn. Build.
+        Bloom." />
+    <link rel="shortcut icon" href="/images/bloom-academy-logo-2.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
 
@@ -31,95 +27,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
-
-    <!-- Meta Pixel Code -->
-    <script>
-        ! function (f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1837476706745796');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1837476706745796&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
-
-    <link rel="shortcut icon" href="/images/bloom-academy-logo-2.png" type="image/x-icon" />
-
-    <!-- Meta Pixel Code -->
-    <script>
-        ! function (f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1509246159757843');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1509246159757843&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
-
-
-    <!-- Meta Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '865678629061275');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=865678629061275&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
 </head>
 
 <body class="">
-    <div class="relative h-screen">
+    <div class="relative">
         <!-- Hero Section -->
-        <div class="relative bg-cover bg-center h-screen" style="
-                    background-image: url('/images/medium-shot-students.png');
-                ">
+        <div class="relative h-[620px] md:h-[560px] lg:h-[700px] xl:h-[760px]">
+            <!-- hero image: mobile crop -->
+            <div class="block md:hidden absolute inset-0 bg-cover bg-center bg-no-repeat" style="
+                    background-image: url('/images/mobile-about-us-hero.png');
+                "></div>
+            <!-- hero image: desktop -->
+            <div class="hidden md:block absolute inset-0 bg-cover bg-center bg-no-repeat" style="
+                    background-image: url('/images/about-us-hero.png');
+                "></div>
             <div
                 class="hidden md:block absolute z-10 bg-gradient-to-r from-[#000000E5] from-10.81% via-[#000000BF] via-32.98% via-[#0000008C] via-60.71% to-[#00000026] to-85.73% inset-0 bg-opacity-0">
             </div>
             <div class="block md:hidden absolute z-10 inset-0 bg-black bg-opacity-80"></div>
+
             <!-- Floating Menu -->
             <nav class="hidden md:block absolute top-0 left-0 right-0 bg-opacity-75 z-10">
                 <div class="mx-auto px-10 lg:px-6 2xl:px-24 py-8 flex justify-between">
@@ -315,50 +241,245 @@
             <!-- Floating Menu for mobile -->
 
             <!-- jumbotron -->
-            <!-- for screens smaller than md -->
-            <div class="md:py-[10%] flex flex-col justify-center items-center block md:hidden">
+            <div class="h-full flex items-center">
                 <div
-                    class="container pt-44 px-4 md:px-14 md:w-1/2 break-normal flex flex-col justify-center items-center md:justify-start md:items-left relative z-10">
+                    class="lg:container pt-24 md:pt-20 px-6 md:px-14 lg:px-14 2xl:px-28 md:w-3/4 lg:w-2/3 break-normal flex flex-col justify-center items-center md:justify-start md:items-start relative z-20">
+                    <p
+                        class="montserrat-semi-bold text-[12px] md:text-[14px] lg:text-[16px] tracking-[0.2em] uppercase text-[#FF8100] pb-4 md:pb-6">
+                        About Bloom Academy
+                    </p>
                     <h1
-                        class="text-[35px] text-center leading-[35px] md:text-[70px] lg:text-[65px] md:leading-[70px] poppins-bold text-white">
-                        Get the <span class="text-[#C73029]">skill</span>
-                        <span class="text-[#FF8100]">
-                            for <br />A GREAT JOB!</span>
-                    </h1>
-
-                    <div class="flex flex-col justify-center md:justify-start items-center md:items-start w-3/5">
-                        <p
-                            class="text-white text-[15px] md:text-[22px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-4 md:px-12 py-2 md:py-3 mt-8 md:mt-16 rounded-full">
-                            <a href="/marketing"> Get Started Today </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- for screens smaller than md -->
-            <!-- for screens larger than md -->
-            <div class="md:py-[10%] items-center hidden md:block">
-                <div
-                    class="container pt-24 md:pt-40 lg:pt-24 2xl:pt-36 px-4 md:px-14 md:w-3/4 lg:px-14 2xl:px-28 lg:w-2/3 break-normal flex flex-col justify-center items-center md:justify-start md:items-start relative z-10">
-                    <h1
-                        class="text-[35px] text-center md:text-left lg:text-left leading-[35px] md:text-[50px] md:leading-[55px] lg:text-[60px] lg:leading-[65px] xl:text-[73px] xl:leading-[70px] 2xl:text-[100px] 2xl:leading-[90px] poppins-bold text-white">
-                        Get the <span class="text-[#C73029]">skill</span>
-                        <span class="text-[#FF8100]">
-                            for <br />A GREAT JOB!</span>
+                        class="text-[35px] leading-[38px] text-center md:text-left sm:text-[44px] sm:leading-[48px] md:text-[50px] md:leading-[54px] lg:text-[64px] lg:leading-[68px] xl:text-[73px] xl:leading-[76px] poppins-bold text-white">
+                        Learn. <span class="text-[#C73029]">Build.</span>
+                        <span class="text-[#FF8100]">Bloom.</span>
                     </h1>
                     <p
-                        class="md:hidden block poppins-light text-center text-sm leading-[20px] text-white px-4 pt-10 pb-2">
+                        class="text-[14px] leading-[22px] text-center md:text-left md:text-[16px] md:leading-[25px] lg:text-[18px] lg:leading-[30px] pt-6 md:pt-8 md:w-5/6 lg:w-4/5 text-white poppins-light">
+                        Businesses are becoming more digital, new career paths are emerging, and the skills needed
+                        to succeed are constantly evolving. At Bloom Academy, we believe that everyone deserves the
+                        opportunity to learn the right skills, build confidence, and create a better future.
                     </p>
-                    <div class="flex flex-col justify-center md:justify-start items-center md:items-start w-4/5">
-                        <p
-                            class="text-white text-[15px] md:text-[17px] lg:text-[22px] 2xl:text-[47px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-4 md:px-10 lg:px-12 2xl:px-20 py-2 lg:py-3 2xl:py-3 mt-10 md:mt-20 2xl:mt-32 rounded-full">
-                            <a href="/marketing"> Get Started Today </a>
+                    <div class="flex flex-col justify-center md:justify-start items-center md:items-start">
+                        <a href="#our-approach">
+                            <p
+                                class="text-white text-[15px] md:text-[18px] lg:text-[22px] text-center md:text-left bg-[#C73029] montserrat-semi-bold px-8 md:px-10 lg:px-12 py-2 md:py-2 lg:py-3 mt-10 md:mt-12 lg:mt-14 rounded-full">
+                                Discover Bloom
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Section -->
+
+        <!-- Who we are -->
+        <div class="bg-white px-6 sm:px-10 md:px-14 lg:px-20 xl:px-32 py-16 md:py-20 lg:py-28">
+            <div class="flex flex-col lg:flex-row lg:gap-20 xl:gap-28">
+                <div class="lg:basis-5/12">
+                    <h2
+                        class="text-[26px] leading-[30px] sm:text-[32px] sm:leading-[38px] md:text-[36px] md:leading-[42px] lg:text-[44px] lg:leading-[50px] poppins-bold">
+                        A practical learning platform,
+                        <span class="text-[#FF8100]">built for the digital economy.</span>
+                    </h2>
+                </div>
+                <div class="lg:basis-7/12 pt-6 lg:pt-2">
+                    <p
+                        class="text-[15px] leading-[26px] md:text-[17px] md:leading-[30px] lg:text-[19px] lg:leading-[34px] poppins-regular">
+                        Bloom Academy is a practical learning platform that equips individuals, entrepreneurs, and
+                        professionals with the skills they need to thrive in a digital economy. From digital
+                        marketing and Meta Ads to content creation, photography, and cinematography, our programmes
+                        are designed around skills that can be applied beyond the classroom.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Who we are -->
+
+        <!-- Our Approach -->
+        <div id="our-approach" class="relative bg-[#FFE8D1] pb-16 md:pb-24 lg:pb-32">
+            <div class="flex justify-center z-20 items-center">
+                <div class="hidden md:block absolute flex justify-center z-20 items-center -mt-2">
+                    <p
+                        class="bg-[#FF8100] md:text-[30px] lg:text-[45px] leading-[50px] text-white poppins-bold px-8 py-3 lg:px-16 lg:py-6">
+                        Our Approach
+                    </p>
+                </div>
+            </div>
+            <div
+                class="relative z-30 pt-12 md:pt-20 lg:pt-32 px-6 sm:px-10 md:px-10 lg:px-20 xl:px-32 flex flex-col lg:flex-row items-center gap-10 md:gap-12 lg:gap-20">
+                <div class="w-full lg:basis-1/2 order-2 lg:order-1">
+                    <p
+                        class="block md:hidden bg-[#FF8100] text-[22px] leading-[30px] text-white poppins-bold px-6 py-2 mb-6 w-fit">
+                        Our Approach
+                    </p>
+                    <p
+                        class="text-[15px] leading-[26px] md:text-[17px] md:leading-[30px] lg:text-[19px] lg:leading-[34px] poppins-regular">
+                        Our programmes combine practical knowledge, real-world application, expert guidance, and
+                        recognized certification. We believe learning should not only equip you with skills you can
+                        apply but also give you a credential that validates your knowledge and strengthens your
+                        professional profile.
+                    </p>
+                    <p
+                        class="text-[15px] leading-[26px] md:text-[17px] md:leading-[30px] lg:text-[19px] lg:leading-[34px] poppins-regular pt-5 md:pt-6">
+                        Whether you are starting your career, changing career paths, growing a business, or adding a
+                        new skill to your expertise, Bloom Academy provides the knowledge, experience, and
+                        certification to help you move forward.
+                    </p>
+                    <p
+                        class="text-[15px] leading-[32px] md:text-[17px] md:leading-[40px] lg:text-[19px] lg:leading-[44px] pl-4 lg:pl-8 border-l-8 border-[#C73029] poppins-regular mt-8 md:mt-10">
+                        Practical knowledge<br />
+                        Real-world application<br />
+                        Expert guidance<br />
+                        Recognized certification<br />
+                    </p>
+                </div>
+                <div class="w-full lg:basis-1/2 order-1 lg:order-2">
+                    <div class="bg-cover bg-no-repeat bg-center rounded-2xl md:surround md:shadow-custom w-full h-[240px] sm:h-[320px] md:h-[400px] lg:h-[460px]"
+                        style="
+                            background-image: url('/images/grid-about-us.png');
+                        ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Approach -->
+
+        <!-- Mission & Vision -->
+        <div class="bg-[#151515] px-6 sm:px-10 md:px-14 lg:px-20 xl:px-32 py-16 md:py-20 lg:py-28">
+            <div class="flex flex-col md:flex-row gap-12 md:gap-14 lg:gap-24">
+                <div class="md:basis-1/2">
+                    <h2
+                        class="text-[24px] leading-[28px] md:text-[30px] md:leading-[36px] lg:text-[40px] lg:leading-[46px] md:min-h-[2.4em] poppins-bold text-white pb-5 md:pb-6">
+                        Our Mission is <span class="text-[#FF8100]">what we Believe</span>
+                    </h2>
+                    <p
+                        class="text-[15px] leading-[26px] md:text-[16px] md:leading-[28px] lg:text-[18px] lg:leading-[32px] poppins-light text-[#E8E9EB]">
+                        Our mission is to make relevant, practical, and accessible skills available to people who
+                        want to grow their careers, businesses, and opportunities. We want our learners to leave
+                        Bloom Academy with more than knowledge. We want them to have the confidence to apply what
+                        they have learned, solve real problems, and pursue meaningful opportunities.
+                    </p>
+                </div>
+                <div class="md:basis-1/2">
+                    <h2
+                        class="text-[24px] leading-[28px] md:text-[30px] md:leading-[36px] lg:text-[40px] lg:leading-[46px] md:min-h-[2.4em] poppins-bold text-white pb-5 md:pb-6">
+                        Our <span class="text-[#FF8100]">Vision</span>
+                    </h2>
+                    <p
+                        class="text-[15px] leading-[26px] md:text-[16px] md:leading-[28px] lg:text-[18px] lg:leading-[32px] poppins-light text-[#E8E9EB]">
+                        To become a leading learning platform in Africa, empowering individuals and businesses with
+                        the skills, knowledge, and confidence to succeed in a rapidly changing world.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Mission & Vision -->
+
+        <!-- What We Believe -->
+        <div class="relative bg-white pb-16 md:pb-24 lg:pb-32">
+            <div class="flex justify-center z-20 items-center">
+                <div class="hidden md:block absolute flex justify-center z-20 items-center -mt-2">
+                    <p
+                        class="bg-[#FF8100] md:text-[30px] lg:text-[45px] leading-[50px] text-white poppins-bold px-8 py-3 lg:px-16 lg:py-6">
+                        What We Believe
+                    </p>
+                </div>
+            </div>
+            <div class="block md:hidden relative z-30 pt-12 sm:pt-16 px-6 sm:px-10">
+                <p class="bg-[#FF8100] text-[22px] leading-[30px] text-white poppins-bold px-6 py-2 w-fit">
+                    What We Believe
+                </p>
+            </div>
+            <div
+                class="relative z-30 pt-8 md:pt-20 lg:pt-32 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-14 px-6 sm:px-10 md:px-10 lg:px-20 xl:px-32">
+                <!-- Belief 1 -->
+                <div class="flex flex-col z-50 py-6 lg:py-8 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center px-4 lg:px-6">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-full h-[180px] lg:h-[220px]"
+                            style="background-image: url('/images/teaching-diligent-young-students.png');">
+                        </div>
+                    </div>
+                    <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
+                        <h3
+                            class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
+                            Skills create <br />opportunities
+                        </h3>
+                        <p class="text-[15px] lg:text-[16px] leading-relaxed poppins-regular mt-4">
+                            The right skill can open a door to a new career, business, or possibility. Learning
+                            should be practical. Knowledge becomes valuable when you can apply it in the real world.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Belief 2 -->
+                <div class="flex flex-col z-50 py-6 lg:py-8 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center px-4 lg:px-6">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-full h-[180px] lg:h-[220px]"
+                            style="background-image: url('/images/young-student-working-assignment.png');">
+                        </div>
+                    </div>
+                    <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
+                        <h3
+                            class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
+                            Growth is <br />continuous
+                        </h3>
+                        <p class="text-[15px] lg:text-[16px] leading-relaxed poppins-regular mt-4">
+                            The digital world never stops changing, and neither should your learning.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Belief 3 -->
+                <div class="flex flex-col z-50 py-6 lg:py-8 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="flex justify-center px-4 lg:px-6">
+                        <div class="bg-cover bg-no-repeat bg-center md:surround md:shadow-custom2 rounded-xl w-full h-[180px] lg:h-[220px]"
+                            style="background-image: url('/images/group-of-workers.png');">
+                        </div>
+                    </div>
+                    <div class="px-6 lg:px-8 mt-6 flex flex-col flex-grow">
+                        <h3
+                            class="text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] leading-tight poppins-bold break-words">
+                            Everyone can <br />bloom
+                        </h3>
+                        <p class="text-[15px] lg:text-[16px] leading-relaxed poppins-regular mt-4">
+                            Your starting point does not determine your destination. With the right skills, support,
+                            and opportunity, you can grow into your potential.
                         </p>
                     </div>
                 </div>
             </div>
-            <!-- for screens larger than md -->
         </div>
+        <!-- What We Believe -->
+
+        <!-- Your Growth Starts Here -->
+        <div class="bg-[#FFE8D1] px-6 sm:px-10 md:px-14 lg:px-20 xl:px-32 py-16 md:py-20 lg:py-28">
+            <div class="flex flex-col items-center text-center">
+                <h2
+                    class="text-[28px] leading-[32px] sm:text-[34px] sm:leading-[40px] md:text-[40px] md:leading-[46px] lg:text-[52px] lg:leading-[58px] poppins-bold">
+                    Your Growth <span class="text-[#C73029]">Starts Here</span>
+                </h2>
+                <p
+                    class="text-[15px] leading-[26px] md:text-[17px] md:leading-[30px] lg:text-[19px] lg:leading-[34px] poppins-regular pt-6 md:pt-8 md:w-4/5 lg:w-3/5">
+                    Whether you're looking to get your first digital skill, advance your career, grow your business,
+                    or discover a new path, Bloom Academy is here to help you learn, build, and bloom.
+                </p>
+                <p
+                    class="text-[18px] leading-[26px] md:text-[22px] md:leading-[32px] lg:text-[26px] lg:leading-[36px] poppins-bold pt-8 md:pt-10">
+                    Get the skills. Create the opportunities.
+                    <span class="text-[#FF8100]">Bloom.</span>
+                </p>
+                <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 pt-10 md:pt-12">
+                    <a href="https://app.bloomacademyafrica.com/student/register"
+                        class="text-white text-[15px] md:text-[18px] lg:text-[20px] bg-[#C73029] py-3 px-10 lg:px-12 rounded-full montserrat-bold">Register</a>
+                    <a href="/marketing"
+                        class="text-[#C73029] text-[15px] md:text-[18px] lg:text-[20px] border-2 border-[#C73029] py-3 px-10 lg:px-12 rounded-full montserrat-bold">Explore
+                        Courses</a>
+                </div>
+            </div>
+        </div>
+        <!-- Your Growth Starts Here -->
     </div>
+
     <!-- Footer Mobile -->
     <footer class="block md:hidden">
         <div class="bg-[#151515] flex flex-col justify-center items-center">
@@ -579,5 +700,4 @@
         });
     </script>
 </body>
-
 </html>
