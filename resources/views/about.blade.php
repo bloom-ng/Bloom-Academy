@@ -451,6 +451,80 @@
         </div>
         <!-- What We Believe -->
 
+        <!-- Testimonials -->
+        <div class="relative bg-[#FFE8D1] pb-16 md:pb-24 lg:pb-32">
+            <div class="flex justify-center z-20 items-center">
+                <div class="hidden md:block absolute flex justify-center z-20 items-center -mt-2">
+                    <p
+                        class="bg-[#FF8100] md:text-[30px] lg:text-[45px] leading-[50px] text-white poppins-bold px-8 py-3 lg:px-16 lg:py-6">
+                        What Our Students Say
+                    </p>
+                </div>
+            </div>
+            <div class="block md:hidden relative z-30 pt-12 sm:pt-16 px-6 sm:px-10">
+                <p class="bg-[#FF8100] text-[22px] leading-[30px] text-white poppins-bold px-6 py-2 w-fit">
+                    What Our Students Say
+                </p>
+            </div>
+            <div
+                class="relative z-30 pt-8 md:pt-20 lg:pt-32 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-14 px-6 sm:px-10 md:px-10 lg:px-20 xl:px-32">
+                <!-- Testimonial 1 -->
+                <div class="flex flex-col z-50 items-center text-center px-6 lg:px-8 py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="bg-cover bg-no-repeat bg-center rounded-full w-24 h-24 md:w-28 md:h-28"
+                        style="background-image: url('/images/testimonial-joshua-eli.jpg');">
+                    </div>
+                    <p class="text-[15px] lg:text-[16px] leading-relaxed poppins-regular mt-6">
+                        “The instructors were able to share their years of experience with us through the live
+                        classes. If you’re looking to get started with digital skills, Bloom Academy is the best
+                        option.”
+                    </p>
+                    <h3 class="text-[18px] md:text-[20px] poppins-bold mt-6">
+                        Joshua Eli
+                    </h3>
+                    <p class="text-[14px] md:text-[15px] text-[#FF8100] montserrat-semi-bold mt-1">
+                        Digital Marketing
+                    </p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="flex flex-col z-50 items-center text-center px-6 lg:px-8 py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom">
+                    <div class="bg-cover bg-no-repeat bg-center rounded-full w-24 h-24 md:w-28 md:h-28"
+                        style="background-image: url('/images/testimonial-adenle-blessing.png');">
+                    </div>
+                    <p class="text-[15px] lg:text-[16px] leading-relaxed poppins-regular mt-6">
+                        “Learning with Bloom Academy has been a great experience. I love the live classes because
+                        they helped explain the notes and course materials better, making it easier for me to
+                        understand the lessons.”
+                    </p>
+                    <h3 class="text-[18px] md:text-[20px] poppins-bold mt-6">
+                        Adenle Blessing
+                    </h3>
+                    <p class="text-[14px] md:text-[15px] text-[#FF8100] montserrat-semi-bold mt-1">
+                        Digital Marketing
+                    </p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="flex flex-col z-50 items-center text-center px-6 lg:px-8 py-8 lg:py-10 bg-white rounded-2xl md:surround md:shadow-custom sm:col-span-2 lg:col-span-1 sm:mx-auto sm:w-full sm:max-w-md lg:max-w-none">
+                    <div class="bg-cover bg-no-repeat bg-center rounded-full w-24 h-24 md:w-28 md:h-28"
+                        style="background-image: url('/images/testimonial-nora-ahamefuna.jpeg');">
+                    </div>
+                    <p class="text-[15px] lg:text-[16px] leading-relaxed poppins-regular mt-6">
+                        “I had always run Meta Ads, but taking the class helped me discover and understand certain
+                        things I didn’t know before. The classes gave me new insights that have improved my
+                        knowledge of Meta Ads.”
+                    </p>
+                    <h3 class="text-[18px] md:text-[20px] poppins-bold mt-6">
+                        Nora Ahamefuna
+                    </h3>
+                    <p class="text-[14px] md:text-[15px] text-[#FF8100] montserrat-semi-bold mt-1">
+                        Meta Ads
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonials -->
+
         <!-- Your Growth Starts Here -->
         <div class="bg-[#FFE8D1] px-6 sm:px-10 md:px-14 lg:px-20 xl:px-32 py-16 md:py-20 lg:py-28">
             <div class="flex flex-col items-center text-center">
