@@ -515,7 +515,7 @@
                         knowledge of Meta Ads.”
                     </p>
                     <h3 class="text-[18px] md:text-[20px] poppins-bold mt-6">
-                        Nora Ahamefuna
+                        Nora Ahamefula
                     </h3>
                     <p class="text-[14px] md:text-[15px] text-[#FF8100] montserrat-semi-bold mt-1">
                         Meta Ads
